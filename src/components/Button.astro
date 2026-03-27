@@ -1,0 +1,46 @@
+---
+const { href, className, ...props } = Astro.props;
+---
+
+<a
+  href={href}
+  class={`group cursor-pointer rounded-[3rem] flex items-center justify-center p-[1rem_1.6rem] gap-3.5 relative max-w-fit ${className || ""}`}
+  {...props}
+>
+  <div
+    class="bg-[#101820] rounded-[3rem] absolute -z-1 inset-0 shadow-[0_10px_36px_0_rgba(16,24,32,.35),0_0_0_1px_rgba(16,24,32,.06)] transition-[transform_.6s_cubic-bezier(.625,.05,0,1)] group-hover:scale-95"
+  >
+  </div>
+  <div
+    class="text-white font-aventa font-light tracking-[2px] text-[.7rem] leading-[100%]"
+  >
+    <slot />
+  </div>
+  <span class="w-[1.3rem] h-[1.3rem] overflow-hidden btn__arrow">
+    <svg
+      class="w-full h-full filter-[drop-shadow(#f3829c_-1.3rem_1.3rem_0px)] object-contain"
+      style=""
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4.5 19.5L19.5 4.5M19.5 4.5H8.25M19.5 4.5V15.75"
+        stroke="#f3829c"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"></path>
+    </svg>
+  </span>
+</a>
+
+<style>
+  .btn__arrow > svg {
+    transition: transform 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+  }
+  .group:hover > .btn__arrow > svg {
+    transform: translate(100%, -100%);
+  }
+</style>

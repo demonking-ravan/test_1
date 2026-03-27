@@ -1,0 +1,97 @@
+{
+  "name": "Umaid Bhawan Palace Jodhpur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Meeting",
+      "capacity": "NA",
+      "image": "/assets/hotels/umaid-bhawan-palace-jodhpur/events/1735281562-meeting.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Palace Room",
+      "description": "Palace Room (37-46 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/umaid-bhawan-palace-jodhpur/rooms/1735281309-Palace_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Historical 1 Bedroom Suite",
+      "description": "Historical 1 Bedroom Suite (47-102 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/umaid-bhawan-palace-jodhpur/rooms/1735281333-Historical_1_Bedroom_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Royal 1 Bedroom Suite",
+      "description": "Royal 1 Bedroom Suite (111-120 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/umaid-bhawan-palace-jodhpur/rooms/1735281367-Royal_1_Bedroom_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Royal 1 Bedroom Suite",
+      "description": "Grand Royal 1 Bedroom Suite (111-130 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/umaid-bhawan-palace-jodhpur/rooms/1735281399-Grand_Royal_1_Bedroom_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Maharaja Suite",
+      "description": "Maharaja Suite (344 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/umaid-bhawan-palace-jodhpur/rooms/1735281421-Maharaja_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Maharani Suite",
+      "description": "Maharani Suite (372 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/umaid-bhawan-palace-jodhpur/rooms/1735281446-Maharani_Suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Airport",
+      "distance": "4.4 KM"
+    },
+    {
+      "name": "Mehrangarh Fort",
+      "distance": "6.8 KM"
+    },
+    {
+      "name": "Jodhpur Junction",
+      "distance": "5.8 KM"
+    },
+    {
+      "name": "Masuriya Hill Station",
+      "distance": "8.6 KM"
+    }
+  ],
+  "contact": {
+    "address": "Circuit House Rd, Cantt Area, Jodhpur, Rajasthan 342006",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/umaid-bhawan-palace-jodhpur/main/1735281251-view3.webp",
+  "gallery": [
+    "/assets/hotels/umaid-bhawan-palace-jodhpur/gallery/Historical_1_Bedroom_Suite.webp",
+    "/assets/hotels/umaid-bhawan-palace-jodhpur/gallery/MARWAR_HALL.webp",
+    "/assets/hotels/umaid-bhawan-palace-jodhpur/gallery/RATHORE_HALL.webp",
+    "/assets/hotels/umaid-bhawan-palace-jodhpur/gallery/taj_aravali.webp",
+    "/assets/hotels/umaid-bhawan-palace-jodhpur/gallery/view6.webp",
+    "/assets/hotels/umaid-bhawan-palace-jodhpur/gallery/view7.webp"
+  ],
+  "locationId": "jodhpur"
+}

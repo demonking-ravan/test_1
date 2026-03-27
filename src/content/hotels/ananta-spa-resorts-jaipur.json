@@ -1,0 +1,102 @@
+{
+  "name": "Ananta Spa & Resorts Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Satori Garden",
+      "capacity": "NA",
+      "image": "/assets/hotels/ananta-spa-resorts-jaipur/events/1736425924-Satori_Lawn.webp"
+    },
+    {
+      "name": "Ikigai Garden",
+      "capacity": "NA",
+      "image": "/assets/hotels/ananta-spa-resorts-jaipur/events/1736425902-Ikigai_lawn.webp"
+    },
+    {
+      "name": "Sakura Banquet Hall",
+      "capacity": "NA",
+      "image": "/assets/hotels/ananta-spa-resorts-jaipur/events/1736425885-095A1236-HDR_bsfhxu.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Ananta Manor",
+      "description": "Ananta Manor (600 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/ananta-spa-resorts-jaipur/rooms/1736425720-Ananta_Manor(2).webp"
+      ]
+    },
+    {
+      "roomType": "Ananta Signature",
+      "description": "Ananta Signature (650 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/ananta-spa-resorts-jaipur/rooms/1736425736-Ananta_Signature(1).webp"
+      ]
+    },
+    {
+      "roomType": "Ananta Presidential Suite",
+      "description": "Ananta Presidential Suite (3700 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/ananta-spa-resorts-jaipur/rooms/1736425755-Ananta_Presidential_suite(3).webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "41.8 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "29.8 KM"
+    },
+    {
+      "name": "Amber Fort",
+      "distance": "21.7 KM"
+    },
+    {
+      "name": "Nahargarh Fort",
+      "distance": "32.1 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "27.8 KM"
+    },
+    {
+      "name": "RamBagh Palace",
+      "distance": "35.5 KM"
+    },
+    {
+      "name": "Albert Hall Museum",
+      "distance": "32.3 KM"
+    },
+    {
+      "name": "Nahargarh Biological Park",
+      "distance": "19.0 KM"
+    }
+  ],
+  "contact": {
+    "address": "6KM Off Delhi - Jaipur National Highway, Near Jaipur Dental College, Jaipur, Rajasthan 302001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/ananta-spa-resorts-jaipur/main/1729140666-Ananta Spa & Resorts Jaipur.webp",
+  "gallery": [
+    "/assets/hotels/ananta-spa-resorts-jaipur/gallery/514704991.webp",
+    "/assets/hotels/ananta-spa-resorts-jaipur/gallery/Ananta_Manor(2).webp",
+    "/assets/hotels/ananta-spa-resorts-jaipur/gallery/Ikigai_lawn.webp",
+    "/assets/hotels/ananta-spa-resorts-jaipur/gallery/Restaurant_-_shio_koshou_jkde0r.webp",
+    "/assets/hotels/ananta-spa-resorts-jaipur/gallery/Sakura_Banquet_Hall.webp",
+    "/assets/hotels/ananta-spa-resorts-jaipur/gallery/SNY04449_sitliu.webp"
+  ],
+  "locationId": "jaipur"
+}

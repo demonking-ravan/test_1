@@ -1,0 +1,117 @@
+{
+  "name": "The Lalit Laxmi Vilas Palace Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Lower Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/events/1735903834-Lower-Lawn-Udaipur.webp"
+    },
+    {
+      "name": "Aamrapali Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/events/1735903808-Amrapali-Lawn-Udaipur.webp"
+    },
+    {
+      "name": "Aangan",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/events/1735903766-Aangan-Udaipur-2.webp"
+    },
+    {
+      "name": "Aangan Hall",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/events/1735903750-Aangan-Hall-Udaipur.webp"
+    },
+    {
+      "name": "Aangan Hall",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/events/1735903750-Aangan-Hall-Udaipur.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Palace Suite",
+      "description": "Palace Suite (500 ft2)",
+      "roomImages": [
+        "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/rooms/1735903514-palace-suite-udaipur-.webp"
+      ]
+    },
+    {
+      "roomType": "Princess Suite",
+      "description": "Princess Suite (600 ft2)",
+      "roomImages": [
+        "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/rooms/1735903531-princess-suite-udaipur.webp"
+      ]
+    },
+    {
+      "roomType": "Maharani Suite",
+      "description": "Maharani Suite (800 ft2)",
+      "roomImages": [
+        "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/rooms/1735903557-maharani-suite-udaipur-2.webp"
+      ]
+    },
+    {
+      "roomType": "Maharana Suite",
+      "description": "Maharana Suite (1200 ft2)",
+      "roomImages": [
+        "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/rooms/1735903578-maharana-suite-udaipur-2.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room Valley View",
+      "description": "Deluxe Room Valley View (300 ft2)",
+      "roomImages": [
+        "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/rooms/1735903619-deluxe-valley-room-udaipur.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room Lake View",
+      "description": "Deluxe Room Lake View (300 ft2)",
+      "roomImages": [
+        "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/rooms/1735903644-deluxe-lake-view-room-udaipur.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Saheliyo ki Bari",
+      "distance": "1.9 KM"
+    },
+    {
+      "name": "Gulab Bagh",
+      "distance": "3.8 KM"
+    },
+    {
+      "name": "Ahar Museum",
+      "distance": "4.2 KM"
+    },
+    {
+      "name": "Lake Pichola",
+      "distance": "3.7 KM"
+    }
+  ],
+  "contact": {
+    "address": "Fateh Sagar Rd, Near Zinc, Fateh Sagar Lake, Udaipur, Rajasthan 313004",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/main/1735903448-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/gallery/aangan.webp",
+    "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/gallery/Aangan-Udaipur-2.webp",
+    "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/gallery/Amrapali-Lawn-Udaipur.webp",
+    "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/gallery/princess-suite-udaipur.webp",
+    "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/gallery/Udaipur-Garden-Night-View-768x562.webp",
+    "/assets/hotels/the-lalit-laxmi-vilas-palace-udaipur/gallery/Wedding-Setup4-Udaipur-768x562.webp"
+  ],
+  "locationId": "udaipur"
+}

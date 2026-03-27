@@ -1,0 +1,84 @@
+{
+  "name": "Bal Samand Lake Palace",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Lawn",
+      "capacity": "2250",
+      "image": "/assets/hotels/bal-samand-lake-palace-/events/1735897058-medium--Kebab_Konner_(1)1798.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Garden Room",
+      "description": "Garden Room",
+      "roomImages": [
+        "/assets/hotels/bal-samand-lake-palace-/rooms/1735896205-GARDEN_ROOM.webp"
+      ]
+    },
+    {
+      "roomType": "Maharani Suite",
+      "description": "Maharani Suite",
+      "roomImages": [
+        "/assets/hotels/bal-samand-lake-palace-/rooms/1735896311--Regal-room55830.webp"
+      ]
+    },
+    {
+      "roomType": "Regal Suite",
+      "description": "Regal Suite",
+      "roomImages": [
+        "/assets/hotels/bal-samand-lake-palace-/rooms/1735896330--Regal-Suite--192067.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Umaid Bhawan Place",
+      "distance": "11 KM"
+    },
+    {
+      "name": "Mehrangarh Fort",
+      "distance": "8 KM"
+    },
+    {
+      "name": "Jaswant Thada",
+      "distance": "8 KM"
+    },
+    {
+      "name": "Mandore garden",
+      "distance": "7 KM"
+    },
+    {
+      "name": "Maha Mandir",
+      "distance": "7 KM"
+    },
+    {
+      "name": "Guda Bishnoiyan",
+      "distance": "35 KM"
+    }
+  ],
+  "contact": {
+    "address": "Mandore Rd, Mandore, Jodhpur, Rajasthan 342026",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/bal-samand-lake-palace-/main/1735896129-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/bal-samand-lake-palace-/gallery/GARDEN_ROOM.webp",
+    "/assets/hotels/bal-samand-lake-palace-/gallery/medium--184197.webp",
+    "/assets/hotels/bal-samand-lake-palace-/gallery/medium--311356.webp",
+    "/assets/hotels/bal-samand-lake-palace-/gallery/medium--687589.webp",
+    "/assets/hotels/bal-samand-lake-palace-/gallery/medium--798249.webp",
+    "/assets/hotels/bal-samand-lake-palace-/gallery/pr.webp"
+  ],
+  "locationId": "jodhpur"
+}

@@ -1,0 +1,246 @@
+---
+// Main Wedding Form Component
+import TextInput from "./TextInput.astro";
+import VenueGroup from "./VenueGroup.astro";
+import ServicesGroup from "./ServicesGroup.astro";
+import BudgetGroup from "./BudgetGroup.astro";
+import TextareaInput from "./TextareaInput.astro";
+---
+
+<form
+  id="wizardForm"
+  class="p-16 sm:p-20 font-aventa font-normal"
+  onsubmit="event.preventDefault(); submitForm();"
+>
+  <!-- Header (Dynamic) -->
+  <div class="mb-16">
+    <h2 id="stepTitle" class="text-7xl font-light text-theme-dark">
+      Let's start with names
+    </h2>
+    <p id="stepDesc" class="text-2xl text-gray-500 mt-4">Step 1 of 4</p>
+  </div>
+
+  <!-- STEP 1: Bride & Groom -->
+  <div class="step-content block animate-fade-in" id="step1">
+    <div class="grid grid-cols-1 gap-8">
+      <TextInput
+        id="brideName"
+        name="brideName"
+        label="Name of the Bride"
+        type="text"
+        required={true}
+        placeholder="Full name"
+        labelClass="text-gray-500"
+      />
+
+      <TextInput
+        id="groomName"
+        name="groomName"
+        label="Name of the Groom"
+        type="text"
+        required={true}
+        placeholder="Full name"
+        labelClass="text-gray-500"
+      />
+
+      <TextInput
+        id="contactPerson"
+        name="contactPerson"
+        label="Your Name & Relation"
+        type="text"
+        required={true}
+        placeholder="e.g., Sister of the Bride"
+        labelClass="text-gray-500"
+      />
+    </div>
+  </div>
+
+  <!-- STEP 2: Contact Info -->
+  <div class="step-content hidden animate-fade-in" id="step2">
+    <div class="grid grid-cols-1 gap-8">
+      <TextInput
+        id="phone"
+        name="phone"
+        label="Primary Phone Number"
+        type="tel"
+        required={true}
+        placeholder="+91 XXXXX XXXXX"
+        labelClass="text-gray-500"
+      />
+
+      <TextInput
+        id="email"
+        name="email"
+        label="Email Address"
+        type="email"
+        required={true}
+        placeholder="official@email.com"
+        labelClass="text-gray-500"
+      />
+
+      <TextInput
+        id="alternatePhone"
+        name="alternatePhone"
+        label="Alternate Number"
+        type="tel"
+        required={false}
+        placeholder="Optional"
+        labelClass="text-gray-500"
+      />
+    </div>
+  </div>
+
+  <!-- STEP 3: Dates & Location -->
+  <div class="step-content hidden animate-fade-in" id="step3">
+    <div class="grid grid-cols-1 gap-8">
+      <div class="grid md:grid-cols-2 gap-4">
+        <TextInput
+          id="weddingDateFrom"
+          name="weddingDateFrom"
+          label="Wedding Date From"
+          type="date"
+          required={false}
+          labelClass="text-gray-500"
+        />
+
+        <TextInput
+          id="weddingDateTo"
+          name="weddingDateTo"
+          label="Wedding Date To"
+          type="date"
+          required={false}
+          labelClass="text-gray-500"
+        />
+      </div>
+
+      <TextInput
+        id="city"
+        name="city"
+        label="City"
+        type="text"
+        required={false}
+        placeholder="e.g. Jaipur"
+        labelClass="text-gray-500"
+      />
+
+      <!-- Venue Logic -->
+      <VenueGroup />
+
+      <div id="venueYes" class="hidden">
+        <TextInput
+          id="venueName"
+          name="venueName"
+          label=""
+          type="text"
+          placeholder="Great! Which venue?"
+        />
+      </div>
+
+      <div id="venueNo" class="hidden grid grid-cols-2 gap-4">
+        <TextInput
+          id="estimatedGuests"
+          name="estimatedGuests"
+          label=""
+          type="number"
+          placeholder="Est. Guests"
+        />
+        <TextInput
+          id="roomsNeeded"
+          name="roomsNeeded"
+          label=""
+          type="number"
+          placeholder="Rooms needed"
+        />
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 4: Services & Budget -->
+  <div class="step-content hidden animate-fade-in" id="step4">
+    <div class="space-y-8 h-[300px] overflow-y-auto no-scrollbar pr-2">
+      <ServicesGroup />
+
+      <BudgetGroup />
+      <!-- <BudgetGroup name="budget2" /> -->
+
+      <TextareaInput
+        id="notes"
+        name="notes"
+        label="Anything else?"
+        placeholder="Tell us about your vision..."
+        rows={4}
+      />
+    </div>
+  </div>
+
+  <!-- SUCCESS MESSAGE (Step 5 - Hidden initially) -->
+  <div
+    class="step-content hidden animate-fade-in text-center py-8"
+    id="stepSuccess"
+  >
+    <!-- <div
+      class="w-16 h-16 bg-theme-dark text-white rounded-full flex items-center justify-center mx-auto mb-6"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-8 h-8"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M4.5 12.75l6 6 9-13.5"></path>
+      </svg>
+    </div> -->
+    <h3
+      class="font-normal font-aventa max-lg:text-[2rem] text-[min(3rem,3vh)] leading-[1.2] mb-3"
+    >
+      Request Received!
+    </h3>
+    <p
+      id="successMessage"
+      class="font-normal font-aventa max-lg:text-[1.5rem] text-[min(2.5rem,2.5vh)] text-gray-600 leading-relaxed"
+    >
+      <!-- Dynamic Text will appear here -->
+    </p>
+    <button
+      type="button"
+      class="toggleModal mt-8 font-normal font-aventa max-lg:text-[1.5rem] text-[min(2.5rem,2.5vh)] leading-[1.2] underline text-primary-100"
+      >Close Window</button
+    >
+  </div>
+
+  <!-- Footer / Navigation -->
+  <div class="mt-20 flex justify-between items-center" id="formFooter">
+    <button
+      type="button"
+      id="prevBtn"
+      onclick="nextPrev(-1)"
+      class="text-2xl text-gray-500 hover:text-black px-8 py-4 hidden"
+    >
+      ← Back
+    </button>
+    <div class="grow"></div>
+    <button
+      type="button"
+      id="nextBtn"
+      onclick="nextPrev(1)"
+      class="group cursor-pointer rounded-[3rem] flex items-center justify-center p-[1.9rem_3.7rem] max-lg:p-[1.2rem_2.2rem_1.2rem_2.2rem] gap-3.5 relative max-w-fit"
+    >
+      <div
+        class="bg-[#101820] rounded-[3rem] absolute -z-1 inset-0 shadow-[0_10px_36px_0_rgba(16,24,32,.35),0_0_0_1px_rgba(16,24,32,.06)] transition-[transform_.6s_cubic-bezier(.625,.05,0,1)] group-hover:scale-95"
+      >
+      </div>
+      <div
+        class="text-white font-aventa font-light tracking-[2px] text-[2rem] max-lg:text-[1.4rem] nextbtn__text leading-[100%]"
+      >
+        Next Step
+      </div>
+    </button>
+  </div>
+
+  <!-- Rest of your form (success message, navigation buttons) -->
+</form>

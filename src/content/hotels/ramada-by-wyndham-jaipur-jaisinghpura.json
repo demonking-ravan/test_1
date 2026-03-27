@@ -1,0 +1,110 @@
+{
+  "name": "RAMADA BY WYNDHAM Jaipur Jaisinghpura",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/events/1735888390-lawn.webp"
+    },
+    {
+      "name": "Hall 1",
+      "capacity": "NA",
+      "image": "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/events/1735888372-hall-1.webp"
+    },
+    {
+      "name": "Hall 2",
+      "capacity": "NA",
+      "image": "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/events/1735888355-hall-2.webp"
+    },
+    {
+      "name": "Hall 3",
+      "capacity": "NA",
+      "image": "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/events/1735888335-hall-3.webp"
+    },
+    {
+      "name": "Hall 3",
+      "capacity": "NA",
+      "image": "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/events/1735888335-hall-3.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "King Suite",
+      "description": "King Suite",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/rooms/1735888167-king_suite.webp"
+      ]
+    },
+    {
+      "roomType": "presidential Suite",
+      "description": "presidential Suite",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/rooms/1735888185-presedential_suite.webp"
+      ]
+    },
+    {
+      "roomType": "Premium King Room",
+      "description": "Premium King Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/rooms/1735888205-premium_king_room.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe King Room",
+      "description": "Deluxe King Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/rooms/1735888226-deluxe_king_room.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Twin Room",
+      "description": "Deluxe Twin Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/rooms/1735888241-deluxe_twin_room.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "16 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "21 KM"
+    },
+    {
+      "name": "world Trade Park",
+      "distance": "15.6 KM"
+    },
+    {
+      "name": "Albert Hall Museum",
+      "distance": "19.5 KM"
+    }
+  ],
+  "contact": {
+    "address": "Jaisingh Pura,Peepla Bharatsingh, Ajmer Rd, Jaipur, Rajasthan 302026",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/main/1729139646-RAMADA BY WYNDHAM Jaipur Jaisinghpura.webp",
+  "gallery": [
+    "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/gallery/deluxe_king_room.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/gallery/gal3.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/gallery/gal4.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/gallery/Leaf_Coffee_Shop.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/gallery/presedential_suite.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur-jaisinghpura/gallery/hall-3.webp"
+  ],
+  "locationId": "jaipur"
+}

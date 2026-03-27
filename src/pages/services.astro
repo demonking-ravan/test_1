@@ -1,0 +1,182 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pillars = [
+    {
+        id: "01",
+        category: "Destination Management",
+        description:
+            "We specialize in crafting extraordinary weddings across India and around the globe—each one thoughtfully designed to reflect your unique story.",
+        image: "https://images.unsplash.com/photo-1519225497282-c4892437691d?auto=format&fit=crop&q=80&w=1200",
+        services: [
+            "International & National Venue Scouting",
+            "Regal Palace & Beachfront Ceremonies",
+            "Contract & Hotel Liaison Management",
+            "Cultural Sensitivity & Flawless Delivery",
+        ],
+    },
+    {
+        id: "02",
+        category: "Hospitality & Guest Management",
+        description:
+            "A truly memorable wedding is defined by the experience of every guest. We prioritize comfort, convenience, and a sense of belonging.",
+        image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=1200",
+        services: [
+            "Logistics & Transportation Orchestration",
+            "Structured RSVP & Invitation Tracking",
+            "Bespoke Room Hampers & Amenities",
+            "Personalized Destination Itineraries",
+        ],
+    },
+];
+
+const specializedAgencies = [
+    {
+        title: "Decor Design",
+        desc: "Transforming spaces into visual narratives and immersive thematic experiences.",
+    },
+    {
+        title: "Food Design",
+        desc: "Curated culinary journeys featuring interactive setups and plating aesthetics.",
+    },
+    {
+        title: "Entertainment",
+        desc: "Strategically designed lineups ranging from live bands to interactive acts.",
+    },
+    {
+        title: "Photography",
+        desc: "Documenting emotions and energy into a timeless visual narrative.",
+    },
+    {
+        title: "Choreography",
+        desc: "Expression of joy through perfectly planned and executed performances.",
+    },
+    {
+        title: "Bridal Beauty",
+        desc: "Carefully curated beauty journeys to enhance your natural elegance.",
+    },
+];
+---
+
+<BaseLayout title="Services | Mapsor Experiential Weddings">
+    <main class="bg-white">
+        <!-- Hero Section -->
+        <section class="pt-32 pb-16 px-6 md:px-24">
+            <div class="mb-16 space-y-4">
+                <p class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-primary-100">
+                    Our Expertise
+                </p>
+                <h1 class="sub-heading text-black">
+                    Bespoke <span class="text-gray-300">Services</span>
+                </h1>
+            </div>
+            
+            <div class="relative w-full h-[50vh] md:h-[70vh] rounded-[3rem] overflow-hidden group">
+                <img
+                    src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=2000"
+                    alt="Bespoke Services"
+                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
+                />
+                <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
+                <div class="absolute bottom-12 left-12 md:left-20 max-w-2xl px-6">
+                    <p class="font-aventa text-white text-xl md:text-2xl leading-relaxed">
+                        We integrate imagination, cultural understanding, and sophisticated execution to turn dreams into reality.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Pillars -->
+        <section class="py-24 md:py-32 space-y-24 md:space-y-48">
+            {
+                pillars.map((pillar, index) => (
+                    <div class="px-6 md:px-24">
+                        <div class={`flex flex-col ${index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} gap-16 md:gap-32 items-center`}>
+                            <div class="w-full md:w-1/2 space-y-10">
+                                <div class="space-y-4">
+                                    <span class="font-orlean text-6xl text-gray-100 leading-none">
+                                        {pillar.id}
+                                    </span>
+                                    <h2 class="sub-heading leading-tight">
+                                        {pillar.category}
+                                    </h2>
+                                </div>
+                                <p class="font-aventa text-lg md:text-xl text-gray-500 leading-relaxed text-justify">
+                                    {pillar.description}
+                                </p>
+                                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
+                                    {pillar.services.map((service) => (
+                                        <li class="font-aventa text-sm uppercase tracking-widest text-primary-100 flex items-center gap-4">
+                                            <span class="w-2 h-2 bg-primary-100 rounded-full" />
+                                            {service}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div class="w-full md:w-1/2 aspect-4/5 overflow-hidden rounded-[3rem] shadow-2xl">
+                                <img
+                                    src={pillar.image}
+                                    alt={pillar.category}
+                                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-110 hover:scale-100"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                ))
+            }
+        </section>
+
+        <!-- Agency Coordination -->
+        <section class="bg-[#101820] py-32 md:py-48 px-6 md:px-24 relative overflow-hidden">
+            <!-- Decorative circles -->
+            <div class="absolute top-0 right-0 w-96 h-96 bg-primary-100/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-primary-100/5 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
+
+            <div class="max-w-[1440px] mx-auto relative z-10">
+                <div class="text-center mb-28 space-y-6">
+                    <p class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-primary-100">
+                        Collaboration
+                    </p>
+                    <h2 class="sub-heading text-white text-center mx-auto">
+                        Agency <span class="text-white/20">Coordination</span>
+                    </h2>
+                    <p class="font-aventa text-gray-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                        Bridging your vision with expert execution across all creative domains.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {
+                        specializedAgencies.map((agency) => (
+                            <div class="bg-white/5 border border-white/10 p-10 rounded-[2.5rem] hover:bg-white/10 hover:border-primary-100 transition-all duration-700 group">
+                                <h4 class="font-orlean text-2xl uppercase text-white mb-6 group-hover:text-primary-100 transition-colors">
+                                    {agency.title}
+                                </h4>
+                                <p class="font-aventa text-base text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                                    {agency.desc}
+                                </p>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="py-32 md:py-48 px-6 md:px-24 text-center">
+            <div class="max-w-4xl mx-auto space-y-12">
+                <p class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-gray-400">
+                    Your journey begins here
+                </p>
+                <div class="group inline-block">
+                    <a href="/contact" class="block">
+                        <h2 class="font-orlean text-5xl md:text-8xl uppercase text-black leading-none group-hover:text-primary-100 transition-colors duration-700">
+                            Plan Your <span class="text-gray-200">Story</span>
+                        </h2>
+                        <div class="h-1 w-0 bg-primary-100 mx-auto mt-4 transition-all duration-700 group-hover:w-full opacity-50"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</BaseLayout>

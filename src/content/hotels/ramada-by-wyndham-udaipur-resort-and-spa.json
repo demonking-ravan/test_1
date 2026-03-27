@@ -1,0 +1,113 @@
+{
+  "name": "Ramada by Wyndham Udaipur Resort and Spa",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Monsoon Deck",
+      "capacity": "800",
+      "image": "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/events/1735907047-monsoon_deck.webp"
+    },
+    {
+      "name": "Ambar",
+      "capacity": "500",
+      "image": "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/events/1735907030-ambar.webp"
+    },
+    {
+      "name": "Wind Garden",
+      "capacity": "50",
+      "image": "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/events/1735907015-wind-garden.webp"
+    },
+    {
+      "name": "Trego",
+      "capacity": "50",
+      "image": "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/events/1735906996-trego.webp"
+    },
+    {
+      "name": "Trego",
+      "capacity": "50",
+      "image": "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/events/1735906996-trego.webp"
+    },
+    {
+      "name": "Bonsoir Garden",
+      "capacity": "50",
+      "image": "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/events/1735906978-bonsoir_garden.webp"
+    },
+    {
+      "name": "Sarlat",
+      "capacity": "50",
+      "image": "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/events/1735906947-sarlat.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/rooms/1735906673-Deluxe.webp"
+      ]
+    },
+    {
+      "roomType": "Super Deluxe Room",
+      "description": "Super Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/rooms/1735906698-Super_Deluxe_King_Bedroom.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Room",
+      "description": "Premium Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/rooms/1735906724-Premium_King_Bedroom.webp"
+      ]
+    },
+    {
+      "roomType": "Suite",
+      "description": "Suite",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/rooms/1735906750-Suite_Room.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Sajjangarh Fort",
+      "distance": "1.5 KM"
+    },
+    {
+      "name": "Lake Pichola",
+      "distance": "3.3 KM"
+    },
+    {
+      "name": "Fateh Sagar Lake",
+      "distance": "3.2 KM"
+    },
+    {
+      "name": "Bagore ki Haveli",
+      "distance": "3.4 KM"
+    }
+  ],
+  "contact": {
+    "address": "Rampura Circle Khodiyat, Road, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/main/1735906588-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/gallery/46197_bar_lounge_1.webp",
+    "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/gallery/46197_bar_lounge_2.webp",
+    "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/gallery/46197_guest_room_1.webp",
+    "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/gallery/46197_lotus_deck_1.webp",
+    "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/gallery/46197_meeting_room_1.webp",
+    "/assets/hotels/ramada-by-wyndham-udaipur-resort-and-spa/gallery/46197_pool_view_12.webp"
+  ],
+  "locationId": "udaipur"
+}

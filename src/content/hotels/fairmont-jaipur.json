@@ -1,0 +1,103 @@
+{
+  "name": "Fairmont Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Viti Ballroom",
+      "capacity": "952",
+      "image": "/assets/hotels/fairmont-jaipur/events/1735209654-avi_banquet_hall.webp"
+    },
+    {
+      "name": "Vruti Ballroom",
+      "capacity": "476",
+      "image": "/assets/hotels/fairmont-jaipur/events/1735209608-image-1676619768.webp"
+    },
+    {
+      "name": "Grand Ballroom",
+      "capacity": "500",
+      "image": "/assets/hotels/fairmont-jaipur/events/1735209440-The-Grand-Ballroom.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Fairmont Gold Room",
+      "description": "Fairmont Gold Room",
+      "roomImages": [
+        "/assets/hotels/fairmont-jaipur/rooms/1735208975-Fairmont_Gold_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Fairmont Room",
+      "description": "Fairmont Room",
+      "roomImages": [
+        "/assets/hotels/fairmont-jaipur/rooms/1735209012-Fairmont_room.webp"
+      ]
+    },
+    {
+      "roomType": "Fairmont Signature Room",
+      "description": "Fairmont Signature Room",
+      "roomImages": [
+        "/assets/hotels/fairmont-jaipur/rooms/1735209085-Signature_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Fairmont Deluxe Room",
+      "description": "Fairmont Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/fairmont-jaipur/rooms/1735209192-Fairmont_deluxe_room.webp"
+      ]
+    },
+    {
+      "roomType": "Fairmont Suites",
+      "description": "Fairmont Suites",
+      "roomImages": [
+        "/assets/hotels/fairmont-jaipur/rooms/1735209223-Fairmont_suites.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Hotel Le Meridien",
+      "distance": "500 M"
+    },
+    {
+      "name": "Jaipur Airport",
+      "distance": "25 KM"
+    },
+    {
+      "name": "Railway Station",
+      "distance": "20 KM"
+    },
+    {
+      "name": "Taj Amer Jaipur",
+      "distance": "2.5 KM"
+    }
+  ],
+  "contact": {
+    "address": "2 Riico, Kukas, Rajasthan 302028",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/fairmont-jaipur/main/1735208442-Hotel-background-1650449331.webp",
+  "gallery": [
+    "/assets/hotels/fairmont-jaipur/gallery/avi_banquet_hall.webp",
+    "/assets/hotels/fairmont-jaipur/gallery/Aza.webp",
+    "/assets/hotels/fairmont-jaipur/gallery/bed.webp",
+    "/assets/hotels/fairmont-jaipur/gallery/cigar.webp",
+    "/assets/hotels/fairmont-jaipur/gallery/exterior.webp",
+    "/assets/hotels/fairmont-jaipur/gallery/gbr_lawn.webp",
+    "/assets/hotels/fairmont-jaipur/gallery/JAI_490182_Anjum.webp",
+    "/assets/hotels/fairmont-jaipur/gallery/poolside.webp",
+    "/assets/hotels/fairmont-jaipur/gallery/The-Grand-Ballroom.webp"
+  ],
+  "locationId": "jaipur"
+}

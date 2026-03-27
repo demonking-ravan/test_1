@@ -1,0 +1,131 @@
+{
+  "name": "Radisson Blu Palace Resort & Spa, Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Fateh Sagar Lawn",
+      "capacity": "1500",
+      "image": "/assets/hotels/radisson-blu-palace/events/1735277611-lawn.webp"
+    },
+    {
+      "name": "Swaroop Sagar",
+      "capacity": "100",
+      "image": "/assets/hotels/radisson-blu-palace/events/1735277590-small.webp"
+    },
+    {
+      "name": "Udai Sagar Boardroom",
+      "capacity": "12",
+      "image": "/assets/hotels/radisson-blu-palace/events/1735277496-board.webp"
+    },
+    {
+      "name": "Fateh Sagar Ballroom",
+      "capacity": "800",
+      "image": "/assets/hotels/radisson-blu-palace/events/1735277476-ballroom.webp"
+    },
+    {
+      "name": "Fateh Sagar Ballroom",
+      "capacity": "800",
+      "image": "/assets/hotels/radisson-blu-palace/events/1735277476-ballroom.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Superior Room",
+      "description": "Superior Room",
+      "roomImages": [
+        "/assets/hotels/radisson-blu-palace/rooms/1735276640-superior_room.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room Pool and Garden View",
+      "description": "Deluxe Room Pool and Garden View",
+      "roomImages": [
+        "/assets/hotels/radisson-blu-palace/rooms/1735277113-deluxe_pool_and_garden_view.webp"
+      ]
+    },
+    {
+      "roomType": "Business Class Lake View",
+      "description": "Business Class Lake View",
+      "roomImages": [
+        "/assets/hotels/radisson-blu-palace/rooms/1735277158-lake_view.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Sajjangarh Suite",
+      "description": "Deluxe Sajjangarh Suite",
+      "roomImages": [
+        "/assets/hotels/radisson-blu-palace/rooms/1735277180-deluxe.webp"
+      ]
+    },
+    {
+      "roomType": "Premium heritage Suite",
+      "description": "Premium heritage Suite",
+      "roomImages": [
+        "/assets/hotels/radisson-blu-palace/rooms/1735277202-p-heritage.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Suite",
+      "description": "Premium Suite",
+      "roomImages": [
+        "/assets/hotels/radisson-blu-palace/rooms/1735277230-premium_suite.webp"
+      ]
+    },
+    {
+      "roomType": "Presidential Suite",
+      "description": "Presidential Suite",
+      "roomImages": [
+        "/assets/hotels/radisson-blu-palace/rooms/1735277252-presidential-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Presidential Heritage Suite",
+      "description": "Presidential Heritage Suite",
+      "roomImages": [
+        "/assets/hotels/radisson-blu-palace/rooms/1735277287-presidential-heritagesuite_(1).webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Gulab Bagh and Zoo Udaipur",
+      "distance": "3.35 KM"
+    },
+    {
+      "name": "Lake City Mall",
+      "distance": "3.85 KM"
+    },
+    {
+      "name": "Nathdwara",
+      "distance": "40.78 KM"
+    },
+    {
+      "name": "Ropeway",
+      "distance": "2.82 KM"
+    }
+  ],
+  "contact": {
+    "address": "B-1, Ambamata Scheme - A Rd, opp. Aravali Hospital, Malla Talai, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/radisson-blu-palace/main/1735276453-4.webp",
+  "gallery": [
+    "/assets/hotels/radisson-blu-palace/gallery/7.webp",
+    "/assets/hotels/radisson-blu-palace/gallery/ball.webp",
+    "/assets/hotels/radisson-blu-palace/gallery/ballroom.webp",
+    "/assets/hotels/radisson-blu-palace/gallery/deluxe.webp",
+    "/assets/hotels/radisson-blu-palace/gallery/raddison_2.webp",
+    "/assets/hotels/radisson-blu-palace/gallery/aravali-lake-view.webp"
+  ],
+  "locationId": "udaipur"
+}

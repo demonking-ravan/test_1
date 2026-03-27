@@ -1,0 +1,100 @@
+{
+  "name": "Four Points by Sheraton Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Aravali",
+      "capacity": "250",
+      "image": "/assets/hotels/four-points-by-sheraton-jaipur/events/1735884727-Aravali.webp"
+    },
+    {
+      "name": "Aravali 2",
+      "capacity": "125",
+      "image": "/assets/hotels/four-points-by-sheraton-jaipur/events/1735884709-Aravali_2.webp"
+    },
+    {
+      "name": "Aravali 1",
+      "capacity": "125",
+      "image": "/assets/hotels/four-points-by-sheraton-jaipur/events/1735884691-Aravali_1.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Guest room, 1 King",
+      "description": "Guest room, 1 King",
+      "roomImages": [
+        "/assets/hotels/four-points-by-sheraton-jaipur/rooms/1735884485-Guest_room,_1_King.webp"
+      ]
+    },
+    {
+      "roomType": "Guest room, 2 Twin/Single Bed",
+      "description": "Guest room, 2 Twin/Single Bed(s)",
+      "roomImages": [
+        "/assets/hotels/four-points-by-sheraton-jaipur/rooms/1735884501-Guest_room,_2_Twin_Single_Bed(s).webp"
+      ]
+    },
+    {
+      "roomType": "Club lounge access, Guest room, 2 Twin/Single Bed",
+      "description": "Club lounge access, Guest room, 2 Twin/Single Bed(s)",
+      "roomImages": [
+        "/assets/hotels/four-points-by-sheraton-jaipur/rooms/1735884542-Club_lounge_access,_Guest_room,_2_Twin_Single_Bed(s).webp"
+      ]
+    },
+    {
+      "roomType": "Club lounge access, Guest room, 1 King",
+      "description": "Club lounge access, Guest room, 1 King",
+      "roomImages": [
+        "/assets/hotels/four-points-by-sheraton-jaipur/rooms/1735884568-Club_lounge_access,_Guest_room,_1_King,_City_view.webp"
+      ]
+    },
+    {
+      "roomType": "Club lounge access, 1 Bedroom Suite, 1 King",
+      "description": "Club lounge access, 1 Bedroom Suite, 1 King",
+      "roomImages": [
+        "/assets/hotels/four-points-by-sheraton-jaipur/rooms/1735884593-Club_lounge_access,_1_Bedroom_Suite,_1_King.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaigarh fort",
+      "distance": "19 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "16 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "9.3 KM"
+    },
+    {
+      "name": "Amer Fort",
+      "distance": "19.1 KM"
+    }
+  ],
+  "contact": {
+    "address": "City Square, Tonk Rd, Vasundhara Colony, Jaipur, Rajasthan 302018",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/four-points-by-sheraton-jaipur/main/1735884422-wedding cost.webp",
+  "gallery": [
+    "/assets/hotels/four-points-by-sheraton-jaipur/gallery/5.webp",
+    "/assets/hotels/four-points-by-sheraton-jaipur/gallery/6.webp",
+    "/assets/hotels/four-points-by-sheraton-jaipur/gallery/Aravali_1.webp",
+    "/assets/hotels/four-points-by-sheraton-jaipur/gallery/Aravali_2.webp",
+    "/assets/hotels/four-points-by-sheraton-jaipur/gallery/Club_lounge_access,_Guest_room,_1_King,_City_view.webp",
+    "/assets/hotels/four-points-by-sheraton-jaipur/gallery/The_Eatery.webp"
+  ],
+  "locationId": "jaipur"
+}

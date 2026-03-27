@@ -1,0 +1,83 @@
+{
+  "name": "Chunda Palace Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Rubaru",
+      "capacity": "200",
+      "image": "/assets/hotels/chunda-palace-udaipur/events/image-1734591302.jpg"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Palace Rooms",
+      "description": "Palace Rooms",
+      "roomImages": [
+        "/assets/hotels/chunda-palace-udaipur/rooms/Room-image-1734590380.jpg"
+      ]
+    },
+    {
+      "roomType": "Royal Imperial Suites",
+      "description": "Royal Imperial Suites",
+      "roomImages": [
+        "/assets/hotels/chunda-palace-udaipur/rooms/Room-image-1734590512.jpg"
+      ]
+    },
+    {
+      "roomType": "Historic Suites",
+      "description": "Historic Suites",
+      "roomImages": [
+        "/assets/hotels/chunda-palace-udaipur/rooms/Room-image-1734590767.jpg"
+      ]
+    },
+    {
+      "roomType": "Grand Historic Suites",
+      "description": "Grand Historic Suites",
+      "roomImages": [
+        "/assets/hotels/chunda-palace-udaipur/rooms/Room-image-1734590804.jpg"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Saheliyon ki bari",
+      "distance": "5.2 km"
+    },
+    {
+      "name": "Shrinathji Temple",
+      "distance": "50.1 km"
+    },
+    {
+      "name": "Fateh Sagar Lake",
+      "distance": "3.6 km"
+    },
+    {
+      "name": "Maharana Pratap Airport, Udaipur",
+      "distance": "26.3 km"
+    }
+  ],
+  "contact": {
+    "address": "1, Main Road, Haridas Ji Ki Magri, Shavri Colony, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/chunda-palace-udaipur/main/company-image-1734589829.jpg",
+  "gallery": [
+    "/assets/hotels/chunda-palace-udaipur/gallery/14.jpeg",
+    "/assets/hotels/chunda-palace-udaipur/gallery/16.jpg",
+    "/assets/hotels/chunda-palace-udaipur/gallery/Palace_Rooms.jpg",
+    "/assets/hotels/chunda-palace-udaipur/gallery/pic25.jpg",
+    "/assets/hotels/chunda-palace-udaipur/gallery/regal-wedding-venues.jpg",
+    "/assets/hotels/chunda-palace-udaipur/gallery/Rubaru.jpg"
+  ],
+  "locationId": "udaipur"
+}

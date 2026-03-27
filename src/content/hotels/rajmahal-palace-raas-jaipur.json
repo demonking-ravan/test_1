@@ -1,0 +1,114 @@
+{
+  "name": "RAJMAHAL PALACE RAAS JAIPUR",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Lower Lawn",
+      "capacity": "100",
+      "image": "/assets/hotels/rajmahal-palace-raas-jaipur/events/1735884051-lower-lawn.webp"
+    },
+    {
+      "name": "Upper Lawn",
+      "capacity": "120",
+      "image": "/assets/hotels/rajmahal-palace-raas-jaipur/events/1735884029-upper-lawn.webp"
+    },
+    {
+      "name": "Pool Side",
+      "capacity": "70",
+      "image": "/assets/hotels/rajmahal-palace-raas-jaipur/events/1735884007-poolside.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Maharaja Suite",
+      "description": "Maharaja Suite (2427 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/rajmahal-palace-raas-jaipur/rooms/1735883566-maharaja-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Maharani Suite",
+      "description": "Maharani Suite (2628 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/rajmahal-palace-raas-jaipur/rooms/1735883588-maharani-suites.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Rooms",
+      "description": "Palace Rooms (382 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/rajmahal-palace-raas-jaipur/rooms/1735883656-palace-rooms.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Suites",
+      "description": "Palace Suites (643 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/rajmahal-palace-raas-jaipur/rooms/1735883700-palace-suites.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Suites",
+      "description": "Royal Suites (1035 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/rajmahal-palace-raas-jaipur/rooms/1735883724-royal-suites.webp"
+      ]
+    },
+    {
+      "roomType": "Sukh Niwas",
+      "description": "Sukh Niwas (271 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/rajmahal-palace-raas-jaipur/rooms/1735883773-sukh-niwas.webp"
+      ]
+    },
+    {
+      "roomType": "The Queen Elizabeth Suite",
+      "description": "The Queen Elizabeth Suite (1088 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/rajmahal-palace-raas-jaipur/rooms/1735883800-The-Queen-Elizabeth-II-Suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Hawa Mahal",
+      "distance": "5.5 KM"
+    },
+    {
+      "name": "world Trade Park",
+      "distance": "8.3 KM"
+    },
+    {
+      "name": "Albert Hall",
+      "distance": "3.6 KM"
+    },
+    {
+      "name": "Jaipur International Airport",
+      "distance": "10.8 KM"
+    }
+  ],
+  "contact": {
+    "address": "Sardar Patel Marg, Shivaji Nagar, Jaipur, Rajasthan 302001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/rajmahal-palace-raas-jaipur/main/1728987314-RAJMAHAL PALACE RAAS JAIPUR.webp",
+  "gallery": [
+    "/assets/hotels/rajmahal-palace-raas-jaipur/gallery/colonnade.webp",
+    "/assets/hotels/rajmahal-palace-raas-jaipur/gallery/lower-lawn.webp",
+    "/assets/hotels/rajmahal-palace-raas-jaipur/gallery/maharani-suites.webp",
+    "/assets/hotels/rajmahal-palace-raas-jaipur/gallery/upper-lawn.webp",
+    "/assets/hotels/rajmahal-palace-raas-jaipur/gallery/wedding_cost.webp",
+    "/assets/hotels/rajmahal-palace-raas-jaipur/gallery/rajmahal-palace-raas-jaipur-dining-collonade-800x534.webp"
+  ],
+  "locationId": "jaipur"
+}

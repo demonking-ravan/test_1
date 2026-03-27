@@ -1,0 +1,336 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Fetch dynamic content
+const featuredVenues = await getCollection("locations");
+---
+
+<BaseLayout title="Mapsor Experiential Weddings | Luxury Event Management">
+    <main
+        class="h-screen overflow-hidden bg-white select-none relative"
+        id="main-viewport"
+    >
+        <div class="flex flex-nowrap h-full w-fit" id="horizontal-track">
+            <section
+                class="flex-none w-screen h-full flex relative overflow-hidden bg-[#111]"
+            >
+                <div
+                    class="w-[45%] h-full flex flex-col justify-center px-[10rem] space-y-[4rem] z-20 bg-white"
+                >
+                    <div class="space-y-[1rem]">
+                        <p
+                            class="font-orlean text-[1.6rem] uppercase tracking-[0.6rem] text-[#d4af37] font-bold"
+                        >
+                            Since 1996 [cite: 178]
+                        </p>
+                        <h1
+                            class="font-orlean text-[12rem] leading-[0.8] text-black tracking-tighter"
+                        >
+                            Pure<br /><span class="text-[#d4af37]"
+                                >Emotion.</span
+                            >
+                        </h1>
+                    </div>
+                    <p
+                        class="font-aventa text-[2rem] leading-relaxed text-[#333] max-w-[42rem]"
+                    >
+                        A distinguished wedding planning company [cite: 178]
+                        where heritage meets innovation to curate personalized
+                        experiences. [cite: 179, 180]
+                    </p>
+                </div>
+                <div class="w-[55%] h-full relative group">
+                    <img
+                        src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800"
+                        alt="Royal Wedding"
+                        class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 ease-in-out scale-110 group-hover:scale-100"
+                    />
+                    <div
+                        class="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-700"
+                    >
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="flex-none w-[80vw] h-full flex items-center bg-[#fcfcfc] px-[12rem]"
+            >
+                <div class="flex gap-[10rem] items-center">
+                    <div class="w-[50rem] space-y-[4rem]">
+                        <h2
+                            class="font-orlean text-[7rem] leading-none uppercase"
+                        >
+                            Unique,<br />Elegant,<br />Simple. [cite: 239]
+                        </h2>
+                        <p
+                            class="font-aventa text-[1.8rem] text-gray-500 leading-relaxed italic"
+                        >
+                            "We seamlessly integrate imagination, understanding
+                            of culture, and sophisticated execution." [cite:
+                            237]
+                        </p>
+                    </div>
+                    <div class="flex gap-[4rem]">
+                        <div
+                            class="h-[60vh] w-[35rem] bg-gray-200 mt-[10rem] overflow-hidden"
+                        >
+                            <img
+                                src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div
+                            class="h-[60vh] w-[35rem] bg-gray-200 overflow-hidden"
+                        >
+                            <img
+                                src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?auto=format&fit=crop&q=80&w=800"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="flex-none w-[110vw] h-full flex items-center px-[10rem] bg-black text-white"
+            >
+                <div class="w-full grid grid-cols-4 gap-[2rem] py-[10rem]">
+                    {
+                        [
+                            {
+                                num: "01",
+                                t: "Getting to Know You",
+                                d: "We take the responsibility off your shoulders and meticulously map your vision.",
+                            },
+                            {
+                                num: "02",
+                                t: "Logistics & Planning",
+                                d: "From food pairings to permits and grade changes—we handle the seamless details.",
+                            },
+                            {
+                                num: "03",
+                                t: "Design",
+                                d: "Curating color palettes that harmonize with the captivating hues of a setting sun.",
+                            },
+                            {
+                                num: "04",
+                                t: "Execution",
+                                d: "Orchestrating every aspect so you can truly immerse yourself as our esteemed guest.",
+                            },
+                        ].map((step) => (
+                            <div class="group border border-white/10 p-[4rem] flex flex-col justify-between hover:bg-white/5 transition-all duration-500">
+                                <span class="font-orlean text-[2rem] text-[#d4af37]">
+                                    {step.num}
+                                </span>
+                                <div class="space-y-6">
+                                    <h4 class="font-orlean text-[3.5rem] uppercase leading-tight group-hover:text-[#d4af37] transition-colors">
+                                        {step.t}
+                                    </h4>
+                                    <p class="font-aventa text-[1.4rem] text-gray-500">
+                                        {step.d}
+                                    </p>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </section>
+
+            <section
+                class="flex-none w-[80vw] h-full flex items-center px-[10rem]"
+            >
+                <div class="flex flex-col gap-[6rem]">
+                    <h2 class="font-orlean text-[8rem] uppercase leading-none">
+                        The Group
+                    </h2>
+                    <div class="flex gap-[8rem]">
+                        <div class="w-[40rem] space-y-6">
+                            <h3 class="font-orlean text-[3rem] text-[#d4af37]">
+                                ICWF [cite: 254]
+                            </h3>
+                            <p class="font-aventa text-[1.6rem] text-gray-600">
+                                Bestowing well-deserved recognition upon
+                                professionals in our industry gatherings. [cite:
+                                256, 257]
+                            </p>
+                        </div>
+                        <div class="w-[40rem] space-y-6">
+                            <h3 class="font-orlean text-[3rem] text-[#d4af37]">
+                                DY Studio [cite: 259]
+                            </h3>
+                            <p class="font-aventa text-[1.6rem] text-gray-600">
+                                Our own decor designing and production line
+                                ensuring a fresh, captivating experience. [cite:
+                                260, 261]
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="flex-none w-fit h-full flex items-center px-[10rem] gap-[6rem] bg-[#111]"
+            >
+                <div class="flex-none w-[30rem] text-white">
+                    <h2 class="font-orlean text-[7rem] leading-none uppercase">
+                        The<br />Venues
+                    </h2>
+                </div>
+                {
+                    featuredVenues.map((loc) => (
+                        <a
+                            href={`/venues/${loc.id}`}
+                            class="group relative h-[70vh] w-[50rem] overflow-hidden block border-l border-white/10"
+                        >
+                            <img
+                                src={loc.data.featuredImage}
+                                class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
+                                alt={loc.data.name}
+                            />
+                            <div class="absolute bottom-[4rem] left-[4rem] text-white">
+                                <p class="font-orlean text-[1.4rem] uppercase tracking-[0.4rem] text-[#d4af37]">
+                                    {loc.data.hotelCount} Properties
+                                </p>
+                                <h3 class="font-orlean text-[5rem] uppercase">
+                                    {loc.data.name}
+                                </h3>
+                            </div>
+                        </a>
+                    ))
+                }
+            </section>
+
+            <section
+                class="flex-none w-[120vw] h-full flex items-center px-[10rem] bg-[#f9f9f9]"
+            >
+                <div class="flex gap-[10rem] items-center">
+                    <div class="w-[35rem] space-y-[2rem]">
+                        <h2
+                            class="font-orlean text-[6rem] uppercase leading-none text-black"
+                        >
+                            Client<br />Stories
+                        </h2>
+                        <p class="font-aventa text-[1.6rem] text-gray-500">
+                            Reflecting the trust couples place in us to execute
+                            their most special moments. [cite: 210]
+                        </p>
+                    </div>
+
+                    <div class="flex gap-[6rem]">
+                        {
+                            [
+                                {
+                                    quote: "They successfully organised engaging activities and entertainment for our guests, resulting in an enjoyable experience for everyone involved.",
+                                    author: "Ayushree & Saharsh [cite: 214, 215]",
+                                },
+                                {
+                                    quote: "The team passionately incorporated all of these elements into the wedding without hesitation, even utilising environmentally friendly and NGO-based resources.",
+                                    author: "Illika & Brenden [cite: 216, 217]",
+                                },
+                                {
+                                    quote: "Mapsor took care of every detail, allowing us to fully immerse ourselves in the joy of wedding day. They are simply exceptional!",
+                                    author: "Girija [cite: 218, 219]",
+                                },
+                            ].map((t) => (
+                                <div class="w-[45rem] bg-white p-[5rem] shadow-sm border border-black/5 flex flex-col justify-between h-[50vh]">
+                                    <p class="font-aventa text-[2rem] leading-relaxed italic text-gray-700">
+                                        "{t.quote}"
+                                    </p>
+                                    <footer class="font-orlean text-[1.4rem] uppercase tracking-[0.2rem] text-[#d4af37] pt-8 border-t border-gray-100">
+                                        — {t.author}
+                                    </footer>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="flex-none w-[60vw] h-full flex flex-col justify-center px-[10rem] border-l border-gray-100"
+            >
+                <h3
+                    class="font-orlean text-[2rem] uppercase tracking-[0.4rem] mb-[6rem] text-gray-400"
+                >
+                    As Seen In
+                </h3>
+                <div
+                    class="grid grid-cols-3 gap-x-[8rem] gap-y-[4rem] opacity-50 grayscale hover:grayscale-0 transition-all duration-700"
+                >
+                    <span class="font-orlean text-[2.5rem] uppercase"
+                        >Vogue [cite: 230]</span
+                    >
+                    <span class="font-orlean text-[2.5rem] uppercase"
+                        >Wedding Sutra [cite: 226]</span
+                    >
+                    <span class="font-orlean text-[2.5rem] uppercase"
+                        >Wedding Wire [cite: 227]</span
+                    >
+                    <span class="font-orlean text-[2.5rem] uppercase"
+                        >WedMeGood [cite: 228]</span
+                    >
+                    <span class="font-orlean text-[2.5rem] uppercase"
+                        >Femina [cite: 232]</span
+                    >
+                    <span class="font-orlean text-[2.5rem] uppercase"
+                        >Event FAQS [cite: 231]</span
+                    >
+                </div>
+            </section>
+
+            <section
+                class="flex-none w-screen h-full flex items-center justify-center"
+            >
+                <div class="text-center group">
+                    <p
+                        class="font-orlean text-[1.8rem] uppercase tracking-[0.5rem] mb-[2rem] text-gray-400"
+                    >
+                        Trusted Since 1996 [cite: 178]
+                    </p>
+                    <a
+                        href="/contact"
+                        class="relative inline-block overflow-hidden"
+                    >
+                        <h2
+                            class="font-orlean text-[11rem] leading-none uppercase text-black"
+                        >
+                            Plan Your Story
+                        </h2>
+                        <div
+                            class="h-[2px] w-full bg-black absolute bottom-0 left-0 transition-transform duration-700 translate-x-[-101%] group-hover:translate-x-0"
+                        >
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        import { gsap } from "gsap";
+        import { ScrollTrigger } from "gsap/ScrollTrigger";
+        gsap.registerPlugin(ScrollTrigger);
+
+        const track = document.querySelector(
+            "#horizontal-track",
+        ) as HTMLElement;
+        const mainViewport = document.querySelector(
+            "#main-viewport",
+        ) as HTMLElement;
+
+        if (track && mainViewport) {
+            gsap.to(track, {
+                x: () => -(track.scrollWidth - window.innerWidth),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: mainViewport,
+                    pin: true,
+                    scrub: 1.5,
+                    invalidateOnRefresh: true,
+                    end: () => `+=${track.scrollWidth}`,
+                },
+            });
+        }
+    </script>
+</BaseLayout>

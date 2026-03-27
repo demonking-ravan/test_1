@@ -1,0 +1,117 @@
+{
+  "name": "Hotel Heritage Inn",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Banquet Hall",
+      "capacity": "350",
+      "image": "/assets/hotels/hotel-heritage-inn/events/1735903104-banquet_hall.webp"
+    },
+    {
+      "name": "Pool Side Lawn",
+      "capacity": "250",
+      "image": "/assets/hotels/hotel-heritage-inn/events/1735903087-pool_side_lwan.webp"
+    },
+    {
+      "name": "Central Lawn",
+      "capacity": "450",
+      "image": "/assets/hotels/hotel-heritage-inn/events/1735903069-central_lawn.webp"
+    },
+    {
+      "name": "Front Lawn",
+      "capacity": "450",
+      "image": "/assets/hotels/hotel-heritage-inn/events/1735903041-front_lawn.webp"
+    },
+    {
+      "name": "Front Lawn",
+      "capacity": "450",
+      "image": "/assets/hotels/hotel-heritage-inn/events/1735903041-front_lawn.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/hotel-heritage-inn/rooms/1735902796-Deluxe_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Cottage Room",
+      "description": "Royal Cottage Room",
+      "roomImages": [
+        "/assets/hotels/hotel-heritage-inn/rooms/1735902822-Royal_Cottage_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Heritage Room",
+      "description": "Royal Heritage Room",
+      "roomImages": [
+        "/assets/hotels/hotel-heritage-inn/rooms/1735902844-Royal_Heritage_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Family Suite",
+      "description": "Family Suite",
+      "roomImages": [
+        "/assets/hotels/hotel-heritage-inn/rooms/1735902861-Family_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Maharaja Suite Room",
+      "description": "Maharaja Suite Room",
+      "roomImages": [
+        "/assets/hotels/hotel-heritage-inn/rooms/1735902888-Maharaja_Suite_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Maharani Suite Room",
+      "description": "Maharani Suite Room",
+      "roomImages": [
+        "/assets/hotels/hotel-heritage-inn/rooms/1735902904-Maharani_Suite_Room.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Gadisar Lake",
+      "distance": "4.2 KM"
+    },
+    {
+      "name": "Jaisalmer Fort",
+      "distance": "3.0 KM"
+    },
+    {
+      "name": "Kuldhara",
+      "distance": "32 KM"
+    },
+    {
+      "name": "Patwon Ki Haweli",
+      "distance": "2.2 KM"
+    }
+  ],
+  "contact": {
+    "address": "No.4 Hotel Complex, Jaisalmer - Sam - Dhanana Rd, Jaisalmer, Rajasthan 345001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/hotel-heritage-inn/main/1735902698-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/hotel-heritage-inn/gallery/Bageecha.webp",
+    "/assets/hotels/hotel-heritage-inn/gallery/banquet_hall.webp",
+    "/assets/hotels/hotel-heritage-inn/gallery/central_lawn.webp",
+    "/assets/hotels/hotel-heritage-inn/gallery/lobby.webp",
+    "/assets/hotels/hotel-heritage-inn/gallery/pool_side_lwan.webp",
+    "/assets/hotels/hotel-heritage-inn/gallery/Royal_Heritage_Room.webp"
+  ],
+  "locationId": "jaisalmer"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Taj Lake Palace, Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Mewar Mahal",
+      "capacity": "75",
+      "image": "/assets/hotels/taj-lake-palace-udaipur/events/1735301683-mm.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Luxury Room Lake View Double Bed",
+      "description": "Luxury Room Lake View Double Bed (24–31 sqm.)",
+      "roomImages": [
+        "/assets/hotels/taj-lake-palace-udaipur/rooms/1735301361-Luxury_Room_Lake_View_Double_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Room Lake View Twin Bed",
+      "description": "Luxury Room Lake View Twin Bed (24–31 sqm.)",
+      "roomImages": [
+        "/assets/hotels/taj-lake-palace-udaipur/rooms/1735301386-Luxury_Room_Lake_View_Twin_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Room Lake View Double Bed",
+      "description": "Palace Room Lake View Double Bed (28–42 sqm.)",
+      "roomImages": [
+        "/assets/hotels/taj-lake-palace-udaipur/rooms/1735301410-Palace_Room_Lake_View_Double_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Room Lake View Twin Bed",
+      "description": "Palace Room Lake View Twin Bed (28–42 sqm.)",
+      "roomImages": [
+        "/assets/hotels/taj-lake-palace-udaipur/rooms/1735301427-Palace_Room_Lake_View_Twin_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Historical One Bedroom Suite Lake View",
+      "description": "Historical One Bedroom Suite Lake View (42–61 sqm.)",
+      "roomImages": [
+        "/assets/hotels/taj-lake-palace-udaipur/rooms/1735301472-Historical_One_Bedroom_Suite_Lake_View.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Suite One Bedroom Lake View",
+      "description": "Royal Suite One Bedroom Lake View (53–59 sqm.)",
+      "roomImages": [
+        "/assets/hotels/taj-lake-palace-udaipur/rooms/1735301502-Royal_Suite_One_Bedroom_Lake_View.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Royal Suite One Bedroom Lake View",
+      "description": "Grand Royal Suite One Bedroom Lake View (74–108 sqm.)",
+      "roomImages": [
+        "/assets/hotels/taj-lake-palace-udaipur/rooms/1735301525-Grand_Royal_Suite_One_Bedroom_Lake_View.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Presidential Suite One Bedroom Lake View",
+      "description": "Grand Presidential Suite One Bedroom Lake View (161 sqm.)",
+      "roomImages": [
+        "/assets/hotels/taj-lake-palace-udaipur/rooms/1735301550-Grand_Presidential_Suite_One_Bedroom_Lake_View.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jagdish Temple",
+      "distance": "550 m"
+    },
+    {
+      "name": "Udaisagar Lake",
+      "distance": "15.1 km"
+    },
+    {
+      "name": "Vintage Car Museum",
+      "distance": "7.1 km"
+    },
+    {
+      "name": "Shikarbadi Airport",
+      "distance": "5.4 km"
+    }
+  ],
+  "contact": {
+    "address": "Taj Lake Palace, Pichola, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/taj-lake-palace-udaipur/main/1735301277-company-image-1715342609.webp",
+  "gallery": [
+    "/assets/hotels/taj-lake-palace-udaipur/gallery/6f1033f5470b7dd5f5489044a21058d365b01f16-7360x4912.webp",
+    "/assets/hotels/taj-lake-palace-udaipur/gallery/409efea013163087cfcb7c1c4cb6597d15338d80-2318x1500.webp",
+    "/assets/hotels/taj-lake-palace-udaipur/gallery/bhai.webp",
+    "/assets/hotels/taj-lake-palace-udaipur/gallery/fef18d0bd6089ef957e47c9670d844ef20783bc9-7360x4912.webp",
+    "/assets/hotels/taj-lake-palace-udaipur/gallery/Grand_Royal_Suite_One_Bedroom_Lake_View.webp",
+    "/assets/hotels/taj-lake-palace-udaipur/gallery/Jharokha.webp"
+  ],
+  "locationId": "udaipur"
+}

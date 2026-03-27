@@ -1,0 +1,153 @@
+{
+  "name": "Taj Hari Mahal Jodhpur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Pali Lawn",
+      "capacity": "500",
+      "image": "/assets/hotels/taj-hari-mahal-jodhpur/events/1735811538-Pali_Lawn.webp"
+    },
+    {
+      "name": "Mandore Lawn",
+      "capacity": "300",
+      "image": "/assets/hotels/taj-hari-mahal-jodhpur/events/1735811519-Mandore_Lawn.webp"
+    },
+    {
+      "name": "Amar Hall",
+      "capacity": "600",
+      "image": "/assets/hotels/taj-hari-mahal-jodhpur/events/1735811484-Amar_Hall.webp"
+    },
+    {
+      "name": "Board Room 2",
+      "capacity": "12",
+      "image": "/assets/hotels/taj-hari-mahal-jodhpur/events/1735811461-Boardroom2.webp"
+    },
+    {
+      "name": "Board Room 2",
+      "capacity": "12",
+      "image": "/assets/hotels/taj-hari-mahal-jodhpur/events/1735811461-Boardroom2.webp"
+    },
+    {
+      "name": "Meherangarh Terrace",
+      "capacity": "1000",
+      "image": "/assets/hotels/taj-hari-mahal-jodhpur/events/1735811440-mehrangarh_terrace.webp"
+    },
+    {
+      "name": "Boardroom 1",
+      "capacity": "12",
+      "image": "/assets/hotels/taj-hari-mahal-jodhpur/events/1735811421-Boardroom.webp"
+    },
+    {
+      "name": "Meherangarh Hall",
+      "capacity": "135",
+      "image": "/assets/hotels/taj-hari-mahal-jodhpur/events/1735811402-Meherangarh_Hall.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room Garden View King Bed",
+      "description": "Deluxe Room Garden View King Bed (37 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/taj-hari-mahal-jodhpur/rooms/1735810950-Deluxe_Room_Garden_View_King_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room Garden View Twin Bed",
+      "description": "Deluxe Room Garden View Twin Bed (37 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/taj-hari-mahal-jodhpur/rooms/1735810980-Deluxe_Room_Garden_View_Twin_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room Pool View King Bed",
+      "description": "Deluxe Room Pool View King Bed (37 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/taj-hari-mahal-jodhpur/rooms/1735811024-Deluxe_Room_Pool_View_King_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room Pool View Twin Bed",
+      "description": "Deluxe Room Pool View Twin Bed (37 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/taj-hari-mahal-jodhpur/rooms/1735811047-Deluxe_Room_Pool_View_Twin_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Room Garden View King Bed",
+      "description": "Luxury Room Garden View King Bed (37 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/taj-hari-mahal-jodhpur/rooms/1735811089-Luxury_Room_Garden_View_King_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Room Garden View Twin Bed",
+      "description": "Luxury Room Garden View Twin Bed (37 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/taj-hari-mahal-jodhpur/rooms/1735811106-Luxury_Room_Garden_View_Twin_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Room Pool View King Bed",
+      "description": "Luxury Room Pool View King Bed (37 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/taj-hari-mahal-jodhpur/rooms/1735811165-Luxury_Room_Pool_View_King_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Room Pool View Twin Bed",
+      "description": "Luxury Room Pool View Twin Bed (37 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/taj-hari-mahal-jodhpur/rooms/1735811187-Luxury_Room_Pool_View_Twin_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Suite",
+      "description": "Premium Suite (84 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/taj-hari-mahal-jodhpur/rooms/1735811210-Premium_Suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Mehrangarh Fort",
+      "distance": "8.4 KM"
+    },
+    {
+      "name": "Jodhpur Airport",
+      "distance": "4.1 KM"
+    },
+    {
+      "name": "Indana Palace",
+      "distance": "6.1 KM"
+    },
+    {
+      "name": "Jalori Gate jewellery",
+      "distance": "2.7 KM"
+    }
+  ],
+  "contact": {
+    "address": "Taj Hari Mahal, 5th, Residency Rd, Jodhpur, Rajasthan 342001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/taj-hari-mahal-jodhpur/main/1735810782-5.webp",
+  "gallery": [
+    "/assets/hotels/taj-hari-mahal-jodhpur/gallery/2.webp",
+    "/assets/hotels/taj-hari-mahal-jodhpur/gallery/Amar_Hall.webp",
+    "/assets/hotels/taj-hari-mahal-jodhpur/gallery/Boardroom.webp",
+    "/assets/hotels/taj-hari-mahal-jodhpur/gallery/Deluxe_Room_Pool_View_King_Bed.webp",
+    "/assets/hotels/taj-hari-mahal-jodhpur/gallery/mehrangarh_terrace.webp",
+    "/assets/hotels/taj-hari-mahal-jodhpur/gallery/back.webp"
+  ],
+  "locationId": "jodhpur"
+}

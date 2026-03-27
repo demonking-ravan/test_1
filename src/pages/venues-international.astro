@@ -1,0 +1,53 @@
+---
+import VenueCard from "../components/VenueCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const internationalLocations = await getCollection("locations", ({ data }) => {
+  return data.isIndia === false;
+});
+
+const title =
+  "Luxury International Wedding Destinations | Mapsor Experiential Weddings";
+const description =
+  "Explore breathtaking international wedding venues across the globe, from European villas to tropical islands.";
+---
+
+<BaseLayout title={title} description={description}>
+  <main class="py-48 px-6 md:px-24 bg-white">
+    <div class="max-w-560 mx-auto">
+      <header class="mb-32">
+        <h1 class="sub-heading text-black">
+          International <span class="text-gray-300">Venues</span>
+        </h1>
+        <p class="textM max-w-240 mt-8">
+          Embark on a global journey to find the perfect destination for your
+          dream international wedding.
+        </p>
+      </header>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-40"
+      >
+        {
+          internationalLocations.length > 0 ? (
+            internationalLocations.map((location) => (
+              <VenueCard
+                name={location.data.name}
+                featuredImage={location.data.featuredImage}
+                hotelCount={location.data.hotelCount}
+                url={`/venues/${location.id}`}
+              />
+            ))
+          ) : (
+            <div class="col-span-full py-20 text-center">
+              <p class="font-aventa text-gray-500 text-[2.2rem] italic">
+                More international destinations coming soon...
+              </p>
+            </div>
+          )
+        }
+      </div>
+    </div>
+  </main>
+</BaseLayout>

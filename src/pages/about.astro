@@ -1,0 +1,457 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const stats = [
+    { value: "25+", label: "Years of Experience" },
+    { value: "12+", label: "Awards" },
+    { value: "1000+", label: "Clients" },
+];
+
+const groupCompanies = [
+    {
+        name: "ICWF",
+        fullName: "International Convention for Wedding Fraternity",
+        desc: "A remarkable Intellectual Property dedicated to honoring our industry through awards, seminars, and fostering community.",
+    },
+    {
+        name: "DY Wedding Design Studio",
+        fullName: "In-house Decor & Production",
+        desc: "Our own production line focused on designing decor that exudes timeless beauty, precision, and visual enchantment.",
+    },
+];
+---
+
+<BaseLayout title="About Us | Mapsor Experiential Weddings">
+    <section class="pt-32 pb-16 bg-white overflow-hidden">
+        <div class="px-6 lg:px-24 mb-12">
+            <h1 class="sub-heading mb-4 text-black">
+                About <span class="text-gray-300">Us</span>
+            </h1>
+            <p
+                class="font-aventa text-[2rem] leading-relaxed text-[#333] max-w-[42rem]"
+            >
+                A distinguished wedding planning company where heritage meets
+                innovation to curate personalized experiences.
+            </p>
+        </div>
+
+        <div class="relative w-full">
+            <!-- Fade Overlay Left -->
+            <div
+                class="absolute left-0 top-0 w-20 lg:w-40 h-full z-10 bg-linear-to-r from-white to-transparent pointer-events-none"
+            >
+            </div>
+            <!-- Fade Overlay Right -->
+            <div
+                class="absolute right-0 top-0 w-20 lg:w-40 h-full z-10 bg-linear-to-l from-white to-transparent pointer-events-none"
+            >
+            </div>
+
+            <div class="swiper about-slider py-4">
+                <div class="swiper-wrapper">
+                    {
+                        [
+                            "TPL_KRISHADHRUV_MANDAPMUHARAT&BRIDALMEHENDI-1966.jpg",
+                            "TPL_KRISHADHRUV_WELCOMEDINNER-1477.jpg",
+                            "alila-fort-wedding-photographer-marionco-1884.jpg",
+                            "alila-fort-wedding-photographer-marionco-3492.jpg",
+                            "kamero-2k-IMG-190.jpg",
+                            "kamero-2k-IMG-282.jpg",
+                        ].map((img) => (
+                            <div class="swiper-slide w-auto!">
+                                <div class="h-[50vh] md:h-[65vh] w-[30vh] md:w-[45vh] overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+                                    <img
+                                        src={`/about/${img}`}
+                                        alt="About Us"
+                                        class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out scale-110 hover:scale-100"
+                                    />
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 md:py-32 bg-white border-b border-black/5">
+        <div class="px-6 lg:px-24">
+            <div class="text-center mb-28 space-y-6">
+                <p
+                    class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-primary-100"
+                >
+                    Our Vision & Mission
+                </p>
+                <h2 class="sub-heading text-black text-center mx-auto">
+                    Our <br class="md:hidden" /><span class="text-gray-300"
+                        >Vision</span
+                    >
+                </h2>
+                <p
+                    class="font-aventa text-lg md:text-xl text-gray-500 max-w-3xl mx-auto leading-relaxed text-justify"
+                >
+                    We are Mapsor Weddings, We are a specialist in turning
+                    weddings that are a dream into beautiful and well-planned
+                    celebrations. The company is located within Jaipur,
+                    Rajasthan We offer complete wedding planning services that
+                    seamlessly integrate imagination, understanding of culture
+                    and a sophisticated execution. For small gatherings or a
+                    huge celebration lasting several days, we can plan weddings
+                    which reflect your personal style, your traditions and
+                    vision. The way we approach weddings is that they should be
+                    unique, elegant and simple. From the initial consultation
+                    until the final celebration our team will collaborate with
+                    you to plan an event that is meticulously planned and
+                    flawlessly executed. With a wealth of experience in
+                    organizing weddings at beautiful locations, luxury resorts
+                    and other destinations, Mapsor Weddings manages every detail
+                    with absolute accuracy. Our services include the choice of
+                    venues, the design and decor, as well as coordination of
+                    vendors, catering management, entertainment management and
+                    on-the-ground execution, ensuring an effortless and seamless
+                    service for both your guest as well as your guests. As
+                    trusted wedding planners in Jaipur,we are renowned for our
+                    honesty and a solid vendor network, as well as our
+                    professional, calm managing style. Our knowledge extends
+                    beyond Rajasthan and makes us the ideal choice for couples
+                    looking for experienced destination wedding planners in
+                    India. From royal weddings in Jaipur to weddings at
+                    destinations across India, Mapsor Weddings is committed to
+                    creating memorable experiences that last forever and are
+                    memorable. With a great reverence for the values of
+                    traditional and modern-day wedding planning methods We are
+                    incredibly proud of making weddings as smooth because they
+                    will be unforgettable.
+                </p>
+            </div>
+
+            <div
+                class="grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-12 max-w-6xl mx-auto"
+            >
+                <div class="text-center group">
+                    <p
+                        class="font-aventa text-sm text-gray-500 uppercase tracking-widest mb-6 group-hover:text-black transition-colors duration-500"
+                    >
+                        Years of Experience
+                    </p>
+                    <div class="flex items-start justify-center">
+                        <span
+                            class="font-orlean text-[6rem] md:text-[8rem] leading-none text-black group-hover:text-primary-100 transition-colors duration-700"
+                        >
+                            25
+                        </span>
+                        <span
+                            class="font-aventa text-[2rem] md:text-[2.5rem] text-gray-400 ml-2"
+                        >
+                            +
+                        </span>
+                    </div>
+                </div>
+
+                <div class="text-center group">
+                    <p
+                        class="font-aventa text-sm text-gray-500 uppercase tracking-widest mb-6 group-hover:text-black transition-colors duration-500"
+                    >
+                        Awards Won
+                    </p>
+                    <div class="flex items-start justify-center">
+                        <span
+                            class="font-orlean text-[6rem] md:text-[8rem] leading-none text-black group-hover:text-primary-100 transition-colors duration-700"
+                        >
+                            12
+                        </span>
+                        <span
+                            class="font-aventa text-[2rem] md:text-[2.5rem] text-gray-400 ml-2"
+                        >
+                            %
+                        </span>
+                    </div>
+                </div>
+
+                <div class="text-center group">
+                    <p
+                        class="font-aventa text-sm text-gray-500 uppercase tracking-widest mb-6 group-hover:text-black transition-colors duration-500"
+                    >
+                        Clients
+                    </p>
+                    <div class="flex items-start justify-center">
+                        <span
+                            class="font-orlean text-[6rem] md:text-[8rem] leading-none text-black group-hover:text-primary-100 transition-colors duration-700"
+                        >
+                            1000
+                        </span>
+                        <span
+                            class="font-aventa text-[2rem] md:text-[2.5rem] text-gray-400 ml-2"
+                        >
+                            +
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 md:py-32 bg-[#fafafa]">
+        <div class="px-6 lg:px-24">
+            <div class="mb-20 space-y-4">
+                <p
+                    class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-primary-100"
+                >
+                    The Leadership
+                </p>
+                <h2 class="sub-heading text-black">
+                    Meet Our <span class="text-gray-300">Directors</span>
+                </h2>
+            </div>
+
+            <div class="space-y-12">
+                {
+                    [
+                        {
+                            name: "Pritesh Sharma",
+                            role: "Director",
+                            image: "/home/alila-fort-wedding-photographer-marionco-2988.jpg",
+                            bio: "A visionary entrepreneur redefining weddings through creativity, strategy, and emotion. With over 25 years of experience, Pritesh has built a reputation for excellence and innovation in the wedding fraternity.",
+                            socials: [
+                                "fa-facebook-f",
+                                "fa-instagram",
+                                "fa-linkedin-in",
+                            ],
+                        },
+                        {
+                            name: "Yasha Sharma",
+                            role: "Director",
+                            image: "/home/alila-fort-wedding-photographer-marionco-2988.jpg",
+                            bio: "Bringing a fresh perspective and modern sensibility to shape the future where tradition meets innovation. Yasha focuses on the intricate details that make every experiential wedding unique and unforgettable.",
+                            socials: [
+                                "fa-facebook-f",
+                                "fa-instagram",
+                                "fa-linkedin-in",
+                            ],
+                        },
+                    ].map((member) => (
+                        <div class="bg-white rounded-4xl md:rounded-[3rem] p-6 md:p-10 flex flex-col md:flex-row gap-8 md:gap-16 items-center border border-black/5 hover:shadow-xl transition-all duration-700">
+                            <div class="w-full md:w-1/3 aspect-4/3 md:aspect-square overflow-hidden rounded-2xl md:rounded-4xl">
+                                <img
+                                    src={member.image}
+                                    alt={member.name}
+                                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-110 hover:scale-100"
+                                />
+                            </div>
+                            <div class="w-full md:w-2/3 flex flex-col justify-between py-4 space-y-8">
+                                <div class="space-y-6">
+                                    <div class="flex justify-between items-center border-b border-gray-100 pb-4">
+                                        <h3 class="font-aventa text-2xl md:text-3xl font-bold text-black border-none">
+                                            {member.name}
+                                        </h3>
+                                        <span class="font-orlean text-sm uppercase tracking-widest text-[#d4af37]">
+                                            {member.role}
+                                        </span>
+                                    </div>
+                                    <p class="font-aventa text-base md:text-lg text-gray-500 leading-relaxed">
+                                        {member.bio}
+                                    </p>
+                                </div>
+                                <div class="flex flex-col sm:flex-row justify-between items-center pt-6 gap-6">
+                                    <div class="flex gap-4">
+                                        {member.socials.map((icon) => (
+                                            <a
+                                                href="#"
+                                                class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-black hover:text-white hover:border-black transition-all"
+                                            >
+                                                <i
+                                                    class={`fab ${icon} text-sm`}
+                                                />
+                                            </a>
+                                        ))}
+                                    </div>
+                                    <a
+                                        href="/contact"
+                                        class="bg-black text-white px-8 md:px-10 py-3 md:py-4 rounded-full font-aventa text-sm uppercase tracking-widest hover:bg-primary-100 transition-all"
+                                    >
+                                        Know More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 md:py-32 bg-white">
+        <div class="px-6 lg:px-24">
+            <div class="mb-20 space-y-4">
+                <p
+                    class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-primary-100"
+                >
+                    The Fraternity
+                </p>
+                <h2 class="sub-heading text-black">
+                    Group of <span class="text-gray-300">Companies</span>
+                </h2>
+            </div>
+
+            <div class="swiper companies-slider group overflow-hidden">
+                <div class="swiper-wrapper">
+                    {
+                        groupCompanies.map((company, i) => (
+                            <div class="swiper-slide w-full md:w-md h-auto!">
+                                <div class="h-full bg-white border border-black/5 p-10 md:p-12 rounded-4xl md:rounded-[3.5rem] flex flex-col justify-between space-y-12 hover:border-black transition-all duration-700">
+                                    <span class="font-orlean text-[4rem] text-gray-300 leading-none">
+                                        0{i + 1}
+                                    </span>
+                                    <div class="space-y-6">
+                                        <h3 class="sec-heading font-medium uppercase leading-none text-black">
+                                            {company.name}
+                                        </h3>
+                                        <p class="font-aventa text-sm uppercase tracking-widest text-gray-500">
+                                            {company.fullName}
+                                        </p>
+                                        <p class="font-aventa text-base text-gray-500 leading-relaxed italic">
+                                            "{company.desc}"
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+                <div class="swiper-pagination company-pagination static! mt-20">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section
+        class="flex-none w-full h-full flex items-center px-6 lg:px-16 max-lg:py-20 bg-[#f9f9f9]"
+    >
+        <div
+            class="flex flex-col lg:flex-row gap-20 items-center min-h-screen w-full"
+        >
+            <div class="space-y-8 lg:w-2/5">
+                <h2 class="sub-heading uppercase leading-none text-black">
+                    Client<br /><span class="text-[#d4af37]">Stories</span>
+                </h2>
+                <p
+                    class="font-aventa text-[1.6rem] md:text-[1.8rem] leading-relaxed text-[#555]"
+                >
+                    Reflecting the trust couples place in us to execute their
+                    most special moments.
+                </p>
+            </div>
+
+            <div class="w-full lg:w-3/5">
+                <div
+                    class="swiper testimonial-swiper overflow-hidden relative border border-black/5 bg-white h-fit"
+                >
+                    <div class="swiper-wrapper">
+                        {
+                            [
+                                {
+                                    quote: "They successfully organised engaging activities and entertainment for our guests, resulting in an enjoyable experience for everyone involved.",
+                                    author: "Ayushree & Saharsh",
+                                },
+                                {
+                                    quote: "The team passionately incorporated all of these elements into the wedding without hesitation, even utilising environmentally friendly and NGO-based resources.",
+                                    author: "Illika & Brenden",
+                                },
+                                {
+                                    quote: "Mapsor took care of every detail, allowing us to fully immerse ourselves in the joy of wedding day. They are simply exceptional!",
+                                    author: "Girija",
+                                },
+                            ].map((t) => (
+                                <div class="swiper-slide p-6 lg:p-20">
+                                    <p class="font-aventa text-lg md:text-[1.8rem] leading-relaxed italic text-gray-700">
+                                        "{t.quote}"
+                                    </p>
+                                    <footer class="font-orlean text-[1rem] uppercase tracking-[0.2rem] text-[#d4af37] pt-8 border-t border-gray-100 mt-8">
+                                        — {t.author}
+                                    </footer>
+                                </div>
+                            ))
+                        }
+                    </div>
+                    <div class="swiper-pagination static! mt-12 mb-8"></div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <style is:global>
+        .testimonial-swiper .swiper-pagination-bullet,
+        .company-pagination .swiper-pagination-bullet {
+            width: 12px !important;
+            height: 12px !important;
+            background: #ccc !important;
+            opacity: 1 !important;
+            transition: all 0.5s ease !important;
+            border-radius: 99px !important;
+        }
+        .testimonial-swiper .swiper-pagination-bullet-active,
+        .company-pagination .swiper-pagination-bullet-active {
+            background: #000 !important;
+            width: 40px !important;
+        }
+    </style>
+
+    <script>
+        import { gsap } from "gsap";
+        import { ScrollTrigger } from "gsap/ScrollTrigger";
+        import Swiper from "swiper";
+        import { Autoplay, Pagination } from "swiper/modules";
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Initialize Testimonial Swiper
+        new Swiper(".testimonial-swiper", {
+            modules: [Autoplay, Pagination],
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        // Initialize About Slider
+        new Swiper(".about-slider", {
+            modules: [Autoplay],
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            loop: true,
+            speed: 1000,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        });
+
+        // Initialize Company Slider
+        new Swiper(".companies-slider", {
+            modules: [Autoplay, Pagination],
+            slidesPerView: "auto",
+            spaceBetween: 32,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".company-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</BaseLayout>

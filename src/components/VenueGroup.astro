@@ -1,0 +1,35 @@
+---
+import RadioInput from "./RadioInput.astro";
+
+export interface Props {
+  name?: string;
+}
+
+const { name = "venueFinalized" } = Astro.props;
+---
+
+<div>
+  <label
+    class="block text-2xl lg:text-4xl uppercase tracking-wide text-gray-500 mb-3"
+  >
+    Is the venue finalized?
+  </label>
+
+  <div class="flex gap-4 mb-4">
+    <RadioInput
+      id="venueFinalizedYes"
+      name={name}
+      value="yes"
+      label="Yes"
+      onchange="toggleVenue(true)"
+    />
+
+    <RadioInput
+      id="venueFinalizedNo"
+      name={name}
+      value="no"
+      label="No"
+      onchange="toggleVenue(false)"
+    />
+  </div>
+</div>

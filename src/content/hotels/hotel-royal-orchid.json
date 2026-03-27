@@ -1,0 +1,130 @@
+{
+  "name": "Hotel Royal Orchid Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Orchid Lawn",
+      "capacity": "700",
+      "image": "/assets/hotels/hotel-royal-orchid/events/1735888969-Orchid_Lawn.webp"
+    },
+    {
+      "name": "Chambers",
+      "capacity": "45",
+      "image": "/assets/hotels/hotel-royal-orchid/events/1735888952-Chambers.webp"
+    },
+    {
+      "name": "Senate",
+      "capacity": "40",
+      "image": "/assets/hotels/hotel-royal-orchid/events/1735888931-Senate.webp"
+    },
+    {
+      "name": "Crystal",
+      "capacity": "450",
+      "image": "/assets/hotels/hotel-royal-orchid/events/1735888914-Crystal.webp"
+    },
+    {
+      "name": "Crystal",
+      "capacity": "450",
+      "image": "/assets/hotels/hotel-royal-orchid/events/1735888914-Crystal.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Suite",
+      "description": "Suite (66 Sq. Mt)",
+      "roomImages": [
+        "/assets/hotels/hotel-royal-orchid/rooms/1735888697-Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Plunge Pool Suite",
+      "description": "Plunge Pool Suite (74 Sq. Mt)",
+      "roomImages": [
+        "/assets/hotels/hotel-royal-orchid/rooms/1735888720-Plunge_Pool_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Plunge Pool Room",
+      "description": "Plunge Pool Room (54 Sq. Mt)",
+      "roomImages": [
+        "/assets/hotels/hotel-royal-orchid/rooms/1735888740-Plunge_Pool_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Club Room",
+      "description": "Club Room (31 Sq. Mt)",
+      "roomImages": [
+        "/assets/hotels/hotel-royal-orchid/rooms/1735888762-Club_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room (31 Sq. Mt)",
+      "roomImages": [
+        "/assets/hotels/hotel-royal-orchid/rooms/1735888781-Deluxe_Room.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jhalana Safari",
+      "distance": "6.5 KM"
+    },
+    {
+      "name": "Hot Air Balloon Ride",
+      "distance": "7.7 KM"
+    },
+    {
+      "name": "MOTI DUNGRI",
+      "distance": "7 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "15 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "10 KM"
+    },
+    {
+      "name": "Amer Fort",
+      "distance": "19 KM"
+    },
+    {
+      "name": "Nahargarh Fort",
+      "distance": "22 KM"
+    },
+    {
+      "name": "Govind Dev Ji Temple",
+      "distance": "11 KM"
+    },
+    {
+      "name": "Galta Monkey Temple",
+      "distance": "15 KM"
+    }
+  ],
+  "contact": {
+    "address": "Opposite to BSNL Office Near, Durgapura Flyover, Tonk Rd, Durgapura, Jaipur, Rajasthan 302018",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/hotel-royal-orchid/main/1735888628-bg.webp",
+  "gallery": [
+    "/assets/hotels/hotel-royal-orchid/gallery/Crystal.webp",
+    "/assets/hotels/hotel-royal-orchid/gallery/Orchid_Lawn.webp",
+    "/assets/hotels/hotel-royal-orchid/gallery/Plunge_Pool_Room.webp",
+    "/assets/hotels/hotel-royal-orchid/gallery/Plunge_Pool_Suite.webp",
+    "/assets/hotels/hotel-royal-orchid/gallery/pool.webp",
+    "/assets/hotels/hotel-royal-orchid/gallery/Tiger_Trail_(Fine_Dining).webp"
+  ],
+  "locationId": "jaipur"
+}

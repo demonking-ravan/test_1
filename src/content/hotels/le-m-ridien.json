@@ -1,0 +1,118 @@
+{
+  "name": "Le Méridien Jaipur Resort & Spa",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Amer Lawn",
+      "capacity": "2500",
+      "image": "/assets/hotels/le-m-ridien/events/1735304454-gaare.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Premium, Larger Guest room, 2 Twin/Single Bed",
+      "description": "Premium, Larger Guest room, 2 Twin/Single Bed(s)",
+      "roomImages": [
+        "/assets/hotels/le-m-ridien/rooms/1735303931-premieumlarger1.webp"
+      ]
+    },
+    {
+      "roomType": "Guest room, 1 King",
+      "description": "Guest room, 1 King",
+      "roomImages": [
+        "/assets/hotels/le-m-ridien/rooms/1735303986-room.webp"
+      ]
+    },
+    {
+      "roomType": "Guest room, 2 Twin/Single Bed",
+      "description": "Guest room, 2 Twin/Single Bed(s)",
+      "roomImages": [
+        "/assets/hotels/le-m-ridien/rooms/1735304072-twin-guestroom2.webp"
+      ]
+    },
+    {
+      "roomType": "Larger Guest room, 1 King",
+      "description": "Larger Guest room, 1 King",
+      "roomImages": [
+        "/assets/hotels/le-m-ridien/rooms/1735304096-larger-guest-room-1king.webp"
+      ]
+    },
+    {
+      "roomType": "Larger Guest room, 2 Twin/Single Bed",
+      "description": "Larger Guest room, 2 Twin/Single Bed(s)",
+      "roomImages": [
+        "/assets/hotels/le-m-ridien/rooms/1735304127-larger-guest-room-2king.webp"
+      ]
+    },
+    {
+      "roomType": "Villa, 1 King",
+      "description": "Villa, 1 King",
+      "roomImages": [
+        "/assets/hotels/le-m-ridien/rooms/1735304161-jaimd-villa-king-gardenview-1195-hor-wide.webp"
+      ]
+    },
+    {
+      "roomType": "Suite, 1 King",
+      "description": "Suite, 1 King",
+      "roomImages": [
+        "/assets/hotels/le-m-ridien/rooms/1735304190-suite1king.webp"
+      ]
+    },
+    {
+      "roomType": "2 Bedroom Presidential Suite, 2 King",
+      "description": "2 Bedroom Presidential Suite, 2 King",
+      "roomImages": [
+        "/assets/hotels/le-m-ridien/rooms/1735304237-2bedroom_presidential-room.webp"
+      ]
+    },
+    {
+      "roomType": "Premium, Larger Guest room, 1 King",
+      "description": "Premium, Larger Guest room, 1 King",
+      "roomImages": [
+        "/assets/hotels/le-m-ridien/rooms/1735304267-premier_larger_guest_room.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Amer Fort",
+      "distance": "9.0 KM"
+    },
+    {
+      "name": "The Leela Palace",
+      "distance": "3.2 KM"
+    },
+    {
+      "name": "Airport",
+      "distance": "29.7 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "17.8 KM"
+    }
+  ],
+  "contact": {
+    "address": "Number 1 Riico, Kukas, Rajasthan 302028",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/le-m-ridien/main/1735303854-exterior.webp",
+  "gallery": [
+    "/assets/hotels/le-m-ridien/gallery/bar.webp",
+    "/assets/hotels/le-m-ridien/gallery/boardroom.webp",
+    "/assets/hotels/le-m-ridien/gallery/hall.webp",
+    "/assets/hotels/le-m-ridien/gallery/latest-recepie.webp",
+    "/assets/hotels/le-m-ridien/gallery/premier_larger_guest_room.webp",
+    ""
+  ],
+  "locationId": "jaipur"
+}

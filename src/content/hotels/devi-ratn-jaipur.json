@@ -1,0 +1,100 @@
+{
+  "name": "Devi Ratn Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Centre Pavilion",
+      "capacity": "NA",
+      "image": "/assets/hotels/devi-ratn-jaipur/events/1735295173-Centre_Pavilion.webp"
+    },
+    {
+      "name": "Adya Ballroom & Lawn",
+      "capacity": "1000",
+      "image": "/assets/hotels/devi-ratn-jaipur/events/1735295153-Adya_Ballroom_&_Lawn.webp"
+    },
+    {
+      "name": "Meeting Room",
+      "capacity": "60",
+      "image": "/assets/hotels/devi-ratn-jaipur/events/1735295119-Meeting_Room_1.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Luxury Room King Bed",
+      "description": "Luxury Room King Bed (51 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/devi-ratn-jaipur/rooms/1735294853-luxury_room_king_bed.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Room Twin Bed",
+      "description": "Luxury Room Twin Bed (51 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/devi-ratn-jaipur/rooms/1735294874-Luxury_Room_Twin_Bed_with_WiFi.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Luxury Room King Bed",
+      "description": "Grand Luxury Room King Bed (55 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/devi-ratn-jaipur/rooms/1735294917-Grand_Luxury_Room_King_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Jaipur Suite King Bed",
+      "description": "Jaipur Suite King Bed (65 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/devi-ratn-jaipur/rooms/1735294944-Jaipur_suite-king-bed.webp"
+      ]
+    },
+    {
+      "roomType": "SeleQtions Villa King bed",
+      "description": "SeleQtions Villa King bed (176 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/devi-ratn-jaipur/rooms/1735294967-SeleQtions_Villa_King_bed.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "21.2 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "10.3 KM"
+    },
+    {
+      "name": "Nahargarh Fort",
+      "distance": "19.5 KM"
+    },
+    {
+      "name": "Amber Fort",
+      "distance": "14.2 KM"
+    }
+  ],
+  "contact": {
+    "address": "Tehsil, Agra Rd, Jamdoli, Ballupura, Rajasthan 302031",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/devi-ratn-jaipur/main/1735294767-main.webp",
+  "gallery": [
+    "/assets/hotels/devi-ratn-jaipur/gallery/Adya_Ballroom_&_Lawn.webp",
+    "/assets/hotels/devi-ratn-jaipur/gallery/Centre_Pavilion.webp",
+    "/assets/hotels/devi-ratn-jaipur/gallery/Dhara.webp",
+    "/assets/hotels/devi-ratn-jaipur/gallery/Grand_Luxury_Room_King_Bed.webp",
+    "/assets/hotels/devi-ratn-jaipur/gallery/poolside-cafe.webp",
+    "/assets/hotels/devi-ratn-jaipur/gallery/Villa_Lawn.webp"
+  ],
+  "locationId": "jaipur"
+}

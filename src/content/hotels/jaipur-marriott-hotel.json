@@ -1,0 +1,95 @@
+{
+  "name": "Jaipur Marriott Hotel",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Ruby Ballroom",
+      "capacity": "500",
+      "image": "/assets/hotels/jaipur-marriott-hotel/events/1735815878-jaimc-ballroom-6709-hor-clsc.webp"
+    },
+    {
+      "name": "Sapphire Ballroom",
+      "capacity": "450",
+      "image": "/assets/hotels/jaipur-marriott-hotel/events/1735815854-sapphire_ballroom.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Guest room, 1 King",
+      "description": "Guest room, 1 King",
+      "roomImages": [
+        "/assets/hotels/jaipur-marriott-hotel/rooms/1735815511-guest_room_1king.webp"
+      ]
+    },
+    {
+      "roomType": "Guest room, 2 Twin/Single Bed",
+      "description": "Guest room, 2 Twin/Single Bed(s)",
+      "roomImages": [
+        "/assets/hotels/jaipur-marriott-hotel/rooms/1735815542-guest_room_2_twin_1single_bed.webp"
+      ]
+    },
+    {
+      "roomType": "Executive, Guest room, 1 King",
+      "description": "Executive, Guest room, 1 King",
+      "roomImages": [
+        "/assets/hotels/jaipur-marriott-hotel/rooms/1735815572-executive_guest_room_1king_bed.webp"
+      ]
+    },
+    {
+      "roomType": "Executive, Guest room, 2 Twin/Single Bed",
+      "description": "Executive, Guest room, 2 Twin/Single Bed",
+      "roomImages": [
+        "/assets/hotels/jaipur-marriott-hotel/rooms/1735815599-executive_guest_room_2_twin_1single.webp"
+      ]
+    },
+    {
+      "roomType": "Suite, 1 King",
+      "description": "Suite, 1 King",
+      "roomImages": [
+        "/assets/hotels/jaipur-marriott-hotel/rooms/1735815617-suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "2.2 KM"
+    },
+    {
+      "name": "City Palace Jaipur",
+      "distance": "10.8 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "12 KM"
+    },
+    {
+      "name": "World Trade Park",
+      "distance": "3.7 KM"
+    }
+  ],
+  "contact": {
+    "address": "Near, Ashram Marg, Jawahar Circle, Jaipur, Rajasthan 302015",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/jaipur-marriott-hotel/main/1729139017-Jaipur Marriott Hotel.webp",
+  "gallery": [
+    "/assets/hotels/jaipur-marriott-hotel/gallery/executive_guest_room_1king_bed.webp",
+    "/assets/hotels/jaipur-marriott-hotel/gallery/jaimc-ballroom-6709-hor-clsc.webp",
+    "/assets/hotels/jaipur-marriott-hotel/gallery/jaimc-dining-5323-hor-clsc.webp",
+    "/assets/hotels/jaipur-marriott-hotel/gallery/lounge_18.webp",
+    "/assets/hotels/jaipur-marriott-hotel/gallery/okra.webp",
+    "/assets/hotels/jaipur-marriott-hotel/gallery/poolside.webp"
+  ],
+  "locationId": "jaipur"
+}

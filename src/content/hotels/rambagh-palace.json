@@ -1,0 +1,162 @@
+{
+  "name": "Taj Rambagh Palace",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Maharani Mahal",
+      "capacity": "450",
+      "image": "/assets/hotels/rambagh-palace/events/1735297918-maharni-mahal.webp"
+    },
+    {
+      "name": "Chandra Mahal",
+      "capacity": "50",
+      "image": "/assets/hotels/rambagh-palace/events/1735297863-chandra-mahal.webp"
+    },
+    {
+      "name": "Sabha Niwas",
+      "capacity": "15",
+      "image": "/assets/hotels/rambagh-palace/events/1735297831-sabhniwas.webp"
+    },
+    {
+      "name": "Oriental Terrace",
+      "capacity": "50",
+      "image": "/assets/hotels/rambagh-palace/events/1735297805-oriental-terrace.webp"
+    },
+    {
+      "name": "Oriental Terrace",
+      "capacity": "50",
+      "image": "/assets/hotels/rambagh-palace/events/1735297805-oriental-terrace.webp"
+    },
+    {
+      "name": "Panghat Lawn",
+      "capacity": "350",
+      "image": "/assets/hotels/rambagh-palace/events/image-1651233105.jpeg"
+    },
+    {
+      "name": "Panghat Lawn",
+      "capacity": "350",
+      "image": "/assets/hotels/rambagh-palace/events/1735297785-panghat-lawn.webp"
+    },
+    {
+      "name": "Naksha Garden",
+      "capacity": "2000",
+      "image": "/assets/hotels/rambagh-palace/events/1735297755-naksha-garden.webp"
+    },
+    {
+      "name": "Oriental Garden",
+      "capacity": "250",
+      "image": "/assets/hotels/rambagh-palace/events/1735297717-oriental-garden.webp"
+    },
+    {
+      "name": "Mughal Garden",
+      "capacity": "300",
+      "image": "/assets/hotels/rambagh-palace/events/1735297690-mughal-garden.webp"
+    },
+    {
+      "name": "Mughal Terrace",
+      "capacity": "200",
+      "image": "/assets/hotels/rambagh-palace/events/1735297673-mughal-terrace.webp"
+    },
+    {
+      "name": "Chambers of Princes",
+      "capacity": "15",
+      "image": "/assets/hotels/rambagh-palace/events/1735297655-chamberof-princes.webp"
+    },
+    {
+      "name": "Sunken Lawn",
+      "capacity": "200",
+      "image": "/assets/hotels/rambagh-palace/events/1735297634-sunken-lawn.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Palace Room",
+      "description": "Palace Room (46-51 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/rambagh-palace/rooms/1735296230-Palace_Room_Garden_View.webp"
+      ]
+    },
+    {
+      "roomType": "Historical Suite",
+      "description": "Historical Suite (65-70 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/rambagh-palace/rooms/1735296364-Historical_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Suite",
+      "description": "Royal Suite (102-107 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/rambagh-palace/rooms/1735296385-Royal_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Royal Suite",
+      "description": "Grand Royal Suite (139-144 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/rambagh-palace/rooms/1735296422-Grand_Royal_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Presidential Suite",
+      "description": "Grand Presidential Suite (167 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/rambagh-palace/rooms/1735296442-Grand_Presidential_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Room",
+      "description": "Luxury Room (28-33 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/rambagh-palace/rooms/1735297070-Luxury_Room_Garden_View.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Airport",
+      "distance": "10.5 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "6.4 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "8.3 KM"
+    },
+    {
+      "name": "World Trade Park",
+      "distance": "7.5 KM"
+    },
+    {
+      "name": "Albert Hall Museum",
+      "distance": "4.5 KM"
+    }
+  ],
+  "contact": {
+    "address": "Bhawani Singh Rd, Rambagh, Jaipur, Rajasthan 302005",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/rambagh-palace/main/1766740825-02d5266ba2e7a05097c8aa5c6f5533095f8b50fc-3840x1860.avif",
+  "gallery": [
+    "/assets/hotels/rambagh-palace/gallery/Dining-1.webp",
+    "/assets/hotels/rambagh-palace/gallery/Grand_Royal_Suite.webp",
+    "/assets/hotels/rambagh-palace/gallery/maharni-mahal.webp",
+    "/assets/hotels/rambagh-palace/gallery/oriental-garden.webp",
+    "/assets/hotels/rambagh-palace/gallery/sunken-lawn.webp",
+    "/assets/hotels/rambagh-palace/gallery/view2.webp",
+    "/assets/hotels/rambagh-palace/gallery/view4.webp"
+  ],
+  "locationId": "jaipur"
+}

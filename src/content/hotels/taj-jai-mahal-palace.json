@@ -1,0 +1,99 @@
+{
+  "name": "Taj Jai Mahal Palace",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Lotus Pond",
+      "capacity": "200",
+      "image": "/assets/hotels/taj-jai-mahal-palace/events/image-1650093470.png"
+    },
+    {
+      "name": "Celebration Lawns",
+      "capacity": "100",
+      "image": "/assets/hotels/taj-jai-mahal-palace/events/image-1650093307.jpeg"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Luxury Room Garden View",
+      "description": "Luxury Room Garden View",
+      "roomImages": [
+        "/assets/hotels/taj-jai-mahal-palace/rooms/1735206932-Luxury_room_garden.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Room With Sit out Garden View",
+      "description": "Luxury Room With Sit out Garden View",
+      "roomImages": [
+        "/assets/hotels/taj-jai-mahal-palace/rooms/1735207026-Room-image-1650091948.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/taj-jai-mahal-palace/rooms/1735207077-Deluxe_Suite_1_Bedroom_King_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Premium Suite",
+      "description": "Deluxe Premium Suite",
+      "roomImages": [
+        "/assets/hotels/taj-jai-mahal-palace/rooms/1735207127-Heritage_room_King_Bed.webp"
+      ]
+    },
+    {
+      "roomType": "Suite Room",
+      "description": "Suite Room",
+      "roomImages": [
+        "/assets/hotels/taj-jai-mahal-palace/rooms/1735207333-Room-image-1650450318.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Hotel ITC Rajputana",
+      "distance": "1 KM"
+    },
+    {
+      "name": "Hotel Hilton",
+      "distance": "2 KM"
+    },
+    {
+      "name": "Railway Station",
+      "distance": "1.5 KM"
+    },
+    {
+      "name": "Airport",
+      "distance": "8 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "15 KM"
+    }
+  ],
+  "contact": {
+    "address": "Jacob Rd, Civil Lines, Jaipur, Rajasthan 302006",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/taj-jai-mahal-palace/main/1735206751-bg.webp",
+  "gallery": [
+    "/assets/hotels/taj-jai-mahal-palace/gallery/banquet.webp",
+    "/assets/hotels/taj-jai-mahal-palace/gallery/Fountain_Lawns.webp",
+    "/assets/hotels/taj-jai-mahal-palace/gallery/Lotus_Pond.webp",
+    "/assets/hotels/taj-jai-mahal-palace/gallery/Luxury_Room_With_Sit_out_Garden_View.webp",
+    "/assets/hotels/taj-jai-mahal-palace/gallery/Silver_Oak.webp",
+    "/assets/hotels/taj-jai-mahal-palace/gallery/view-2.webp"
+  ],
+  "locationId": "jaipur"
+}

@@ -1,0 +1,186 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+/* Aventa Font Family */
+@font-face {
+    font-family: 'Aventa';
+    src: url('/fonts/Aventa-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aventa';
+    src: url('/fonts/Aventa-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Orlean Font */
+@font-face {
+    font-family: 'Orlean';
+    src: url('/fonts/orlean-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@theme {
+    --color-primary-100: #f3829c;
+    --color-primary: #f69b89;
+
+    --font-aventa: 'Aventa', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-orlean: 'Orlean', Georgia, serif;
+}
+
+.heading {
+    @apply font-orlean text-[5rem] lg:text-[10rem]
+}
+
+.sub-heading {
+    @apply font-orlean text-[3.3rem] sm:text-[4rem] leading-[100%] tracking-wide font-semibold;
+}
+
+.sec-heading {
+    @apply font-orlean text-[1.8rem] md:text-[2.8rem] leading-[100%]
+}
+
+.footer-heading {
+    @apply font-orlean text-[1.4rem] md:text-[2.2rem]
+}
+
+.footer-text {
+    @apply text-lg;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+.textM {
+    @apply font-aventa text-[1.6rem] md:text-[1.8rem] leading-relaxed text-[#555];
+}
+
+*/
+/* html {
+    font-size: .5208333333vw;
+}
+
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 2.2727272727vw
+    }
+
+    .form-input {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (orientation:portrait) {
+    html {
+        font-size: 2.2727272727vw
+    }
+}
+
+@media screen and (min-width: 482px) and (max-width:991px) {
+    html {
+        font-size: 1.3020833333vw
+    }
+}
+
+@media (min-width: 992px) and (orientation:portrait) {
+    html {
+        font-size: 1.6666666667vw
+    }
+} */
+
+/* Minimalist Input Style */
+.form-input {
+    background-color: transparent;
+    border-bottom-width: 1px;
+    border-color: #9ca3af;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-size: 2.3rem;
+}
+
+
+
+.form-input:focus {
+    border-color: #0f172a;
+}
+
+/* Pill Selection Styles */
+.pill-checkbox:checked+div,
+.pill-radio:checked+div {
+    background-color: #0f172a;
+    color: white;
+    border-color: #0f172a;
+}
+
+/* Hide Scrollbar for modal content */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.error {
+    border-color: #fb2c36 !important;
+}
+
+
+.nav-link {
+    @apply font-aventa text-[.7rem] uppercase tracking-[0.2em] font-medium text-black hover:text-primary-100 transition-colors duration-300;
+}
+
+.dropdown-menu {
+    @apply absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[24rem] bg-[#f2efed] p-8 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 flex flex-col gap-6 text-center rounded-xl;
+}
+
+.dropdown-item {
+    @apply font-aventa text-[.7rem] uppercase tracking-widest text-[#666] hover:text-black transition-colors;
+}
+
+.mobile-nav-link {
+    @apply font-aventa text-[1rem] uppercase tracking-widest text-black hover:text-primary-100;
+}
+
+.mobile-nav-sublink {
+    @apply font-aventa text-[.8rem] text-gray-600 uppercase tracking-wider;
+}
+
+/* Hide on Scroll */
+.header-hidden {
+    transform: translateY(-100%);
+}
+
+/* Lenis Smooth Scroll */
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}

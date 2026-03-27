@@ -1,0 +1,241 @@
+{
+  "name": "Fairmont Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "SITARA ROOF TOP",
+      "capacity": "1500",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748346-acf_p_B026_74_8by10.webp"
+    },
+    {
+      "name": "THE UDAI BAGH",
+      "capacity": "500",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748408-acf_p_B026_75_11by5.webp"
+    },
+    {
+      "name": "IVORY GARDEN",
+      "capacity": "800",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748209-met_p_a097-53_8by10.webp"
+    },
+    {
+      "name": "CHAND BAORI",
+      "capacity": "600",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748199-met_p_a097-53_8by10.webp"
+    },
+    {
+      "name": "CHAND BAORI",
+      "capacity": "600",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748199-met_p_a097-53_8by10.webp"
+    },
+    {
+      "name": "JASHN PALACE GARDEN",
+      "capacity": "2000",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748188-met_p_a097-53_8by10.webp"
+    },
+    {
+      "name": "ROYAL ROOM",
+      "capacity": "24",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748177-met_p_a097-53_8by10.webp"
+    },
+    {
+      "name": "REGAL ROOM",
+      "capacity": "60",
+      "image": "/assets/hotels/fairmont-udaipur/events/1735289648-Udaimahal_Banquet.webp"
+    },
+    {
+      "name": "DIALOGUE 05",
+      "capacity": "120",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748162-acf_p_B026_74_8by10.webp"
+    },
+    {
+      "name": "DIALOGUE 04",
+      "capacity": "60",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748147-acf_p_B026_74_8by10.webp"
+    },
+    {
+      "name": "DIALOGUE 03",
+      "capacity": "10",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748137-acf_p_B026_74_8by10.webp"
+    },
+    {
+      "name": "DIALOGUE 02",
+      "capacity": "10",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748128-acf_p_B026_74_8by10.webp"
+    },
+    {
+      "name": "DIALOGUE 01",
+      "capacity": "10",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748117-acf_p_B026_74_8by10.webp"
+    },
+    {
+      "name": "IMPERIAL BALLROOM TERRACE",
+      "capacity": "500",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748102-acf_p_B026_75_11by5.webp"
+    },
+    {
+      "name": "IMPERIAL BALLROOM PFA",
+      "capacity": "NA",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748089-acf_p_B026_75_11by5.webp"
+    },
+    {
+      "name": "IMPERIAL BALLROOM",
+      "capacity": "400",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748080-acf_p_B026_75_11by5.webp"
+    },
+    {
+      "name": "UDAI MAHAL TERRACE",
+      "capacity": "500",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748303-met_p_a097-59_11by5.webp"
+    },
+    {
+      "name": "UDAI MAHAL COLONNADE",
+      "capacity": "NA",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748294-met_p_a097-59_11by5.webp"
+    },
+    {
+      "name": "UDAI MAHAL PFA",
+      "capacity": "NA",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748281-met_p_a097-59_11by5.webp"
+    },
+    {
+      "name": "UDAI MAHAL 2",
+      "capacity": "650",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748272-met_p_a097-59_11by5.webp"
+    },
+    {
+      "name": "UDAI MAHAL 1",
+      "capacity": "650",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748261-met_p_a097-59_11by5.webp"
+    },
+    {
+      "name": "UDAI MAHAL",
+      "capacity": "1350",
+      "image": "/assets/hotels/fairmont-udaipur/events/1766748247-met_p_a097-59_11by5.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Fairmont King Room",
+      "description": "Fairmont King Room",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766746887-acf_p_B015_11_3by2.webp"
+      ]
+    },
+    {
+      "roomType": "Fairmont Twin Room",
+      "description": "Fairmont Twin Room",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766746913-acf_p_B015_19_3by2.webp"
+      ]
+    },
+    {
+      "roomType": "Fairmont King Room With Terrace And Cabana",
+      "description": "Fairmont King Room With Terrace And Cabana",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766746938-acf_p_B015_14_3by2.webp"
+      ]
+    },
+    {
+      "roomType": "Fairmont Twin Room With Terrace And Cabana",
+      "description": "Fairmont Twin Room With Terrace And Cabana",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766746966-acf_p_B015_19_3by2_(1).webp"
+      ]
+    },
+    {
+      "roomType": "Fairmont King Room With Plunge Pool",
+      "description": "Fairmont King Room With Plunge Pool",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766746992-acf_p_B015_11_3by2.webp"
+      ]
+    },
+    {
+      "roomType": "Fairmont Twin Room With Plunge Pool",
+      "description": "Fairmont Twin Room With Plunge Pool",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766747011-acf_p_B015_19_3by2.webp"
+      ]
+    },
+    {
+      "roomType": "Signature King Room With Plunge Pool And Cabana",
+      "description": "Signature King Room With Plunge Pool And Cabana",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766747037-acf_p_B015_14_3by2.webp"
+      ]
+    },
+    {
+      "roomType": "Signature Twin Room With Plunge Pool And Cabana",
+      "description": "Signature Twin Room With Plunge Pool And Cabana",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766747061-acf_p_B015_13_3by2.webp"
+      ]
+    },
+    {
+      "roomType": "Signature King Room",
+      "description": "Signature King Room",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766747081-acf_p_B015_19_3by2_(2).webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Suite",
+      "description": "Deluxe Suite",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766747107-acf_p_B015_09_3by2.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Suite with Plunge Pool",
+      "description": "Deluxe Suite with Plunge Pool",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766747158-acf_p_B015_19_3by2_(3).webp"
+      ]
+    },
+    {
+      "roomType": "Rajputana Suite with Terrace",
+      "description": "Rajputana Suite with Terrace",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766747181-acf_p_B015_11_3by2_(1).webp"
+      ]
+    },
+    {
+      "roomType": "Jewel of Udaipur Suite with Plunge Pool and Terrace",
+      "description": "Jewel of Udaipur Suite with Plunge Pool and Terrace",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766747204-acf_p_B015_15_3by2.webp"
+      ]
+    },
+    {
+      "roomType": "Regal Mewar Suite",
+      "description": "Regal Mewar Suite",
+      "roomImages": [
+        "/assets/hotels/fairmont-udaipur/rooms/1766747228-acf_p_B015_17_3by2.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [],
+  "contact": {
+    "address": "Udaipur, Rajasthan",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/fairmont-udaipur/main/1766749523-acf_p_B026_76_11by5_(1).webp",
+  "gallery": [
+    "/assets/hotels/fairmont-udaipur/gallery/Bahaar.webp",
+    "/assets/hotels/fairmont-udaipur/gallery/Deluxe_Suite_Bedroom.webp",
+    "/assets/hotels/fairmont-udaipur/gallery/Fairmont_Room_With_Cabanas.webp",
+    "/assets/hotels/fairmont-udaipur/gallery/Palace_Lobby_2.webp",
+    "/assets/hotels/fairmont-udaipur/gallery/Palace_Lobby.webp",
+    "/assets/hotels/fairmont-udaipur/gallery/Udaimahal_Banquet.webp"
+  ],
+  "locationId": "udaipur"
+}

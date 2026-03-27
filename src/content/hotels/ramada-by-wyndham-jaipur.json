@@ -1,0 +1,107 @@
+{
+  "name": "Ramada by Wyndham Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Galaxy Ballroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/ramada-by-wyndham-jaipur/events/1735887715-galaxy_ballroom.webp"
+    },
+    {
+      "name": "Mercury Boardroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/ramada-by-wyndham-jaipur/events/1735887700-mercury_boardroom.webp"
+    },
+    {
+      "name": "Jupiter Banquet Hall",
+      "capacity": "NA",
+      "image": "/assets/hotels/ramada-by-wyndham-jaipur/events/1735887681-jupiter_banquet_hall.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Two Twin Bed Deluxe Room",
+      "description": "Two Twin Bed Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur/rooms/1735887054-2_Twin_Beds_Deluxe_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Two Twin Bed Club Room",
+      "description": "Two Twin Bed Club Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur/rooms/1735887027-Two_Twin_Bed_Club_Room.webp"
+      ]
+    },
+    {
+      "roomType": "One Double Bed Deluxe Room",
+      "description": "One Double Bed Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur/rooms/1735887086-1_Double_Bed_Deluxe_Room.webp"
+      ]
+    },
+    {
+      "roomType": "One Double Bed Club Room",
+      "description": "One Double Bed Club Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur/rooms/1735887360-1_Double_Bed_Deluxe_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Two Twin Bed Accessible Room",
+      "description": "Two Twin Bed Accessible Room",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur/rooms/1676962201-2_Twin_Beds_Deluxe_Room.jpg"
+      ]
+    },
+    {
+      "roomType": "One Double Bed Suite",
+      "description": "One Double Bed Suite",
+      "roomImages": [
+        "/assets/hotels/ramada-by-wyndham-jaipur/rooms/1735887501-1_Double_Bed_Suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Albert Hall Museum",
+      "distance": "2.6 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "4.3 KM"
+    },
+    {
+      "name": "world Trade Park",
+      "distance": "7 KM"
+    },
+    {
+      "name": "Jaipur International Airport",
+      "distance": "10 KM"
+    }
+  ],
+  "contact": {
+    "address": "Govind Marg, Raja Park, Jaipur, Rajasthan 302004",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/ramada-by-wyndham-jaipur/main/1735886678-wedding cost.webp",
+  "gallery": [
+    "/assets/hotels/ramada-by-wyndham-jaipur/gallery/1_Double_Bed_Deluxe_Room.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur/gallery/19576_bar_lounge_1.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur/gallery/19576_pool_view_1.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur/gallery/Altitude.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur/gallery/Around_the_World.webp",
+    "/assets/hotels/ramada-by-wyndham-jaipur/gallery/mercury_boardroom.webp"
+  ],
+  "locationId": "jaipur"
+}

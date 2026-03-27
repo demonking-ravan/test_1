@@ -1,0 +1,180 @@
+{
+  "name": "Hilton Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Turquoise - 1",
+      "capacity": "NA",
+      "image": "/assets/hotels/hilton-jaipur/events/1735821801-hilton-jaipur-turquoise-1.webp"
+    },
+    {
+      "name": "Amber",
+      "capacity": "NA",
+      "image": "/assets/hotels/hilton-jaipur/events/1735821769-amber.webp"
+    },
+    {
+      "name": "Turquoise - 2",
+      "capacity": "NA",
+      "image": "/assets/hotels/hilton-jaipur/events/1735821754-hilton-jaipur-turquoise-hall-social-setup.webp"
+    },
+    {
+      "name": "Lavender",
+      "capacity": "120",
+      "image": "/assets/hotels/hilton-jaipur/events/1735821706-hilton-jaipur-lavender-hall.webp"
+    },
+    {
+      "name": "Lavender",
+      "capacity": "120",
+      "image": "/assets/hotels/hilton-jaipur/events/1735821706-hilton-jaipur-lavender-hall.webp"
+    },
+    {
+      "name": "Boardroom",
+      "capacity": "16",
+      "image": "/assets/hotels/hilton-jaipur/events/1735821635-hilton-jaipur-boardroom.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "KING ACCESSIBLE GUEST ROOM W/ ROLL IN SHOWER",
+      "description": "KING ACCESSIBLE GUEST ROOM W/ ROLL IN SHOWER",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735820897-KING_ACCESSIBLE_GUEST_ROOM_W_ROLL_IN_SHOWER.webp"
+      ]
+    },
+    {
+      "roomType": "TWIN EXECUTIVE ROOM WITH ARAVALLI RANGE VIEW",
+      "description": "TWIN EXECUTIVE ROOM WITH ARAVALLI RANGE VIEW",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735820952-TWIN_EXECUTIVE_ROOM_WITH_ARAVALLI_RANGE_VIEW.webp"
+      ]
+    },
+    {
+      "roomType": "TWIN EXECUTIVE ROOM WITH LOUNGE ACCESS",
+      "description": "TWIN EXECUTIVE ROOM WITH LOUNGE ACCESS",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735820979-TWIN_EXECUTIVE_ROOM_WITH_LOUNGE_ACCESS.webp"
+      ]
+    },
+    {
+      "roomType": "KING EXECUTIVE ROOM WITH ARAVALLI RANGE VIEW",
+      "description": "KING EXECUTIVE ROOM WITH ARAVALLI RANGE VIEW",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735821019-KING_EXECUTIVE_ROOM_WITH_ARAVALLI_RANGE_VIEW.webp"
+      ]
+    },
+    {
+      "roomType": "KING EXECUTIVE ROOM WITH LOUNGE ACCESS",
+      "description": "KING EXECUTIVE ROOM WITH LOUNGE ACCESS",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735821073-KING_EXECUTIVE_ROOM_WITH_LOUNGE_ACCESS.webp"
+      ]
+    },
+    {
+      "roomType": "KING 1 BEDROOM SUITE WITH ARAVALLI RANGE VIEW",
+      "description": "KING 1 BEDROOM SUITE WITH ARAVALLI RANGE VIEW",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735821107-KING_1_BEDROOM_SUITE_WITH_ARAVALLI_RANGE_VIEW.webp"
+      ]
+    },
+    {
+      "roomType": "KING GUEST ROOM",
+      "description": "KING GUEST ROOM",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735821161-king_guestroom.webp"
+      ]
+    },
+    {
+      "roomType": "KING DELUXE ROOM W/ TERRACE AND LOUNGE ACCESS",
+      "description": "KING DELUXE ROOM W/ TERRACE AND LOUNGE ACCESS",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735821192-king_deeluxe_room_with_terrace.webp"
+      ]
+    },
+    {
+      "roomType": "KING GUEST ROOM WITH ARAVALLI RANGE VIEW",
+      "description": "KING GUEST ROOM WITH ARAVALLI RANGE VIEW",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735821268-KING_GUEST_ROOM_WITH_ARAVALLI_RANGE_VIEW.webp"
+      ]
+    },
+    {
+      "roomType": "TWIN GUEST ROOM",
+      "description": "TWIN GUEST ROOM",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735821317-TWIN_GUEST_ROOM.webp"
+      ]
+    },
+    {
+      "roomType": "TWIN DELUXE ROOM W/ TERRACE AND LOUNGE ACCESS",
+      "description": "TWIN DELUXE ROOM W/ TERRACE AND LOUNGE ACCESS",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735821344-TWIN_DELUXE_ROOM_W_TERRACE_AND_LOUNGE_ACCESS.webp"
+      ]
+    },
+    {
+      "roomType": "TWIN GUEST ROOM WITH ARAVALLI RANGE VIEW",
+      "description": "TWIN GUEST ROOM WITH ARAVALLI RANGE VIEW",
+      "roomImages": [
+        "/assets/hotels/hilton-jaipur/rooms/1735821395-TWIN_GUEST_ROOM_WITH_ARAVALLI_RANGE_VIEW.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Albert Hall",
+      "distance": "5.2 KM"
+    },
+    {
+      "name": "Amber Fort",
+      "distance": "15 KM"
+    },
+    {
+      "name": "Birla Mandir",
+      "distance": "4.0 KM"
+    },
+    {
+      "name": "City Center",
+      "distance": "3.5 KM"
+    },
+    {
+      "name": "Jaipur International Airport",
+      "distance": "10.5 KM"
+    },
+    {
+      "name": "Bapu Bazaar",
+      "distance": "5.0 KM"
+    },
+    {
+      "name": "Albert Hall Museum",
+      "distance": "6.0 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "7.4 KM"
+    }
+  ],
+  "contact": {
+    "address": "42, Mangalam GeejGarh House, Hawa Sadak, Geejgarh Vihar Colony, Bais Godam, Jaipur, Rajasthan 302006",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/hilton-jaipur/main/1728983689-Hilton Jaipur.webp",
+  "gallery": [
+    "/assets/hotels/hilton-jaipur/gallery/hilton-jaipur-aurum-all-day-dining.webp",
+    "/assets/hotels/hilton-jaipur/gallery/hilton-jaipur-chaandi-contemporary-indian-fine-dining.webp",
+    "/assets/hotels/hilton-jaipur/gallery/hilton-jaipur-turquoise-hall-social-setup.webp",
+    "/assets/hotels/hilton-jaipur/gallery/king_deeluxe_room_with_terrace.webp",
+    "/assets/hotels/hilton-jaipur/gallery/KING_EXECUTIVE_ROOM_WITH_ARAVALLI_RANGE_VIEW.webp",
+    "/assets/hotels/hilton-jaipur/gallery/king-deluxe-room-executive-lounge.webp"
+  ],
+  "locationId": "jaipur"
+}

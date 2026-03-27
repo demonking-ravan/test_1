@@ -1,0 +1,111 @@
+{
+  "name": "The Oberoi Rajvilas Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Board Room",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-oberoi-rajvilas-jaipur/events/1735882929-board_room.webp"
+    },
+    {
+      "name": "Conference Hall",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-oberoi-rajvilas-jaipur/events/1735882911-conference_hall.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Premier Room",
+      "description": "Premier Room (42 Sqm.)",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-rajvilas-jaipur/rooms/1735882650-premier_room.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Tents",
+      "description": "Luxury Tents (377 Sqm.)",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-rajvilas-jaipur/rooms/1735882675-luxury_tents.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Tent",
+      "description": "Royal Tent (1530 Sqm.)",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-rajvilas-jaipur/rooms/1735882704-royal_tents.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Villas with Private Pool",
+      "description": "Luxury Villas with Private Pool (355 Sqm.)",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-rajvilas-jaipur/rooms/1735882752-luxury_villas_with_private_pool.webp"
+      ]
+    },
+    {
+      "roomType": "Kohinoor Villa with Private Pool",
+      "description": "Kohinoor Villa with Private Pool (1057 Sqm.)",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-rajvilas-jaipur/rooms/1735882773-kohinoor_villa_with_private_pool.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Amber Fort",
+      "distance": "17 KM"
+    },
+    {
+      "name": "City Palace Jaipur",
+      "distance": "11.1 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "10 KM"
+    },
+    {
+      "name": "Jaigarh fort",
+      "distance": "20 KM"
+    },
+    {
+      "name": "Nahargarh Fort",
+      "distance": "23 KM"
+    },
+    {
+      "name": "Abhaneri",
+      "distance": "85 KM"
+    },
+    {
+      "name": "Albert Hall",
+      "distance": "9 KM"
+    },
+    {
+      "name": "Jantar Mantar",
+      "distance": "11.1 KM"
+    }
+  ],
+  "contact": {
+    "address": "Babaji Ka Modh, Goner Rd, Jaipur, Rajasthan 302031",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/the-oberoi-rajvilas-jaipur/main/1735882570-wedding cost.webp",
+  "gallery": [
+    "/assets/hotels/the-oberoi-rajvilas-jaipur/gallery/board_room.webp",
+    "/assets/hotels/the-oberoi-rajvilas-jaipur/gallery/centreimagesjpgg.webp",
+    "/assets/hotels/the-oberoi-rajvilas-jaipur/gallery/gallery1jpj.webp",
+    "/assets/hotels/the-oberoi-rajvilas-jaipur/gallery/imagesjpppgg.webp",
+    "/assets/hotels/the-oberoi-rajvilas-jaipur/gallery/luxury_tents.webp",
+    "/assets/hotels/the-oberoi-rajvilas-jaipur/gallery/poolsidejpg.webp"
+  ],
+  "locationId": "jaipur"
+}

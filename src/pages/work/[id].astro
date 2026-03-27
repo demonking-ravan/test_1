@@ -1,0 +1,147 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+    const projects = await getCollection("work");
+    return projects.map((project) => ({
+        params: { id: project.id },
+        props: { project },
+    }));
+}
+
+const { project } = Astro.props;
+const { title, location, description, image, gallery, nextProject } = project.data;
+---
+
+<BaseLayout title={`${title} | Mapsor Experiential Weddings`}>
+    <main
+        class="h-screen overflow-hidden bg-white select-none relative"
+        id="main-viewport"
+    >
+        <div class="flex flex-nowrap h-full w-fit" id="horizontal-track">
+            <!-- Hero Section -->
+            <section class="flex-none w-screen h-full flex">
+                <div
+                    class="w-[40%] h-full flex flex-col justify-center px-[10rem] space-y-[4rem]"
+                >
+                    <div class="space-y-[1rem]">
+                        <p
+                            class="font-orlean text-[1rem] uppercase tracking-[0.4rem] text-black"
+                        >
+                            {location}
+                        </p>
+                        <h1
+                            class="sub-heading leading-[0.9] text-black tracking-tight"
+                            set:html={title.replace(" & ", " &<br />")}
+                        />
+                    </div>
+                    <p
+                        class="text-[1.2rem] max-w-[42rem] leading-relaxed text-[#555]"
+                    >
+                        {description}
+                    </p>
+                </div>
+
+                <div class="w-[60%] h-full pl-[4rem]">
+                    <img
+                        src={image}
+                        alt={title}
+                        class="w-full h-full object-cover"
+                    />
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            {gallery.length > 0 && (
+                <section
+                    class="flex-none w-fit h-full flex items-center px-[4rem] gap-[4rem]"
+                >
+                    {gallery.map((img) => (
+                        <div class="h-[80vh] w-[60rem] overflow-hidden">
+                            <img
+                                src={img}
+                                alt={title}
+                                class="w-full h-full object-cover shadow-sm transition-transform duration-1000 ease-out hover:scale-110"
+                            />
+                        </div>
+                    ))}
+                </section>
+            )}
+
+            <!-- Next Project Section -->
+            {nextProject && (
+                <section class="flex-none w-[100vw] h-full flex gap-[4rem] pr-[4rem]">
+                    <div
+                        class="w-[50%] h-full grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out overflow-hidden"
+                    >
+                        <!-- For simplicity using same image or could add nextProject image to schema -->
+                        <img
+                            src={image} 
+                            class="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
+                        />
+                    </div>
+
+                    <div
+                        class="w-[50%] h-full flex flex-col items-center justify-center"
+                    >
+                        <a href={`/work/${nextProject.id}`} class="group cursor-pointer text-center">
+                            <p
+                                class="font-orlean text-[1.8rem] uppercase tracking-[0.3rem] mb-[2rem] text-gray-500"
+                            >
+                                {nextProject.title}
+                            </p>
+                            <div class="relative inline-block">
+                                <h2
+                                    class="sub-heading leading-none uppercase text-black"
+                                >
+                                    Next Project
+                                </h2>
+                                <div
+                                    class="absolute -bottom-4 left-0 w-full h-[1px] bg-black origin-left transform transition-transform duration-700 scale-x-100 group-hover:scale-x-0"
+                                >
+                                </div>
+                                <div
+                                    class="absolute -bottom-4 left-0 w-full h-[1px] bg-black origin-right transform scale-x-0 transition-transform duration-700 group-hover:scale-x-100"
+                                >
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            )}
+        </div>
+    </main>
+
+    <script>
+        import { gsap } from "gsap";
+        import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        const track = document.querySelector(
+            "#horizontal-track",
+        ) as HTMLElement;
+        const mainViewport = document.querySelector(
+            "#main-viewport",
+        ) as HTMLElement;
+
+        if (track && mainViewport) {
+            gsap.to(track, {
+                x: () => -(track.scrollWidth - window.innerWidth),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: mainViewport,
+                    pin: true,
+                    scrub: 1,
+                    invalidateOnRefresh: true,
+                    // end: () => `+=${track.scrollWidth - window.innerWidth}`,
+                    end: () => `+=${track.scrollWidth}`,
+                },
+            });
+
+            // Refresh ScrollTrigger to ensure alignment with Lenis
+            ScrollTrigger.refresh();
+        }
+    </script>
+</BaseLayout>

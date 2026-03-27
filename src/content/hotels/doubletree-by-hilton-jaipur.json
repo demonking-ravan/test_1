@@ -1,0 +1,147 @@
+{
+  "name": "DoubleTree by Hilton Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Jade Room Pre-function",
+      "capacity": "75",
+      "image": "/assets/hotels/doubletree-by-hilton-jaipur/events/1735823534-Jade_Room_Pre-functionjpgg.webp"
+    },
+    {
+      "name": "Ballroom Pre-function",
+      "capacity": "100",
+      "image": "/assets/hotels/doubletree-by-hilton-jaipur/events/1735823516-Ballroom_Pre-functionjpgg.webp"
+    },
+    {
+      "name": "Jade Room",
+      "capacity": "100",
+      "image": "/assets/hotels/doubletree-by-hilton-jaipur/events/1735823493-Jade_Room.webp"
+    },
+    {
+      "name": "Emerald Ballroom",
+      "capacity": "450",
+      "image": "/assets/hotels/doubletree-by-hilton-jaipur/events/1735823475-Emerald_Ballroom.webp"
+    },
+    {
+      "name": "Emerald Ballroom",
+      "capacity": "450",
+      "image": "/assets/hotels/doubletree-by-hilton-jaipur/events/1735823475-Emerald_Ballroom.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "KING ACCESSIBLE ROOM",
+      "description": "KING ACCESSIBLE ROOM",
+      "roomImages": [
+        "/assets/hotels/doubletree-by-hilton-jaipur/rooms/1735823149-KING_ACCESSIBLE_ROOM.webp"
+      ]
+    },
+    {
+      "roomType": "KING BEDROOM DELUXE SUITE",
+      "description": "KING BEDROOM DELUXE SUITE",
+      "roomImages": [
+        "/assets/hotels/doubletree-by-hilton-jaipur/rooms/1735823170-KING_BEDROOM_DELUXE_SUITE.webp"
+      ]
+    },
+    {
+      "roomType": "TWIN GUEST ROOM ARAVALLI RANGE VIEW",
+      "description": "TWIN GUEST ROOM ARAVALLI RANGE VIEW",
+      "roomImages": [
+        "/assets/hotels/doubletree-by-hilton-jaipur/rooms/1676886122-TWIN_GUEST_ROOM_ARAVALLI_RANGE_VIEW.jpg"
+      ]
+    },
+    {
+      "roomType": "TWIN DELUXE ROOM",
+      "description": "TWIN DELUXE ROOM",
+      "roomImages": [
+        "/assets/hotels/doubletree-by-hilton-jaipur/rooms/1735823201-TWIN_DELUXE_ROOM.webp"
+      ]
+    },
+    {
+      "roomType": "TWIN GUEST ROOM",
+      "description": "TWIN GUEST ROOM",
+      "roomImages": [
+        "/assets/hotels/doubletree-by-hilton-jaipur/rooms/1735823216-TWIN_GUEST_ROOM.webp"
+      ]
+    },
+    {
+      "roomType": "KING GUEST ROOM ARAVALLI RANGE VIEW",
+      "description": "KING GUEST ROOM ARAVALLI RANGE VIEW",
+      "roomImages": [
+        "/assets/hotels/doubletree-by-hilton-jaipur/rooms/1735823265-KING_GUEST_ROOM_ARAVALLI_RANGE_VIEW.webp"
+      ]
+    },
+    {
+      "roomType": "KING DELUXE ROOM",
+      "description": "KING DELUXE ROOM",
+      "roomImages": [
+        "/assets/hotels/doubletree-by-hilton-jaipur/rooms/1735823292-KING_DELUXE_ROOM.webp"
+      ]
+    },
+    {
+      "roomType": "KING GUEST ROOM",
+      "description": "KING GUEST ROOM",
+      "roomImages": [
+        "/assets/hotels/doubletree-by-hilton-jaipur/rooms/1735823319-KING_GUEST_ROOM.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Amer Fort",
+      "distance": "13.5 KM"
+    },
+    {
+      "name": "City Center",
+      "distance": "20 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "19.5 KM"
+    },
+    {
+      "name": "Jaipur International Airport",
+      "distance": "29.5 KM"
+    },
+    {
+      "name": "Jaigarh Fort",
+      "distance": "20 KM"
+    },
+    {
+      "name": "City Palace Jaipur",
+      "distance": "19.5 KM"
+    },
+    {
+      "name": "Birla Mandir",
+      "distance": "23 KM"
+    },
+    {
+      "name": "Nahargarh Fort",
+      "distance": "20 KM"
+    }
+  ],
+  "contact": {
+    "address": "935 Kukas, Delhi - Jaipur Expy, Jaipur, Rajasthan 302028",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/doubletree-by-hilton-jaipur/main/1735823076-wedding cost.webp",
+  "gallery": [
+    "/assets/hotels/doubletree-by-hilton-jaipur/gallery/Aravali_Bar_and_Grilljpgg.webp",
+    "/assets/hotels/doubletree-by-hilton-jaipur/gallery/decor.webp",
+    "/assets/hotels/doubletree-by-hilton-jaipur/gallery/garden_grilejpgg.webp",
+    "/assets/hotels/doubletree-by-hilton-jaipur/gallery/KING_DELUXE_ROOM.webp",
+    "/assets/hotels/doubletree-by-hilton-jaipur/gallery/OnyxLounge.webp",
+    "/assets/hotels/doubletree-by-hilton-jaipur/gallery/poolside.webp"
+  ],
+  "locationId": "jaipur"
+}

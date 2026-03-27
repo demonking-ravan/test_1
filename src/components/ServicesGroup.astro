@@ -1,0 +1,44 @@
+---
+import CheckboxInput from "./CheckboxInput.astro";
+
+export interface Props {
+  name?: string;
+}
+
+const { name = "services" } = Astro.props;
+
+const serviceOptions = [
+  {
+    id: "servicePlanning",
+    value: "wedding planning",
+    label: "Wedding Planning",
+  },
+  { id: "serviceDecor", value: "design & decor", label: "Design & Décor" },
+  {
+    id: "serviceTurnkey",
+    value: "turnkey experience",
+    label: "Turnkey Experience",
+  },
+];
+---
+
+<div>
+  <label
+    class="block text-2xl lg:text-4xl uppercase tracking-wide text-gray-500 mb-3"
+  >
+    Service Required <span class="text-red-500">*</span>
+  </label>
+
+  <div class="flex flex-wrap gap-3">
+    {
+      serviceOptions.map((service) => (
+        <CheckboxInput
+          id={service.id}
+          name={name}
+          value={service.value}
+          label={service.label}
+        />
+      ))
+    }
+  </div>
+</div>

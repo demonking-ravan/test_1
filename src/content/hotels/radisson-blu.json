@@ -1,0 +1,93 @@
+{
+  "name": "Radisson Blu Hotel, Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Ballroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/radisson-blu/events/1735818591-Summit_1.webp"
+    },
+    {
+      "name": "Pinnacle Ballroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/radisson-blu/events/1735818574-Pinnacle.webp"
+    },
+    {
+      "name": "Meeting Room",
+      "capacity": "NA",
+      "image": "/assets/hotels/radisson-blu/events/1735818492-Summit.webp"
+    },
+    {
+      "name": "Boardroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/radisson-blu/events/1735818449-Zenith.webp"
+    },
+    {
+      "name": "Boardroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/radisson-blu/events/1735818449-Zenith.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Superior Room",
+      "description": "Superior Room",
+      "roomImages": [
+        "/assets/hotels/radisson-blu/rooms/1735816357-superior_room.webp"
+      ]
+    },
+    {
+      "roomType": "Business Class Room",
+      "description": "Business Class Room",
+      "roomImages": [
+        "/assets/hotels/radisson-blu/rooms/1735816503-business_class_room.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Room",
+      "description": "Premium Room",
+      "roomImages": [
+        "/assets/hotels/radisson-blu/rooms/1735816528-premium_room.webp"
+      ]
+    },
+    {
+      "roomType": "Junior Suite",
+      "description": "Junior Suite",
+      "roomImages": [
+        "/assets/hotels/radisson-blu/rooms/1735816571-junior_suite.webp"
+      ]
+    },
+    {
+      "roomType": "Suite",
+      "description": "Suite",
+      "roomImages": [
+        "/assets/hotels/radisson-blu/rooms/1735817773-suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [],
+  "contact": {
+    "address": "Airport Plaza, Plots No. 5 And 6, Tonk Rd, Jaipur, Rajasthan 302018",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/radisson-blu/main/1676882793-scene.jpg",
+  "gallery": [
+    "/assets/hotels/radisson-blu/gallery/business_class_room.webp",
+    "/assets/hotels/radisson-blu/gallery/colorbar.webp",
+    "/assets/hotels/radisson-blu/gallery/lobby.webp",
+    "/assets/hotels/radisson-blu/gallery/Pinnacle.webp",
+    "/assets/hotels/radisson-blu/gallery/pool.webp",
+    "/assets/hotels/radisson-blu/gallery/Zenith.webp"
+  ],
+  "locationId": "jaipur"
+}

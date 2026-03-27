@@ -1,0 +1,142 @@
+{
+  "name": "Taj Fateh Prakash Palace",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "AMBER MEETING ROOM",
+      "capacity": "30",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735906186-AMBER_MEETING_ROOM_(1).webp"
+    },
+    {
+      "name": "ONYX MEETING ROOM",
+      "capacity": "19",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735906170-ONYX_MEETING_ROOM_(1).webp"
+    },
+    {
+      "name": "JADE MEETING ROOM",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735906146-JADE_MEETING_ROOM_(1).webp"
+    },
+    {
+      "name": "AMETHYST MEETING ROOM",
+      "capacity": "6",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735906122-AMETHYST_MEETING_ROOM_(1).webp"
+    },
+    {
+      "name": "AMETHYST MEETING ROOM",
+      "capacity": "6",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735906122-AMETHYST_MEETING_ROOM_(1).webp"
+    },
+    {
+      "name": "TOPAZ MEETING ROOM",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735906015-TOPAZ_MEETING_ROOM_(1).webp"
+    },
+    {
+      "name": "CORAL MEETING ROOM",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735905993-CORAL_MEETING_ROOM_(1).webp"
+    },
+    {
+      "name": "Durbar Hall Satkar",
+      "capacity": "400",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735905921-Durbar_Hall_Satkar.webp"
+    },
+    {
+      "name": "Durbar Hall Sabhagaar",
+      "capacity": "390",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735905819-Durbar_Hall.webp"
+    },
+    {
+      "name": "Jagmandir",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-fateh-prakash-palace/events/1735905800-jagmandir.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Palace Room",
+      "description": "Palace Room (28-38 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/taj-fateh-prakash-palace/rooms/1735905558-Palace_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Suite",
+      "description": "Luxury Suite (51-79 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/taj-fateh-prakash-palace/rooms/1735905577-Luxury_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Suite with Sit Out",
+      "description": "Luxury Suite with Sit Out (39-72 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/taj-fateh-prakash-palace/rooms/1735905601-Luxury_Suite_with_Sit_Out.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Luxury Suite",
+      "description": "Grand Luxury Suite (68-92 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/taj-fateh-prakash-palace/rooms/1735905621-Grand_Luxury_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Suite",
+      "description": "Royal Suite (97 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/taj-fateh-prakash-palace/rooms/1735905641-Royal_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Suite",
+      "description": "Deluxe Suite (33-69 Sq Mt)",
+      "roomImages": [
+        "/assets/hotels/taj-fateh-prakash-palace/rooms/1735905665-deluxe_suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Lake Pichola",
+      "distance": "0.3 KM"
+    },
+    {
+      "name": "Jagmandir",
+      "distance": "1.0 KM"
+    },
+    {
+      "name": "Saheliyo ki Bari",
+      "distance": "3.6 KM"
+    },
+    {
+      "name": "Udai Sagar Lake",
+      "distance": "14.4 KM"
+    }
+  ],
+  "contact": {
+    "address": "Lake Pichola, The City Palace Complex, City Palace Rd, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/taj-fateh-prakash-palace/main/1735905469-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/taj-fateh-prakash-palace/gallery/1a4cde1358d90d1ab33a6bbbc8a3171292c3817b-6000x4000.webp",
+    "/assets/hotels/taj-fateh-prakash-palace/gallery/5a995ff1adf22494f55907c526a664afdc6303b7-8192x5464.webp",
+    "/assets/hotels/taj-fateh-prakash-palace/gallery/5dc4a9f87960acbc289a6fdd942b1f579aadc0a6-8192x5464.webp",
+    "/assets/hotels/taj-fateh-prakash-palace/gallery/416c55b846e2a09e32f93a7a843c603efb2540b1-7781x5464.webp",
+    "/assets/hotels/taj-fateh-prakash-palace/gallery/cabb81247e39c8070c927d661d940af4016e6e75-5472x3648.webp",
+    "/assets/hotels/taj-fateh-prakash-palace/gallery/fc1001bfdf227a0dbbdbfdf432ea3e10b8b1188d-7707x5464.webp"
+  ],
+  "locationId": "udaipur"
+}

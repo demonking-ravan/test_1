@@ -1,0 +1,124 @@
+{
+  "name": "The Lalit Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Quorum",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit/events/1735813241-Quorum-840-430-Jaipur.webp"
+    },
+    {
+      "name": "Party Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit/events/1735813221-party_lawn.webp"
+    },
+    {
+      "name": "Central Courtyard",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit/events/1735813193-courtyard.webp"
+    },
+    {
+      "name": "Crystal Ballroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit/events/1735813175-crystal_ballroom.webp"
+    },
+    {
+      "name": "Crystal Ballroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-lalit/events/1735813175-crystal_ballroom.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Executive Suite",
+      "description": "Executive Suite",
+      "roomImages": [
+        "/assets/hotels/the-lalit/rooms/1735812352-Executive-Suite-Bedroom-1-Jaipur-768x576.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Suite",
+      "description": "Luxury Suite",
+      "roomImages": [
+        "/assets/hotels/the-lalit/rooms/1735812383-Luxury-Suite-Bedroom-Jaipur-768x576.webp"
+      ]
+    },
+    {
+      "roomType": "The Lalit Legacy",
+      "description": "The Lalit Legacy",
+      "roomImages": [
+        "/assets/hotels/the-lalit/rooms/1735812448-Legacy-Suite-Bedroom-1-Jaipur-768x576.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/the-lalit/rooms/1735812595-Deluxe-Room-Jaipur-768x576.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Room",
+      "description": "Premium Room",
+      "roomImages": [
+        "/assets/hotels/the-lalit/rooms/1735812616-Premium-Room-Jaipur-768x576.webp"
+      ]
+    },
+    {
+      "roomType": "Super Deluxe Room",
+      "description": "Super Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/the-lalit/rooms/1735812840-Room-image-1656487528.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Room",
+      "description": "Luxury Room",
+      "roomImages": [
+        "/assets/hotels/the-lalit/rooms/1735812868-Luxury-Room-Jaipur-768x576.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "2.1 KM"
+    },
+    {
+      "name": "World Trade Park",
+      "distance": "2.2 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "11.1 KM"
+    },
+    {
+      "name": "Nahargarh Fort",
+      "distance": "26.3 KM"
+    }
+  ],
+  "contact": {
+    "address": "Jawahar Circle, 2B & 2C, Jagatpura Rd, near Jagatpura Rd, Malviya Nagar, Jaipur, Rajasthan 302017",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/the-lalit/main/1735812295-back.webp",
+  "gallery": [
+    "/assets/hotels/the-lalit/gallery/alfresco-jaipur.webp",
+    "/assets/hotels/the-lalit/gallery/Baluchi.webp",
+    "/assets/hotels/the-lalit/gallery/courtyard.webp",
+    "/assets/hotels/the-lalit/gallery/crystal_ballroom.webp",
+    "/assets/hotels/the-lalit/gallery/Deluxe-Room-Jaipur-768x576.webp",
+    "/assets/hotels/the-lalit/gallery/pool-jaipur-820x420.webp"
+  ],
+  "locationId": "jaipur"
+}

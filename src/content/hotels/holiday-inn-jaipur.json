@@ -1,0 +1,74 @@
+{
+  "name": "Holiday Inn Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Viceroy",
+      "capacity": "NA",
+      "image": "/assets/hotels/holiday-inn-jaipur/events/1735822446-Holiday-Inn-Jaipur-Boardroom.webp"
+    },
+    {
+      "name": "Chancellor",
+      "capacity": "500",
+      "image": "/assets/hotels/holiday-inn-jaipur/events/1735822417-ballroom.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Guest Room",
+      "description": "Guest Room (320 sq ft to 600 sq ft.)",
+      "roomImages": [
+        "/assets/hotels/holiday-inn-jaipur/rooms/1735822231-room.webp"
+      ]
+    },
+    {
+      "roomType": "Suite",
+      "description": "Suite",
+      "roomImages": [
+        "/assets/hotels/holiday-inn-jaipur/rooms/1735822248-suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "10.7 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "7.9 KM"
+    },
+    {
+      "name": "Birla Mandir",
+      "distance": "4.2 KM"
+    },
+    {
+      "name": "Amber Fort",
+      "distance": "15 KM"
+    }
+  ],
+  "contact": {
+    "address": "Commercial Plot, 1, Sardar Patel Marg, Rajasthan 302001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/holiday-inn-jaipur/main/1735822138-wedding cost.webp",
+  "gallery": [
+    "/assets/hotels/holiday-inn-jaipur/gallery/ballrooom.webp",
+    "/assets/hotels/holiday-inn-jaipur/gallery/holiday-inn-jaipur--rajasthan-6668064378-3x2.webp",
+    "/assets/hotels/holiday-inn-jaipur/gallery/holiday-inn-lobby.webp",
+    "/assets/hotels/holiday-inn-jaipur/gallery/monarcc-h.webp",
+    "/assets/hotels/holiday-inn-jaipur/gallery/Road_House_Bar_and_Grill.webp",
+    "/assets/hotels/holiday-inn-jaipur/gallery/Ten-Kings-Bar.webp"
+  ],
+  "locationId": "jaipur"
+}

@@ -1,0 +1,146 @@
+{
+  "name": "The Leela palace Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Mewar Conference Hall",
+      "capacity": "100",
+      "image": "/assets/hotels/the-leela-palace-udaipur/events/1735299883-mewar.webp"
+    },
+    {
+      "name": "Marwar Terrace",
+      "capacity": "100",
+      "image": "/assets/hotels/the-leela-palace-udaipur/events/1735299851-marwar-terrace.webp"
+    },
+    {
+      "name": "Royal Boardroom",
+      "capacity": "14",
+      "image": "/assets/hotels/the-leela-palace-udaipur/events/1735299823-royal_boardroom.webp"
+    },
+    {
+      "name": "Marwar Conference Hall",
+      "capacity": "60",
+      "image": "/assets/hotels/the-leela-palace-udaipur/events/1735299779-marwar.webp"
+    },
+    {
+      "name": "Marwar Conference Hall",
+      "capacity": "60",
+      "image": "/assets/hotels/the-leela-palace-udaipur/events/1735299779-marwar.webp"
+    },
+    {
+      "name": "Kangan",
+      "capacity": "10",
+      "image": "/assets/hotels/the-leela-palace-udaipur/events/1735299734-payal.webp"
+    },
+    {
+      "name": "Payal",
+      "capacity": "8",
+      "image": "/assets/hotels/the-leela-palace-udaipur/events/1735299706-payal.webp"
+    },
+    {
+      "name": "Bindiya",
+      "capacity": "10",
+      "image": "/assets/hotels/the-leela-palace-udaipur/events/1735299690-bindiya.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Grande Heritage garden view room",
+      "description": "Grande Heritage garden view room",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-udaipur/rooms/1735299210-grande-heritage-garden-view-room.webp"
+      ]
+    },
+    {
+      "roomType": "Grande Heritage Lake View Room",
+      "description": "Grande Heritage Lake View Room",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-udaipur/rooms/1735299336-grande-heritage-lake-view-room.webp"
+      ]
+    },
+    {
+      "roomType": "grande Heritage Garden View Room Private Pool",
+      "description": "grande Heritage Garden View Room Private Pool",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-udaipur/rooms/1735299373-grande-heritage-garden-view-room-private-pool.webp"
+      ]
+    },
+    {
+      "roomType": "Grande Heritage lake View Room With Balcony",
+      "description": "Grande Heritage lake View Room With Balcony",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-udaipur/rooms/1735299414-grande-heritage-lake-view-room-balcony.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Suite",
+      "description": "Luxury Suite",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-udaipur/rooms/1735299445-luxury-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Duplex Suite",
+      "description": "Duplex Suite",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-udaipur/rooms/1735299470-duplex-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Suite",
+      "description": "Royal Suite",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-udaipur/rooms/1735299500-royal-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Maharaja Suite",
+      "description": "Maharaja Suite",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-udaipur/rooms/1735299521-maharaja-suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Lake Pichola",
+      "distance": "2.2 KM"
+    },
+    {
+      "name": "Saheliyo ki Bari",
+      "distance": "4.3 KM"
+    },
+    {
+      "name": "City Palace Udaipur",
+      "distance": "1.9 KM"
+    },
+    {
+      "name": "Jagmandir",
+      "distance": "3.2 KM"
+    }
+  ],
+  "contact": {
+    "address": "HM8M+7G7, Pichola, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/the-leela-palace-udaipur/main/1735298625-main.webp",
+  "gallery": [
+    "/assets/hotels/the-leela-palace-udaipur/gallery/Boat-Arival-2_0.jpg.webp",
+    "/assets/hotels/the-leela-palace-udaipur/gallery/grande-heritage-garden-view-room-private-pool.webp",
+    "/assets/hotels/the-leela-palace-udaipur/gallery/library-bar.webp",
+    "/assets/hotels/the-leela-palace-udaipur/gallery/marwar-terrace.webp",
+    "/assets/hotels/the-leela-palace-udaipur/gallery/Pool.jpg.webp",
+    "/assets/hotels/the-leela-palace-udaipur/gallery/sheesh-mahal.webp"
+  ],
+  "locationId": "udaipur"
+}

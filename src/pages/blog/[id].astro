@@ -1,0 +1,105 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogHero from "../../components/blog/BlogHero.astro";
+
+export async function getStaticPaths() {
+    const posts = await getCollection("blog");
+    return posts.map((post) => ({
+        params: { id: post.id }, // Use 'id' instead of 'slug'
+        props: { post },
+    }));
+}
+
+const { post } = Astro.props;
+// 3. New way to render content
+const { Content } = await render(post);
+
+const formattedDate = new Date(post.data.pubDate).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+});
+---
+
+<!-- ---
+import { getCollection } from "astro:content";
+// import BlogHero from "../../components/BlogHero.astro";
+// import BlogContent from "../../components/BlogContent.astro";
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+    const blogEntries = await getCollection("blog");
+    return blogEntries.map((entry) => ({
+        params: { slug: entry.slug },
+        props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+<article>
+    <h1>{post.data.title}</h1>
+    <Content />
+</article>
+-->
+<BaseLayout>
+    <BlogHero
+        tags={post.data.tags}
+        title={post.data.title}
+        image={post.data.image}
+        topic={post.data.topic}
+    />
+
+    <section
+        class="py-60 px-6 lg:px-16 flex flex-col md:flex-row gap-x-24 gap-y-40"
+    >
+        <aside class="md:w-[25%] space-y-24">
+            <div class="border-t border-black pt-8 space-y-6">
+                <p
+                    class="font-aventa font-bold text-[1rem] uppercase tracking-wider text-black"
+                >
+                    Topic: {post.data.topic}
+                </p>
+                <div class="space-y-1">
+                    <p class="font-aventa text-[1rem] text-[#666] uppercase">
+                        Tags:
+                    </p>
+                    <p
+                        class="font-aventa font-bold text-[1rem] text-black uppercase"
+                    >
+                        {post.data.tags.join(", ")}
+                    </p>
+                </div>
+                <!-- <div class="space-y-1">
+                    <p class="font-aventa text-[1.4rem] text-[#666] uppercase">
+                        Topic
+                    </p>
+                    <p
+                        class="font-aventa font-bold text-[1.6rem] text-black uppercase leading-tight"
+                    >
+                        {entry.data.topic}
+                    </p>
+                </div> -->
+            </div>
+
+            <div class="border-t border-black pt-8 space-y-4">
+                <p class="font-aventa text-[1rem] text-[#666] uppercase">
+                    Posted
+                </p>
+                <p
+                    class="font-aventa font-bold text-[1rem] text-black uppercase"
+                >
+                    {formattedDate}
+                </p>
+            </div>
+        </aside>
+
+        <article
+            class="md:w-[65%] font-aventa text-[1.6rem] md:text-[1.8rem] leading-relaxed text-[#333] prose-headings:font-orlean prose-h2:text-[1.8rem] prose-h2:md:text-[2.8rem] prose-h2:font-bold prose-h2:tracking-wide prose-h2:mb-12 prose-h3:text-[4rem] prose-h3:font-bold prose-h3:mb-10 prose-p:mb-[4rem] prose-a:underline prose-a:underline-offset-4"
+        >
+            <Content />
+        </article>
+    </section>
+</BaseLayout>

@@ -1,0 +1,89 @@
+{
+  "name": "Marugarh Venture Resort",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Banquets Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/marugarh-venture-resort/events/1735890010-Banquet-Lawn-Marugarh.webp"
+    },
+    {
+      "name": "Rajawat",
+      "capacity": "NA",
+      "image": "/assets/hotels/marugarh-venture-resort/events/1735889993-rajwat-hall-marugarh.webp"
+    },
+    {
+      "name": "Venture Hall",
+      "capacity": "NA",
+      "image": "/assets/hotels/marugarh-venture-resort/events/1735889970-venture-hall-banquet.webp"
+    },
+    {
+      "name": "Shahi Darbar",
+      "capacity": "NA",
+      "image": "/assets/hotels/marugarh-venture-resort/events/1735889951-conference-hall-marugarh.webp"
+    },
+    {
+      "name": "Shahi Darbar",
+      "capacity": "NA",
+      "image": "/assets/hotels/marugarh-venture-resort/events/1735889951-conference-hall-marugarh.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/marugarh-venture-resort/rooms/1735889749-deluxe-room.webp"
+      ]
+    },
+    {
+      "roomType": "Suite Room",
+      "description": "Suite Room",
+      "roomImages": [
+        "/assets/hotels/marugarh-venture-resort/rooms/1735889779-suite-room.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Mehrangarh Fort",
+      "distance": "13.1 KM"
+    },
+    {
+      "name": "Jaswant Thada",
+      "distance": "13.5 KM"
+    },
+    {
+      "name": "Umaid Bhawan Place",
+      "distance": "13.6 KM"
+    },
+    {
+      "name": "Surpura Dam",
+      "distance": "21 KM"
+    }
+  ],
+  "contact": {
+    "address": "Chopasni, Jaisalmer Bypass Rd, Gopal Bari, Jodhpur, Rajasthan 342010",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/marugarh-venture-resort/main/1735889674-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/marugarh-venture-resort/gallery/gallery.webp",
+    "/assets/hotels/marugarh-venture-resort/gallery/gallery1.webp",
+    "/assets/hotels/marugarh-venture-resort/gallery/marugarh-bar.webp",
+    "/assets/hotels/marugarh-venture-resort/gallery/pool.webp",
+    "/assets/hotels/marugarh-venture-resort/gallery/rajwat-hall-marugarh.webp",
+    "/assets/hotels/marugarh-venture-resort/gallery/suite-room.webp"
+  ],
+  "locationId": "jodhpur"
+}

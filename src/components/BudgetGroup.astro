@@ -1,0 +1,64 @@
+---
+import RadioInput from "./RadioInput.astro";
+
+export interface Props {
+  name?: string;
+}
+
+const { name = "budget" } = Astro.props;
+
+const budget1 = [
+  { id: "budget15_25", value: "15L - 25L", label: "₹15L - ₹25L" },
+  { id: "budget25_50", value: "25L - 50L", label: "₹25L - ₹50L" },
+  { id: "budget50_above", value: "50L - Above", label: "₹50L - Above" },
+];
+const budget2 = [
+  { id: "budget50_1", value: "50L - 1cr", label: "₹50L - ₹1Cr" },
+  { id: "budget1_2", value: "1cr - 2cr", label: "₹1Cr - 2Cr" },
+  { id: "budget2_5", value: "2Cr - 5Cr", label: "₹2Cr - ₹5Cr" },
+  { id: "budget5_above", value: "5Cr - Above", label: "₹5Cr +" },
+];
+---
+
+<div id={name}>
+  <label
+    class="block text-2xl lg:text-4xl uppercase tracking-wide text-gray-500 mb-3"
+  >
+    Budget Range
+  </label>
+
+  <div id="bug1" class="grid grid-cols-2 gap-3">
+    {
+      budget1.map((option) => (
+        <RadioInput
+          id={option.id}
+          name={name}
+          value={option.value}
+          label={option.label}
+          className="w-full"
+        />
+      ))
+    }
+  </div>
+  <div id="bug2" class="grid-cols-2 gap-3 hidden">
+    {
+      budget2.map((option) => (
+        <RadioInput
+          id={option.id}
+          name={name}
+          value={option.value}
+          label={option.label}
+          className="w-full"
+        />
+      ))
+    }
+  </div>
+</div>
+<style>
+  #budget.show-budg2 > #bug1 {
+    display: none;
+  }
+  #budget.show-budg2 > #bug2 {
+    display: grid;
+  }
+</style>

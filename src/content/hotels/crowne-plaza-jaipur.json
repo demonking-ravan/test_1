@@ -1,0 +1,113 @@
+{
+  "name": "Crowne Plaza Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Convergence Ballroom",
+      "capacity": "2500",
+      "image": "/assets/hotels/crowne-plaza-jaipur/events/1735824675-Convergence_Ballroom.webp"
+    },
+    {
+      "name": "Inspire",
+      "capacity": "150",
+      "image": "/assets/hotels/crowne-plaza-jaipur/events/1735824661-Inspire.webp"
+    },
+    {
+      "name": "Insight",
+      "capacity": "25",
+      "image": "/assets/hotels/crowne-plaza-jaipur/events/1735824645-Insight.webp"
+    },
+    {
+      "name": "Executive Boardroom 1",
+      "capacity": "10",
+      "image": "/assets/hotels/crowne-plaza-jaipur/events/1735824615-Executive_Boardroom_1.webp"
+    },
+    {
+      "name": "Executive Boardroom 1",
+      "capacity": "10",
+      "image": "/assets/hotels/crowne-plaza-jaipur/events/1735824615-Executive_Boardroom_1.webp"
+    },
+    {
+      "name": "Executive Boardroom 2",
+      "capacity": "6",
+      "image": "/assets/hotels/crowne-plaza-jaipur/events/1735824596-Executive_Boardroom_2.webp"
+    },
+    {
+      "name": "Executive Boardroom 3",
+      "capacity": "8",
+      "image": "/assets/hotels/crowne-plaza-jaipur/events/1735824580-Executive_Boardroom_3.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Guest Room",
+      "description": "Guest Room",
+      "roomImages": [
+        "/assets/hotels/crowne-plaza-jaipur/rooms/1735824283-Guest_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/crowne-plaza-jaipur/rooms/1735824302-Deluxe_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Suite",
+      "description": "Suite",
+      "roomImages": [
+        "/assets/hotels/crowne-plaza-jaipur/rooms/1735824323-Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Superior Room",
+      "description": "Superior Room",
+      "roomImages": [
+        "/assets/hotels/crowne-plaza-jaipur/rooms/1735824353-Superior_Room.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "9.2 KM"
+    },
+    {
+      "name": "world Trade Park",
+      "distance": "10.3 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "19.5 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "25.9 KM"
+    }
+  ],
+  "contact": {
+    "address": "Tonk Rd, Sitapura Industrial Area, Sitapura, Jaipur, Rajasthan 302022",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/crowne-plaza-jaipur/main/1735824216-background.webp",
+  "gallery": [
+    "/assets/hotels/crowne-plaza-jaipur/gallery/Aire-_Skybar_&_Grill.webp",
+    "/assets/hotels/crowne-plaza-jaipur/gallery/Deluxe_Room.webp",
+    "/assets/hotels/crowne-plaza-jaipur/gallery/Executive_Boardroom_2.webp",
+    "/assets/hotels/crowne-plaza-jaipur/gallery/gallery.webp",
+    "/assets/hotels/crowne-plaza-jaipur/gallery/gallery1.webp",
+    "/assets/hotels/crowne-plaza-jaipur/gallery/The_Royal_Root_-_Authentic_Indian_Dining.webp"
+  ],
+  "locationId": "jaipur"
+}

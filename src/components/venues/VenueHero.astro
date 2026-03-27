@@ -1,0 +1,47 @@
+---
+interface Props {
+    name: string;
+    featuredImage: string;
+    isIndia: boolean;
+    hotelCount: number;
+}
+
+const { name, featuredImage, isIndia, hotelCount } = Astro.props;
+---
+
+<section
+    class="flex flex-col md:flex-row w-full lg:h-[70vh] min-h-125 bg-[#f2efed] overflow-hidden"
+>
+    <div class="w-full md:w-1/2 h-1/2 md:h-full">
+        <img
+            src={featuredImage}
+            alt={name}
+            class="w-full h-full object-cover"
+        />
+    </div>
+
+    <div
+        class="w-full md:w-1/2 h-1/2 md:h-full flex flex-col justify-between items-center py-40 px-24 text-center"
+    >
+        <p
+            class="font-aventa font-bold text-[1rem] uppercase tracking-[0.3rem] text-black"
+        >
+            Destination {isIndia ? "India" : "International"}
+        </p>
+
+        <h1 class="sub-heading text-black max-w-200">
+            {name}
+        </h1>
+
+        <div
+            class="space-y-4 font-aventa text-[1rem] uppercase tracking-wider text-black"
+        >
+            <p>Featured Hotels <span class="font-bold">{hotelCount}</span></p>
+            <p
+                class="mt-6 text-gray-500 tracking-widest italic font-light lowercase"
+            >
+                Curated Luxury Experiences
+            </p>
+        </div>
+    </div>
+</section>

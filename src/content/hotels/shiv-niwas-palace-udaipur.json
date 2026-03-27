@@ -1,0 +1,106 @@
+{
+  "name": "Shiv Niwas Palace Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Poolside",
+      "capacity": "200",
+      "image": "/assets/hotels/shiv-niwas-palace-udaipur/events/1735904598-the_pool_deck.webp"
+    },
+    {
+      "name": "Marwar Terrace",
+      "capacity": "200",
+      "image": "/assets/hotels/shiv-niwas-palace-udaipur/events/1735904570-marwar_terrace.webp"
+    },
+    {
+      "name": "Lawn",
+      "capacity": "600",
+      "image": "/assets/hotels/shiv-niwas-palace-udaipur/events/1735904554-lawn.webp"
+    },
+    {
+      "name": "Banquet Hall",
+      "capacity": "500",
+      "image": "/assets/hotels/shiv-niwas-palace-udaipur/events/1735904530-shiv-niwas-4.webp"
+    },
+    {
+      "name": "Banquet Hall",
+      "capacity": "500",
+      "image": "/assets/hotels/shiv-niwas-palace-udaipur/events/1735904530-shiv-niwas-4.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Palace Room",
+      "description": "Palace Room",
+      "roomImages": [
+        "/assets/hotels/shiv-niwas-palace-udaipur/rooms/1735904296-palace-room.webp"
+      ]
+    },
+    {
+      "roomType": "Terrace Suites",
+      "description": "Terrace Suites",
+      "roomImages": [
+        "/assets/hotels/shiv-niwas-palace-udaipur/rooms/1735904335-terrace-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Suites",
+      "description": "Royal Suites",
+      "roomImages": [
+        "/assets/hotels/shiv-niwas-palace-udaipur/rooms/1735904360-royal-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Imperial Suites",
+      "description": "Imperial Suites",
+      "roomImages": [
+        "/assets/hotels/shiv-niwas-palace-udaipur/rooms/1735904386-imperial-suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Lake Pichola",
+      "distance": "0.4 KM"
+    },
+    {
+      "name": "City Palace Udaipur",
+      "distance": "0.2 KM"
+    },
+    {
+      "name": "Vintage Car Museum",
+      "distance": "7.5 KM"
+    },
+    {
+      "name": "Saheliyo ki Bari",
+      "distance": "3.6 KM"
+    }
+  ],
+  "contact": {
+    "address": "Lake Pichola, The City Palace Complex, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/shiv-niwas-palace-udaipur/main/1735904238-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/shiv-niwas-palace-udaipur/gallery/gallery.webp",
+    "",
+    "/assets/hotels/shiv-niwas-palace-udaipur/gallery/marwar_terrace.webp",
+    "/assets/hotels/shiv-niwas-palace-udaipur/gallery/pool_side.webp",
+    "/assets/hotels/shiv-niwas-palace-udaipur/gallery/royal-suite.webp",
+    "/assets/hotels/shiv-niwas-palace-udaipur/gallery/shiv-niwas-4.webp",
+    "/assets/hotels/shiv-niwas-palace-udaipur/gallery/the_pool_deck.webp",
+    "/assets/hotels/shiv-niwas-palace-udaipur/gallery/view.webp",
+    "/assets/hotels/shiv-niwas-palace-udaipur/gallery/wedding_cost.webp"
+  ],
+  "locationId": "udaipur"
+}

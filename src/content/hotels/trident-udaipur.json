@@ -1,0 +1,93 @@
+{
+  "name": "Trident Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Theme Deck Lawn",
+      "capacity": "300+",
+      "image": "/assets/hotels/trident-udaipur/events/1735910542-theme_deck.webp"
+    },
+    {
+      "name": "Gulab Mahal",
+      "capacity": "40",
+      "image": "/assets/hotels/trident-udaipur/events/1735910526-gulab_mahal.webp"
+    },
+    {
+      "name": "Asha Mahal",
+      "capacity": "40",
+      "image": "/assets/hotels/trident-udaipur/events/1735910494-asha_mahal.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Aravali View room",
+      "description": "Deluxe Aravali View room",
+      "roomImages": [
+        "/assets/hotels/trident-udaipur/rooms/1735910336-deluxe_aravali_view_room.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Garden View Room",
+      "description": "Deluxe Garden View Room",
+      "roomImages": [
+        "/assets/hotels/trident-udaipur/rooms/1735910356-Deluxe_Garden_View_Rooms.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Pool View Room",
+      "description": "Deluxe Pool View Room",
+      "roomImages": [
+        "/assets/hotels/trident-udaipur/rooms/1735910371-deluxe_pool_view_room.webp"
+      ]
+    },
+    {
+      "roomType": "Suites",
+      "description": "Suites",
+      "roomImages": [
+        "/assets/hotels/trident-udaipur/rooms/1735910387-suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Lake Pichola",
+      "distance": "4.2 KM"
+    },
+    {
+      "name": "Saheliyo ki Bari",
+      "distance": "4.8 KM"
+    },
+    {
+      "name": "City Palace Udaipur",
+      "distance": "2.6 KM"
+    },
+    {
+      "name": "Udai Sagar Lake",
+      "distance": "17.1 KM"
+    }
+  ],
+  "contact": {
+    "address": "Malla Talai Chowk, Trident Rd, near Pichola, Haridas Ji Ki Magri, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/trident-udaipur/main/1735910273-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/trident-udaipur/gallery/Amrit-mahal.webp",
+    "/assets/hotels/trident-udaipur/gallery/Aravalli-tented.webp",
+    "/assets/hotels/trident-udaipur/gallery/Aravalli-the-terrace-alfresco.webp",
+    "/assets/hotels/trident-udaipur/gallery/conference-room.webp",
+    "/assets/hotels/trident-udaipur/gallery/deluxe_pool_view_room.webp",
+    "/assets/hotels/trident-udaipur/gallery/pool.webp"
+  ],
+  "locationId": "udaipur"
+}

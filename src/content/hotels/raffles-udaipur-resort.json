@@ -1,0 +1,125 @@
+{
+  "name": "Raffles Udaipur Resort",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Ball Room",
+      "capacity": "NA",
+      "image": "/assets/hotels/raffles-udaipur-resort/events/1735280552-3Sep-HB068-Ballroom-1050x550.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Lakeshore Signature – Non Island Room",
+      "description": "Lakeshore Signature – Non Island Room (645 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766742775.webp"
+      ]
+    },
+    {
+      "roomType": "Flamingo Signature Room with Garden Twin Bed",
+      "description": "Flamingo Signature Room with Garden Twin Bed (667 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766742796.webp"
+      ]
+    },
+    {
+      "roomType": "Flamingo Signature Room with Garden King Bed",
+      "description": "Flamingo Signature Room with Garden King Bed (667 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766742820.webp"
+      ]
+    },
+    {
+      "roomType": "Flamingo Signature Room with Balcony Twin Bed",
+      "description": "Flamingo Signature Room with Balcony Twin Bed (667 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766742842.webp"
+      ]
+    },
+    {
+      "roomType": "Flamingo Signature Room with Balcony King Bed",
+      "description": "Flamingo Signature Room with Balcony King Bed (667 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766742866.webp"
+      ]
+    },
+    {
+      "roomType": "Flamingo Signature Room with plunge pool Twin Bed",
+      "description": "Flamingo Signature Room with plunge pool Twin Bed (667 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766742890.webp"
+      ]
+    },
+    {
+      "roomType": "Flamingo Signature Room with plunge pool King Bed",
+      "description": "Flamingo Signature Room with plunge pool King Bed (667 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766742913.webp"
+      ]
+    },
+    {
+      "roomType": "Raffles Lakeshore Manor – Non Island Suite",
+      "description": "Raffles Lakeshore Manor – Non Island Suite (1291 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766743618.webp"
+      ]
+    },
+    {
+      "roomType": "Raffles Manor Suite",
+      "description": "Raffles Manor Suite (1291 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766743642.webp"
+      ]
+    },
+    {
+      "roomType": "Raffles Oasis Suite",
+      "description": "Raffles Oasis Suite (1291 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/raffles-udaipur-resort/rooms/Room-image-1766743668.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "City Palace",
+      "distance": "15.8 KM"
+    },
+    {
+      "name": "Badi Lake",
+      "distance": "22.3 KM"
+    },
+    {
+      "name": "Saheliyo Ki Bari",
+      "distance": "17 KM"
+    },
+    {
+      "name": "Maharana Pratap Airport",
+      "distance": "13.6 KM"
+    }
+  ],
+  "contact": {
+    "address": "Kamlod, Rajasthan 313024",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/raffles-udaipur-resort/main/1676979431-exterior.jpg",
+  "gallery": [
+    "/assets/hotels/raffles-udaipur-resort/gallery/3Sep-HB068-Ballroom-1050x550.webp",
+    "/assets/hotels/raffles-udaipur-resort/gallery/7July-HB068-Flamingo-Signature-Room-With-Garden-&-Pool-460x350.webp",
+    "/assets/hotels/raffles-udaipur-resort/gallery/29June-HB068-Writers-Bar-Pan-view-460x350.webp",
+    "/assets/hotels/raffles-udaipur-resort/gallery/overview.webp",
+    "/assets/hotels/raffles-udaipur-resort/gallery/RUD_Raffles_Udaipur.webp",
+    "/assets/hotels/raffles-udaipur-resort/gallery/lemon-tree-udaipur-udaipurian-3bs5z6zpphsch0yth29czu.webp"
+  ],
+  "locationId": "udaipur"
+}

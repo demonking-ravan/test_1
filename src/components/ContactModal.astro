@@ -1,0 +1,126 @@
+<!-- Contact Modal -->
+<div
+  id="contactModal"
+  class="fixed inset-0 z-50"
+  aria-labelledby="modal-title"
+  role="dialog"
+  aria-modal="true"
+>
+  <div
+    class="toggleModal fixed inset-0 bg-gray-900/60 backdrop-blur-sm transition-opacity"
+  >
+  </div>
+  <div
+    class="flex min-h-full items-center justify-center p-4 text-center sm:p-0"
+  >
+    <div
+      class="relative transform overflow-hidden rounded-2xl bg-white text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-[512px] modal-enter border border-gray-100"
+    >
+      <button
+        class="toggleModal absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition p-2"
+      >
+        <i class="fa-solid fa-xmark text-3xl"></i>
+      </button>
+      <div class="px-8 py-8">
+        <div class="mb-6">
+          <div
+            class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-orange-100 mb-4"
+          >
+            <i class="fa-regular fa-paper-plane text-orange-600 text-3xl"></i>
+          </div>
+          <h3
+            class="max-lg:text-[3rem] text-[4.5rem] font-bold text-gray-900"
+            id="modal-title"
+          >
+            Get in touch
+          </h3>
+          <p class="mt-2 text-3xl text-gray-500">
+            Thank you for reaching out to us. To help us understand your
+            requirements better and assist you seamlessly, please share the
+            details below:
+          </p>
+        </div>
+        <form
+          onsubmit="event.preventDefault(); alert('Message sent!'); toggleModal();"
+          class="space-y-4"
+        >
+          <div class="relative">
+            <!-- <label
+              for="name"
+              class="block text-4xl font-medium text-gray-700 mb-1">Name</label
+            > -->
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="max-lg:text-[1.2rem] text-[1.7rem] border-b text-[#101820] bg-transparent py-[1.6rem] w-full outline-none"
+              placeholder="Name of the Bride"
+              required
+            />
+          </div>
+          <div class="relative">
+            <!-- <label
+              for="name"
+              class="block text-4xl font-medium text-gray-700 mb-1">Name</label
+            > -->
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="max-lg:text-[1.2rem] border-b text-[#101820] bg-transparent py-[1.6rem] w-full outline-none"
+              placeholder="Name of the Groom"
+              required
+            />
+          </div>
+          <div class="relative">
+            <!-- <label
+              for="name"
+              class="block text-4xl font-medium text-gray-700 mb-1">Name</label
+            > -->
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="max-lg:text-[1.2rem] border-b text-[#101820] bg-transparent py-[1.6rem] w-full outline-none"
+              placeholder="Name & relation with the couple"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="email"
+              class="block text-sm font-medium text-gray-700 mb-1">Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent outline-none transition"
+              placeholder="john@example.com"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="message"
+              class="block text-sm font-medium text-gray-700 mb-1"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="3"
+              class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent outline-none transition"
+              placeholder="How can we help?"></textarea>
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-black text-white px-4 py-2.5 rounded-lg font-semibold hover:bg-gray-800 transition shadow-md hover:shadow-lg"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

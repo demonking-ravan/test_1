@@ -1,0 +1,127 @@
+{
+  "name": "Radisson Jodhpur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Utsav Lawn",
+      "capacity": "700",
+      "image": "/assets/hotels/radisson-jodhpur/events/1735894591-main.webp"
+    },
+    {
+      "name": "Utsav",
+      "capacity": "400",
+      "image": "/assets/hotels/radisson-jodhpur/events/1735894552-utsav.webp"
+    },
+    {
+      "name": "Samaroh",
+      "capacity": "400",
+      "image": "/assets/hotels/radisson-jodhpur/events/1735894531-samarah_hall.webp"
+    },
+    {
+      "name": "Jashn",
+      "capacity": "70",
+      "image": "/assets/hotels/radisson-jodhpur/events/1735894509-jashn.webp"
+    },
+    {
+      "name": "Jashn",
+      "capacity": "70",
+      "image": "/assets/hotels/radisson-jodhpur/events/1735894509-jashn.webp"
+    },
+    {
+      "name": "Boardroom",
+      "capacity": "20",
+      "image": "/assets/hotels/radisson-jodhpur/events/1735894479-boardroom.webp"
+    },
+    {
+      "name": "Rooftop",
+      "capacity": "300",
+      "image": "/assets/hotels/radisson-jodhpur/events/1735894459-rooftop.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Superior Room",
+      "description": "Superior Room (28–30 m²)",
+      "roomImages": [
+        "/assets/hotels/radisson-jodhpur/rooms/1735892022-superior-room.webp"
+      ]
+    },
+    {
+      "roomType": "Business Class Room",
+      "description": "Business Class Room (41–56 m²)",
+      "roomImages": [
+        "/assets/hotels/radisson-jodhpur/rooms/1735892077-business-class-room.webp"
+      ]
+    },
+    {
+      "roomType": "Junior Suite",
+      "description": "Junior Suite (67–72 m²)",
+      "roomImages": [
+        "/assets/hotels/radisson-jodhpur/rooms/1735892108-junior-suite.webp"
+      ]
+    },
+    {
+      "roomType": "One Bedroom Suite",
+      "description": "One Bedroom Suite (97 m²)",
+      "roomImages": [
+        "/assets/hotels/radisson-jodhpur/rooms/1735892131-one-bedroom-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Two Bedroom Suite",
+      "description": "Two Bedroom Suite (105 m²)",
+      "roomImages": [
+        "/assets/hotels/radisson-jodhpur/rooms/1735892150-two-bedroom-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Presidential Suite",
+      "description": "Presidential Suite (115 m²)",
+      "roomImages": [
+        "/assets/hotels/radisson-jodhpur/rooms/1735894304-presidential_suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Mehrangarh Fort",
+      "distance": "7.7 KM"
+    },
+    {
+      "name": "Umaid Bhawan Place",
+      "distance": "3.5 KM"
+    },
+    {
+      "name": "Jal Vatika Water Park",
+      "distance": "5.8 KM"
+    },
+    {
+      "name": "Surpura Dam",
+      "distance": "14.2 KM"
+    }
+  ],
+  "contact": {
+    "address": "Gaurav Path, 8, Residency Rd, Air Force Area, Jodhpur, Rajasthan 342001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/radisson-jodhpur/main/1735891316-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/radisson-jodhpur/gallery/all-day_-dining.webp",
+    "/assets/hotels/radisson-jodhpur/gallery/jashn.webp",
+    "/assets/hotels/radisson-jodhpur/gallery/lobby.webp",
+    "/assets/hotels/radisson-jodhpur/gallery/pool.webp",
+    "/assets/hotels/radisson-jodhpur/gallery/rooftop.webp",
+    "/assets/hotels/radisson-jodhpur/gallery/superior-room.webp"
+  ],
+  "locationId": "jodhpur"
+}

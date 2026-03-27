@@ -1,0 +1,33 @@
+---
+import BlogCard from "../components/BlogCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import { getCollection } from "astro:content";
+const blogPosts = await getCollection("blog");
+---
+
+<BaseLayout>
+    <main class="py-48 px-6 lg:px-16">
+        <div class="max-w-560 mx-auto">
+            <header class="mb-32">
+                <h1 class="font-orlean sub-heading text-black">Blogs</h1>
+            </header>
+
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-40"
+            >
+                {
+                    blogPosts.map((post) => (
+                        <BlogCard
+                            description={post.data.description}
+                            title={post.data.title}
+                            image={post.data.image}
+                            url={`/blog/${post.id}`}
+                            tags={post.data.tags}
+                        />
+                    ))
+                }
+            </div>
+        </div>
+    </main>
+</BaseLayout>

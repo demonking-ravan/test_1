@@ -1,0 +1,119 @@
+{
+  "name": "Hyatt Regency Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Chauras Bagh",
+      "capacity": "NA",
+      "image": "/assets/hotels/hyatt-regency/events/1735213299-image-1650870629.webp"
+    },
+    {
+      "name": "Navras Bagh",
+      "capacity": "NA",
+      "image": "/assets/hotels/hyatt-regency/events/1735213285-image-1650870629.webp"
+    },
+    {
+      "name": "The Manor",
+      "capacity": "NA",
+      "image": "/assets/hotels/hyatt-regency/events/1735213270-decoration.webp"
+    },
+    {
+      "name": "The Imperial Room",
+      "capacity": "NA",
+      "image": "/assets/hotels/hyatt-regency/events/1735213227-decoration.webp"
+    },
+    {
+      "name": "The Imperial Room",
+      "capacity": "NA",
+      "image": "/assets/hotels/hyatt-regency/events/1735213227-decoration.webp"
+    },
+    {
+      "name": "Regency Ballroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/hyatt-regency/events/1735213172-rb.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Royal Room",
+      "description": "Royal Room",
+      "roomImages": [
+        "/assets/hotels/hyatt-regency/rooms/1735212237-2--hyattt-regency-jaipur-india-lifestyle-hospitality-inte_VGt6X1Z.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Deluxe Room",
+      "description": "Royal Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/hyatt-regency/rooms/1735212294-rooms.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Diplomat Suite",
+      "description": "Royal Diplomat Suite",
+      "roomImages": [
+        "/assets/hotels/hyatt-regency/rooms/1735212606-Room-image-1650866353.webp"
+      ]
+    },
+    {
+      "roomType": "Royal majestic Suite",
+      "description": "Royal majestic Suite",
+      "roomImages": [
+        "/assets/hotels/hyatt-regency/rooms/1735212655-Royal_Majestic_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Standards Room",
+      "description": "Standards Room",
+      "roomImages": [
+        "/assets/hotels/hyatt-regency/rooms/1735212745-1676624826-room1.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Railway Station",
+      "distance": "11 KM"
+    },
+    {
+      "name": "Airport",
+      "distance": "07 KM"
+    },
+    {
+      "name": "World Trade Park",
+      "distance": "07 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "16 Km"
+    },
+    {
+      "name": "NH 48",
+      "distance": "14 KM"
+    }
+  ],
+  "contact": {
+    "address": "Iskcon Rd, Mansarovar, Jaipur, Rajasthan 302020",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/hyatt-regency/main/1735211992-1728977705-Hyatt Regency Jaipur.webp",
+  "gallery": [
+    "/assets/hotels/hyatt-regency/gallery/2--hyattt-regency-jaipur-india-lifestyle-hospitality-inte_VGt6X1Z.webp",
+    "",
+    "/assets/hotels/hyatt-regency/gallery/hall.webp",
+    "/assets/hotels/hyatt-regency/gallery/hotel-haytt.webp",
+    "/assets/hotels/hyatt-regency/gallery/poolside.webp",
+    "/assets/hotels/hyatt-regency/gallery/rb.webp"
+  ],
+  "locationId": "jaipur"
+}

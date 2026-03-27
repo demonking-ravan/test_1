@@ -1,0 +1,128 @@
+{
+  "name": "Fort Rajwada Jaisalmer",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Fort view open Air Hall",
+      "capacity": "NA",
+      "image": "/assets/hotels/fort-rajwada/events/1735899207-Fort_View_Open_Air_Hall.webp"
+    },
+    {
+      "name": "Boardroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/fort-rajwada/events/1735899169-boardroom.webp"
+    },
+    {
+      "name": "Ganga Villas",
+      "capacity": "NA",
+      "image": "/assets/hotels/fort-rajwada/events/1735899147-ganga_villas.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Palace Room",
+      "description": "Palace Room",
+      "roomImages": [
+        "/assets/hotels/fort-rajwada/rooms/1735898202-palace_rooms.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Room with Courtyard View",
+      "description": "Palace Room with Courtyard View",
+      "roomImages": [
+        "/assets/hotels/fort-rajwada/rooms/1735898240-Palace_rooms_with_courtyard_view.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Suite",
+      "description": "Palace Suite",
+      "roomImages": [
+        "/assets/hotels/fort-rajwada/rooms/1735898262-palace_suites.webp"
+      ]
+    },
+    {
+      "roomType": "Family Suite",
+      "description": "Family Suite",
+      "roomImages": [
+        "/assets/hotels/fort-rajwada/rooms/1735898290-family_suites.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Room with Garden View",
+      "description": "Palace Room with Garden View",
+      "roomImages": [
+        "/assets/hotels/fort-rajwada/rooms/1735898318-palace_room_with_garden_view.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Room with Private Terrace",
+      "description": "Palace Room with Private Terrace",
+      "roomImages": [
+        "/assets/hotels/fort-rajwada/rooms/1735898342-palace_room_with_private_terrace.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Suite with Round Bed",
+      "description": "Palace Suite with Round Bed",
+      "roomImages": [
+        "/assets/hotels/fort-rajwada/rooms/1735898371-palace_suite_with_round_bed.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Suite",
+      "description": "Royal Suite",
+      "roomImages": [
+        "/assets/hotels/fort-rajwada/rooms/1735898395-royale_suites.webp"
+      ]
+    },
+    {
+      "roomType": "Sheesh Mahal",
+      "description": "Sheesh Mahal",
+      "roomImages": [
+        "/assets/hotels/fort-rajwada/rooms/1735898427-sheesh-mahal.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Patwon Ki Haweli",
+      "distance": "4.8 KM"
+    },
+    {
+      "name": "The Thar Heritage Museum",
+      "distance": "5.5 KM"
+    },
+    {
+      "name": "Vyas Chhatri Sunset Point",
+      "distance": "5.7 KM"
+    },
+    {
+      "name": "Bada Bagh Temple",
+      "distance": "9.4 KM"
+    }
+  ],
+  "contact": {
+    "address": "No.1, Hotel Complex, Jodhpur Barmer Link Road, Indira Colony, Jaisalmer, Rajasthan 345001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/fort-rajwada/main/1735898121-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/fort-rajwada/gallery/city-tour-1.webp",
+    "/assets/hotels/fort-rajwada/gallery/Fort_View_Open_Air_Hall.webp",
+    "/assets/hotels/fort-rajwada/gallery/palace_suite_with_round_bed.webp",
+    "/assets/hotels/fort-rajwada/gallery/palace_suites.webp",
+    "/assets/hotels/fort-rajwada/gallery/pattu-1.webp",
+    "/assets/hotels/fort-rajwada/gallery/spa-3.webp"
+  ],
+  "locationId": "jaisalmer"
+}

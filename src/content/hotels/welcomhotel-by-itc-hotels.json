@@ -1,0 +1,86 @@
+{
+  "name": "Welcomhotel by ITC Hotels Jodhpur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Mandore Lawn",
+      "capacity": "4900",
+      "image": "/assets/hotels/welcomhotel-by-itc-hotels/events/1735891074-mandore-bagh.webp"
+    },
+    {
+      "name": "Akbar Hall",
+      "capacity": "350",
+      "image": "/assets/hotels/welcomhotel-by-itc-hotels/events/1735891045-akbar-hall.webp"
+    },
+    {
+      "name": "Banquet Corridor",
+      "capacity": "NA",
+      "image": "/assets/hotels/welcomhotel-by-itc-hotels/events/1735891025-banquet-corridor.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room (39 Sq. m)",
+      "roomImages": [
+        "/assets/hotels/welcomhotel-by-itc-hotels/rooms/1735890879-twin-room.webp"
+      ]
+    },
+    {
+      "roomType": "Jodhpur Chambers",
+      "description": "Jodhpur Chambers (40 Sq. m)",
+      "roomImages": [
+        "/assets/hotels/welcomhotel-by-itc-hotels/rooms/1735890905-jodhpur-chambers-with-outside-view.webp"
+      ]
+    },
+    {
+      "roomType": "Villas",
+      "description": "Villas (260 Sq. m)",
+      "roomImages": [
+        "/assets/hotels/welcomhotel-by-itc-hotels/rooms/1735890919-villa-pool.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Mehrangarh Fort",
+      "distance": "14.2 KM"
+    },
+    {
+      "name": "Jaswant Thada",
+      "distance": "13.1 KM"
+    },
+    {
+      "name": "Umaid Bhawan Place",
+      "distance": "10.3 KM"
+    },
+    {
+      "name": "Surpura Dam",
+      "distance": "17.8 KM"
+    }
+  ],
+  "contact": {
+    "address": "53, Uchiyarda Rd, near Euro International School, Dev Nagar, Jodhpur, Rajasthan 342027",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/welcomhotel-by-itc-hotels/main/1735890737-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/welcomhotel-by-itc-hotels/gallery/banquet-corridor.webp",
+    "/assets/hotels/welcomhotel-by-itc-hotels/gallery/bistro-desert-rose.webp",
+    "/assets/hotels/welcomhotel-by-itc-hotels/gallery/jodhpur-chambers-with-outside-view.webp",
+    "/assets/hotels/welcomhotel-by-itc-hotels/gallery/mandore-bagh.webp",
+    "/assets/hotels/welcomhotel-by-itc-hotels/gallery/villa-pool.webp",
+    "/assets/hotels/welcomhotel-by-itc-hotels/gallery/welcomcafe-chinkara-outside.webp"
+  ],
+  "locationId": "jodhpur"
+}

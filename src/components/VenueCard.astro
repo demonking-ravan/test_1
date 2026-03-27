@@ -1,0 +1,41 @@
+---
+interface Props {
+    name: string;
+    featuredImage: string;
+    hotelCount: number;
+    url: string;
+}
+
+const { name, featuredImage, hotelCount, url } = Astro.props;
+---
+
+<article class="group cursor-pointer">
+    <a href={url} class="block">
+        <div class="aspect-4/5 overflow-hidden mb-12">
+            <img
+                src={featuredImage}
+                alt={name}
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 group-hover:rotate-2"
+            />
+        </div>
+        <div class="space-y-6">
+            <div class="flex flex-wrap gap-4">
+                <span
+                    class="font-aventa text-[.8rem] uppercase tracking-[0.2em] text-gray-500 border border-gray-200 px-3 py-1 rounded-full"
+                >
+                    {hotelCount} Featured Hotels
+                </span>
+            </div>
+            <h2
+                class="sec-heading tracking-wider text-black group-hover:underline decoration-1 underline-offset-4"
+            >
+                {name}
+            </h2>
+            <p class="font-aventa text-[1rem] tracking-wider text-gray-800">
+                Explore the most stunning and luxurious wedding venues in {
+                    name
+                }.
+            </p>
+        </div>
+    </a>
+</article>

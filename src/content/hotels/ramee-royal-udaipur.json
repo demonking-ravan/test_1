@@ -1,0 +1,128 @@
+{
+  "name": "Ramee Royal Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Pearl Hall",
+      "capacity": "100",
+      "image": "/assets/hotels/ramee-royal-udaipur/events/image-1734524276.png"
+    },
+    {
+      "name": "Oyster Board Room",
+      "capacity": "30",
+      "image": "/assets/hotels/ramee-royal-udaipur/events/image-1734524181.png"
+    },
+    {
+      "name": "Imperial Hall",
+      "capacity": "500",
+      "image": "/assets/hotels/ramee-royal-udaipur/events/image-1734524114.png"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Rooms Without Balcony",
+      "description": "Deluxe Rooms Without Balcony (350 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/ramee-royal-udaipur/rooms/Room-image-1734522391.png"
+      ]
+    },
+    {
+      "roomType": "Ramee Royal Suite with indoor pool",
+      "description": "Ramee Royal Suite with indoor pool (1026 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/ramee-royal-udaipur/rooms/Room-image-1734522465.jpg"
+      ]
+    },
+    {
+      "roomType": "Ramee Royal Suite with Jacuzzi",
+      "description": "Ramee Royal Suite with Jacuzzi (1026 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/ramee-royal-udaipur/rooms/Room-image-1734522512.jpg"
+      ]
+    },
+    {
+      "roomType": "Executive Rooms With Balcony",
+      "description": "Executive Rooms With Balcony (456 sq.ft)",
+      "roomImages": [
+        "/assets/hotels/ramee-royal-udaipur/rooms/1734522697-Executive_Rooms_With_Balcony.png"
+      ]
+    },
+    {
+      "roomType": "Premium King Room",
+      "description": "Premium King Room (456 sq.ft)",
+      "roomImages": [
+        "/assets/hotels/ramee-royal-udaipur/rooms/Room-image-1734522601.png"
+      ]
+    },
+    {
+      "roomType": "Executive Rooms with Bathtub",
+      "description": "Executive Rooms with Bathtub (512 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/ramee-royal-udaipur/rooms/Room-image-1734522641.png"
+      ]
+    },
+    {
+      "roomType": "Premium Cottages with Balcony",
+      "description": "Premium Cottages with Balcony (512 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/ramee-royal-udaipur/rooms/Room-image-1734522761.png"
+      ]
+    },
+    {
+      "roomType": "Premium cottages with private pool",
+      "description": "Premium cottages with private pool (890 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/ramee-royal-udaipur/rooms/Room-image-1734522814.png"
+      ]
+    },
+    {
+      "roomType": "Ramee Royal Suite",
+      "description": "Ramee Royal Suite (1200 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/ramee-royal-udaipur/rooms/Room-image-1734523140.png"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Lake Pichola",
+      "distance": "12.1 km"
+    },
+    {
+      "name": "Saheliyo ki Bari",
+      "distance": "15.7 km"
+    },
+    {
+      "name": "City Palace Udaipur",
+      "distance": "11.7 km"
+    },
+    {
+      "name": "Udai Sagar Lake",
+      "distance": "26.8 km"
+    }
+  ],
+  "contact": {
+    "address": "Near IIM, Balicha,Udaipur - Ahmedabad Highway,NH 8, Udaipur, Rajasthan 313002",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/ramee-royal-udaipur/main/company-image-1734522284.png",
+  "gallery": [
+    "/assets/hotels/ramee-royal-udaipur/gallery/Cafe.png",
+    "/assets/hotels/ramee-royal-udaipur/gallery/Imperial_Hall.png",
+    "/assets/hotels/ramee-royal-udaipur/gallery/Oyster_Board_Room.png",
+    "/assets/hotels/ramee-royal-udaipur/gallery/Ramee_Royal_Suite.png",
+    "/assets/hotels/ramee-royal-udaipur/gallery/Swimming-Pool-at-Ramee-Royal-5-star-resort-in-udaipur.png",
+    "/assets/hotels/ramee-royal-udaipur/gallery/udaipur-1-656b4b22854f8-1600x550.png"
+  ],
+  "locationId": "udaipur"
+}

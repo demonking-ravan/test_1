@@ -1,0 +1,88 @@
+{
+  "name": "Samode Palace",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Pool Side",
+      "capacity": "60",
+      "image": "/assets/hotels/samode-palace/events/1735303549-poolside.webp"
+    },
+    {
+      "name": "RoofTop",
+      "capacity": "125",
+      "image": "/assets/hotels/samode-palace/events/1735303533-roof.webp"
+    },
+    {
+      "name": "Darbar Hall",
+      "capacity": "125",
+      "image": "/assets/hotels/samode-palace/events/1735303510-durbar_hall.webp"
+    },
+    {
+      "name": "Darbar Hall",
+      "capacity": "200",
+      "image": "/assets/hotels/samode-palace/events/1735303476-durbar--hallbig.webp"
+    },
+    {
+      "name": "Darbar Hall",
+      "capacity": "200",
+      "image": "/assets/hotels/samode-palace/events/1735303476-durbar--hallbig.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Royal Suites",
+      "description": "Royal Suites",
+      "roomImages": [
+        "/assets/hotels/samode-palace/rooms/1735303265-royalsuites.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Suites",
+      "description": "Deluxe Suites",
+      "roomImages": [
+        "/assets/hotels/samode-palace/rooms/1735303332-our-twin-deluxe-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/samode-palace/rooms/1735303346-deluxe_room.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Samod Balaji Mandir",
+      "distance": "11.9 KM"
+    },
+    {
+      "name": "Samod Fort",
+      "distance": "3.4 KM"
+    }
+  ],
+  "contact": {
+    "address": "Tehsil, Village Samode, Chomu, Rajasthan 303806",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/samode-palace/main/1735303068-hotel_76_b.webp",
+  "gallery": [
+    "/assets/hotels/samode-palace/gallery/banquet.webp",
+    "",
+    "/assets/hotels/samode-palace/gallery/deluxe_room.webp",
+    "/assets/hotels/samode-palace/gallery/roof.webp",
+    "/assets/hotels/samode-palace/gallery/royalsuites.webp",
+    "/assets/hotels/samode-palace/gallery/view.webp"
+  ],
+  "locationId": "jaipur"
+}

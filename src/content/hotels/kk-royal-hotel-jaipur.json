@@ -1,0 +1,106 @@
+{
+  "name": "KK Royal Hotel Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Amer Mahal",
+      "capacity": "100",
+      "image": "/assets/hotels/kk-royal-hotel-jaipur/events/1738135166-AMER_MAHAL.webp"
+    },
+    {
+      "name": "Chandra Mahal",
+      "capacity": "150",
+      "image": "/assets/hotels/kk-royal-hotel-jaipur/events/1738135149-CHANDRA_MAHAL.webp"
+    },
+    {
+      "name": "Surya Mahal",
+      "capacity": "600",
+      "image": "/assets/hotels/kk-royal-hotel-jaipur/events/1738135132-SURYA_MAHAL.webp"
+    },
+    {
+      "name": "Lawn I",
+      "capacity": "NA",
+      "image": "/assets/hotels/kk-royal-hotel-jaipur/events/1738135102-Lawn_I.webp"
+    },
+    {
+      "name": "Lawn I",
+      "capacity": "NA",
+      "image": "/assets/hotels/kk-royal-hotel-jaipur/events/1738135102-Lawn_I.webp"
+    },
+    {
+      "name": "Lawn II",
+      "capacity": "NA",
+      "image": "/assets/hotels/kk-royal-hotel-jaipur/events/1738135085-LAWN_II.webp"
+    },
+    {
+      "name": "Lawn III",
+      "capacity": "NA",
+      "image": "/assets/hotels/kk-royal-hotel-jaipur/events/image-1694602917.jpg"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room",
+      "roomImages": [
+        "/assets/hotels/kk-royal-hotel-jaipur/rooms/1738134853-DELUXE_ROOM.webp"
+      ]
+    },
+    {
+      "roomType": "Lotus Room",
+      "description": "Lotus Room",
+      "roomImages": [
+        "/assets/hotels/kk-royal-hotel-jaipur/rooms/1738134873-Lotus_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Suite Room",
+      "description": "Suite Room",
+      "roomImages": [
+        "/assets/hotels/kk-royal-hotel-jaipur/rooms/1738134898-Suite_Room.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "23.7 KM"
+    },
+    {
+      "name": "Amber Fort",
+      "distance": "1.4 KM"
+    },
+    {
+      "name": "Jaigarh fort",
+      "distance": "2.4 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "8.5 KM"
+    }
+  ],
+  "contact": {
+    "address": "Amer Rd, Amer, Jaipur, Rajasthan 302028",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/kk-royal-hotel-jaipur/main/1729141304-KK Royal Hotel Jaipur.webp",
+  "gallery": [
+    "/assets/hotels/kk-royal-hotel-jaipur/gallery/CHANDRA_MAHAL.webp",
+    "",
+    "/assets/hotels/kk-royal-hotel-jaipur/gallery/LAWN_II.webp",
+    "/assets/hotels/kk-royal-hotel-jaipur/gallery/LAWN_III.webp",
+    "/assets/hotels/kk-royal-hotel-jaipur/gallery/madhusala.webp",
+    "/assets/hotels/kk-royal-hotel-jaipur/gallery/sheesh_mahal.webp"
+  ],
+  "locationId": "jaipur"
+}

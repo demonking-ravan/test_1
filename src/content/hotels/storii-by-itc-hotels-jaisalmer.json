@@ -1,0 +1,83 @@
+{
+  "name": "Storii By ITC Hotels Jaisalmer",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Lawn",
+      "capacity": "600",
+      "image": "/assets/hotels/storii-by-itc-hotels-jaisalmer/events/image-1752919117.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room (28 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/storii-by-itc-hotels-jaisalmer/rooms/Room-image-1752918061.webp"
+      ]
+    },
+    {
+      "roomType": "Junior Suite",
+      "description": "Junior Suite (51 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/storii-by-itc-hotels-jaisalmer/rooms/Room-image-1752918092.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Suite",
+      "description": "Deluxe Suite (65 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/storii-by-itc-hotels-jaisalmer/rooms/Room-image-1752918127.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Suite",
+      "description": "Luxury Suite (74 sq. mt.)",
+      "roomImages": [
+        "/assets/hotels/storii-by-itc-hotels-jaisalmer/rooms/Room-image-1752918267.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Dunes Safari",
+      "distance": "5.2 Km"
+    },
+    {
+      "name": "Jaisalmer Fort",
+      "distance": "4.6 Km"
+    },
+    {
+      "name": "Gadisar Lake",
+      "distance": "4.0 Km"
+    },
+    {
+      "name": "Tanota Mata Temple",
+      "distance": "125 Km"
+    }
+  ],
+  "contact": {
+    "address": "Plot no 7, Jaisalmer - Jodhpur Rd, Indira Colony, Jaisalmer, Rajasthan 345001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/storii-by-itc-hotels-jaisalmer/main/company-image-1752917664.webp",
+  "gallery": [
+    "/assets/hotels/storii-by-itc-hotels-jaisalmer/gallery/Citrine.webp",
+    "/assets/hotels/storii-by-itc-hotels-jaisalmer/gallery/Deluxe_Room.webp",
+    "/assets/hotels/storii-by-itc-hotels-jaisalmer/gallery/lawns-with-setup.webp",
+    "/assets/hotels/storii-by-itc-hotels-jaisalmer/gallery/lobby.webp",
+    "/assets/hotels/storii-by-itc-hotels-jaisalmer/gallery/Poolside.webp",
+    "/assets/hotels/storii-by-itc-hotels-jaisalmer/gallery/Sapphire_Lounge.webp"
+  ],
+  "locationId": "jaisalmer"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Fateh Garh",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Janana Courtyard & Lounge",
+      "capacity": "200",
+      "image": "/assets/hotels/fateh-garh/events/1735909793-Janana_Courtyard_&_Lounge.webp"
+    },
+    {
+      "name": "Baradari Terrace",
+      "capacity": "500",
+      "image": "/assets/hotels/fateh-garh/events/1735909775-baradari-terrace.webp"
+    },
+    {
+      "name": "Jai Bagh Upper Terrace",
+      "capacity": "150",
+      "image": "/assets/hotels/fateh-garh/events/1735909761-Jai_Bagh_Upper_Terrace.webp"
+    },
+    {
+      "name": "Jai Bagh Lower Terrace",
+      "capacity": "150",
+      "image": "/assets/hotels/fateh-garh/events/1735909743-Jai_Bagh_Lower_Terrace.webp"
+    },
+    {
+      "name": "Jai Bagh Lower Terrace",
+      "capacity": "150",
+      "image": "/assets/hotels/fateh-garh/events/1735909743-Jai_Bagh_Lower_Terrace.webp"
+    },
+    {
+      "name": "Sun Set Terrace",
+      "capacity": "300",
+      "image": "/assets/hotels/fateh-garh/events/1735909726-Sun_Set_Terrace.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "HONEYMOON SUITE WITH JACUZZI",
+      "description": "HONEYMOON SUITE WITH JACUZZI",
+      "roomImages": [
+        "/assets/hotels/fateh-garh/rooms/1735909497-Honeymoon_Suites.webp"
+      ]
+    },
+    {
+      "roomType": "PLUNGE POOL SUITES",
+      "description": "PLUNGE POOL SUITES",
+      "roomImages": [
+        "/assets/hotels/fateh-garh/rooms/1735909515-Plunge_Pool_Suites.webp"
+      ]
+    },
+    {
+      "roomType": "HERITAGE SUITES WITH BALCONY",
+      "description": "HERITAGE SUITES WITH BALCONY",
+      "roomImages": [
+        "/assets/hotels/fateh-garh/rooms/1735909536-Heritage_Suite_with_private_balcony.webp"
+      ]
+    },
+    {
+      "roomType": "HERITAGE CHAMBER ROOMS",
+      "description": "HERITAGE CHAMBER ROOMS",
+      "roomImages": [
+        "/assets/hotels/fateh-garh/rooms/1735909565-Heritage_Chamber_rooms.webp"
+      ]
+    },
+    {
+      "roomType": "RENAISSANCE ROOMS",
+      "description": "RENAISSANCE ROOMS",
+      "roomImages": [
+        "/assets/hotels/fateh-garh/rooms/1735909591-Renaissance_Rooms.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Lake Pichola",
+      "distance": "7.5 KM"
+    },
+    {
+      "name": "Saheliyo ki Bari",
+      "distance": "9.0 KM"
+    },
+    {
+      "name": "City Palace Udaipur",
+      "distance": "7.0 KM"
+    },
+    {
+      "name": "Udai Sagar Lake",
+      "distance": "20 KM"
+    }
+  ],
+  "contact": {
+    "address": "Bujara, Sisarma Road, Fateh Garh, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/fateh-garh/main/1735909422-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/fateh-garh/gallery/Baradari_Indoor_Restaurant.webp",
+    "/assets/hotels/fateh-garh/gallery/gallery1.webp",
+    "/assets/hotels/fateh-garh/gallery/Heritage_Suite_with_private_balcony.webp",
+    "/assets/hotels/fateh-garh/gallery/Jai_Bagh_Lower_Terrace.webp",
+    "/assets/hotels/fateh-garh/gallery/Janana_Courtyard_&_Lounge.webp",
+    "/assets/hotels/fateh-garh/gallery/Private_dining.webp"
+  ],
+  "locationId": "udaipur"
+}

@@ -1,0 +1,39 @@
+---
+interface Props {
+    title: string;
+    image: string;
+    topic: string;
+    tags: string[];
+}
+
+const { tags, title, image, topic } = Astro.props;
+---
+
+<section
+    class="flex flex-col md:flex-row w-full md:h-screen bg-[#f2efed] overflow-hidden"
+>
+    <div class="w-full md:w-1/2 h-1/2 md:h-full">
+        <img src={image} alt={title} class="w-full h-full object-cover" />
+    </div>
+
+    <div
+        class="w-full md:w-1/2 h-1/2 md:h-full flex flex-col max-sm:gap-6 justify-between items-center py-40 px-24 text-center"
+    >
+        <p
+            class="font-aventa font-bold text-[1rem] uppercase tracking-[0.3rem] text-black"
+        >
+            Mapsor Experiential Weddings
+        </p>
+
+        <h1 class="sub-heading text-black max-w-200">
+            {title}
+        </h1>
+
+        <div
+            class="space-y-4 font-aventa text-[1rem] uppercase tracking-wider text-black"
+        >
+            <p>Tags: <span class="font-bold">{tags.join(", ")}</span></p>
+            <p class="mt-6">Topic: <span class="font-bold">{topic}</span></p>
+        </div>
+    </div>
+</section>

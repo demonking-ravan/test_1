@@ -1,0 +1,132 @@
+{
+  "name": "Suryagarh Jaisalmer",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Lakeside",
+      "capacity": "600",
+      "image": "/assets/hotels/suryagarh/events/1735282919-lakeside.webp"
+    },
+    {
+      "name": "Khuzamsha Hall",
+      "capacity": "150",
+      "image": "/assets/hotels/suryagarh/events/1735282893-surr.webp"
+    },
+    {
+      "name": "celebration Lawn",
+      "capacity": "1200",
+      "image": "/assets/hotels/suryagarh/events/1735282857-Thar-Dinner_2.webp"
+    },
+    {
+      "name": "Sunset Patio",
+      "capacity": "450",
+      "image": "/assets/hotels/suryagarh/events/1735282831-sunset_patio.webp"
+    },
+    {
+      "name": "Sunset Patio",
+      "capacity": "450",
+      "image": "/assets/hotels/suryagarh/events/1735282831-sunset_patio.webp"
+    },
+    {
+      "name": "Yoga Garden",
+      "capacity": "150",
+      "image": "/assets/hotels/suryagarh/events/1735282811-Yoga_2.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Fort Room",
+      "description": "Fort Room",
+      "roomImages": [
+        "/assets/hotels/suryagarh/rooms/1735282056-fortroom.webp"
+      ]
+    },
+    {
+      "roomType": "Pavilion Room",
+      "description": "Pavilion Room",
+      "roomImages": [
+        "/assets/hotels/suryagarh/rooms/1735282085-pavillion.webp"
+      ]
+    },
+    {
+      "roomType": "Heritage Room",
+      "description": "Heritage Room",
+      "roomImages": [
+        "/assets/hotels/suryagarh/rooms/1735282109-heritage.webp"
+      ]
+    },
+    {
+      "roomType": "Signature Suite",
+      "description": "Signature Suite",
+      "roomImages": [
+        "/assets/hotels/suryagarh/rooms/1735282131-signature.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Suite",
+      "description": "Luxury Suite",
+      "roomImages": [
+        "/assets/hotels/suryagarh/rooms/1735282510-luxury-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Suryagarh Suite",
+      "description": "Suryagarh Suite",
+      "roomImages": [
+        "/assets/hotels/suryagarh/rooms/1735282561-suryagarh-suite.webp"
+      ]
+    },
+    {
+      "roomType": "Jaisalmer Haveli",
+      "description": "Jaisalmer Haveli",
+      "roomImages": [
+        "/assets/hotels/suryagarh/rooms/1735282160-jaisalmer-haveli.webp"
+      ]
+    },
+    {
+      "roomType": "Thar Haveli",
+      "description": "Thar Haveli",
+      "roomImages": [
+        "/assets/hotels/suryagarh/rooms/1735282591-Thar-haveli.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Kuldhara Village",
+      "distance": "25.8 KM"
+    },
+    {
+      "name": "Jaisalmer Airport",
+      "distance": "28.1 KM"
+    },
+    {
+      "name": "Railway Station",
+      "distance": "16 KM"
+    }
+  ],
+  "contact": {
+    "address": "Kahala Phata, Jaisalmer - Sam - Dhanana Rd, Jaisalmer, Rajasthan 345001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/suryagarh/main/1677141784-surr.jpg",
+  "gallery": [
+    "/assets/hotels/suryagarh/gallery/Kebab-and-Biryani-Lake-Garden_2.webp",
+    "/assets/hotels/suryagarh/gallery/pavillion.webp",
+    "/assets/hotels/suryagarh/gallery/view2.webp",
+    "/assets/hotels/suryagarh/gallery/view3.webp",
+    "/assets/hotels/suryagarh/gallery/view6.webp",
+    "/assets/hotels/suryagarh/gallery/Signature-Thali_2.webp"
+  ],
+  "locationId": "jaisalmer"
+}

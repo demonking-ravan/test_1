@@ -1,0 +1,93 @@
+{
+  "name": "jüSTa Sajjangarh Resort & Spa udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Amber Lawn",
+      "capacity": "45",
+      "image": "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/events/1738846217-Amber_Lawn.webp"
+    },
+    {
+      "name": "Board Room",
+      "capacity": "100",
+      "image": "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/events/1738846197-Banquet_Hall_%E2%80%93_Prithvi.webp"
+    },
+    {
+      "name": "Banquet Hall – Prithvi",
+      "capacity": "100",
+      "image": "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/events/1738846174-Banquet_Hall_%E2%80%93_Prithvi.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Superior Room",
+      "description": "Superior Room (250 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/rooms/1738845765-Superior_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Room",
+      "description": "Premium Room (250 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/rooms/1738845788-Premium_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room (320 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/rooms/1738845814-Deluxe_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Sajjangarh Suite",
+      "description": "Sajjangarh Suite (500 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/rooms/1738845835-Sajjangarh_Suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Maharana Pratap Airport, Udaipur",
+      "distance": "27.9 km"
+    },
+    {
+      "name": "Lake Pichola",
+      "distance": "5.6 km"
+    },
+    {
+      "name": "Ahar Cenotaphs",
+      "distance": "8.8 km"
+    },
+    {
+      "name": "Ambrai Ghat",
+      "distance": "4 km"
+    }
+  ],
+  "contact": {
+    "address": "Sajjangarh Main Gate, Biological Park, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/main/1738845653-main.webp",
+  "gallery": [
+    "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/gallery/5_Star_Resort_with_Restaurant_in.webp",
+    "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/gallery/Banquet_Hall_%E2%80%93_Prithvi.webp",
+    "",
+    "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/gallery/dining4.webp",
+    "/assets/hotels/j-sta-sajjangarh-resort-spa-udaipur/gallery/pool.webp",
+    ""
+  ],
+  "locationId": "udaipur"
+}

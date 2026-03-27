@@ -1,0 +1,86 @@
+{
+  "name": "Trident Hotel Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Front Lawns",
+      "capacity": "NA",
+      "image": "/assets/hotels/trident-hotel-jaipur/events/1735819743-front_lawn.webp"
+    },
+    {
+      "name": "Nahargarh",
+      "capacity": "40",
+      "image": "/assets/hotels/trident-hotel-jaipur/events/1735819725-nahargarh.webp"
+    },
+    {
+      "name": "Jaigarh",
+      "capacity": "40",
+      "image": "/assets/hotels/trident-hotel-jaipur/events/1735819699-jaigarh.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe garden view rooms",
+      "description": "Deluxe garden view rooms",
+      "roomImages": [
+        "/assets/hotels/trident-hotel-jaipur/rooms/1735819512-jaipur-deluxeroomgardenview.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe lake view rooms",
+      "description": "Deluxe lake view rooms",
+      "roomImages": [
+        "/assets/hotels/trident-hotel-jaipur/rooms/1735819536-jaipur-deluxeroomlakeview-new.webp"
+      ]
+    },
+    {
+      "roomType": "Suites",
+      "description": "Suites",
+      "roomImages": [
+        "/assets/hotels/trident-hotel-jaipur/rooms/1735819576-jaipur-suite-new.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "18.1 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "4.2 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "0.3 KM"
+    },
+    {
+      "name": "Nahargarh Fort",
+      "distance": "10.3 KM"
+    }
+  ],
+  "contact": {
+    "address": "Amer Rd, Jal Mahal, Amer, Jaipur, Rajasthan 302002",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/trident-hotel-jaipur/main/1728982587-Trident Hotel Jaipur.webp",
+  "gallery": [
+    "",
+    "/assets/hotels/trident-hotel-jaipur/gallery/conference_room.webp",
+    "/assets/hotels/trident-hotel-jaipur/gallery/jaipur-deluxeroomlakeview-new.webp",
+    "/assets/hotels/trident-hotel-jaipur/gallery/mansagar-large.webp",
+    "/assets/hotels/trident-hotel-jaipur/gallery/pool.webp",
+    "/assets/hotels/trident-hotel-jaipur/gallery/verandah-large.webp"
+  ],
+  "locationId": "jaipur"
+}

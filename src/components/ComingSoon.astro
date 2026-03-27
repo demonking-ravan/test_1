@@ -1,0 +1,67 @@
+---
+import GradientBackground from "./GradientBackground.astro";
+import MultiStepFormModal from "./MultiStepFormModal.astro";
+---
+
+<section
+  class="w-full h-screen relative flex justify-center min-h-137.5 overflow-hidden isolate"
+>
+  <GradientBackground />
+
+  <div
+    class="absolute grid gap-[min(14.2rem,14.2vh)] w-full place-content-center place-items-center top-[min(40rem,40vh)]"
+  >
+    <div class="text-center">
+      <h1
+        class="font-medium mb-8 font-orlean max-lg:text-[5rem] text-[min(10rem,10vh)] max-lg:tracking-[1px] tracking-[3px] max-lg:leading-[.6] leading-normal text-[#101820] h-fit"
+      >
+        Coming soon
+      </h1>
+
+      <p
+        class="font-normal font-aventa max-lg:text-[1.5rem] text-[min(2.5rem,2.5vh)] leading-[1.2] text-[#8a8f8d]"
+      >
+        This site is under construction
+      </p>
+    </div>
+
+    <div class="flex flex-col items-center gap-4">
+      <!-- <span class="text-sm font-semibold text-gray-900">Follow us</span> -->
+      <div class="flex gap-4">
+        <a
+          target="_blank"
+          href="https://www.instagram.com/mapsorexperientialweddings/"
+          class="max-lg:w-[2.8rem] max-lg:h-[2.8rem] w-[3.7rem] h-[3.7rem] text-2xl rounded-full border-[#5b6871] border text-[#5b6871] flex items-center justify-center"
+          ><i class="fa-brands fa-instagram"></i></a
+        >
+        <a
+          target="_blank"
+          href="https://www.facebook.com/MapsorExperientialWeddings"
+          class="max-lg:w-[2.8rem] max-lg:h-[2.8rem] w-[3.7rem] h-[3.7rem] text-2xl rounded-full border-[#5b6871] border text-[#5b6871] flex items-center justify-center"
+          ><i class="fa-brands fa-facebook-f"></i></a
+        >
+        <a
+          target="_blank"
+          href="https://www.youtube.com/@mapsorexperientialweddings"
+          class="max-lg:w-[2.8rem] max-lg:h-[2.8rem] w-[3.7rem] h-[3.7rem] text-2xl rounded-full border-[#5b6871] border text-[#5b6871] flex items-center justify-center"
+          ><i class="fa-brands fa-youtube"></i></a
+        >
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/company/mapsor-experiential-weddings/"
+          class="max-lg:w-[2.8rem] max-lg:h-[2.8rem] w-[3.7rem] h-[3.7rem] text-2xl rounded-full border-[#5b6871] border text-[#5b6871] flex items-center justify-center"
+          ><i class="fa-brands fa-linkedin"></i></a
+        >
+      </div>
+      <a
+        href="mailto:weddings@mapsor.com"
+        class="font-normal font-aventa max-lg:text-[1.5rem] text-[min(2.5rem,2.5vh)] leading-[1.2] text-[#101820] border-b border-black pb-0.5 hover:text-gray-600 hover:border-gray-600 transition"
+      >
+        weddings@mapsor.com
+      </a>
+    </div>
+  </div>
+
+  <!-- <ContactModal /> -->
+</section>
+<MultiStepFormModal />

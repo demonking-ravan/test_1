@@ -1,0 +1,136 @@
+{
+  "name": "Jaisalmer Marriott Resort & Spa",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Golden Ballroom",
+      "capacity": "300",
+      "image": "/assets/hotels/jaisalmer-marriott-resort-spa/events/1735900592-golden_ballroom.webp"
+    },
+    {
+      "name": "Oasis (Open Central Courtyard)",
+      "capacity": "2000",
+      "image": "/assets/hotels/jaisalmer-marriott-resort-spa/events/1735900573-oasis_courtyard.webp"
+    },
+    {
+      "name": "Palm Garden",
+      "capacity": "500",
+      "image": "/assets/hotels/jaisalmer-marriott-resort-spa/events/1735900555-palm-garden-open-air.webp"
+    },
+    {
+      "name": "Pre-Function",
+      "capacity": "NA",
+      "image": "/assets/hotels/jaisalmer-marriott-resort-spa/events/1735900534-pre-function.webp"
+    },
+    {
+      "name": "Pre-Function",
+      "capacity": "NA",
+      "image": "/assets/hotels/jaisalmer-marriott-resort-spa/events/1735900534-pre-function.webp"
+    },
+    {
+      "name": "Swimming pool & Deck area",
+      "capacity": "200",
+      "image": "/assets/hotels/jaisalmer-marriott-resort-spa/events/1735900519-swimming_pool_and_deck_area.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room, 1 King,",
+      "description": "Deluxe Room, 1 King,",
+      "roomImages": [
+        "/assets/hotels/jaisalmer-marriott-resort-spa/rooms/1735900080-deluxe_room.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room, 2 Twin",
+      "description": "Deluxe Room, 2 Twin",
+      "roomImages": [
+        "/assets/hotels/jaisalmer-marriott-resort-spa/rooms/1735900104-twin_deluxe_room.webp"
+      ]
+    },
+    {
+      "roomType": "Oasis View Room 1 King",
+      "description": "Oasis View Room 1 King",
+      "roomImages": [
+        "/assets/hotels/jaisalmer-marriott-resort-spa/rooms/1735900122-oasis_view_room.webp"
+      ]
+    },
+    {
+      "roomType": "Oasis View Room 2 Twin",
+      "description": "Oasis View Room 2 Twin",
+      "roomImages": [
+        "/assets/hotels/jaisalmer-marriott-resort-spa/rooms/1735900146-twin_oasis_view_room.webp"
+      ]
+    },
+    {
+      "roomType": "Fort View Room 1 King",
+      "description": "Fort View Room 1 King",
+      "roomImages": [
+        "/assets/hotels/jaisalmer-marriott-resort-spa/rooms/1735900185-fort_view_room.webp"
+      ]
+    },
+    {
+      "roomType": "Fort View Room 2 Twin",
+      "description": "Fort View Room 2 Twin",
+      "roomImages": [
+        "/assets/hotels/jaisalmer-marriott-resort-spa/rooms/1735900225-twin_fort_view_room.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Room 1 King",
+      "description": "Royal Room 1 King",
+      "roomImages": [
+        "/assets/hotels/jaisalmer-marriott-resort-spa/rooms/1735900248-royal_room.webp"
+      ]
+    },
+    {
+      "roomType": "Marriott Jaisalmer Suite",
+      "description": "Marriott Jaisalmer Suite",
+      "roomImages": [
+        "/assets/hotels/jaisalmer-marriott-resort-spa/rooms/1735900297-jaisalmer_suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaisalmer Fort",
+      "distance": "1.7 KM"
+    },
+    {
+      "name": "Bada Bagh Temple",
+      "distance": "6.5 KM"
+    },
+    {
+      "name": "Patwon Ki Haweli",
+      "distance": "1.o KM"
+    },
+    {
+      "name": "Sam Sand Dunes Camel Safari",
+      "distance": "2.1 KM"
+    }
+  ],
+  "contact": {
+    "address": "Jaisalmer - Sam - Dhanana Rd, Police Line, Jaisalmer, Rajasthan 345001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/jaisalmer-marriott-resort-spa/main/1735899961-main.webp",
+  "gallery": [
+    "/assets/hotels/jaisalmer-marriott-resort-spa/gallery/dunes_bar_&_lounge.webp",
+    "/assets/hotels/jaisalmer-marriott-resort-spa/gallery/golden_ballroom.webp",
+    "/assets/hotels/jaisalmer-marriott-resort-spa/gallery/lobby.webp",
+    "/assets/hotels/jaisalmer-marriott-resort-spa/gallery/oasis_view_room.webp",
+    "/assets/hotels/jaisalmer-marriott-resort-spa/gallery/swimming_pool_and_deck_area.webp",
+    "/assets/hotels/jaisalmer-marriott-resort-spa/gallery/wyra_rooftop.webp"
+  ],
+  "locationId": "jaisalmer"
+}

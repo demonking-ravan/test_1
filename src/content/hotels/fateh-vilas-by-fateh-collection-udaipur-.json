@@ -1,0 +1,95 @@
+{
+  "name": "Fateh Vilas by Fateh Collection Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Chandra Prakash",
+      "capacity": "250",
+      "image": "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/events/1738823520-Chandra_Prakash.webp"
+    },
+    {
+      "name": "Surya Prakash",
+      "capacity": "700",
+      "image": "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/events/1738823505-Surya_Prakash.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Plunge Pool Suite",
+      "description": "Plunge Pool Suite (400 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/rooms/1738823328-Plunge_Pool_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Family Suite with Sit Out",
+      "description": "Family Suite with Sit Out",
+      "roomImages": [
+        "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/rooms/1738823348-Family_Suite_with_Sit_Out.webp"
+      ]
+    },
+    {
+      "roomType": "Family Plunge Pool Suite",
+      "description": "Family Plunge Pool Suite (600 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/rooms/1738823372-Family_Plunge_Pool_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Fateh Vilas Suite",
+      "description": "Fateh Vilas Suite (700 sq.ft)",
+      "roomImages": [
+        "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/rooms/1738823397-Fateh_Vilas_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Renaissance Room with Sit Out",
+      "description": "Renaissance Room with Sit Out (390 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/rooms/1738823416-Renaissance_Room_with_Sit_Out.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Maharana Pratap Airport, Udaipur",
+      "distance": "30.3 km"
+    },
+    {
+      "name": "Jagmandir Island Palace",
+      "distance": "8.9 km"
+    },
+    {
+      "name": "Sajjan Garh Biological Park",
+      "distance": "5.2 km"
+    },
+    {
+      "name": "Gulab Bagh",
+      "distance": "8.8 km"
+    }
+  ],
+  "contact": {
+    "address": "Sisarma, Bujara Road, Udaipur, Bujra, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/main/1738823160-Main.webp",
+  "gallery": [
+    "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/gallery/Fateh_Vilas_Suite.webp",
+    "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/gallery/indoor.webp",
+    "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/gallery/multipul.webp",
+    "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/gallery/multipul1.webp",
+    "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/gallery/multipul5.webp",
+    "/assets/hotels/fateh-vilas-by-fateh-collection-udaipur-/gallery/pool.webp"
+  ],
+  "locationId": "udaipur"
+}

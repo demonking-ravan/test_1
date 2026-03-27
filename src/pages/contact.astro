@@ -1,0 +1,312 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Specific form field labels from company data
+---
+
+<BaseLayout title="Contact Us | Mapsor Experiential Weddings">
+    <main class="bg-white min-h-screen">
+        <section class="pt-16 pb-10 px-6 md:px-24">
+            <div
+                class="relative w-full h-[50vh] md:h-[65vh] rounded-4xl md:rounded-[4rem] overflow-hidden"
+            >
+                <img
+                    src="/images/pages/contact-us.jpg"
+                    alt="Contact Us"
+                    class="absolute inset-0 w-full h-full object-cover"
+                />
+                <div class="absolute inset-0 bg-black/20"></div>
+
+                <!-- Left Content -->
+                <div
+                    class="absolute left-10 md:left-20 top-1/2 -translate-y-1/2"
+                >
+                    <h1
+                        class="font-aventa text-white text-6xl md:text-9xl font-bold tracking-tight"
+                    >
+                        Contacts
+                    </h1>
+                </div>
+
+                <!-- Right Vertical Text -->
+                <!-- <div
+                    class="absolute right-6 md:right-12 top-1/2 -translate-y-1/2 h-full flex items-center"
+                >
+                    <p
+                        class="font-orlean text-white/20 text-4xl md:text-6xl uppercase tracking-[1rem] rotate-90 origin-center whitespace-nowrap"
+                    >
+                        Contacts
+                    </p>
+                </div> -->
+
+                <!-- Bottom Right Breadcrumb -->
+                <div class="absolute right-0 bottom-0">
+                    <div
+                        class="bg-white px-8 md:px-12 py-4 md:py-6 rounded-tl-[3rem] md:rounded-tl-[4rem] flex items-center gap-3"
+                    >
+                        <a
+                            href="/"
+                            class="font-aventa text-sm md:text-base text-gray-400 hover:text-black transition-colors"
+                            >Home</a
+                        >
+                        <span class="text-gray-300">/</span>
+                        <span
+                            class="font-aventa text-sm md:text-base text-black font-semibold"
+                            >Contacts</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-10 pb-20 px-6 md:px-24">
+            <div
+                class="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-start"
+            >
+                <div class="space-y-12">
+                    <div class="space-y-6">
+                        <p
+                            class="font-orlean text-[1rem] uppercase tracking-[0.4rem] text-primary-100"
+                        >
+                            Get in Touch
+                        </p>
+                        <h1 class="sub-heading text-black">
+                            We are always ready <br /> to help you and <br />
+                            <span class="text-gray-400"
+                                >answer your questions</span
+                            >
+                        </h1>
+                        <p
+                            class="textM text-gray-500 max-w-[50rem] leading-relaxed"
+                        >
+                            Have questions or need assistance with your wedding
+                            plans? Reach out to us and let's start planning
+                            together.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 pt-8">
+                        <div class="space-y-4">
+                            <h3 class="footer-heading uppercase">Phone</h3>
+                            <p class="footer-text text-gray-600">
+                                +91 (your-number-here) <br />
+                                As trusted planners in Jaipur.
+                            </p>
+                        </div>
+                        <div class="space-y-4">
+                            <h3 class="footer-heading uppercase">
+                                Our Location
+                            </h3>
+                            <p class="footer-text text-gray-600">
+                                Jaipur, Rajasthan, India
+                            </p>
+                        </div>
+                        <div class="space-y-4">
+                            <h3 class="footer-heading uppercase">Email</h3>
+                            <p class="footer-text text-gray-600">
+                                hello@mapsorweddings.com
+                            </p>
+                        </div>
+                        <div class="space-y-4">
+                            <h3 class="footer-heading uppercase">
+                                Social Links
+                            </h3>
+                            <div class="flex gap-6 text-[1.8rem]">
+                                <a
+                                    href="https://www.instagram.com/mapsorexperientialweddings/"
+                                    target="_blank"
+                                    class="hover:text-primary-100 transition-colors"
+                                    aria-label="Instagram"
+                                >
+                                    <i
+                                        class="fa-brands fa-instagram text-[1.8rem]"
+                                    ></i>
+                                </a>
+                                <a
+                                    href="https://www.facebook.com/MapsorExperientialWeddings"
+                                    target="_blank"
+                                    class="hover:text-primary-100 transition-colors"
+                                    aria-label="Facebook"
+                                >
+                                    <i
+                                        class="fa-brands fa-facebook-f text-[1.8rem]"
+                                    ></i>
+                                </a>
+                                <a
+                                    href="https://www.youtube.com/@mapsorexperientialweddings"
+                                    target="_blank"
+                                    class="hover:text-primary-100 transition-colors"
+                                    aria-label="Youtube"
+                                >
+                                    <i
+                                        class="fa-brands fa-youtube text-[1.8rem]"
+                                    ></i>
+                                </a>
+                                <a
+                                    href="https://www.linkedin.com/company/mapsor-experiential-weddings/"
+                                    target="_blank"
+                                    class="hover:text-primary-100 transition-colors"
+                                    aria-label="Linkedin"
+                                >
+                                    <i
+                                        class="fa-brands fa-linkedin-in text-[1.8rem]"
+                                    ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-10 md:p-16 rounded-[3rem]">
+                    <h2 class="sec-heading mb-4 uppercase">Get in Touch</h2>
+                    <p class="font-aventa text-gray-500 mb-12 text-[1.2rem]">
+                        Let us know about your dream celebration.
+                    </p>
+
+                    <form class="space-y-8" id="wedding-form">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="space-y-2">
+                                <label
+                                    class="font-orlean text-[1.2rem] tracking-wide uppercase text-gray-400"
+                                    >Bride's Name</label
+                                >
+                                <input
+                                    type="text"
+                                    name="bride_name"
+                                    placeholder="Name"
+                                    class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#d4af37] outline-none font-aventa text-[1.6rem]"
+                                    required
+                                />
+                            </div>
+                            <div class="space-y-2">
+                                <label
+                                    class="font-orlean text-[1.2rem] uppercase tracking-wide text-gray-400"
+                                    >Groom's Name*</label
+                                >
+                                <input
+                                    type="text"
+                                    name="groom_name"
+                                    placeholder="Name"
+                                    class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#d4af37] outline-none font-aventa text-[1.6rem]"
+                                    required
+                                />
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="space-y-2">
+                                <label
+                                    class="font-orlean text-[1.2rem] uppercase tracking-wide text-gray-400"
+                                    >Email</label
+                                >
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="email@address.com"
+                                    class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#d4af37] outline-none font-aventa text-[1.6rem]"
+                                    required
+                                />
+                            </div>
+                            <div class="space-y-2">
+                                <label
+                                    class="font-orlean text-[1.2rem] uppercase tracking-wide text-gray-400"
+                                    >Phone Number</label
+                                >
+                                <input
+                                    type="tel"
+                                    name="phone"
+                                    placeholder="+91"
+                                    class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#d4af37] outline-none font-aventa text-[1.6rem]"
+                                    required
+                                />
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="space-y-2">
+                                <label
+                                    class="font-orlean text-[1.2rem] uppercase tracking-wide text-gray-400"
+                                    >Wedding Dates*</label
+                                >
+                                <input
+                                    type="date"
+                                    name="wedding_date"
+                                    class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#d4af37] outline-none font-aventa text-[1.6rem]"
+                                    required
+                                />
+                            </div>
+                            <div class="space-y-2">
+                                <label
+                                    class="font-orlean text-[1.2rem] uppercase tracking-wide text-gray-400"
+                                    >Destination</label
+                                >
+                                <input
+                                    type="text"
+                                    name="destination"
+                                    placeholder="Venue or City"
+                                    class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#d4af37] outline-none font-aventa text-[1.6rem]"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="space-y-2">
+                            <label
+                                class="font-orlean text-[1.2rem] uppercase tracking-wide text-gray-400"
+                                >Tell us about you two!</label
+                            >
+                            <textarea
+                                name="message"
+                                rows="4"
+                                class="w-full bg-transparent border-b border-gray-300 py-3 focus:border-[#d4af37] outline-none font-aventa text-[1.6rem] resize-none"
+                            ></textarea>
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="bg-black text-white px-12 py-5 rounded-full font-orlean uppercase tracking-widest hover:bg-[#d4af37] transition-all flex items-center gap-4"
+                        >
+                            <span>Send a message</span>
+                            <span class="text-[1.2rem]">→</span>
+                        </button>
+                    </form>
+
+                    <div
+                        id="success-msg"
+                        class="hidden mt-8 p-6 bg-green-50 text-green-800 rounded-xl font-aventa text-[1.6rem]"
+                    >
+                        Thank you for submitting your wedding form! We have
+                        received your details and will be in touch shortly to
+                        discuss further arrangements for your special day.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="px-6 md:px-10 lg:px-24 pb-32">
+            <div
+                class="max-w-[1440px] mx-auto h-[50vh] rounded-[3rem] overflow-hidden grayscale"
+            >
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113874.2933894473!2d75.72051785!3d26.8851417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1711200000000!5m2!1sen!2sin"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                >
+                </iframe>
+            </div>
+        </section>
+    </main>
+</BaseLayout>
+
+<script>
+    const form = document.querySelector("#wedding-form") as HTMLFormElement;
+    const successMsg = document.querySelector("#success-msg");
+
+    form?.addEventListener("submit", (e) => {
+        e.preventDefault();
+        form.classList.add("hidden");
+        successMsg?.classList.remove("hidden");
+    });
+</script>

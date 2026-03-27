@@ -1,0 +1,122 @@
+{
+  "name": "The Ananta Resort Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Nilgiri Ballroom",
+      "capacity": "500",
+      "image": "/assets/hotels/the-ananta-resort-udaipur/events/1735284209-Aravalli_Banquet_hall_at_ananta_Udaipur_best_banquet_halls_in_Udaipur_bbfwed_n0p78n.webp"
+    },
+    {
+      "name": "Amphitheatre",
+      "capacity": "250",
+      "image": "/assets/hotels/the-ananta-resort-udaipur/events/1735284186-IMG_20210226_203148_exfahp.webp"
+    },
+    {
+      "name": "Nilgiri Lawn",
+      "capacity": "400",
+      "image": "/assets/hotels/the-ananta-resort-udaipur/events/1735284159-view3.webp"
+    },
+    {
+      "name": "Aravali Hall 1, 2 & 3",
+      "capacity": "600",
+      "image": "/assets/hotels/the-ananta-resort-udaipur/events/1735284125-Aravalli_Banquet_hall_at_ananta_Udaipur_best_banquet_halls_in_Udaipur_1_dmx4im_t6ounw.webp"
+    },
+    {
+      "name": "Aravali Hall 1, 2 & 3",
+      "capacity": "600",
+      "image": "/assets/hotels/the-ananta-resort-udaipur/events/1735284125-Aravalli_Banquet_hall_at_ananta_Udaipur_best_banquet_halls_in_Udaipur_1_dmx4im_t6ounw.webp"
+    },
+    {
+      "name": "Aravali Lawn",
+      "capacity": "1000",
+      "image": "/assets/hotels/the-ananta-resort-udaipur/events/1735283883-lawn.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Super Deluxe Cottage",
+      "description": "Super Deluxe Cottage (630 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/the-ananta-resort-udaipur/rooms/1735283476-Super_Deluxe_Cottage.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Cottage with Balcony",
+      "description": "Luxury Cottage with Balcony (630 sq. ft)",
+      "roomImages": [
+        "/assets/hotels/the-ananta-resort-udaipur/rooms/1735283505-Luxury_Cottage_with_Balcony.webp"
+      ]
+    },
+    {
+      "roomType": "Executive Suites",
+      "description": "Executive Suites (1080 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/the-ananta-resort-udaipur/rooms/1735283534-Executive_Suites.webp"
+      ]
+    },
+    {
+      "roomType": "Jungle Wooden Cottage",
+      "description": "Jungle Wooden Cottage (455 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/the-ananta-resort-udaipur/rooms/1735283571-Jungle_Wooden_Cottage.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Suites",
+      "description": "Grand Suites (1500 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/the-ananta-resort-udaipur/rooms/1735283752-Grand_Suites.webp"
+      ]
+    },
+    {
+      "roomType": "Presidential Villa",
+      "description": "Presidential Villa (4500 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/the-ananta-resort-udaipur/rooms/1735283768-Presidential_Villa.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "City Palace",
+      "distance": "7.6 KM"
+    },
+    {
+      "name": "Maharana Pratap Airport",
+      "distance": "30.9 KM"
+    },
+    {
+      "name": "Lake Pichola",
+      "distance": "8.8 KM"
+    },
+    {
+      "name": "Railway Station",
+      "distance": "10.7 KM"
+    }
+  ],
+  "contact": {
+    "address": "Village Bujhda, Tehsil Girwa, Kodiyat Main Rd, Udaipur, Rajasthan 313031",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/the-ananta-resort-udaipur/main/1676980503-view6.webp",
+  "gallery": [
+    "/assets/hotels/the-ananta-resort-udaipur/gallery/Ananta-Tara.webp",
+    "/assets/hotels/the-ananta-resort-udaipur/gallery/Aravalli_Banquet_hall_at_ananta_Udaipur_best_banquet_halls_in_Udaipur_1_dmx4im_t6ounw_(1).webp",
+    "/assets/hotels/the-ananta-resort-udaipur/gallery/IMG_20210226_203148_exfahp.webp",
+    "",
+    "/assets/hotels/the-ananta-resort-udaipur/gallery/view2.webp",
+    "/assets/hotels/the-ananta-resort-udaipur/gallery/view4.webp"
+  ],
+  "locationId": "udaipur"
+}

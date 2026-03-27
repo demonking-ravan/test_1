@@ -1,0 +1,100 @@
+---
+import VenueHero from "../../components/venues/VenueHero.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, getEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const locations = await getCollection("locations");
+  return locations.map((location) => ({
+    params: { locationId: location.id },
+  }));
+}
+
+const { locationId } = Astro.params;
+const location = await getEntry("locations", locationId);
+
+if (!location) {
+  return Astro.redirect("/404");
+}
+
+const hotels = await getCollection("hotels", ({ data }) => {
+  return data.locationId.id === locationId;
+});
+
+const title = `Wedding Hotels in ${location.data.name} | Mapsor Experiential Weddings`;
+---
+
+<BaseLayout title={title}>
+  <main class="min-h-screen bg-white">
+    <VenueHero 
+      name={location.data.name}
+      featuredImage={location.data.featuredImage}
+      isIndia={location.data.isIndia}
+      hotelCount={location.data.hotelCount}
+    />
+
+    <!-- Hotels List Section -->
+    <section class="py-32 px-6 lg:px-16">
+      <div class="flex items-center justify-between mb-24">
+        <div>
+          <h2 class="font-aventa text-[.8rem] uppercase tracking-[0.3em] text-gray-500 font-bold mb-3">Handpicked Collection</h2>
+          <p class="sub-heading font-bold text-black">Featured Properties</p>
+        </div>
+        <div class="hidden md:block h-px flex-1 mx-12 bg-gray-400"></div>
+        <div class="text-right">
+          <span class="sub-heading font-light text-gray-400">{hotels.length.toString().padStart(2, '0')}</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 gap-32">
+        {hotels.map((hotel) => (
+          <div class="group relative flex flex-col lg:flex-row bg-[#fafafa] rounded-[2.5rem] overflow-hidden border border-gray-100 transition-all duration-700 hover:shadow-[0_40px_80px_-20px_rgba(0,0,0,0.05)]">
+            <!-- Image Section -->
+            <div class="lg:w-1/2 overflow-hidden  relative h-full">
+              <img 
+                src={hotel.data.mainImage} 
+                alt={hotel.data.name} 
+                class="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
+              />
+              <!-- Refined Badge -->
+              <div class="absolute top-8 left-8">
+                <span class="px-5 py-2 bg-white/80 backdrop-blur-xl border border-gray-100 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] text-black">
+                  Featured Venue
+                </span>
+              </div>
+            </div>
+
+            <!-- Content Section -->
+            <div class="lg:w-1/2 p-10 lg:p-20 flex flex-col justify-center">
+              <h3 class="sec-heading font-medium mb-8 text-black group-hover:underline decoration-1 underline-offset-8 transition-colors duration-500 leading-tight">
+                {hotel.data.name}
+              </h3>
+              
+              <p class="font-aventa text-base sm:text-lg text-gray-600 mb-10 leading-relaxed font-light">
+                Located at {hotel.data.contact.address}. Experience a new standard of personalized luxury.
+              </p>
+              
+              <div class="flex flex-wrap gap-3 mb-12">
+                {hotel.data.amenities.slice(0, 4).map(amenity => (
+                  <span class="font-aventa text-[.8rem] px-5 py-2.5 bg-white border border-gray-200 rounded-full text-gray-500 uppercase tracking-widest font-medium transition-colors">
+                    {amenity}
+                  </span>
+                ))}
+              </div>
+
+              <div class="flex items-center gap-8">
+                <a 
+                  href={`/hotel/${hotel.id}`} 
+                  class="group/btn relative inline-flex items-center gap-3 px-4 py-3 sm:px-10 sm:py-5 bg-black text-white font-bold rounded-2xl overflow-hidden active:scale-95 transition-transform"
+                >
+                  <span class="relative z-10 font-aventa text-sm md:text-lg tracking-widest uppercase">Explore Hotel</span>
+                  <svg class="relative z-10 transition-transform duration-300 group-hover/btn:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

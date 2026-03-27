@@ -1,0 +1,104 @@
+{
+  "name": "Aurika Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Aurum - Boardroom with terrace",
+      "capacity": "NA",
+      "image": "/assets/hotels/aurika/events/1735278452-ekara3.webp"
+    },
+    {
+      "name": "Ekaara Courtyard",
+      "capacity": "NA",
+      "image": "/assets/hotels/aurika/events/1735278425-Ekaara-2nd.webp"
+    },
+    {
+      "name": "Ekaara",
+      "capacity": "NA",
+      "image": "/assets/hotels/aurika/events/1735278401-ekaara.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room",
+      "description": "Deluxe Room (360 sq. ft.)",
+      "roomImages": ["/assets/hotels/aurika/rooms/1735278096-deluxe-room.webp"]
+    },
+    {
+      "roomType": "Deluxe Vista Room",
+      "description": "Deluxe Vista Room (360 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/aurika/rooms/1735278123-Deluxe-vista-room.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Room",
+      "description": "Premium Room (360 sq. ft.)",
+      "roomImages": ["/assets/hotels/aurika/rooms/1735278146-premium.webp"]
+    },
+    {
+      "roomType": "Premium Vista Room",
+      "description": "Premium Vista Room (360 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/aurika/rooms/1735278171-premium-vista.webp"
+      ]
+    },
+    {
+      "roomType": "Aurika Suite",
+      "description": "Aurika Suite (780 sq. ft.)",
+      "roomImages": ["/assets/hotels/aurika/rooms/1735278188-aurika-suite.webp"]
+    },
+    {
+      "roomType": "Presidential Suite",
+      "description": "Presidential Suite (1250 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/aurika/rooms/1735278210-Presidential-Suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Maharana Pratap Airport",
+      "distance": "29.5 KM"
+    },
+    {
+      "name": "Railway Station",
+      "distance": "9 KM"
+    },
+    {
+      "name": "City Palace",
+      "distance": "6.1 KM"
+    },
+    {
+      "name": "Jagmandir",
+      "distance": "6.6 KM"
+    }
+  ],
+  "contact": {
+    "address": "01, Kala Rohi, Rani Rd, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/aurika/main/1676974779-aurikafullview.jpg",
+  "gallery": [
+    "/assets/hotels/aurika/gallery/Ariva-1.webp",
+    "/assets/hotels/aurika/gallery/deluxe-room.webp",
+    "/assets/hotels/aurika/gallery/drawnview.webp",
+    "/assets/hotels/aurika/gallery/ekaara.webp",
+    "/assets/hotels/aurika/gallery/Ekaara-2nd.webp",
+    "/assets/hotels/aurika/gallery/ekara3.webp",
+    "/assets/hotels/aurika/gallery/mirasa-all-day-dining.webp",
+    "/assets/hotels/aurika/gallery/swimmingview.webp",
+    "/assets/hotels/aurika/gallery/view-water.webp"
+  ],
+  "locationId": "udaipur"
+}

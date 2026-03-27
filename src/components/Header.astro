@@ -1,0 +1,180 @@
+---
+import Button from "./Button.astro";
+---
+
+<header
+  id="main-header"
+  class="w-full relative px-10 py-4 flex justify-between items-center z-50 top-0 left-0 right-0 transition-transform duration-500 bg-white/20 backdrop-blur-md border-b border-gray-100"
+>
+  <!-- Logo -->
+  <div class="flex items-center gap-2">
+    <a href="/">
+      <img
+        src="/images/logo.png"
+        alt="mapsor experiential weddings"
+        class="max-w-16 h-auto"
+      />
+    </a>
+  </div>
+
+  <!-- Desktop Navigation -->
+  <nav class="hidden lg:flex items-center gap-12">
+    <a href="/about" class="nav-link">About Us</a>
+    <a href="/works" class="nav-link">Work</a>
+
+    <!-- Services Dropdown -->
+    <div class="relative group">
+      <button class="nav-link flex items-center gap-2">
+        Services <i class="fa-solid fa-chevron-down text-[1rem]"></i>
+      </button>
+      <div class="dropdown-menu">
+        <a href="/services/wedding-planning" class="dropdown-item"
+          >Wedding Planning</a
+        >
+        <a href="/services/event-design" class="dropdown-item">Event Design</a>
+        <a href="/services/hospitality" class="dropdown-item">Hospitality</a>
+      </div>
+    </div>
+
+    <!-- Venues Dropdown -->
+    <div class="relative group">
+      <button class="nav-link flex items-center gap-2">
+        Venues <i class="fa-solid fa-chevron-down text-[1rem]"></i>
+      </button>
+      <div class="dropdown-menu">
+        <a href="/venues-india" class="dropdown-item">Venues in India</a>
+        <a href="/venues-international" class="dropdown-item"
+          >Venues Out of India</a
+        >
+      </div>
+    </div>
+
+    <a href="/blogs" class="nav-link">Blog</a>
+    <a href="/contact" class="nav-link toggleModal">Contact Us</a>
+  </nav>
+
+  <!-- Right Side Actions -->
+  <div class="flex items-center gap-6">
+    <Button className="toggleModal hidden sm:flex">Let's Talk</Button>
+
+    <!-- Mobile Menu Toggle -->
+    <button id="mobile-menu-toggle" class="lg:hidden text-2xl p-2">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Menu Overlay -->
+</header>
+<div
+  id="mobile-menu"
+  class="fixed inset-0 bg-white z-60 translate-x-full transition-transform duration-500 hidden"
+>
+  <div
+    class="bg-white flex flex-col items-center justify-center gap-10 w-full h-full"
+  >
+    <button id="mobile-menu-close" class="absolute top-10 right-10 text-3xl">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <a href="/about" class="mobile-nav-link">About Us</a>
+    <a href="/works" class="mobile-nav-link">Work</a>
+    <div class="flex flex-col items-center gap-4">
+      <span class="mobile-nav-link font-bold text-gray-400">Services</span>
+      <a href="/services/wedding-planning" class="mobile-nav-sublink"
+        >Wedding Planning</a
+      >
+      <a href="/services/event-design" class="mobile-nav-sublink"
+        >Event Design</a
+      >
+    </div>
+    <div class="flex flex-col items-center gap-4">
+      <span class="mobile-nav-link font-bold text-gray-400">Venues</span>
+      <a href="/venues-india" class="mobile-nav-sublink">Venues in India</a>
+      <a href="/venues-international" class="mobile-nav-sublink"
+        >Venues Out of India</a
+      >
+    </div>
+    <a href="/blogs" class="mobile-nav-link">Blog</a>
+    <a href="/contact" class="mobile-nav-link">Contact Us</a>
+    <Button className="toggleModal bg-black mt-4">Let's Talk</Button>
+  </div>
+</div>
+
+<script>
+  // Modal Logic
+  const modal = document.getElementById("contactModal") as HTMLDivElement;
+  const btns: NodeListOf<HTMLButtonElement> =
+    document.querySelectorAll(".toggleModal");
+
+  function toggleModal() {
+    if (!modal) return;
+    modal.classList.toggle("hidden");
+    if (!modal.classList.contains("hidden")) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }
+
+  btns.forEach((btn) => btn.addEventListener("click", toggleModal));
+
+  document.addEventListener("keydown", function (event) {
+    if (
+      modal &&
+      event.key === "Escape" &&
+      !modal.classList.contains("hidden")
+    ) {
+      toggleModal();
+    }
+  });
+
+  // Mobile Menu Logic
+  const mobileToggle = document.getElementById("mobile-menu-toggle");
+  const mobileClose = document.getElementById("mobile-menu-close");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  mobileToggle?.addEventListener("click", () => {
+    mobileMenu?.classList.remove("hidden");
+    mobileMenu?.classList.remove("translate-x-full");
+    // document.body.style.overflow = "hidden";
+  });
+
+  mobileClose?.addEventListener("click", () => {
+    mobileMenu?.classList.add("hidden");
+    mobileMenu?.classList.add("translate-x-full");
+    // document.body.style.overflow = "auto";
+  });
+
+  // Auto-close mobile menu on link click
+  mobileMenu?.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      mobileMenu?.classList.add("translate-x-full");
+      document.body.style.overflow = "auto";
+    });
+  });
+
+  // Hide on Scroll Logic
+  let lastScrollTop = 0;
+  const header = document.getElementById("main-header");
+  const scrollThreshold = 100;
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      header?.classList.add("sticky");
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
+        // Scrolling down
+        header?.classList.add("header-hidden");
+      } else {
+        // Scrolling up
+        header?.classList.remove("header-hidden");
+      }
+
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    },
+    { passive: true },
+  );
+</script>

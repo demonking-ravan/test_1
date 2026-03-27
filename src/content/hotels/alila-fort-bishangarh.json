@@ -1,0 +1,88 @@
+{
+  "name": "Alila Fort Bishangarh",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "",
+      "capacity": "",
+      "image": ""
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Heritage Room",
+      "description": "Heritage Room (52 sq m)",
+      "roomImages": [
+        "/assets/hotels/alila-fort-bishangarh/rooms/1735274010-Alila_Fort_Bishangarh_-_Accommodation_-_Heritage_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Suite",
+      "description": "Royal Suite (65 sq m)",
+      "roomImages": [
+        "/assets/hotels/alila-fort-bishangarh/rooms/1735274072-Alila_Fort_Bishangarh_-_Accommodation_-_Royal_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Suite",
+      "description": "Grand Suite (75 sq m)",
+      "roomImages": [
+        "/assets/hotels/alila-fort-bishangarh/rooms/1735274136-Grand-Royal-Suite-4.webp"
+      ]
+    },
+    {
+      "roomType": "Regal Suite",
+      "description": "Regal Suite (85 sq m)",
+      "roomImages": [
+        "/assets/hotels/alila-fort-bishangarh/rooms/1735274153-Regal-Suite-3.webp"
+      ]
+    },
+    {
+      "roomType": "Presidential Suite",
+      "description": "Presidential Suite (97 sq m)",
+      "roomImages": [
+        "/assets/hotels/alila-fort-bishangarh/rooms/1735274170-Presidential_Suite_-_Bedroom.webp"
+      ]
+    },
+    {
+      "roomType": "Spa Alila",
+      "description": "Spa Alila",
+      "roomImages": [
+        "/assets/hotels/alila-fort-bishangarh/rooms/1735274190-fort-spa-01.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Delhi-Jaipur National Highway",
+      "distance": "06 KM"
+    }
+  ],
+  "contact": {
+    "address": "Off NH-8 at Manoharpur Bishangarh Village, Jaipur Bishangarh, Manoharpur, Rajasthan 303104",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/alila-fort-bishangarh/main/1735217903-Alila-Fort-Bishangarh-outside_view.webp",
+  "gallery": [
+    "/assets/hotels/alila-fort-bishangarh/gallery/aamras.webp",
+    "/assets/hotels/alila-fort-bishangarh/gallery/Alila_Fort_Bishangarh_-_Accommodation_-_Royal_Suite.webp",
+    "",
+    "/assets/hotels/alila-fort-bishangarh/gallery/fort-spa-01.webp",
+    "/assets/hotels/alila-fort-bishangarh/gallery/haveli.webp",
+    "/assets/hotels/alila-fort-bishangarh/gallery/kach.webp",
+    "/assets/hotels/alila-fort-bishangarh/gallery/nazrana.webp",
+    "/assets/hotels/alila-fort-bishangarh/gallery/Regal-Suite-3.webp",
+    ""
+  ],
+  "locationId": "jaipur"
+}

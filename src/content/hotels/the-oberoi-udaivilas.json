@@ -1,0 +1,100 @@
+{
+  "name": "The Oberoi Udaivilas, Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "The Cocktail Room",
+      "capacity": "NA",
+      "image": "/assets/hotels/the-oberoi-udaivilas/events/1735279490-cocktail.webp"
+    },
+    {
+      "name": "Meeting Room 2&3",
+      "capacity": "45",
+      "image": "/assets/hotels/the-oberoi-udaivilas/events/1735279472-meeting.webp"
+    },
+    {
+      "name": "Chandramahal",
+      "capacity": "110",
+      "image": "/assets/hotels/the-oberoi-udaivilas/events/1735279456-chandramahal.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Premier Garden View Room",
+      "description": "Premier Garden View Room",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-udaivilas/rooms/1735279123-Udaivilas_-_Premier_Room_-2.webp"
+      ]
+    },
+    {
+      "roomType": "Premier Pool View Room",
+      "description": "Premier Pool View Room",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-udaivilas/rooms/1735279151-Udaivilas_-_Premier_Room_with_Pool_View_1.webp"
+      ]
+    },
+    {
+      "roomType": "Premier Lake View Rooms With Semi Private Pool",
+      "description": "Premier Lake View Rooms With Semi Private Pool",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-udaivilas/rooms/1735279253-Udaivilas_-_Premier_Room_with_Semi_Pvt_Pool.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Suites With Private Pool",
+      "description": "Luxury Suites With Private Pool",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-udaivilas/rooms/1735279276-Udaivilas_-_Luxury_Suite_Drawing_Room.webp"
+      ]
+    },
+    {
+      "roomType": "Kohinoor Suite With Private pool",
+      "description": "Kohinoor Suite With Private pool",
+      "roomImages": [
+        "/assets/hotels/the-oberoi-udaivilas/rooms/1735279301-Udaivilas_-_Kohinoor.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Maharana Pratap Airport",
+      "distance": "26.1 KM"
+    },
+    {
+      "name": "Railway Station",
+      "distance": "5.8 KM"
+    },
+    {
+      "name": "Forum Celebration Mall",
+      "distance": "7.5 KM"
+    },
+    {
+      "name": "Jagmandir",
+      "distance": "4.8 KM"
+    }
+  ],
+  "contact": {
+    "address": "Badi-Gorela-Mulla Talai Rd, Haridas Ji Ki Magri, Pichola, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/the-oberoi-udaivilas/main/1735278950-guest-room.webp",
+  "gallery": [
+    "/assets/hotels/the-oberoi-udaivilas/gallery/chandramahal.webp",
+    "/assets/hotels/the-oberoi-udaivilas/gallery/guest-room.webp",
+    "/assets/hotels/the-oberoi-udaivilas/gallery/Lobby-The-Oberoi-Udaivilas-Udaipur-2019.webp",
+    "/assets/hotels/the-oberoi-udaivilas/gallery/room.webp",
+    "/assets/hotels/the-oberoi-udaivilas/gallery/Spa_Pool.webp",
+    "/assets/hotels/the-oberoi-udaivilas/gallery/suryamahal-multi-cuisine-restaurant-the-oberoi-udaivilas-udaipur.webp"
+  ],
+  "locationId": "udaipur"
+}

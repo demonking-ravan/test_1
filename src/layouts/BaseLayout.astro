@@ -1,0 +1,69 @@
+---
+const {
+    title = "Mapsor Experiential Weddings",
+    description = "Every experience we design, we do it with compassion and diligence. Along the way, we have built a memory palace full of wow moments that we have created, and even witnessed, globally. That's what makes us MAPSOR!",
+    ...props
+} = Astro.props;
+
+import Header from "../components/Header.astro";
+import "../styles/global.css";
+import OGTags from "../components/OGTags.astro";
+import LogoCarousel from "../components/LogoCarousel.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <!-- <meta name="generator" content={Astro.generator} /> -->
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+        <OGTags />
+    </head>
+    <body>
+        <Header />
+        <slot />
+        <LogoCarousel />
+        <Footer />
+    </body>
+</html>
+
+<style>
+    html,
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<script>
+    import Lenis from "lenis";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+    // Initialize Lenis
+    const lenis = new Lenis();
+
+    // Sync ScrollTrigger with Lenis
+    lenis.on("scroll", ScrollTrigger.update);
+
+    // Add Lenis to GSAP ticker
+    gsap.ticker.add((time) => {
+        lenis.raf(time * 1000);
+    });
+
+    // Disable lag smoothing for smoother results
+    gsap.ticker.lagSmoothing(0);
+</script>

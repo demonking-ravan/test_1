@@ -1,0 +1,134 @@
+{
+  "name": "Mementos By ITC Hotels Ekaaya Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Frangipani Lawn",
+      "capacity": "1000",
+      "image": "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/events/image-1766750942.jpg"
+    },
+    {
+      "name": "Udaipur Stateroom",
+      "capacity": "648",
+      "image": "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/events/image-1766750902.jpg"
+    },
+    {
+      "name": "Magical Forest",
+      "capacity": "425",
+      "image": "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/events/image-1766750802.jpg"
+    },
+    {
+      "name": "Pool Side Lawn",
+      "capacity": "200",
+      "image": "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/events/image-1766750627.jpg"
+    },
+    {
+      "name": "Pool Side Lawn",
+      "capacity": "200",
+      "image": "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/events/image-1766750627.jpg"
+    },
+    {
+      "name": "Board Room",
+      "capacity": "13",
+      "image": "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/events/image-1766750398.jpg"
+    },
+    {
+      "name": "Reya",
+      "capacity": "280",
+      "image": "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/events/1735302408-mic_ballroom.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Valley View Villa",
+      "description": "Valley View Villa (45 Sqm.)",
+      "roomImages": [
+        "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/rooms/1735302107-Valley_View_Villa.webp"
+      ]
+    },
+    {
+      "roomType": "Lake View Villa",
+      "description": "Lake View Villa (45 Sqm.)",
+      "roomImages": [
+        "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/rooms/1735302126-Lake_View_Villa.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Villa",
+      "description": "Premium Villa (63 Sqm.)",
+      "roomImages": [
+        "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/rooms/1735302145-Premium_Villa.webp"
+      ]
+    },
+    {
+      "roomType": "Aravali Suite",
+      "description": "Aravali Suite",
+      "roomImages": [
+        "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/rooms/1735302165-Aravali_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Mementos Suite",
+      "description": "Mementos Suite (127 Sqm.)",
+      "roomImages": [
+        "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/rooms/1735302184-Mementos_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Presidential Suite",
+      "description": "Grand Presidential Suite",
+      "roomImages": [
+        "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/rooms/1766751108-gps-master-bedroom.jpg"
+      ]
+    },
+    {
+      "roomType": "Presidential Suite",
+      "description": "Presidential Suite (514 sqm.)",
+      "roomImages": [
+        "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/rooms/Room-image-1766751085.jpg"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Maharana Pratap Airport",
+      "distance": "41.5 KM"
+    },
+    {
+      "name": "Eklingji",
+      "distance": "8.7 KM"
+    },
+    {
+      "name": "Kolar hills",
+      "distance": "7.3 KM"
+    },
+    {
+      "name": "City Palace Udaipur",
+      "distance": "30.2 KM"
+    }
+  ],
+  "contact": {
+    "address": "Raya, Nr, Eklingji, Rajasthan 313324",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/main/1735302027-main_and_bg.webp",
+  "gallery": [
+    "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/gallery/offer-i.jpg",
+    "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/gallery/Aravali-Villa-private-pool.jpg",
+    "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/gallery/udaipur-stateroom-theatre-set-up.jpg",
+    "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/gallery/frangipani-cocktail-event.jpg",
+    "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/gallery/udaipur-stateroom-social-cluster.jpg",
+    "/assets/hotels/mementos-by-itc-hotels-ekaaya-udaipur/gallery/ps-for-website.jpg"
+  ],
+  "locationId": "udaipur"
+}

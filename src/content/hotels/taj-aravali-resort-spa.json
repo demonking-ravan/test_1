@@ -1,0 +1,146 @@
+{
+  "name": "Taj Aravali Resort & Spa Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Magical garden",
+      "capacity": "500",
+      "image": "/assets/hotels/taj-aravali-resort-spa/events/image-1766750728.jpg"
+    },
+    {
+      "name": "Aravali Lawn",
+      "capacity": "600",
+      "image": "/assets/hotels/taj-aravali-resort-spa/events/image-1766741777.jpg"
+    },
+    {
+      "name": "Celebration Room",
+      "capacity": "50",
+      "image": "/assets/hotels/taj-aravali-resort-spa/events/image-1766741717.avif"
+    },
+    {
+      "name": "Mewar Lawn 1",
+      "capacity": "500",
+      "image": "/assets/hotels/taj-aravali-resort-spa/events/image-1766741640.avif"
+    },
+    {
+      "name": "Mewar Lawn 1",
+      "capacity": "500",
+      "image": "/assets/hotels/taj-aravali-resort-spa/events/image-1766741640.avif"
+    },
+    {
+      "name": "BOARD ROOM 1",
+      "capacity": "20",
+      "image": "/assets/hotels/taj-aravali-resort-spa/events/1735275941-cq5dam.web.756.756.webp"
+    },
+    {
+      "name": "Mewar Lawn 2",
+      "capacity": "300",
+      "image": "/assets/hotels/taj-aravali-resort-spa/events/1766741487-74fefbea8d04f5c7b9711a7e1b46dfeb52620125-908x640.avif"
+    },
+    {
+      "name": "Grand Ball Room",
+      "capacity": "450",
+      "image": "/assets/hotels/taj-aravali-resort-spa/events/1735275889-Grand_Ballroom_Pic_II1614767149987.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Luxury Glass Box Two Bedroom Suite Panoramic View",
+      "description": "Luxury Glass Box Two Bedroom Suite Panoramic View (2900 sq ft)",
+      "roomImages": [
+        "/assets/hotels/taj-aravali-resort-spa/rooms/1735275128-Luxury_Glass_Box_Two_Bedroom_Suite_Panoramic_View1.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Tent Suite Panoramic View",
+      "description": "Luxury Tent Suite Panoramic View (740 sq ft)",
+      "roomImages": [
+        "/assets/hotels/taj-aravali-resort-spa/rooms/1735275146-Luxury_Tent_Panoramic_View_1.webp"
+      ]
+    },
+    {
+      "roomType": "JIVA Spa Suite",
+      "description": "JIVA Spa Suite (1000 sq ft)",
+      "roomImages": [
+        "/assets/hotels/taj-aravali-resort-spa/rooms/1735275204-Spa_Suite4.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Suite Hill View",
+      "description": "Premium Suite Hill View (600 sq ft)",
+      "roomImages": [
+        "/assets/hotels/taj-aravali-resort-spa/rooms/1735275232-Premium_Suite_Hill_View2.webp"
+      ]
+    },
+    {
+      "roomType": "Luxury Tent Panoramic View",
+      "description": "Luxury Tent Panoramic View (475 sq ft)",
+      "roomImages": [
+        "/assets/hotels/taj-aravali-resort-spa/rooms/1735275256-Luxury_Tent_Panoramic_View_2.webp"
+      ]
+    },
+    {
+      "roomType": "Traditional Cottage Garden View",
+      "description": "Traditional Cottage Garden View (500 sq ft)",
+      "roomImages": [
+        "/assets/hotels/taj-aravali-resort-spa/rooms/1735275294-Traditional_Garden_View_Cottage3.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room Hill View",
+      "description": "Deluxe Room Hill View (450 sq ft)",
+      "roomImages": [
+        "/assets/hotels/taj-aravali-resort-spa/rooms/1735275320-Deluxe_Hill__Garden_3.webp"
+      ]
+    },
+    {
+      "roomType": "Presidential Suite",
+      "description": "Presidential Suite",
+      "roomImages": [
+        "/assets/hotels/taj-aravali-resort-spa/rooms/1735275707-Presidential_Suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Maharana Pratap Airport",
+      "distance": "33 KM"
+    },
+    {
+      "name": "Railway Station",
+      "distance": "13.5 KM"
+    },
+    {
+      "name": "Lake Pichola",
+      "distance": "10 KM"
+    },
+    {
+      "name": "Saheliyo Ki Bari",
+      "distance": "12.1 KM"
+    }
+  ],
+  "contact": {
+    "address": "Near, 1, Kheemach Kheda, Kodiyat Main Rd, Forest Chowki, Bujra, Rajasthan 313031",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/taj-aravali-resort-spa/main/1766741013-fc3eee692ebbfd03bd99149ac9add3c924eb91fc-1920x930.avif",
+  "gallery": [
+    "/assets/hotels/taj-aravali-resort-spa/gallery/Grand_Ballroom_Pic_II1614767149987.webp",
+    "/assets/hotels/taj-aravali-resort-spa/gallery/javitri_resto.webp",
+    "/assets/hotels/taj-aravali-resort-spa/gallery/Luxury_Glass_Box_Two_Bedroom_Suite_Panoramic_View1.webp",
+    "/assets/hotels/taj-aravali-resort-spa/gallery/Ridgeview_Restaurant1.webp",
+    "/assets/hotels/taj-aravali-resort-spa/gallery/taj_aravali_2.webp",
+    "/assets/hotels/taj-aravali-resort-spa/gallery/taj_aravli_6.webp"
+  ],
+  "locationId": "udaipur"
+}

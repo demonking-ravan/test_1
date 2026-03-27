@@ -1,0 +1,141 @@
+{
+  "name": "The Leela Palace Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Kanishka Bagh",
+      "capacity": "200",
+      "image": "/assets/hotels/the-leela-palace-jaipur/events/1735216675-KANSIKA.webp"
+    },
+    {
+      "name": "Sundarban Lawns",
+      "capacity": "1600",
+      "image": "/assets/hotels/the-leela-palace-jaipur/events/1735216655-sundarbawn.webp"
+    },
+    {
+      "name": "Nahargarh",
+      "capacity": "50",
+      "image": "/assets/hotels/the-leela-palace-jaipur/events/1735216627-Meeting-set-up-Jaipur-Hotel.webp"
+    },
+    {
+      "name": "Boardroom",
+      "capacity": "16",
+      "image": "/assets/hotels/the-leela-palace-jaipur/events/1735216594-jw-jainh-meeting-room-board-room_15_80432.webp"
+    },
+    {
+      "name": "Boardroom",
+      "capacity": "16",
+      "image": "/assets/hotels/the-leela-palace-jaipur/events/1735216594-jw-jainh-meeting-room-board-room_15_80432.webp"
+    },
+    {
+      "name": "Jaigarh",
+      "capacity": "50",
+      "image": "/assets/hotels/the-leela-palace-jaipur/events/1735216421-Meeting-set-up-Jaipur-Hotel.webp"
+    },
+    {
+      "name": "Vikram Aditya Grand Ballroom with a pre-function area",
+      "capacity": "800",
+      "image": "/assets/hotels/the-leela-palace-jaipur/events/1735216379-banquet.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Palace Room",
+      "description": "Palace Room",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-jaipur/rooms/1735214203-Palace-Room-in-Jaipur.webp"
+      ]
+    },
+    {
+      "roomType": "Palace Suite",
+      "description": "Palace Suite",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-jaipur/rooms/1735214235-Suite-Jaipur-Palace-Hotels.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Villa",
+      "description": "Grand Villa",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-jaipur/rooms/1735214281-Grand-Villa-Luxury-Hotels-in-Jaipur.webp"
+      ]
+    },
+    {
+      "roomType": "Grand Villa With Terrace",
+      "description": "Grand Villa With Terrace",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-jaipur/rooms/1735214316-grand_villa_with_terrace.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Villa With Courtyard",
+      "description": "Royal Villa With Courtyard",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-jaipur/rooms/1735214351-Royal-Villa-with-Courtyard.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Villa With Plunge Pool",
+      "description": "Royal Villa With Plunge Pool",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-jaipur/rooms/1735214387-Royal_suite_with_plunge_pool.webp"
+      ]
+    },
+    {
+      "roomType": "Royal Suite",
+      "description": "Royal Suite",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-jaipur/rooms/1735215009-Royal-Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Maharaja Suite",
+      "description": "Maharaja Suite",
+      "roomImages": [
+        "/assets/hotels/the-leela-palace-jaipur/rooms/1735215051-Maharaja-Suite-Jaipur-Hotel.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Airport",
+      "distance": "30 KM"
+    },
+    {
+      "name": "Railway Station",
+      "distance": "22 KM"
+    },
+    {
+      "name": "Amer Palace",
+      "distance": "9.6 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "16 Km"
+    }
+  ],
+  "contact": {
+    "address": "Jaipur-Delhi Highway, NH 11, Kukas, Rajasthan 302028",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/the-leela-palace-jaipur/main/1766578730-leela-banner.jpg",
+  "gallery": [
+    "/assets/hotels/the-leela-palace-jaipur/gallery/Jharokha-Bar-Restaurant-Jaipur.webp",
+    "/assets/hotels/the-leela-palace-jaipur/gallery/jw-jainh-meeting-room-board-room_15_80432.webp",
+    "/assets/hotels/the-leela-palace-jaipur/gallery/Royal_suite_with_plunge_pool.webp",
+    "/assets/hotels/the-leela-palace-jaipur/gallery/Sukha-Mahal-buffet-Jaipur.webp",
+    "/assets/hotels/the-leela-palace-jaipur/gallery/Vikram-Aditya-Social-Setup-Weddings.webp",
+    "/assets/hotels/the-leela-palace-jaipur/gallery/Intro_1035x600_(1).webp"
+  ],
+  "locationId": "jaipur"
+}

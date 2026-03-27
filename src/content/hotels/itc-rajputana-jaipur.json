@@ -1,0 +1,113 @@
+{
+  "name": "ITC Rajputana Jaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Suryavanshi Mahal",
+      "capacity": "450",
+      "image": "/assets/hotels/itc-rajputana-jaipur/events/1736425216-suryavanshi-mahal.webp"
+    },
+    {
+      "name": "Hawa Mahal",
+      "capacity": "440",
+      "image": "/assets/hotels/itc-rajputana-jaipur/events/1736425196-hawa-mahal.webp"
+    },
+    {
+      "name": "Resident Lounge",
+      "capacity": "80",
+      "image": "/assets/hotels/itc-rajputana-jaipur/events/1736425176-RESIDENT_Lounge.webp"
+    },
+    {
+      "name": "Boardroom",
+      "capacity": "18",
+      "image": "/assets/hotels/itc-rajputana-jaipur/events/1736425138-boardroom.webp"
+    },
+    {
+      "name": "Boardroom",
+      "capacity": "18",
+      "image": "/assets/hotels/itc-rajputana-jaipur/events/1736425138-boardroom.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Executive Club",
+      "description": "Executive Club (29 m²)",
+      "roomImages": [
+        "/assets/hotels/itc-rajputana-jaipur/rooms/1736424871-Executive-Club.webp"
+      ]
+    },
+    {
+      "roomType": "Rajputana Chambers",
+      "description": "Rajputana Chambers (30 m²)",
+      "roomImages": [
+        "/assets/hotels/itc-rajputana-jaipur/rooms/1736424890-Rajputana-Chamber.webp"
+      ]
+    },
+    {
+      "roomType": "Rajputana Royale",
+      "description": "Rajputana Royale (31 m²)",
+      "roomImages": [
+        "/assets/hotels/itc-rajputana-jaipur/rooms/1736424988-Rajputana-Royal-Room-1.webp"
+      ]
+    },
+    {
+      "roomType": "Thikana Suite",
+      "description": "Thikana Suite (46 m²)",
+      "roomImages": [
+        "/assets/hotels/itc-rajputana-jaipur/rooms/1736424914-Thikana-Suite---Sitting-Room.webp"
+      ]
+    },
+    {
+      "roomType": "Presidential Suite",
+      "description": "Presidential Suite (125 m²)",
+      "roomImages": [
+        "/assets/hotels/itc-rajputana-jaipur/rooms/1736424950-presidential-suite-bedroom.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaipur International Airport",
+      "distance": "12.3 KM"
+    },
+    {
+      "name": "Hawa Mahal",
+      "distance": "1.4 KM"
+    },
+    {
+      "name": "Jal Mahal",
+      "distance": "9.0 KM"
+    },
+    {
+      "name": "Albert Hall Museum",
+      "distance": "4.4 KM"
+    }
+  ],
+  "contact": {
+    "address": "Gopalbari, Jaipur, Rajasthan 302016",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/itc-rajputana-jaipur/main/1736424547-view.webp",
+  "gallery": [
+    "/assets/hotels/itc-rajputana-jaipur/gallery/banquet.webp",
+    "/assets/hotels/itc-rajputana-jaipur/gallery/boardroom.webp",
+    "/assets/hotels/itc-rajputana-jaipur/gallery/courtyard-by-dusk.webp",
+    "/assets/hotels/itc-rajputana-jaipur/gallery/hawa-mahal.webp",
+    "/assets/hotels/itc-rajputana-jaipur/gallery/jaipur-pavilion.webp",
+    "/assets/hotels/itc-rajputana-jaipur/gallery/lobby.webp",
+    "/assets/hotels/itc-rajputana-jaipur/gallery/presidential-suite-bedroom.webp",
+    "/assets/hotels/itc-rajputana-jaipur/gallery/sheesh-mahal.webp",
+    ""
+  ],
+  "locationId": "jaipur"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Hotel Lakend",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Basant Kesar Banquet Hall",
+      "capacity": "300",
+      "image": "/assets/hotels/hotel-lakend/events/1735909023-BasantKesar_Banquet_hall.webp"
+    },
+    {
+      "name": "Ekiyka Boardroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/hotel-lakend/events/1735908992-Ekiyka_board_room.webp"
+    },
+    {
+      "name": "Lakhawali Meeting Hall",
+      "capacity": "100",
+      "image": "/assets/hotels/hotel-lakend/events/1735908969-Lakhawali_meeting_hall.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Pratap Suite",
+      "description": "Pratap Suite",
+      "roomImages": [
+        "/assets/hotels/hotel-lakend/rooms/1735908748-pratap_suite.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room City View",
+      "description": "Deluxe Room City View",
+      "roomImages": [
+        "/assets/hotels/hotel-lakend/rooms/1735908770-deluxe_room_suite_view.webp"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room Lake View",
+      "description": "Deluxe Room Lake View",
+      "roomImages": [
+        "/assets/hotels/hotel-lakend/rooms/1735908789-deluxe_room_lake_view.webp"
+      ]
+    },
+    {
+      "roomType": "Chawand Family Suite",
+      "description": "Chawand Family Suite",
+      "roomImages": [
+        "/assets/hotels/hotel-lakend/rooms/1735908806-chawand_family_suite.webp"
+      ]
+    },
+    {
+      "roomType": "Padmini Suite",
+      "description": "Padmini Suite",
+      "roomImages": [
+        "/assets/hotels/hotel-lakend/rooms/1735908829-padminin_suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Jaisamandh Wildlife Sanctuary",
+      "distance": "52 KM"
+    },
+    {
+      "name": "Lake Pichola",
+      "distance": "3.2 KM"
+    },
+    {
+      "name": "Saheliyo ki Bari",
+      "distance": "2.8 KM"
+    },
+    {
+      "name": "City Palace Udaipur",
+      "distance": "2.1 KM"
+    }
+  ],
+  "contact": {
+    "address": "Alkapuri. Fatehsagar Lake Shore, Ambamata, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/hotel-lakend/main/1735908578-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/hotel-lakend/gallery/BasantKesar_Banquet_hall.webp",
+    "/assets/hotels/hotel-lakend/gallery/Bougainvillea_Terrace_by_the_lake.webp",
+    "/assets/hotels/hotel-lakend/gallery/deluxe_room_lake_view.webp",
+    "/assets/hotels/hotel-lakend/gallery/Ekiyka_board_room.webp",
+    "/assets/hotels/hotel-lakend/gallery/gallery1.webp",
+    "/assets/hotels/hotel-lakend/gallery/The_Urban_Tadka.webp"
+  ],
+  "locationId": "udaipur"
+}

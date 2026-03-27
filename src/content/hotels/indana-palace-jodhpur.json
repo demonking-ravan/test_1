@@ -1,0 +1,120 @@
+{
+  "name": "Indana Palace Jodhpur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Boardroom",
+      "capacity": "NA",
+      "image": "/assets/hotels/indana-palace-jodhpur/events/1735810315-boardroom.webp"
+    },
+    {
+      "name": "Inner Courtyard",
+      "capacity": "NA",
+      "image": "/assets/hotels/indana-palace-jodhpur/events/1735810300-Lotus_Cafe.webp"
+    },
+    {
+      "name": "Rang Mahal & Hawa Mahal",
+      "capacity": "NA",
+      "image": "/assets/hotels/indana-palace-jodhpur/events/1735810265-Rang_mahal.webp"
+    },
+    {
+      "name": "Mewar Hall",
+      "capacity": "NA",
+      "image": "/assets/hotels/indana-palace-jodhpur/events/1735810241-mewar_hall.webp"
+    },
+    {
+      "name": "Mewar Hall",
+      "capacity": "NA",
+      "image": "/assets/hotels/indana-palace-jodhpur/events/1735810241-mewar_hall.webp"
+    },
+    {
+      "name": "Landscaped Lawn",
+      "capacity": "2000",
+      "image": "/assets/hotels/indana-palace-jodhpur/events/1735810223-8The_Venue.webp"
+    },
+    {
+      "name": "Banquet Hall",
+      "capacity": "1300",
+      "image": "/assets/hotels/indana-palace-jodhpur/events/1735810191-banq.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Executive Rooms",
+      "description": "Executive Rooms (364 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/indana-palace-jodhpur/rooms/1735809868-Executive_Rooms.webp"
+      ]
+    },
+    {
+      "roomType": "Premium Rooms",
+      "description": "Premium Rooms (400 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/indana-palace-jodhpur/rooms/1735809894-Premium_Rooms.webp"
+      ]
+    },
+    {
+      "roomType": "Junior Suite",
+      "description": "Junior Suite (486 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/indana-palace-jodhpur/rooms/1735809924-Junior_Suite.webp"
+      ]
+    },
+    {
+      "roomType": "Suites",
+      "description": "Suites (700 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/indana-palace-jodhpur/rooms/1735809947-Suites.webp"
+      ]
+    },
+    {
+      "roomType": "Presidential Suite",
+      "description": "Presidential Suite (700 sq. ft.)",
+      "roomImages": [
+        "/assets/hotels/indana-palace-jodhpur/rooms/1735809963-Presidential_Suite.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Mehrangarh Fort",
+      "distance": "10.0 KM"
+    },
+    {
+      "name": "Jodhpur Airport",
+      "distance": "2.7 KM"
+    },
+    {
+      "name": "Surpura Dam",
+      "distance": "16.5 KM"
+    },
+    {
+      "name": "Umaid Bhawan Palace",
+      "distance": "4.4 KM"
+    }
+  ],
+  "contact": {
+    "address": "Opp. Military Officer Quarters, Benayakiya Road, Shikargarh, Jodhpur, Rajasthan 342015",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/indana-palace-jodhpur/main/1735809680-6.webp",
+  "gallery": [
+    "/assets/hotels/indana-palace-jodhpur/gallery/1The_Courtyard_with_Lavish_Buffet.webp",
+    "/assets/hotels/indana-palace-jodhpur/gallery/8The_Venue.webp",
+    "/assets/hotels/indana-palace-jodhpur/gallery/11.webp",
+    "/assets/hotels/indana-palace-jodhpur/gallery/banq.webp",
+    "/assets/hotels/indana-palace-jodhpur/gallery/boardroom.webp",
+    "/assets/hotels/indana-palace-jodhpur/gallery/Premium_Rooms.webp"
+  ],
+  "locationId": "jodhpur"
+}

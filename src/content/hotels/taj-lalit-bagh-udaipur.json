@@ -1,0 +1,220 @@
+{
+  "name": "Taj Lalit Bagh Udaipur",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Museum Garden",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744633082.webp"
+    },
+    {
+      "name": "SPA Courtyard",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744633014.webp"
+    },
+    {
+      "name": "Pre Function Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632961.webp"
+    },
+    {
+      "name": "Pre Function Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632961.webp"
+    },
+    {
+      "name": "Pre Function Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632961.webp"
+    },
+    {
+      "name": "Sundial Courtyard and Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632883.webp"
+    },
+    {
+      "name": "Lawn 1",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632730.webp"
+    },
+    {
+      "name": "Main Lawn",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632602.webp"
+    },
+    {
+      "name": "Board Room 4",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632477.webp"
+    },
+    {
+      "name": "Board Room 3",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632385.webp"
+    },
+    {
+      "name": "Board Room 2",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632345.webp"
+    },
+    {
+      "name": "Board Room 1",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632278.webp"
+    },
+    {
+      "name": "Conference Room",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632185.webp"
+    },
+    {
+      "name": "Pre Function Banquet Terrace",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744632035.webp"
+    },
+    {
+      "name": "Pre Function 4",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744631980.webp"
+    },
+    {
+      "name": "Pre Function 3",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744631939.webp"
+    },
+    {
+      "name": "Pre Function 2",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744631815.webp"
+    },
+    {
+      "name": "Pre Function 1",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744631768.webp"
+    },
+    {
+      "name": "Open Banquet Terrace",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744631689.webp"
+    },
+    {
+      "name": "Ballroom 2",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744631258.webp"
+    },
+    {
+      "name": "Ballroom 1",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744631199.webp"
+    },
+    {
+      "name": "Main Ball Room",
+      "capacity": "NA",
+      "image": "/assets/hotels/taj-lalit-bagh-udaipur/events/image-1744631140.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Superior Room King Bed",
+      "description": "Superior Room King Bed",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/1766751550-c57deee4e7d1524d025ba4b5081790d4c5749f26-1400x1120.avif"
+      ]
+    },
+    {
+      "roomType": "Superior Room Twin Bed",
+      "description": "Superior Room Twin Bed",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/Room-image-1766751597.avif"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room King Bed",
+      "description": "Deluxe Room King Bed",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/Room-image-1766751718.avif"
+      ]
+    },
+    {
+      "roomType": "Deluxe Room Twin Bed",
+      "description": "Deluxe Room Twin Bed",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/1766752192-8.jpg"
+      ]
+    },
+    {
+      "roomType": "Luxury Room King Bed with Museum View",
+      "description": "Luxury Room King Bed with Museum View",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/Room-image-1766752236.jpg"
+      ]
+    },
+    {
+      "roomType": "Luxury Room Twin Bed with Museum View",
+      "description": "Luxury Room Twin Bed with Museum View",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/Room-image-1766752260.jpg"
+      ]
+    },
+    {
+      "roomType": "Grand Luxury Room King Bed with Sit Out",
+      "description": "Grand Luxury Room King Bed with Sit Out",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/Room-image-1766752297.jpg"
+      ]
+    },
+    {
+      "roomType": "Grand Luxury Room Twin Bed with Sit Out",
+      "description": "Grand Luxury Room Twin Bed with Sit Out",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/Room-image-1766752328.jpg"
+      ]
+    },
+    {
+      "roomType": "Executive Suite King Bed",
+      "description": "Executive Suite King Bed",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/Room-image-1766752360.jpg"
+      ]
+    },
+    {
+      "roomType": "Luxury Suite King Bed",
+      "description": "Luxury Suite King Bed",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/Room-image-1766752379.jpg"
+      ]
+    },
+    {
+      "roomType": "Grand Luxury Suite King Bed with Balcony",
+      "description": "Grand Luxury Suite King Bed with Balcony",
+      "roomImages": [
+        "/assets/hotels/taj-lalit-bagh-udaipur/rooms/Room-image-1766752403.jpg"
+      ]
+    }
+  ],
+  "nearbyPlaces": [],
+  "contact": {
+    "address": "Lake Pichola, Pichola, Udaipur, Rajasthan 313001",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/taj-lalit-bagh-udaipur/main/company-image-1744630394.webp",
+  "gallery": [
+    "/assets/hotels/taj-lalit-bagh-udaipur/gallery/img41.webp",
+    "/assets/hotels/taj-lalit-bagh-udaipur/gallery/img51.webp",
+    "/assets/hotels/taj-lalit-bagh-udaipur/gallery/img66.webp",
+    "/assets/hotels/taj-lalit-bagh-udaipur/gallery/img81.webp",
+    "/assets/hotels/taj-lalit-bagh-udaipur/gallery/img105.webp",
+    "/assets/hotels/taj-lalit-bagh-udaipur/gallery/img142.webp"
+  ],
+  "locationId": "udaipur"
+}

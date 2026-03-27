@@ -1,0 +1,89 @@
+{
+  "name": "Fateh Niwas",
+  "amenities": [
+    "swimming",
+    "fitness",
+    "Spa",
+    "site Coffee Shop",
+    "WiFi",
+    "Terrace Garden",
+    "Activities",
+    "Bar"
+  ],
+  "eventSpace": [
+    {
+      "name": "Baagh",
+      "capacity": "1000",
+      "image": "/assets/hotels/fateh-niwas/events/1735910993-Baagh.webp"
+    },
+    {
+      "name": "Aaram Bagh",
+      "capacity": "750",
+      "image": "/assets/hotels/fateh-niwas/events/1735910978-aarambagh.webp"
+    },
+    {
+      "name": "Conference Hall",
+      "capacity": "70",
+      "image": "/assets/hotels/fateh-niwas/events/1735910958-lobby_sitting_area.webp"
+    },
+    {
+      "name": "Tapovan",
+      "capacity": "50",
+      "image": "/assets/hotels/fateh-niwas/events/1735910914-tapovan.webp"
+    },
+    {
+      "name": "Tapovan",
+      "capacity": "50",
+      "image": "/assets/hotels/fateh-niwas/events/1735910914-tapovan.webp"
+    }
+  ],
+  "roomDetails": [
+    {
+      "roomType": "Deluxe Room With Balcony",
+      "description": "Deluxe Room With Balcony (400 Sq. ft)",
+      "roomImages": [
+        "/assets/hotels/fateh-niwas/rooms/1735910807-deluxe_room_with_balcony_view.webp"
+      ]
+    },
+    {
+      "roomType": "Superior Room With Balcony",
+      "description": "Superior Room With Balcony (400 Sq. ft)",
+      "roomImages": [
+        "/assets/hotels/fateh-niwas/rooms/1735910821-superior_room_with_balcony.webp"
+      ]
+    }
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Lake Pichola",
+      "distance": "6.8 KM"
+    },
+    {
+      "name": "Udai Sagar Lake",
+      "distance": "18.9 KM"
+    },
+    {
+      "name": "Saheliyo ki Bari",
+      "distance": "6.6 KM"
+    },
+    {
+      "name": "City Palace Udaipur",
+      "distance": "4.5 KM"
+    }
+  ],
+  "contact": {
+    "address": "Rampura Circle, Rani Rd, near Rampura Circle, Udaipur, Rajasthan 313031",
+    "phone": "+91-7838426565",
+    "email": "info@fiestroevents.com"
+  },
+  "mainImage": "/assets/hotels/fateh-niwas/main/1735910743-wedding_cost.webp",
+  "gallery": [
+    "/assets/hotels/fateh-niwas/gallery/front.webp",
+    "/assets/hotels/fateh-niwas/gallery/lobby_restaurant.webp",
+    "/assets/hotels/fateh-niwas/gallery/lobby.webp",
+    "/assets/hotels/fateh-niwas/gallery/rooftop_restro.webp",
+    "/assets/hotels/fateh-niwas/gallery/superior_room_with_balcony.webp",
+    "/assets/hotels/fateh-niwas/gallery/view.webp"
+  ],
+  "locationId": "udaipur"
+}
