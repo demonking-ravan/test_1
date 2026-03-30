@@ -1,0 +1,437 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const jaisalmerVenues = [
+    {
+        name: "Suryagarh Jaisalmer",
+        tagline: "A Luxurious Fortress-Style Hotel",
+        description:
+            "Perfect for royal weddings, Suryagarh represents a unique way of life, preserving the traditions of the past and framing them in a modern idiom.",
+        highlights: [
+            "Lakeside venue options",
+            "Khuzamsha Hall for intimate gatherings",
+            "Expansive Celebration Lawns (1200+ capacity)",
+            "Sunset Patio with panoramic desert views",
+            "Traditional Thar Dinner experiences",
+        ],
+        img: "/assets/hotels/suryagarh/main/1677141784-surr.jpg",
+    },
+    {
+        name: "Jaisalmer Marriott Resort & Spa",
+        tagline: "Contemporary Elegance with Desert Charm",
+        description:
+            "A stunning resort featuring yellow sandstone architecture, offering a blend of modern luxury and the traditional spirit of Jaisalmer.",
+        highlights: [
+            "Golden Ballroom for grand events",
+            "Oasis (Open Central Courtyard) for 2000+ guests",
+            "Palm Garden open-air venue",
+            "Luxury suites with fort views",
+            "World-class spa and catering",
+        ],
+        img: "/assets/hotels/jaisalmer-marriott-resort-spa/main/1735899961-main.webp",
+    },
+    {
+        name: "Fort Rajwada",
+        tagline: "Heritage-Inspired Grandeur",
+        description:
+            "A regal property designed to showcase the artistic heritage of Jaisalmer, featuring intricate stone carvings and traditional Rajasthani hospitality.",
+        highlights: [
+            "Fort View Open Air Hall",
+            "Heritage-inspired architecture",
+            "Ganga Villas for luxury stays",
+            "Intricate handmade stone work",
+            "Grand traditional welcoming",
+        ],
+        img: "/assets/hotels/fort-rajwada/main/1735898121-wedding_cost.webp",
+    },
+    {
+        name: "The Gulaal",
+        tagline: "Boutique Luxury with Fort Views",
+        description:
+            "A boutique luxury hotel offering a personalized experience with breathtaking views of the Jaisalmer Fort and the desert landscape.",
+        highlights: [
+            "Boutique wedding experiences",
+            "Panoramic Jaisalmer Fort views",
+            "Intimate courtyard settings",
+            "Personalized Rajasthani service",
+            "Authentic desert architecture",
+        ],
+        img: "/images/locations/jaisalmer.jpg",
+    },
+];
+
+const expertise = [
+    { title: "Venue Selection & Booking", icon: "fa-hotel" },
+    { title: "Wedding Theme & Décor", icon: "fa-palette" },
+    { title: "Vendor Sourcing & Management", icon: "fa-users" },
+    { title: "Guest Hospitality & Logistics", icon: "fa-concierge-bell" },
+    { title: "Entertainment & Cultural Performances", icon: "fa-music" },
+    { title: "Budget Planning & Execution", icon: "fa-calculator" },
+];
+---
+
+<BaseLayout
+    title="Wedding Planner in Jaisalmer | Mapsor Experiential Weddings"
+    description="Mapsor Experiential Weddings is a premier wedding planner in Jaisalmer, specializing in royal desert weddings, luxury heritage celebrations, and bespoke desert experiences."
+>
+    <main class="bg-white overflow-hidden">
+        <!-- Hero Section -->
+        <section class="relative h-dvh w-full flex items-center justify-center">
+            <div class="absolute inset-0 z-0">
+                <img
+                    src="/images/locations/jaisalmer.jpg"
+                    alt="Jaisalmer Golden City"
+                    class="w-full h-full object-cover brightness-[0.55]"
+                />
+                <div
+                    class="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black/70"
+                >
+                </div>
+            </div>
+
+            <div
+                class="relative z-10 text-center text-white px-6 max-w-5xl space-y-8"
+                id="hero-content"
+            >
+                <div class="flex flex-col items-center space-y-4">
+                    <span
+                        class="font-aventa text-primary-100 uppercase tracking-[0.5rem] text-sm md:text-lg lg:text-xl font-bold"
+                    >
+                        The Golden City
+                    </span>
+                    <h1
+                        class="font-orlean text-[4rem] md:text-[6rem] leading-none uppercase drop-shadow-2xl"
+                    >
+                        Wedding Planner <br class="hidden md:block" /> In Jaisalmer
+                    </h1>
+                </div>
+                <p
+                    class="font-aventa text-lg md:text-2xl max-w-3xl mx-auto font-light leading-relaxed opacity-90"
+                >
+                    Crafting royal desert weddings and timeless celebrations in
+                    the majestic heart of Rajasthan’s Golden Sands.
+                </p>
+                <div class="pt-8">
+                    <a
+                        href="#venues"
+                        class="inline-block bg-white text-black px-12 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all duration-300 shadow-xl"
+                    >
+                        Explore Desert Venues
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section
+            class="py-24 px-6 md:px-24 bg-white grid grid-cols-1 lg:grid-cols-2 gap-20 items-center"
+        >
+            <div class="space-y-8 reveals-left">
+                <p
+                    class="font-aventa text-primary-100 uppercase tracking-widest text-lg font-bold"
+                >
+                    Premier Destination Planner
+                </p>
+                <h2 class="sub-heading">
+                    Regal Desert Weddings <br />
+                    <span class="text-gray-300">in Jaisalmer</span>
+                </h2>
+                <div class="space-y-6 textM">
+                    <p>
+                        Wedding planning is no easy feat, especially when you
+                        envision a royal celebration in the heart of Rajasthan.
+                        For couples dreaming of a regal desert wedding, Mapsor
+                        Experiential Weddings stands as a premier wedding
+                        planner in Jaisalmer.
+                    </p>
+                    <p>
+                        A wedding in Jaisalmer is an intricate blend of
+                        heartfelt traditions, ethereal décor, majestic venues,
+                        and curated guest experiences. With the golden sands and
+                        historic architecture as your backdrop, your wedding
+                        becomes more than an event—it becomes a timeless
+                        celebration.
+                    </p>
+                    <p>
+                        Our expert team of wedding designers and planners work
+                        with passion to craft bespoke celebrations that reflect
+                        your unique love story in the "Golden City".
+                    </p>
+                </div>
+            </div>
+            <div
+                class="relative group rounded-[3rem] overflow-hidden shadow-2xl reveals-right"
+            >
+                <img
+                    src="/images/udaipur/hero.png"
+                    alt="Royal Jaisalmer Wedding"
+                    class="w-full h-[65vh] object-cover transition-transform duration-1000 group-hover:scale-105 brightness-90"
+                />
+                <div
+                    class="absolute inset-0 bg-black/10 transition-colors group-hover:bg-transparent"
+                >
+                </div>
+            </div>
+        </section>
+
+        <!-- Desert Experience Section -->
+        <section class="py-24 px-6 md:px-24 bg-gray-50 text-center">
+            <div class="max-w-4xl mx-auto space-y-12">
+                <h2 class="sub-heading">
+                    Luxury Desert Weddings <br />
+                    <span class="text-gray-400">in the Golden Sands</span>
+                </h2>
+                <p class="textM">
+                    Imagine exchanging vows as the sun sets over the Thar
+                    Desert, with golden dunes glowing in the background. Every
+                    floral arrangement, shimmering light installation, and
+                    ornate décor piece is carefully curated to echo Rajasthan’s
+                    regal charm. From traditional Rajasthani folk performances
+                    to royal baraat processions and palace-style receptions, we
+                    create immersive wedding experiences.
+                </p>
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-10"
+                >
+                    {
+                        [
+                            {
+                                t: "Ethereal Décor",
+                                d: "Instagram-worthy aesthetics",
+                            },
+                            {
+                                t: "Cultural Richness",
+                                d: "Traditional folk performances",
+                            },
+                            { t: "Seamless Flow", d: "Stress-free execution" },
+                            {
+                                t: "Bespoke Styling",
+                                d: "Personalized experiences",
+                            },
+                        ].map((item) => (
+                            <div class="p-8 bg-white rounded-3xl shadow-sm hover:shadow-xl transition-all reveal-up">
+                                <h4 class="font-aventa text-xl font-bold uppercase mb-3 text-primary-100 tracking-widest">
+                                    {item.t}
+                                </h4>
+                                <p class="font-aventa text-sm text-gray-500">
+                                    {item.d}
+                                </p>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </section>
+
+        <!-- Venues Section -->
+        <section id="venues" class="py-24 px-6 md:px-24 bg-white">
+            <div class="mb-20 space-y-6">
+                <p
+                    class="font-orlean text-primary-100 uppercase tracking-widest text-lg font-bold"
+                >
+                    Top Jaisalmer Venues
+                </p>
+                <h2 class="sub-heading">
+                    Majestic <span class="text-gray-300">Golden Settings</span>
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
+                {
+                    jaisalmerVenues.map((venue, index) => (
+                        <div class="reveal-up group">
+                            <div class="relative h-[60vh] rounded-[3rem] overflow-hidden mb-8 shadow-xl">
+                                <img
+                                    src={venue.img}
+                                    alt={venue.name}
+                                    class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                                />
+                                <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
+                            </div>
+                            <div class="space-y-4 px-4">
+                                <h3 class="sec-heading font-aventa font-bold uppercase tracking-widest">
+                                    {venue.name}
+                                </h3>
+                                <p class="font-orlean text-primary-100 italic text-xl">
+                                    {venue.tagline}
+                                </p>
+                                <p class="font-aventa text-gray-600 text-lg leading-relaxed">
+                                    {venue.description}
+                                </p>
+                                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-4 pt-4">
+                                    {venue.highlights.map((h) => (
+                                        <li class="flex items-center gap-3 text-sm text-gray-500 font-aventa">
+                                            <div class="w-1.5 h-1.5 rounded-full bg-primary-100" />
+                                            {h}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+
+        <!-- Budget Section -->
+        <section class="py-24 px-6 md:px-24 bg-black text-white text-center">
+            <div class="max-w-4xl mx-auto space-y-10">
+                <h2 class="sub-heading text-white">
+                    Budget-Friendly <br />
+                    <span class="text-gray-600">Wedding Planning</span>
+                </h2>
+                <p
+                    class="font-aventa text-lg md:text-xl text-gray-400 leading-relaxed italic"
+                >
+                    "Planning a luxury wedding while staying within budget can
+                    be challenging. We integrate authentic cultural elements,
+                    regal settings, and stunning décor while ensuring every
+                    rupee contributes meaningfully."
+                </p>
+                <div class="flex flex-wrap justify-center gap-6">
+                    {
+                        [
+                            "Trusted Local Vendors",
+                            "Smart Allocation",
+                            "Transparent Costs",
+                            "Creative Solutions",
+                        ].map((tag) => (
+                            <span class="px-8 py-3 border border-white/20 rounded-full font-aventa font-bold uppercase tracking-widest text-sm hover:border-primary-100 hover:text-primary-100 transition-colors cursor-default">
+                                {tag}
+                            </span>
+                        ))
+                    }
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Grid -->
+        <section class="py-24 px-6 md:px-24 bg-white">
+            <div class="mb-20 space-y-6">
+                <p
+                    class="font-aventa text-primary-100 uppercase tracking-widest text-lg font-bold"
+                >
+                    Why Choose Mapsor?
+                </p>
+                <h2 class="sub-heading">
+                    Global Expertise <br />
+                    <span class="text-gray-300">Local Precision</span>
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {
+                    expertise.map((item) => (
+                        <div class="reveal-up p-12 border border-gray-100 rounded-[3rem] hover:bg-black group transition-all duration-500 flex flex-col justify-center items-center text-center space-y-6">
+                            <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center group-hover:bg-primary-100 transition-all duration-500">
+                                <i
+                                    class={`fas ${item.icon} text-3xl text-primary-100 group-hover:text-white`}
+                                />
+                            </div>
+                            <h4 class="font-aventa text-2xl font-bold uppercase tracking-widest group-hover:text-white transition-colors">
+                                {item.title}
+                            </h4>
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 md:py-24 px-6 lg:px-16 bg-white">
+            <div
+                class="relative w-full py-24 h-min md:h-[65vh] rounded-[3rem] overflow-hidden flex items-center justify-center"
+            >
+                <img
+                    src="/images/locations/jaisalmer.jpg"
+                    class="absolute inset-0 w-full h-full object-cover brightness-[0.35]"
+                />
+                <div class="absolute inset-0 bg-black/40"></div>
+                <div
+                    class="relative z-10 text-center text-white space-y-10 px-6 max-w-5xl"
+                >
+                    <h2
+                        class="font-orlean text-4xl md:text-5xl leading-tight uppercase"
+                    >
+                        Plan Your Dream <br />
+                        <span class="text-primary-100"
+                            >Wedding in Jaisalmer</span
+                        >
+                    </h2>
+                    <p
+                        class="font-aventa text-xl md:text-2xl opacity-80 max-w-3xl mx-auto"
+                    >
+                        In the enchanting landscape of Rajasthan’s Golden City,
+                        Mapsor transforms dreams into reality—crafting
+                        celebrations that resonate with love, heritage, and
+                        elegance.
+                    </p>
+                    <div class="pt-6">
+                        <a
+                            href="/contact"
+                            class="inline-block bg-white text-black px-14 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all text-lg shadow-2xl"
+                        >
+                            Start Planning
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</BaseLayout>
+
+<script>
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Hero Animation
+    gsap.from("#hero-content > *", {
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+        stagger: 0.3,
+        ease: "power4.out",
+    });
+
+    // Scroll Animations
+    gsap.utils.toArray(".reveals-left").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            x: -100,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power2.out",
+        });
+    });
+
+    gsap.utils.toArray(".reveals-right").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            x: 100,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power2.out",
+        });
+    });
+
+    gsap.utils.toArray(".reveal-up").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            y: 80,
+            opacity: 0,
+            duration: 1,
+            ease: "power3.out",
+        });
+    });
+</script>

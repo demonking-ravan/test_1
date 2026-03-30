@@ -1,0 +1,496 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ServicesSlider from "../components/ServicesSlider.astro";
+
+const faqs = [
+    {
+        q: "What is a Mapsor Experiential Wedding?",
+        a: "A Mapsor Experiential Wedding goes beyond traditional décor and ceremonies. We curate immersive wedding experiences that blend storytelling, culture, entertainment, and personalized guest engagement to create unforgettable celebrations.",
+    },
+    {
+        q: "Why choose Udaipur for an experiential destination wedding?",
+        a: "Known as the “City of Lakes,” Udaipur offers breathtaking venues like City Palace, Jagmandir Island Palace, The Oberoi Udaivilas, and The Leela Palace Udaipur. These royal settings provide the perfect backdrop for interactive, culturally rich, and luxurious wedding experiences.",
+    },
+    {
+        q: "What unique experiences can Mapsor create for guests?",
+        a: "We design curated welcome hampers, heritage walks, live folk performances, themed décor concepts, personalized entertainment, interactive food stations, and surprise elements that keep guests engaged throughout the wedding festivities.",
+    },
+    {
+        q: "How early should we start planning an experiential wedding in Udaipur?",
+        a: "For a seamless and well-executed celebration, we recommend beginning the planning process at least 8–12 months in advance. This ensures prime venue availability, creative development time, and smooth coordination.",
+    },
+    {
+        q: "Does Mapsor handle guest hospitality and logistics?",
+        a: "Yes, we provide complete guest management services including accommodation coordination, airport transfers, welcome experiences, itinerary planning, and on-ground assistance to ensure a comfortable and memorable stay.",
+    },
+];
+
+const signatureServices = [
+    {
+        title: "Bespoke Venue Selection",
+        description:
+            "We help you select a venue that aligns with your guest list, aesthetic vision, and celebration scale—ensuring the setting enhances the overall experience.",
+        icon: "fa-hotel",
+    },
+    {
+        title: "Concept Design & Experiential Decor",
+        description:
+            "From royal Rajasthani opulence to modern luxury aesthetics, our creative team curates cohesive themes with personalized décor, floral artistry, lighting design, and statement installations.",
+        icon: "fa-palette",
+    },
+    {
+        title: "Curated Culinary Experiences",
+        description:
+            "Delight your guests with thoughtfully crafted menus featuring regional specialties, global cuisines, interactive live stations, and bespoke mixology experiences.",
+        icon: "fa-utensils",
+    },
+    {
+        title: "Entertainment & Cultural Showcases",
+        description:
+            "We curate engaging entertainment—from DJs and live bands to celebrity artists and traditional Rajasthani folk performances—creating vibrant celebrations across every function.",
+        icon: "fa-music",
+    },
+    {
+        title: "Guest Hospitality & Logistics",
+        description:
+            "From luxury accommodations and airport transfers to seamless on-ground coordination, we ensure a smooth and memorable guest journey.",
+        icon: "fa-concierge-bell",
+    },
+    {
+        title: "Wedding Day Production & Coordination",
+        description:
+            "Our experienced production team manages timelines, vendors, and technical execution—allowing you to celebrate stress-free.",
+        icon: "fa-clock",
+    },
+    {
+        title: "Tailor-Made Wedding Packages",
+        description:
+            "We craft customized wedding packages designed around your style, preferences, and budget—delivering sophistication without compromise.",
+        icon: "fa-box-open",
+    },
+];
+
+const weddingTypes = [
+    {
+        name: "Royal Weddings",
+        desc: "Grand palace celebrations inspired by Udaipur’s regal heritage.",
+        img: "/images/udaipur/hero.png",
+    },
+    {
+        name: "Eco-Friendly Weddings",
+        desc: "Sustainable, elegant weddings with environmentally conscious planning.",
+        img: "/images/udaipur/decor.png",
+    },
+    {
+        name: "Intimate Weddings",
+        desc: "Beautifully curated small gatherings focused on meaningful moments.",
+        img: "/images/udaipur/mandap.png",
+    },
+    {
+        name: "Themed Weddings",
+        desc: "Creative and personalized concepts brought to life with precision and detail.",
+        img: "/images/udaipur/hero.png",
+    },
+    {
+        name: "Luxury Weddings",
+        desc: "Opulent celebrations crafted with sophistication and world-class execution.",
+        img: "/images/udaipur/decor.png",
+    },
+];
+---
+
+<BaseLayout
+    title="Wedding Planners in Udaipur | Mapsor Experiential Weddings"
+    description="Mapsor Experiential Weddings is a premier destination and experiential wedding planning company specializing in royal palace weddings in Udaipur."
+>
+    <main class="bg-white overflow-hidden">
+        <!-- Hero Section -->
+        <section class="relative h-dvh w-full flex items-center justify-center">
+            <div class="absolute inset-0 z-0">
+                <img
+                    src="/images/udaipur/hero.png"
+                    alt="Royal Udaipur Wedding"
+                    class="w-full h-full object-cover brightness-[0.7]"
+                />
+                <div
+                    class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60"
+                >
+                </div>
+            </div>
+
+            <div
+                class="relative z-10 text-center text-white px-6 max-w-5xl space-y-8"
+                id="hero-content"
+            >
+                <div class="flex flex-col items-center space-y-4">
+                    <span
+                        class="font-aventa text-primary-100 uppercase tracking-[0.5rem] text-sm md:text-lg lg:text-xl font-bold"
+                    >
+                        Majestic Celebrations
+                    </span>
+                    <h1
+                        class="font-orlean text-[4rem] md:text-[6rem] leading-none uppercase drop-shadow-lg"
+                    >
+                        Wedding Planners <br class="hidden md:block" /> In Udaipur
+                    </h1>
+                </div>
+                <p
+                    class="font-aventa text-lg md:text-2xl max-w-3xl mx-auto font-light leading-relaxed opacity-90"
+                >
+                    Crafting immersive, luxury celebrations that beautifully
+                    blend Indian traditions with modern elegance in the City of
+                    Lakes.
+                </p>
+                <div class="pt-8">
+                    <a
+                        href="#signature-services"
+                        class="inline-block bg-white text-black px-10 py-4 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all duration-300"
+                    >
+                        Discover More
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section
+            class="py-24 px-6 md:px-24 bg-white grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+        >
+            <div class="space-y-8 reveals-left">
+                <p
+                    class="font-aventa text-primary-100 uppercase tracking-widest text-lg font-bold"
+                >
+                    About Mapsor Udaipur
+                </p>
+                <h2 class="sub-heading">
+                    Crafting <span class="text-gray-300">Immersive</span>
+                    <br /> Celebrations
+                </h2>
+                <div class="space-y-6 textM">
+                    <p>
+                        Mapsor Experiential Weddings is a premier destination
+                        and experiential wedding planning company known for
+                        crafting immersive, luxury celebrations that beautifully
+                        blend Indian traditions with modern elegance.
+                        Specializing in royal palace weddings in Udaipur,
+                        heritage celebrations in Jaipur and Jodhpur.
+                    </p>
+                    <p>
+                        From venue selection and luxury décor design to
+                        hospitality management and seamless coordination, Mapsor
+                        Experiential Weddings ensures every ceremony is
+                        thoughtfully curated to create unforgettable moments.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="relative group overflow-hidden rounded-[3rem] reveals-right"
+            >
+                <img
+                    src="/images/udaipur/mandap.png"
+                    alt="Udaipur Wedding Mandap"
+                    class="w-full h-[60vh] object-cover transition-transform duration-1000 group-hover:scale-110"
+                />
+                <div
+                    class="absolute inset-0 border-[20px] border-white/10 group-hover:border-white/20 transition-all"
+                >
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Udaipur Section -->
+        <section class="py-24 px-6 md:px-24 bg-gray-50">
+            <div class="max-w-4xl mx-auto text-center space-y-12">
+                <h2 class="sub-heading">
+                    Choose the Best Destination <br />
+                    <span class="text-gray-400">Wedding Planner in Udaipur</span
+                    >
+                </h2>
+                <p class="textM">
+                    Destination weddings in India are becoming a timeless trend,
+                    especially in the royal city of Udaipur, known for its
+                    majestic palaces, serene lakes, and heritage venues.
+                    Recognized among the best destination wedding planners in
+                    Udaipur, राजस्थान, Mapsor blends the richness of Indian
+                    traditions with modern elegance to craft extraordinary
+                    wedding experiences.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-10">
+                    <div
+                        class="p-8 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-shadow group"
+                    >
+                        <i
+                            class="fas fa-gem text-4xl text-primary-100 mb-6 group-hover:scale-110 transition-transform inline-block"
+                        ></i>
+                        <h3
+                            class="font-aventa text-2xl font-bold uppercase mb-4 tracking-widest"
+                        >
+                            Royal Expertise
+                        </h3>
+                        <p class="font-aventa text-gray-500">
+                            Deep expertise in planning royal palace weddings and
+                            heritage ceremonies.
+                        </p>
+                    </div>
+                    <div
+                        class="p-8 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-shadow group"
+                    >
+                        <i
+                            class="fas fa-handshake text-4xl text-primary-100 mb-6 group-hover:scale-110 transition-transform inline-block"
+                        ></i>
+                        <h3
+                            class="font-aventa text-2xl font-bold uppercase mb-4 tracking-widest"
+                        >
+                            Personalized
+                        </h3>
+                        <p class="font-aventa text-gray-500">
+                            Delivering personalized concepts that reflect your
+                            unique story and style.
+                        </p>
+                    </div>
+                    <div
+                        class="p-8 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-shadow group"
+                    >
+                        <i
+                            class="fas fa-network-wired text-4xl text-primary-100 mb-6 group-hover:scale-110 transition-transform inline-block"
+                        ></i>
+                        <h3
+                            class="font-aventa text-2xl font-bold uppercase mb-4 tracking-widest"
+                        >
+                            Premium Network
+                        </h3>
+                        <p class="font-aventa text-gray-500">
+                            Strong network of premium venues and trusted vendors
+                            in Rajasthan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Signature Services Grid -->
+        <section id="signature-services" class="py-24 px-6 md:px-24 bg-white">
+            <div class="mb-20 space-y-6">
+                <p
+                    class="font-orlean text-primary-100 uppercase tracking-widest text-lg"
+                >
+                    Our Expertise
+                </p>
+                <h2 class="sub-heading">
+                    Signature <span class="text-gray-300">Services</span>
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {
+                    signatureServices.map((service, index) => (
+                        <div class="reveal-up p-10 border border-gray-100 rounded-[2.5rem] hover:bg-black group transition-all duration-500 flex flex-col justify-between min-h-[350px]">
+                            <div class="space-y-6">
+                                <div class="w-16 h-16 bg-gray-50 rounded-2xl flex items-center justify-center group-hover:bg-primary-100 transition-colors">
+                                    <i
+                                        class={`fas ${service.icon} text-2xl text-primary-100 group-hover:text-white`}
+                                    />
+                                </div>
+                                <h3 class="font-aventa text-2xl md:text-3xl font-bold uppercase group-hover:text-white leading-tight tracking-widest">
+                                    {service.title}
+                                </h3>
+                                <p class="font-aventa text-gray-600 group-hover:text-gray-400 text-lg">
+                                    {service.description}
+                                </p>
+                            </div>
+                            {/* <div class="pt-8 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <span class="text-white border-b border-white pb-1 uppercase tracking-widest text-xs font-orlean">
+                                    Read More
+                                </span>
+                            </div> */}
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+
+        <!-- Wedding Types Section -->
+        <section class="py-24 px-6 md:px-24 bg-black text-white">
+            <div
+                class="flex flex-col lg:flex-row justify-between items-end mb-20 gap-8"
+            >
+                <div class="space-y-6">
+                    <p
+                        class="font-orlean text-primary-100 uppercase tracking-widest text-lg font-bold"
+                    >
+                        Curated Styles
+                    </p>
+                    <h2 class="sub-heading text-white">
+                        Specialized <span class="text-gray-600"
+                            >Celebrations</span
+                        >
+                    </h2>
+                </div>
+                <p class="font-aventa text-gray-400 max-w-md text-lg italic">
+                    Every wedding is thoughtfully designed to reflect the unique
+                    personality and vision of every couple.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                {
+                    weddingTypes.map((type) => (
+                        <div class="relative group h-[500px] overflow-hidden rounded-3xl cursor-default">
+                            <img
+                                src={type.img}
+                                alt={type.name}
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 brightness-75 group-hover:brightness-50"
+                            />
+                            <div class="absolute inset-0 p-8 flex flex-col justify-end space-y-4">
+                                <h4 class="font-aventa text-2xl font-bold uppercase tracking-widest">
+                                    {type.name}
+                                </h4>
+                                <p class="font-aventa text-sm text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                                    {type.desc}
+                                </p>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+
+        <!-- FAQs Section -->
+        <section class="py-24 px-6 md:px-24 bg-white">
+            <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-20">
+                <div class="lg:w-1/3 space-y-8">
+                    <h2 class="sub-heading">
+                        Common <br />
+                        <span class="text-gray-300">Inquiries</span>
+                    </h2>
+                    <p class="textM">
+                        Have questions about planning your dream wedding in
+                        Udaipur? We’re here to help.
+                    </p>
+                    <img
+                        src="/images/udaipur/decor.png"
+                        class="w-full h-80 object-cover rounded-3xl"
+                    />
+                </div>
+                <div class="lg:w-2/3 space-y-4">
+                    {
+                        faqs.map((faq, index) => (
+                            <details class="bg-gray-50 rounded-2xl p-8 group open:bg-primary-100/5 transition-all outline-none">
+                                <summary class="font-aventa text-xl md:text-2xl font-bold uppercase cursor-pointer list-none flex justify-between items-center pr-2 tracking-widest">
+                                    {faq.q}
+                                    <span class="text-primary-100 group-open:rotate-45 transition-transform text-3xl">
+                                        +
+                                    </span>
+                                </summary>
+                                <div class="mt-6 font-aventa text-lg text-gray-600 leading-relaxed border-t border-gray-200 pt-6">
+                                    {faq.a}
+                                </div>
+                            </details>
+                        ))
+                    }
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 md:py-24 px-6 lg:px-16 bg-white">
+            <div
+                class="relative w-full py-24 h-min md:h-[65vh] rounded-[3rem] overflow-hidden flex items-center justify-center"
+            >
+                <img
+                    src="/images/udaipur/hero.png"
+                    class="absolute inset-0 w-full h-full object-cover grayscale-[0.5]"
+                />
+                <div class="absolute inset-0 bg-black/60"></div>
+                <div
+                    class="relative z-10 text-center text-white space-y-8 px-6"
+                >
+                    <h2
+                        class="font-orlean text-4xl md:text-5xl leading-none uppercase"
+                    >
+                        Transform Your Wedding Into An <span
+                            class="text-primary-100"
+                            >Unforgettable Experience</span
+                        >
+                    </h2>
+                    <p class="font-aventa text-xl opacity-80">
+                        With Mapsor Experiential Weddings, your vision is
+                        brought to life through thoughtful design, flawless
+                        execution, and extraordinary experiences.
+                    </p>
+                    <div class="pt-4">
+                        <a
+                            href="/contact"
+                            class="inline-block bg-white text-black px-12 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all text-base md:text-lg"
+                        >
+                            Start Planning
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</BaseLayout>
+
+<script>
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Hero Animation
+    gsap.from("#hero-content > *", {
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+        stagger: 0.3,
+        ease: "power4.out",
+    });
+
+    // Scroll Animations
+    gsap.utils.toArray(".reveals-left").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            x: -100,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power2.out",
+        });
+    });
+
+    gsap.utils.toArray(".reveals-right").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            x: 100,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power2.out",
+        });
+    });
+
+    gsap.utils.toArray(".reveal-up").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            y: 80,
+            opacity: 0,
+            duration: 1,
+            ease: "power3.out",
+        });
+    });
+</script>
+
+<style>
+    /* Custom spacing and typography refinements */
+    details summary::-webkit-details-marker {
+        display: none;
+    }
+</style>

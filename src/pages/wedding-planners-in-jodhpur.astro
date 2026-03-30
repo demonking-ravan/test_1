@@ -1,0 +1,384 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const jodhpurVenues = [
+    {
+        name: "Umaid Bhawan Palace",
+        tagline: "The Ultimate Royal Wedding Venue",
+        description:
+            "One of the most iconic and luxurious wedding venues in India. Designed by British architect Henry Vaughan Lanchester, this magnificent heritage palace exudes grandeur, elegance, and timeless charm.",
+        highlights: [
+            "Majestic architecture",
+            "Expansive lawns and courtyards",
+            "Regal banquet halls",
+            "World-class hospitality",
+            "Luxurious guest accommodations",
+        ],
+        cost: "₹76 Lakhs to ₹92 Lakhs",
+        guests: "200",
+        img: "/assets/hotels/umaid-bhawan-palace-jodhpur/main/1735281251-view3.webp",
+    },
+    {
+        name: "ITC Rajputana (Welcomhotel Jodhpur)",
+        tagline: "Royal Luxury with Modern Comfort",
+        description:
+            "A premium luxury hotel blending royal Rajasthani architecture with modern elegance. It offers beautifully designed indoor and outdoor venues ideal for grand wedding celebrations.",
+        highlights: [
+            "Stunning landscaped lawns",
+            "Elegant banquet spaces",
+            "Luxury suites and rooms",
+            "Royal ambiance with cultural performances",
+            "Traditional Rajasthani hospitality",
+        ],
+        cost: "₹85 Lakhs",
+        guests: "200–250",
+        img: "/assets/hotels/welcomhotel-by-itc-hotels/main/1735890737-wedding_cost.webp",
+    },
+    {
+        name: "Radisson Jodhpur",
+        tagline: "Elegant & Contemporary Wedding Destination",
+        description:
+            "Known for its graceful architecture, vibrant courtyards, and exceptional hospitality. It is an ideal venue for couples seeking a blend of modern luxury and traditional charm.",
+        highlights: [
+            "Spacious gardens and courtyards",
+            "Contemporary banquet halls",
+            "Excellent catering services",
+            "Premium guest accommodations",
+            "Beautiful photo-worthy settings",
+        ],
+        cost: "₹75 Lakhs to ₹90 Lakhs",
+        guests: "150–200",
+        img: "/assets/hotels/radisson-jodhpur/main/1735891316-wedding_cost.webp",
+    },
+];
+
+const expertise = [
+    { title: "Venue Booking Assistance", icon: "fa-hotel" },
+    { title: "Luxury Décor & Theme Styling", icon: "fa-palette" },
+    { title: "Entertainment & Artist Management", icon: "fa-music" },
+    { title: "Guest Hospitality & Logistics", icon: "fa-concierge-bell" },
+    { title: "Royal Baraat & Traditional Experiences", icon: "fa-horse" },
+    { title: "Customized Experiential Wedding Concepts", icon: "fa-magic" },
+];
+---
+
+<BaseLayout
+    title="Wedding Planners in Jodhpur | Mapsor Experiential Weddings"
+    description="Mapsor Experiential Weddings is your trusted partner for luxurious, customized, and unforgettable destination weddings in Jodhpur, the Blue City."
+>
+    <main class="bg-white overflow-hidden">
+        <!-- Hero Section -->
+        <section class="relative h-dvh w-full flex items-center justify-center">
+            <div class="absolute inset-0 z-0">
+                <img
+                    src="/images/locations/jodhpur.jpg"
+                    alt="Jodhpur The Blue City"
+                    class="w-full h-full object-cover brightness-[0.6]"
+                />
+                <div
+                    class="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black/70"
+                >
+                </div>
+            </div>
+
+            <div
+                class="relative z-10 text-center text-white px-6 max-w-5xl space-y-8"
+                id="hero-content"
+            >
+                <div class="flex flex-col items-center space-y-4">
+                    <span
+                        class="font-aventa text-primary-100 uppercase tracking-[0.5rem] text-sm md:text-lg lg:text-xl font-bold"
+                    >
+                        The Blue City
+                    </span>
+                    <h1
+                        class="font-orlean text-[4rem] md:text-[6rem] leading-none uppercase drop-shadow-2xl"
+                    >
+                        Wedding Planners <br class="hidden md:block" /> In Jodhpur
+                    </h1>
+                </div>
+                <p
+                    class="font-aventa text-lg md:text-2xl max-w-3xl mx-auto font-light leading-relaxed opacity-90"
+                >
+                    Your trusted partner for planning luxurious, customized, and
+                    unforgettable destination weddings in the majestic heart of
+                    Rajasthan.
+                </p>
+                <div class="pt-8">
+                    <a
+                        href="#venues"
+                        class="inline-block bg-white text-black px-12 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all duration-300 shadow-xl"
+                    >
+                        Explore Venues
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section
+            class="py-24 px-6 md:px-24 bg-white grid grid-cols-1 lg:grid-cols-2 gap-20 items-center"
+        >
+            <div class="space-y-8 reveals-left">
+                <p
+                    class="font-aventa text-primary-100 uppercase tracking-widest text-lg font-bold"
+                >
+                    Best Wedding Planners in Jodhpur
+                </p>
+                <h2 class="sub-heading">
+                    Turning Dreams into <br />
+                    <span class="text-gray-300">Grand Celebrations</span>
+                </h2>
+                <div class="space-y-6 textM">
+                    <p>
+                        Are you searching for the best wedding planners in
+                        Jodhpur to turn your dream wedding into a grand
+                        celebration? Mapsor Experiential Weddings is your
+                        trusted partner for planning luxurious, customized, and
+                        unforgettable destination weddings in the Blue City.
+                    </p>
+                    <p>
+                        As a leading wedding planner in Jodhpur, Mapsor
+                        specializes in curating royal palace weddings, luxury
+                        hotel celebrations, heritage-themed décor, and fully
+                        personalized wedding experiences.
+                    </p>
+                    <p>
+                        Whether you envision an intimate royal affair or a
+                        lavish palace wedding, we transform venues into
+                        breathtaking fairytale settings with luxury décor,
+                        creative themes, and immersive experiences.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="relative group rounded-[3rem] overflow-hidden shadow-2xl reveals-right"
+            >
+                <img
+                    src="/images/udaipur/decor.png"
+                    alt="Luxury Wedding Decor Jodhpur"
+                    class="w-full h-[65vh] object-cover transition-transform duration-1000 group-hover:scale-105"
+                />
+                <div
+                    class="absolute inset-0 bg-black/10 transition-colors group-hover:bg-transparent"
+                >
+                </div>
+            </div>
+        </section>
+
+        <!-- Venues Section -->
+        <section id="venues" class="py-24 px-6 md:px-24 bg-gray-50">
+            <div class="text-center max-w-3xl mx-auto mb-20 space-y-6">
+                <h2 class="sub-heading">
+                    Top Destination <br />
+                    <span class="text-gray-400">Wedding Venues in Jodhpur</span>
+                </h2>
+                <p class="textM">
+                    Jodhpur offers the perfect backdrop for a regal wedding
+                    celebration. Below are some of the top luxury wedding venues
+                    in Jodhpur.
+                </p>
+            </div>
+
+            <div class="space-y-32">
+                {
+                    jodhpurVenues.map((venue, index) => (
+                        <div
+                            class={`flex flex-col lg:flex-row gap-16 items-center ${index % 2 !== 0 ? "lg:flex-row-reverse" : ""}`}
+                        >
+                            <div class="w-full lg:w-1/2 reveal-up">
+                                <div class="relative group rounded-[3rem] overflow-hidden shadow-2xl h-[50vh] md:h-[60vh]">
+                                    <img
+                                        src={venue.img}
+                                        alt={venue.name}
+                                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                    />
+                                    <div class="absolute bottom-10 left-10 right-10 p-8 bg-white/90 backdrop-blur-md rounded-2xl md:hidden">
+                                        <h3 class="font-aventa text-2xl font-bold uppercase tracking-widest">
+                                            {venue.name}
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full lg:w-1/2 space-y-8 reveal-up">
+                                <div class="space-y-4">
+                                    <span class="text-primary-100 font-orlean uppercase tracking-widest font-bold">
+                                        0{index + 1} Venue
+                                    </span>
+                                    <h3 class="sec-heading font-aventa font-bold uppercase tracking-widest">
+                                        {venue.name}
+                                    </h3>
+                                    <p class="font-orlean text-primary-100 italic text-xl">
+                                        {venue.tagline}
+                                    </p>
+                                </div>
+                                <p class="textM text-lg!">
+                                    {venue.description}
+                                </p>
+
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    {venue.highlights.map((h) => (
+                                        <div class="flex items-center gap-3">
+                                            <i class="fas fa-check-circle text-primary-100" />
+                                            <span class="font-aventa text-gray-700">
+                                                {h}
+                                            </span>
+                                        </div>
+                                    ))}
+                                </div>
+
+                                <div class="p-8 bg-white border border-primary-100/20 rounded-2xl space-y-2">
+                                    <p class="font-aventa text-sm uppercase text-gray-400 font-bold tracking-widest">
+                                        Estimated Wedding Cost
+                                    </p>
+                                    <p class="font-orlean text-2xl text-black">
+                                        {venue.cost}{" "}
+                                        <span class="text-gray-400 text-lg md:text-xl font-aventa normal-case font-light">
+                                            {" "}
+                                            (for {venue.guests} guests)
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section class="py-24 px-6 md:px-24 bg-white">
+            <div class="mb-20 space-y-6">
+                <p
+                    class="font-aventa text-primary-100 uppercase tracking-widest text-lg font-bold"
+                >
+                    Why Choose Mapsor?
+                </p>
+                <h2 class="sub-heading">
+                    Complete <span class="text-gray-300"
+                        >Destination Planning</span
+                    >
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {
+                    expertise.map((item, index) => (
+                        <div class="reveal-up p-12 border border-gray-100 rounded-[3rem] hover:bg-black group transition-all duration-500 flex flex-col items-center text-center space-y-6">
+                            <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center group-hover:bg-primary-100 transition-all duration-500">
+                                <i
+                                    class={`fas ${item.icon} text-3xl text-primary-100 group-hover:text-white`}
+                                />
+                            </div>
+                            <h4 class="font-aventa text-2xl font-bold uppercase tracking-widest group-hover:text-white transition-colors">
+                                {item.title}
+                            </h4>
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 md:py-24 px-6 lg:px-16 bg-white">
+            <div
+                class="relative w-full py-24 h-min md:h-[65vh] rounded-[3rem] overflow-hidden flex items-center justify-center"
+            >
+                <img
+                    src="/images/locations/jodhpur.jpg"
+                    class="absolute inset-0 w-full h-full object-cover brightness-[0.4]"
+                />
+                <div class="absolute inset-0 bg-black/40"></div>
+                <div
+                    class="relative z-10 text-center text-white space-y-8 px-6 max-w-5xl"
+                >
+                    <h2
+                        class="font-orlean text-4xl md:text-5xl leading-none uppercase"
+                    >
+                        Let Us Create Your Fairytale Wedding <br />
+                        <span class="text-primary-100"
+                            >In The Heart of Rajasthan</span
+                        >
+                    </h2>
+                    <p
+                        class="font-aventa text-xl md:text-2xl opacity-80 max-w-3xl mx-auto"
+                    >
+                        A seamless, stress-free, and truly royal experience
+                        awaits with Mapsor Experiential Weddings.
+                    </p>
+                    <div class="pt-8">
+                        <a
+                            href="/contact"
+                            class="inline-block bg-white text-black px-14 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all text-lg shadow-2xl"
+                        >
+                            Start Planning
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</BaseLayout>
+
+<script>
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Hero Animation
+    gsap.from("#hero-content > *", {
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+        stagger: 0.3,
+        ease: "power4.out",
+    });
+
+    // Scroll Animations
+    gsap.utils.toArray(".reveals-left").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            x: -100,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power2.out",
+        });
+    });
+
+    gsap.utils.toArray(".reveals-right").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            x: 100,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power2.out",
+        });
+    });
+
+    gsap.utils.toArray(".reveal-up").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            y: 80,
+            opacity: 0,
+            duration: 1,
+            ease: "power3.out",
+        });
+    });
+</script>
+
+<style>
+    /* Premium Hover Overlay */
+    .group:hover .group-hover\:tracking-widest {
+        letter-spacing: 0.3rem;
+    }
+</style>

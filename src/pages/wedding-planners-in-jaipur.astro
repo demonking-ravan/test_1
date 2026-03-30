@@ -1,0 +1,421 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const jaipurVenues = [
+    {
+        name: "Rambagh Palace",
+        tagline: "The Epitome of Royal Elegance",
+        description:
+            "Ideal for grand palace weddings, Rambagh Palace offers a majestic setting with expansive lawns and regal banquet halls once home to royalty.",
+        highlights: [
+            "Iconic palace architecture",
+            "Naksha Garden (2000+ guest capacity)",
+            "Mughal and Oriental Gardens",
+            "Maharani Mahal for grand indoor events",
+            "World-class Taj hospitality",
+        ],
+        img: "/assets/hotels/rambagh-palace/gallery/view2.webp",
+    },
+    {
+        name: "Fairmont Jaipur",
+        tagline: "Mughal and Rajput Architecture",
+        description:
+            "A magnificent blend of tradition and luxury, Fairmont Jaipur is designed to resemble a royal fortress, offering a stunning backdrop for grand celebrations.",
+        highlights: [
+            "Grand Ballroom with 500+ capacity",
+            "Poolside and garden venue options",
+            "Traditional Rajasthani architecture",
+            "Luxury suites with Aravalli views",
+            "Bespoke wedding theme design",
+        ],
+        img: "/assets/hotels/fairmont-jaipur/main/1735208442-Hotel-background-1650449331.webp",
+    },
+    {
+        name: "The Oberoi Rajvilas",
+        tagline: "Serene Courtyards and Regal Ambiance",
+        description:
+            "Known for its ultra-luxury settings and peaceful ambiance, Rajvilas offers a sense of escape with its beautiful landscaping and heritage design.",
+        highlights: [
+            "Luxury villa wedding stays",
+            "Serene temple and courtyard settings",
+            "Private pool villas",
+            "Intimate ceremony spaces",
+            "Impeccable service quality",
+        ],
+        img: "/assets/hotels/the-oberoi-rajvilas-jaipur/main/1735882570-wedding cost.webp",
+    },
+    {
+        name: "Taj Jai Mahal Palace",
+        tagline: "Indo-Saracenic Grandeur",
+        description:
+            "A heritage hotel set amidst 18 acres of landscaped gardens, offering a majestic Rajasthani experience with expansive lawns and intricate architecture.",
+        highlights: [
+            "Fountain Lawns and Celebration Lawns",
+            "Lotus Pond for unique ceremonies",
+            "Heritage rooms with garden views",
+            "Traditional welcome ceremonies",
+            "Historic charm and elegance",
+        ],
+        img: "/assets/hotels/taj-jai-mahal-palace/main/1735206751-bg.webp",
+    },
+    {
+        name: "Samode Palace",
+        tagline: "Intimate Royal Setting",
+        description:
+            "A boutique heritage property offering an exclusive and intimate royal setting, perfect for couples looking for a historic palace experience.",
+        highlights: [
+            "Stunning Darbar Hall for events",
+            "Rooftop and Poolside venues",
+            "Exclusive heritage suites",
+            "Breathtaking stone work and carvings",
+            "Private palace experience",
+        ],
+        img: "/assets/hotels/samode-palace/main/1735303068-hotel_76_b.webp",
+    },
+    {
+        name: "ITC Rajputana",
+        tagline: "Traditional Aesthetics, Modern Comfort",
+        description:
+            "A premium venue that blends the royal spirit of Rajasthan with modern luxury, conveniently located in the heart of the Pink City.",
+        highlights: [
+            "Suryavanshi Mahal for grand banquets",
+            "Hawa Mahal courtyard setting",
+            "Traditional Rajasthani decor",
+            "Luxury quest accommodations",
+            "Seamless event coordination",
+        ],
+        img: "/assets/hotels/itc-rajputana-jaipur/main/1736424547-view.webp",
+    },
+];
+
+const expertise = [
+    { title: "Luxury Venue Selection", icon: "fa-hotel" },
+    { title: "Bespoke Décor Styling", icon: "fa-paint-brush" },
+    { title: "Royal Baraat Processions", icon: "fa-horse" },
+    { title: "Hospitality & Logistics", icon: "fa-concierge-bell" },
+    { title: "Entertainment & Artist Curation", icon: "fa-music" },
+    { title: "Budget Planning & Coordination", icon: "fa-calculator" },
+];
+---
+
+<BaseLayout
+    title="Wedding Planner in Jaipur | Mapsor Experiential Weddings"
+    description="Mapsor Experiential Weddings is your premier wedding planner in Jaipur, specializing in royal heritage weddings, luxury palace celebrations, and Pink City destination events."
+>
+    <main class="bg-white overflow-hidden">
+        <!-- Hero Section -->
+        <section class="relative h-dvh w-full flex items-center justify-center">
+            <div class="absolute inset-0 z-0">
+                <img
+                    src="/assets/hotels/rambagh-palace/main/1766740825-02d5266ba2e7a05097c8aa5c6f5533095f8b50fc-3840x1860.avif"
+                    alt="Jaipur The Pink City"
+                    class="w-full h-full object-cover brightness-[0.55]"
+                />
+                <div
+                    class="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black/70"
+                >
+                </div>
+            </div>
+
+            <div
+                class="relative z-10 text-center text-white px-6 max-w-5xl space-y-8"
+                id="hero-content"
+            >
+                <div class="flex flex-col items-center space-y-4">
+                    <span
+                        class="font-orlean text-primary-100 uppercase tracking-[0.5rem] text-sm md:text-lg lg:text-xl font-bold"
+                    >
+                        The Pink City
+                    </span>
+                    <h1
+                        class="font-orlean text-[4rem] md:text-[6rem] leading-none uppercase drop-shadow-2xl"
+                    >
+                        Wedding Planner <br class="hidden md:block" /> In Jaipur
+                    </h1>
+                </div>
+                <p
+                    class="font-aventa text-lg md:text-2xl max-w-3xl mx-auto font-light leading-relaxed opacity-90"
+                >
+                    Blending royal heritage with modern luxury to create
+                    extraordinary celebrations in the heart of Rajasthan’s
+                    legacy.
+                </p>
+                <div class="pt-8">
+                    <a
+                        href="#venues"
+                        class="inline-block bg-white text-black px-12 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all duration-300 shadow-xl"
+                    >
+                        Explore Palace Venues
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section
+            class="py-24 px-6 md:px-24 bg-white grid grid-cols-1 lg:grid-cols-2 gap-20 items-center"
+        >
+            <div class="space-y-8 reveals-left">
+                <p
+                    class="font-orlean text-primary-100 uppercase tracking-widest text-lg font-bold"
+                >
+                    Premier Destination Planner
+                </p>
+                <h2 class="sub-heading">
+                    Royal Grandeur <br />
+                    <span class="text-gray-300">in the Pink City</span>
+                </h2>
+                <div class="space-y-6 textM">
+                    <p>
+                        Planning a wedding in Jaipur is about blending royal
+                        heritage with modern luxury. Known as the “Pink City,”
+                        Jaipur offers majestic palaces, grand forts, and
+                        world-class hospitality—making it one of India’s most
+                        sought-after destination wedding locations.
+                    </p>
+                    <p>
+                        Mapsor Experiential Weddings is a premier wedding
+                        planner in Jaipur, specializing in crafting bespoke,
+                        luxury destination weddings that reflect elegance,
+                        culture, and personalized storytelling.
+                    </p>
+                    <p>
+                        With deep local expertise and a strong vendor network,
+                        we transform Jaipur’s royal venues into breathtaking
+                        wedding experiences that capture the romance and regal
+                        charm of Rajasthan.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="relative group rounded-[3rem] overflow-hidden shadow-2xl reveals-right"
+            >
+                <img
+                    src="/assets/hotels/rambagh-palace/gallery/maharni-mahal.webp"
+                    alt="Royal Jaipur Wedding Banquet"
+                    class="w-full h-[65vh] object-cover transition-transform duration-1000 group-hover:scale-105"
+                />
+                <div
+                    class="absolute inset-0 bg-black/10 transition-colors group-hover:bg-transparent"
+                >
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Venues Section -->
+        <section id="venues" class="py-24 px-6 md:px-24 bg-gray-50">
+            <div class="mb-20 space-y-6 text-center max-w-3xl mx-auto">
+                <p
+                    class="font-orlean text-primary-100 uppercase tracking-widest text-lg font-bold"
+                >
+                    Top Luxury Venues
+                </p>
+                <h2 class="sub-heading">
+                    Prestige <span class="text-gray-300">& Opulence</span>
+                </h2>
+                <p class="textM">
+                    Jaipur is home to some of India’s most opulent wedding
+                    venues. We help you select the perfect palace for your regal
+                    union.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                {
+                    jaipurVenues.map((venue, index) => (
+                        <div class="reveal-up group bg-white p-8 rounded-[3rem] border border-gray-100 hover:shadow-2xl transition-all duration-500">
+                            <div class="relative h-75 rounded-4xl overflow-hidden mb-8">
+                                <img
+                                    src={venue.img}
+                                    alt={venue.name}
+                                    class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                                />
+                            </div>
+                            <div class="space-y-4">
+                                <h3 class="font-aventa text-2xl font-bold uppercase tracking-widest">
+                                    {venue.name}
+                                </h3>
+                                <p class="font-orlean text-primary-100 italic text-lg leading-tight">
+                                    {venue.tagline}
+                                </p>
+                                <p class="font-aventa text-gray-500 text-sm leading-relaxed">
+                                    {venue.description}
+                                </p>
+                                <ul class="space-y-2 pt-4">
+                                    {venue.highlights.map((h) => (
+                                        <li class="flex items-center gap-3 text-xs text-gray-400 font-aventa uppercase tracking-widest">
+                                            <div class="w-1.5 h-1.5 rounded-full bg-primary-100" />
+                                            {h}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+
+        <!-- Budget Section -->
+        <section class="py-24 px-6 md:px-24 bg-white">
+            <div
+                class="bg-black text-white p-16 md:p-24 rounded-[4rem] text-center space-y-10 border border-white/10"
+            >
+                <h2 class="sub-heading text-white">
+                    Budget-Conscious <br />
+                    <span class="text-gray-600">Yet Grand</span>
+                </h2>
+                <p
+                    class="font-aventa text-lg md:text-xl text-gray-400 leading-relaxed max-w-3xl mx-auto"
+                >
+                    Luxury doesn’t always mean exceeding your budget. Our
+                    experienced team ensures strategic cost planning without
+                    compromising elegance. With smart resource allocation, we
+                    design weddings that are extravagant yet financially
+                    optimized.
+                </p>
+                <div class="flex flex-wrap justify-center gap-6">
+                    {
+                        [
+                            "Strategic Planning",
+                            "Vendor Partnerships",
+                            "Resource Allocation",
+                            "Transparent Budgeting",
+                        ].map((tag) => (
+                            <span class="px-8 py-3 border border-white/20 rounded-full font-orlean uppercase tracking-widest text-sm hover:border-primary-100 hover:text-primary-100 transition-colors cursor-default">
+                                {tag}
+                            </span>
+                        ))
+                    }
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Grid -->
+        <section class="py-24 px-6 md:px-24 bg-white">
+            <div class="mb-20 space-y-6">
+                <p
+                    class="font-orlean text-primary-100 uppercase tracking-widest text-lg font-bold"
+                >
+                    Why Choose Mapsor?
+                </p>
+                <h2 class="sub-heading">
+                    Timeless Royal <span class="text-gray-300">Legacy</span>
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {
+                    expertise.map((item) => (
+                        <div class="reveal-up p-12 border border-blue-50/50 rounded-[3rem] hover:bg-black group transition-all duration-500 flex flex-col justify-center items-center text-center space-y-6 shadow-sm">
+                            <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center group-hover:bg-primary-100 transition-all duration-500">
+                                <i
+                                    class={`fas ${item.icon} text-3xl text-primary-100 group-hover:text-white`}
+                                />
+                            </div>
+                            <h4 class="font-aventa text-2xl font-bold uppercase tracking-widest group-hover:text-white transition-colors">
+                                {item.title}
+                            </h4>
+                        </div>
+                    ))
+                }
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 md:py-24 px-6 lg:px-16 bg-white">
+            <div
+                class="relative w-full py-24 h-min md:h-[65vh] rounded-[4rem] overflow-hidden flex items-center justify-center"
+            >
+                <img
+                    src="/assets/hotels/rambagh-palace/gallery/view4.webp"
+                    class="absolute inset-0 w-full h-full object-cover brightness-[0.35]"
+                />
+                <div class="absolute inset-0 bg-black/40"></div>
+                <div
+                    class="relative z-10 text-center text-white space-y-12 px-6 max-w-5xl"
+                >
+                    <h2
+                        class="font-orlean text-4xl md:text-5xl leading-tight uppercase"
+                    >
+                        Plan Your <span class="text-primary-100"
+                            >Dream Wedding</span
+                        >
+                        <br /> In Jaipur
+                    </h2>
+                    <p
+                        class="font-aventa text-xl md:text-2xl opacity-80 max-w-3xl mx-auto"
+                    >
+                        Your destination wedding in Jaipur becomes a majestic
+                        affair—where luxury, tradition, and love unite to create
+                        memories that last forever.
+                    </p>
+                    <div class="pt-6">
+                        <a
+                            href="/contact"
+                            class="inline-block bg-white text-black px-16 py-6 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all text-lg shadow-2xl"
+                        >
+                            Start Planning
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</BaseLayout>
+
+<script>
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Hero Animation
+    gsap.from("#hero-content > *", {
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+        stagger: 0.3,
+        ease: "power4.out",
+    });
+
+    // Scroll Animations
+    gsap.utils.toArray(".reveals-left").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            x: -100,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power2.out",
+        });
+    });
+
+    gsap.utils.toArray(".reveals-right").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            x: 100,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power2.out",
+        });
+    });
+
+    gsap.utils.toArray(".reveal-up").forEach((el: any) => {
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                start: "top 85%",
+            },
+            y: 80,
+            opacity: 0,
+            duration: 1,
+            ease: "power3.out",
+        });
+    });
+</script>
