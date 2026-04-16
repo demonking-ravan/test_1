@@ -4,7 +4,7 @@ pubDate: 2026-03-08
 description: "Explore palatial venues, outdoor gardens, and coastal estates for your special day."
 author: "Admin"
 tags: ["venues", "destination", "weddings"]
-image: "/images/blogs/img-blog.jpg"
+image: "/blogs/wedding-venues.webp"
 topic: "Wedding Venues"
 ---
 

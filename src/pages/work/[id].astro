@@ -21,9 +21,9 @@ const { title, location, description, image, gallery, nextProject } = project.da
     >
         <div class="flex flex-nowrap h-full w-fit" id="horizontal-track">
             <!-- Hero Section -->
-            <section class="flex-none w-screen h-full flex">
+            <section class="flex-none sm:w-screen h-full flex">
                 <div
-                    class="w-[40%] h-full flex flex-col justify-center px-[10rem] space-y-[4rem]"
+                    class="w-[70vw] sm:w-[40%] h-full flex flex-col justify-center px-10 lg:px-30 space-y-[4rem]"
                 >
                     <div class="space-y-[1rem]">
                         <p
@@ -43,7 +43,7 @@ const { title, location, description, image, gallery, nextProject } = project.da
                     </p>
                 </div>
 
-                <div class="w-[60%] h-full pl-[4rem]">
+                <div class="w-screen sm:w-[60%] h-full pl-[4rem]">
                     <img
                         src={image}
                         alt={title}
@@ -58,7 +58,7 @@ const { title, location, description, image, gallery, nextProject } = project.da
                     class="flex-none w-fit h-full flex items-center px-[4rem] gap-[4rem]"
                 >
                     {gallery.map((img) => (
-                        <div class="h-[80vh] w-[60rem] overflow-hidden">
+                        <div class="h-[80vh] w-[80vw] sm:w-[40vw] overflow-hidden">
                             <img
                                 src={img}
                                 alt={title}
@@ -71,9 +71,9 @@ const { title, location, description, image, gallery, nextProject } = project.da
 
             <!-- Next Project Section -->
             {nextProject && (
-                <section class="flex-none w-[100vw] h-full flex gap-[4rem] pr-[4rem]">
+                <section class="flex-none sm:w-[100vw] h-full flex gap-[4rem] pr-[4rem]">
                     <div
-                        class="w-[50%] h-full grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out overflow-hidden"
+                        class="w-screen sm:w-[50%] h-full grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out overflow-hidden"
                     >
                         <!-- For simplicity using same image or could add nextProject image to schema -->
                         <img
@@ -83,7 +83,7 @@ const { title, location, description, image, gallery, nextProject } = project.da
                     </div>
 
                     <div
-                        class="w-[50%] h-full flex flex-col items-center justify-center"
+                        class="w-[80vw] sm:w-[50%] h-full flex flex-col items-center justify-center"
                     >
                         <a href={`/work/${nextProject.id}`} class="group cursor-pointer text-center">
                             <p

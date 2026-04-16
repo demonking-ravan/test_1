@@ -4,7 +4,7 @@ pubDate: 2026-03-08
 description: "A truly remarkable celebration with an unwavering commitment to incorporating eco-friendly elements."
 author: "Admin"
 tags: ["eco-friendly", "sustainability", "weddings"]
-image: "/images/blogs/img-blog.jpg"
+image: "/blogs/eco-friendly.webp"
 topic: "Eco-Friendly Weddings"
 ---
 

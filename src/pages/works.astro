@@ -25,7 +25,7 @@ const projects = await getCollection("work");
                             href={`/work/${project.id}`}
                             class="group cursor-pointer space-y-8"
                         >
-                            <div class="aspect-video overflow-hidden">
+                            <div class="aspect-5/4 overflow-hidden rounded-[3rem]">
                                 <img
                                     src={project.data.image}
                                     alt={project.data.title}

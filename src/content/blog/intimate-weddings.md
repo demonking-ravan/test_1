@@ -4,7 +4,7 @@ pubDate: 2026-03-08
 description: "Discover why smaller, personal celebrations have become the preferred choice for couples."
 author: "Admin"
 tags: ["intimate-weddings", "trends", "india"]
-image: "/images/blogs/img-blog.jpg"
+image: "/blogs/intimate-wedding.webp"
 topic: "Intimate Weddings"
 ---
 

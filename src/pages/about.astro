@@ -10,13 +10,24 @@ const stats = [
 const groupCompanies = [
     {
         name: "ICWF",
+        image: "/about/logos/icwf_logo.jpeg",
         fullName: "International Convention for Wedding Fraternity",
+        imageClass: "w-auto max-h-20",
         desc: "A remarkable Intellectual Property dedicated to honoring our industry through awards, seminars, and fostering community.",
     },
     {
         name: "DY Wedding Design Studio",
+        image: "/about/logos/dy.png",
         fullName: "In-house Decor & Production",
+        imageClass: "w-auto max-h-30",
         desc: "Our own production line focused on designing decor that exudes timeless beauty, precision, and visual enchantment.",
+    },
+    {
+        name: "GIWC",
+        image: "/about/logos/giwc.png",
+        fullName: "Great Indian Wedding Collective",
+        imageClass: "h-auto max-w-46",
+        desc: "With over 25 years of experience in the wedding and hospitality industry, Great Indian Wedding Collective (GIWC) stands as a powerful platform built to simplify and elevate the way weddings are planned. GIWC curates India’s finest destinations and brings them directly to the modern wedding buyer, offering a premium space where couples, hotels, and planners discover each other seamlessly. Our expertise lies in bridging meaningful connections and nurturing long-term collaboration across the wedding ecosystem",
     },
 ];
 ---
@@ -210,7 +221,7 @@ const groupCompanies = [
                         {
                             name: "Pritesh Sharma",
                             role: "Director",
-                            image: "/home/alila-fort-wedding-photographer-marionco-2988.jpg",
+                            image: "/about/team/pritesh.jpeg",
                             bio: "A visionary entrepreneur redefining weddings through creativity, strategy, and emotion. With over 25 years of experience, Pritesh has built a reputation for excellence and innovation in the wedding fraternity.",
                             socials: [
                                 "fa-facebook-f",
@@ -221,7 +232,7 @@ const groupCompanies = [
                         {
                             name: "Yasha Sharma",
                             role: "Director",
-                            image: "/home/alila-fort-wedding-photographer-marionco-2988.jpg",
+                            image: "/about/team/yasha.jpeg",
                             bio: "Bringing a fresh perspective and modern sensibility to shape the future where tradition meets innovation. Yasha focuses on the intricate details that make every experiential wedding unique and unforgettable.",
                             socials: [
                                 "fa-facebook-f",
@@ -299,9 +310,16 @@ const groupCompanies = [
                         groupCompanies.map((company, i) => (
                             <div class="swiper-slide w-full md:w-md h-auto!">
                                 <div class="h-full bg-white border border-black/5 p-10 md:p-12 rounded-4xl md:rounded-[3.5rem] flex flex-col justify-between space-y-12 hover:border-black transition-all duration-700">
-                                    <span class="font-orlean text-[4rem] text-gray-300 leading-none">
-                                        0{i + 1}
-                                    </span>
+                                    <div class="flex items-center justify-between">
+                                        <span class="font-orlean text-[4rem] text-gray-300 leading-none">
+                                            0{i + 1}
+                                        </span>
+                                        <img
+                                            src={company.image}
+                                            alt={company.name}
+                                            class={company.imageClass}
+                                        />
+                                    </div>
                                     <div class="space-y-6">
                                         <h3 class="sec-heading font-medium uppercase leading-none text-black">
                                             {company.name}

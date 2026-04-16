@@ -4,7 +4,7 @@ pubDate: 2026-03-08
 description: "A look at the exciting fusion of cultural heritage and modern influences in 2023."
 author: "Admin"
 tags: ["trends", "india", "technology", "decor"]
-image: "/images/blogs/img-blog.jpg"
+image: "/blogs/trends-india.webp"
 topic: "Trends"
 ---
 
