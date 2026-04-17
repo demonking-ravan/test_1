@@ -105,7 +105,7 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
                         {space.name || "Main Venue"}
                       </h3>
                       <div class="flex items-center text-gray-500 font-aventa text-sm md:text-base tracking-widest uppercase font-medium">
-                        <span class="w-8 h-px bg-primary-100 mr-4" />
+                        <span class="w-8 h-px bg-brand-beige mr-4" />
                         <span>
                           Capacity: {space.capacity || "Contact for details"}
                         </span>
@@ -162,7 +162,7 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
         <div class="space-y-12">
           <!-- Contact Card -->
           <div
-            class="bg-[#101820] text-white p-12 rounded-[3.5rem] sticky top-32 shadow-xl"
+            class="bg-brand-beige text-white p-12 rounded-[3.5rem] sticky top-32 shadow-xl"
           >
             <h3
               class="sec-heading font-bold mb-10 border-b border-white/10 pb-6"
@@ -172,7 +172,7 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
             <div class="space-y-10">
               <div>
                 <p
-                  class="font-aventa text-[1.2rem] uppercase tracking-widest text-gray-400 font-bold mb-2"
+                  class="font-aventa text-[1.2rem] uppercase tracking-widest text-gray-800 font-bold mb-2"
                 >
                   Address
                 </p>
@@ -182,19 +182,21 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
               </div>
               <div>
                 <p
-                  class="font-aventa text-[1.2rem] uppercase tracking-widest text-gray-400 font-bold mb-2"
+                  class="font-aventa text-[1.2rem] uppercase tracking-widest text-gray-800 font-bold mb-2"
                 >
                   Phone
                 </p>
                 <p
                   class="font-aventa font-bold footer-text wrap-break-word tracking-wider"
                 >
-                  {hotel.data.contact.phone}
+                  <a href={`tel:+${hotel.data.contact.phone}`}
+                    >{hotel.data.contact.phone}</a
+                  >
                 </p>
               </div>
               <div>
                 <p
-                  class="font-aventa text-[1.2rem] uppercase tracking-widest text-gray-400 font-bold mb-2"
+                  class="font-aventa text-[1.2rem] uppercase tracking-widest text-gray-800 font-bold mb-2"
                 >
                   Email
                 </p>
@@ -202,11 +204,9 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
                   {hotel.data.contact.email}
                 </p>
               </div>
-              <button
-                class="w-full py-4 bg-white text-black rounded-2xl font-bold hover:bg-primary-100 hover:text-white transition-all duration-300 font-aventa uppercase tracking-widest text-base md:text-lg"
-              >
+              <a href="/contact" class="btn-primary hover:bg-brand-grey!">
                 Enquire Now
-              </button>
+              </a>
             </div>
 
             <!-- Nearby Places -->
@@ -216,10 +216,10 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
                 {
                   hotel.data.nearbyPlaces.map((place) => (
                     <li class="flex justify-between items-center footer-text">
-                      <span class="font-aventa font-semibold tracking-wide">
+                      <span class="font-aventa font-semibold tracking-wide text-gray-800">
                         {place.name}
                       </span>
-                      <span class="font-aventa text-gray-400 px-4 py-1.5 bg-white/5 rounded-full border border-white/5">
+                      <span class="font-aventa text-gray-800 px-4 py-1.5 bg-brand-grey rounded-full border border-white/5">
                         {place.distance}
                       </span>
                     </li>

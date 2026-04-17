@@ -2,7 +2,7 @@
 title: "Divyansh & Rupali"
 location: "Udaipur, Rajasthan"
 description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-image: "/images/works/divyansh-rupali/dr-1.jpg"
+image: "/images/works/divyansh-rupali/dr-14.jpg"
 gallery:
   - "/images/works/divyansh-rupali/dr-2.jpg"
   - "/images/works/divyansh-rupali/dr-3.jpg"
@@ -16,7 +16,7 @@ gallery:
   - "/images/works/divyansh-rupali/dr-11.jpg"
   - "/images/works/divyansh-rupali/dr-12.jpg"
   - "/images/works/divyansh-rupali/dr-13.jpg"
-  - "/images/works/divyansh-rupali/dr-14.jpg"
+  - "/images/works/divyansh-rupali/dr-11.jpg"
 nextProject:
   id: "shivani-aakash"
   title: "Shivani & Aakash"

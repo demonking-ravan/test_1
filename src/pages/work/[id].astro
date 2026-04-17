@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 }
 
 const { project } = Astro.props;
-const { title, location, description, image, gallery, nextProject } = project.data;
+const { title, image, gallery, nextProject } = project.data;
 ---
 
 <BaseLayout title={`${title} | Mapsor Experiential Weddings`}>
@@ -25,22 +25,19 @@ const { title, location, description, image, gallery, nextProject } = project.da
                 <div
                     class="w-[70vw] sm:w-[40%] h-full flex flex-col justify-center px-10 lg:px-30 space-y-[4rem]"
                 >
-                    <div class="space-y-[1rem]">
-                        <!-- <p
-                            class="font-orlean text-[1rem] uppercase tracking-[0.4rem] text-black"
+                    <div class="space-y-12">
+                        <a 
+                            href="/works" 
+                            class="inline-flex items-center gap-4 group/back font-aventa text-sm uppercase tracking-widest text-gray-500 hover:text-brand-beige transition-colors"
                         >
-                            {location}
-                        </p> -->
+                            <span class="transform transition-transform group-hover/back:-translate-x-2">←</span>
+                            Back to Work
+                        </a>
                         <h1
                             class="sub-heading leading-[0.9] text-black tracking-tight"
                             set:html={title.replace(" & ", " &<br />")}
                         />
                     </div>
-                    <!-- <p
-                        class="text-[1.2rem] max-w-[42rem] leading-relaxed text-[#555]"
-                    >
-                        {description}
-                    </p> -->
                 </div>
 
                 <div class="w-screen sm:w-[60%] h-full pl-16">
