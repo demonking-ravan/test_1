@@ -14,6 +14,7 @@ const featuredVenues = await getCollection("locations");
                 id="hero-video"
                 autoplay
                 loop
+                muted
                 playsinline
                 class="absolute inset-0 w-full h-full object-cover"
             >
@@ -34,13 +35,13 @@ const featuredVenues = await getCollection("locations");
             </div>
 
             <!-- Sound Toggle Button -->
-            <button
+            <!-- <button
                 id="mute-toggle"
                 class="absolute z-20 bottom-20 right-6 md:right-24 w-12 h-12 rounded-full border border-white/50 bg-black/30 backdrop-blur-sm text-white flex items-center justify-center hover:bg-white/20 transition-all cursor-pointer"
                 aria-label="Toggle sound"
             >
                 <i class="fas fa-volume-xmark text-sm" id="mute-icon"></i>
-            </button>
+            </button> -->
         </section>
 
         <!-- <section
@@ -429,36 +430,44 @@ const featuredVenues = await getCollection("locations");
 
     // Video Autoplay Performance & Sound Control
     const video = document.querySelector("#hero-video") as HTMLVideoElement;
-    const muteToggle = document.querySelector(
-        "#mute-toggle",
-    ) as HTMLButtonElement;
-    const muteIcon = document.querySelector("#mute-icon") as HTMLElement;
 
     if (video) {
-        if (muteToggle && muteIcon) {
-            muteToggle.addEventListener("click", () => {
-                if (video.muted) {
-                    video.muted = false;
-                    muteIcon.classList.remove("fa-volume-xmark");
-                    muteIcon.classList.add("fa-volume-up");
-                } else {
-                    video.muted = true;
-                    muteIcon.classList.remove("fa-volume-up");
-                    muteIcon.classList.add("fa-volume-xmark");
-                }
-            });
-        }
+        let hasInteracted = false;
+        
+        // Browsers strictly block autoplay audio until the user interacts with the page.
+        // We listen for the first interaction ANYWHERE on the page (click, tap, keypress) to unmute the video.
+        const enableAudio = () => {
+            if (!hasInteracted) {
+                hasInteracted = true;
+                video.muted = false;
+                video.volume = 1;
+                video.play().catch(() => {});
+                
+                // Cleanup listeners
+                document.removeEventListener('click', enableAudio);
+                document.removeEventListener('touchstart', enableAudio);
+                document.removeEventListener('keydown', enableAudio);
+            }
+        };
 
-        // Only attempt to play when visible, pause when hidden to save CPU
+        document.addEventListener('click', enableAudio);
+        document.addEventListener('touchstart', enableAudio, {passive: true});
+        document.addEventListener('keydown', enableAudio);
+
+        // Play sound when visible, mute when hidden
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
-                        video.play().catch(() => {
-                            // Suppress errors about autoplay blocking
+                        if (hasInteracted) {
+                            video.muted = false;
+                        }
+                        video.play().catch((e) => {
+                            video.muted = true;
+                            video.play();
                         });
                     } else {
-                        video.pause();
+                        video.muted = true;
                     }
                 });
             },

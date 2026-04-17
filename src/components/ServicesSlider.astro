@@ -1,79 +1,5 @@
 ---
-// Define the services based on company data
-const services = [
-    {
-        title: "Choreography Agency",
-        desc: "We select the right choreographers and manage rehearsal timelines across different functions, ensuring every performance leaves your guests truly captivated.",
-        extra: "Expressions of joy brought to life.",
-        image: "/services/choreography.jpeg",
-    },
-    {
-        title: "Destination Management",
-        desc: "International & National expertise tailored to your unique story.",
-        extra: "No more coordination stress—just seamless planning!",
-        image: "/services/destination-management.jpg",
-    },
-    {
-        title: "Decor Designing",
-        desc: "Transforming venues into visually enchanting thematic experiences.",
-        extra: "Immersive floral and light installations.",
-        image: "/services/decor-design.jpg",
-    },
-    {
-        title: "Entertainment",
-        desc: "Captivating array of activities to engage and wow your guests.",
-        extra: "Celebrity acts & bespoke performances.",
-        image: "/services/entertainment.jpg",
-    },
-    {
-        title: "Food Designing & Catering",
-        desc: "From assisting in partner selection to designing live counters and innovative presentations, we ensure every dish complements your wedding theme.",
-        extra: "We treat food as a sensory experience.",
-        image: "/services/food-designing-catering.jpg",
-    },
-    {
-        title: "Hotel Coordination & Management",
-        desc: "We guide you toward the perfect property—from heritage palaces to boutique resorts—managing contracts, room blocks, and hospitality desks for a seamless stay.",
-        extra: "The right hotel is the heart of your wedding experience.",
-        image: "/services/hotel-coordination-management.jpeg",
-    },
-    {
-        title: "Logistics Coordination & Management",
-        desc: "We orchestrate all transportation—airport transfers, venue shuttles, and VIP logistics—ensuring every guest's journey is smooth and on time.",
-        extra: "",
-        image: "/services/logistics-coordination-management.jpeg",
-    },
-    {
-        title: "Makeup Artist Coordination",
-        desc: "We recommend the most suitable artists for your style, organizing trials and managing schedules so you feel radiant and confident.",
-        extra: "Your bridal beauty journey, carefully curated.",
-        image: "/services/makeup-artist-coordination.jpg",
-    },
-    {
-        title: "Room Hamper & Amenities",
-        desc: "We curate bespoke welcome hampers and coordinate in-room amenities that offer your guests a heartfelt, personalized welcome.",
-        extra: "Setting the tone with thoughtful first impressions.",
-        image: "/services/room-hamper-amenities.jpg",
-    },
-    {
-        title: "Photo & Video Coordination",
-        desc: "We connect you with the perfect creative professionals, aligning on shot lists and mood boards to ensure your memories are documented with finesse.",
-        extra: "Your love story captured with artistry.",
-        image: "/services/photo-video-coordination.jpg",
-    },
-    {
-        title: "RSVP & Guest Management",
-        desc: "We believe in a guest-centric approach.",
-        extra: "",
-        image: "/services/rsvp-guest-management.png",
-    },
-    {
-        title: "Hospitality & Guest Management",
-        desc: "Timely arrival and seamless transitions for a flawless experience.",
-        extra: "Bespoke room hampers & personalized care.",
-        image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800",
-    },
-];
+import { servicesData } from "../data/servicesData";
 ---
 
 <section
@@ -96,9 +22,9 @@ const services = [
         <div class="swiper-container overflow-visible w-full">
             <div class="swiper-wrapper">
                 {
-                    services.map((s) => (
+                    servicesData.map((s, index) => (
                         <div class="swiper-slide h-125!">
-                            <div class="h-full rounded-[3rem] overflow-hidden relative group border border-white/10 bg-white/5 backdrop-blur-sm card-shadow hover:border-brand-beige">
+                            <a href={`/services#service-${index}`} class="block h-full rounded-[3rem] overflow-hidden relative group border border-white/10 bg-white/5 backdrop-blur-sm card-shadow hover:border-brand-beige">
                                 <!-- Background Image with Overlay -->
                                 <div class="absolute inset-0 overflow-hidden">
                                     <img
@@ -110,24 +36,20 @@ const services = [
                                 </div>
 
                                 <div class="relative z-10 h-full p-12 flex flex-col justify-between">
-                                    {/* <div class="space-y-4">
-                                        <div class="w-12 h-px bg-brand-beige"></div>
-                                        <p class="font-aventa text-sm uppercase tracking-[0.2em] text-brand-beige font-semibold">
-                                            {s.extra}
-                                        </p>
-                                    </div> */}
-                                    <div></div>
+                                    <div class="self-end text-white/50 group-hover:text-brand-beige transition-colors duration-500">
+                                        <i class="fa-solid fa-arrow-right text-2xl -rotate-45 group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-500"></i>
+                                    </div>
                                     
                                     <div class="space-y-6">
-                                        <h3 class="font-orlean text-3xl md:text-4xl text-white uppercase leading-tight group-hover:text-brand-beige transition-colors">
-                                            {s.title}
+                                        <h3 class="font-orlean text-3xl md:text-3xl text-white uppercase leading-tight group-hover:text-brand-beige transition-colors">
+                                            {s.title} {s.subtitle}
                                         </h3>
-                                        <p class="font-aventa text-base text-gray-400 leading-relaxed max-w-[90%]">
-                                            {s.desc}
+                                        <p class="font-aventa text-base text-gray-400 leading-relaxed max-w-[90%] line-clamp-3">
+                                            {s.description[0]}
                                         </p>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     ))
                 }

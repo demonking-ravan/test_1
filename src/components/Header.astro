@@ -1,5 +1,6 @@
 ---
 import Button from "./Button.astro";
+import { servicesData } from "../data/servicesData";
 ---
 
 <header
@@ -27,13 +28,17 @@ import Button from "./Button.astro";
       <button class="nav-link flex items-center gap-2">
         Services <i class="fa-solid fa-chevron-down text-[1rem]"></i>
       </button>
-      <div class="dropdown-menu">
-        <a href="/services#destination-management" class="dropdown-item"
-          >Destination Management</a
-        >
-        <a href="/services#hospitality-guest-management" class="dropdown-item"
-          >Hospitality & Guest Management</a
-        >
+      <div class="dropdown-menu max-h-[65vh] overflow-y-auto">
+        {
+          servicesData.map((service, index) => (
+            <a
+              href={`/services#service-${index}`}
+              class="dropdown-item text-left w-full"
+            >
+              {service.title} {service.subtitle}
+            </a>
+          ))
+        }
       </div>
     </div>
 
@@ -81,13 +86,16 @@ import Button from "./Button.astro";
     <a href="/works" class="mobile-nav-link">Work</a>
     <div class="flex flex-col items-center gap-4">
       <span class="mobile-nav-link font-bold text-gray-400">Services</span>
-      <a href="/services#destination-management" class="mobile-nav-sublink"
-        >Destination Management</a
-      >
-      <a
-        href="/services#hospitality-guest-management"
-        class="mobile-nav-sublink">Hospitality & Guest Management</a
-      >
+      {
+        servicesData.map((service, index) => (
+          <a
+            href={`/services#service-${index}`}
+            class="mobile-nav-sublink text-left w-full"
+          >
+            {service.title} {service.subtitle}
+          </a>
+        ))
+      }
     </div>
     <div class="flex flex-col items-center gap-4">
       <span class="mobile-nav-link font-bold text-gray-400">Venues</span>
