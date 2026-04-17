@@ -73,10 +73,10 @@ import { servicesData } from "../data/servicesData";
 </header>
 <div
   id="mobile-menu"
-  class="fixed inset-0 bg-white z-60 translate-x-full transition-transform duration-500 hidden"
+  class="fixed inset-0 bg-white z-60 translate-x-full transition-transform duration-500 hidden overflow-y-auto"
 >
   <div
-    class="bg-white flex flex-col items-center justify-center gap-10 w-full h-full"
+    class="bg-white flex flex-col items-center justify-start gap-4 w-full min-h-full py-16 px-6"
   >
     <button id="mobile-menu-close" class="absolute top-10 right-10 text-3xl">
       <i class="fa-solid fa-xmark"></i>
@@ -84,18 +84,22 @@ import { servicesData } from "../data/servicesData";
 
     <a href="/about" class="mobile-nav-link">About Us</a>
     <a href="/works" class="mobile-nav-link">Work</a>
-    <div class="flex flex-col items-center gap-4">
+    <div class="flex flex-col items-center gap-4 w-full">
       <span class="mobile-nav-link font-bold text-gray-400">Services</span>
-      {
-        servicesData.map((service, index) => (
-          <a
-            href={`/services#service-${index}`}
-            class="mobile-nav-sublink text-left w-full"
-          >
-            {service.title} {service.subtitle}
-          </a>
-        ))
-      }
+      <div
+        class="flex flex-col gap-8 w-full max-w-xs max-h-[35vh] overflow-y-auto overscroll-contain [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+      >
+        {
+          servicesData.map((service, index) => (
+            <a
+              href={`/services#service-${index}`}
+              class="mobile-nav-sublink block w-full text-center"
+            >
+              {service.title} {service.subtitle}
+            </a>
+          ))
+        }
+      </div>
     </div>
     <div class="flex flex-col items-center gap-4">
       <span class="mobile-nav-link font-bold text-gray-400">Venues</span>
