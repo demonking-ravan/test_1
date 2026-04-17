@@ -9,17 +9,19 @@ interface Props {
 const { name, featuredImage, hotelCount, url } = Astro.props;
 ---
 
-<article class="group cursor-pointer">
+<article
+    class="group cursor-pointer rounder-corners card-shadow overflow-hidden"
+>
     <a href={url} class="block">
-        <div class="aspect-4/5 overflow-hidden mb-12">
+        <div class="aspect-5/4 overflow-hidden mb-8">
             <img
                 src={featuredImage}
                 alt={name}
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 group-hover:rotate-2"
+                class="w-full h-full object-cover transition-all duration-1000 scale-110 hover:scale-100"
             />
         </div>
-        <div class="space-y-6">
-            <div class="flex flex-wrap gap-4">
+        <div class="px-6 pb-8">
+            <div class="flex flex-wrap gap-4 mb-4">
                 <span
                     class="font-aventa text-[.8rem] uppercase tracking-[0.2em] text-gray-500 border border-gray-200 px-3 py-1 rounded-full"
                 >
@@ -27,11 +29,11 @@ const { name, featuredImage, hotelCount, url } = Astro.props;
                 </span>
             </div>
             <h2
-                class="sec-heading tracking-wider text-black group-hover:underline decoration-1 underline-offset-4"
+                class="footer-heading tracking-wider text-black group-hover:underline decoration-1 underline-offset-4"
             >
                 {name}
             </h2>
-            <p class="font-aventa text-[1rem] tracking-wider text-gray-800">
+            <p class="textS text-gray-800">
                 Explore the most stunning and luxurious wedding venues in {
                     name
                 }.

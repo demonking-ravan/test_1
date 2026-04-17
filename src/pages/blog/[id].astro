@@ -58,16 +58,18 @@ const { Content } = await entry.render();
         <aside class="md:w-[25%] space-y-24">
             <div class="border-t border-black pt-8 space-y-6">
                 <p
-                    class="font-aventa font-bold text-[1rem] uppercase tracking-wider text-black"
+                    class="font-aventa text-[1rem] uppercase tracking-wider text-gray-700"
                 >
-                    Topic: {post.data.topic}
+                    Topic: <span class="text-brand-beige"
+                        >{post.data.topic}</span
+                    >
                 </p>
                 <div class="space-y-1">
-                    <p class="font-aventa text-[1rem] text-[#666] uppercase">
+                    <p class="font-aventa text-[1rem] text-gray-700 uppercase">
                         Tags:
                     </p>
                     <p
-                        class="font-aventa font-bold text-[1rem] text-black uppercase"
+                        class="font-aventa font-bold text-[1rem] text-brand-beige uppercase"
                     >
                         {post.data.tags.join(", ")}
                     </p>
@@ -85,11 +87,11 @@ const { Content } = await entry.render();
             </div>
 
             <div class="border-t border-black pt-8 space-y-4">
-                <p class="font-aventa text-[1rem] text-[#666] uppercase">
+                <p class="font-aventa text-[1rem] text-gray-700 uppercase">
                     Posted
                 </p>
                 <p
-                    class="font-aventa font-bold text-[1rem] text-black uppercase"
+                    class="font-aventa font-bold text-[1rem] text-brand-beige uppercase"
                 >
                     {formattedDate}
                 </p>
@@ -97,7 +99,7 @@ const { Content } = await entry.render();
         </aside>
 
         <article
-            class="md:w-[65%] font-aventa text-[1.6rem] md:text-[1.8rem] leading-relaxed text-[#333] prose-headings:font-orlean prose-h2:text-[1.8rem] prose-h2:md:text-[2.8rem] prose-h2:font-bold prose-h2:tracking-wide prose-h2:mb-12 prose-h3:text-[4rem] prose-h3:font-bold prose-h3:mb-10 prose-p:mb-[4rem] prose-a:underline prose-a:underline-offset-4"
+            class="md:w-[65%] font-aventa text-xl leading-relaxed text-[#333] prose-headings:font-orlean prose-h2:text-[1.8rem] prose-h2:md:text-[2.8rem] prose-h2:font-bold prose-h2:tracking-wide prose-h2:mb-6 prose-h3:text-[4rem] prose-h3:font-bold prose-h3:mb-4 prose-p:mb-[4rem] prose-a:underline prose-a:underline-offset-4"
         >
             <Content />
         </article>

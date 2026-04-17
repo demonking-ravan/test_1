@@ -54,7 +54,7 @@ const title = `Wedding Hotels in ${location.data.name} | Mapsor Experiential Wed
               <img 
                 src={hotel.data.mainImage} 
                 alt={hotel.data.name} 
-                class="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-110"
+                class="w-full h-full object-cover transition-all duration-1000 scale-110 hover:scale-100"
               />
               <!-- Refined Badge -->
               <div class="absolute top-8 left-8">
@@ -85,7 +85,7 @@ const title = `Wedding Hotels in ${location.data.name} | Mapsor Experiential Wed
               <div class="flex items-center gap-8">
                 <a 
                   href={`/hotel/${hotel.id}`} 
-                  class="group/btn relative inline-flex items-center gap-3 px-4 py-3 sm:px-10 sm:py-5 bg-black text-white font-bold rounded-2xl overflow-hidden active:scale-95 transition-transform"
+                  class="group/btn btn-primary flex! items-center gap-3"
                 >
                   <span class="relative z-10 font-aventa text-sm md:text-lg tracking-widest uppercase">Explore Hotel</span>
                   <svg class="relative z-10 transition-transform duration-300 group-hover/btn:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>

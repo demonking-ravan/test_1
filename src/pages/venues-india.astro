@@ -14,22 +14,47 @@ const description =
 ---
 
 <BaseLayout title={title} description={description}>
-  <main class="py-48 px-6 md:px-24 bg-white">
+  <main class="py-16 md:py-24 px-6 md:px-24 bg-white">
     <div class="max-w-560 mx-auto">
-      <header class="mb-32">
+      <section class="mb-24">
+        <div
+          class="relative w-full h-[50vh] md:h-[65vh] rounded-4xl md:rounded-[4rem] overflow-hidden"
+        >
+          <img
+            src="/images/pages/contact-us.jpg"
+            alt="Contact Us"
+            class="absolute inset-0 w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 bg-black/20"></div>
+
+          <div class="absolute right-0 bottom-0">
+            <div
+              class="bg-white px-8 md:px-12 py-4 md:py-6 rounded-tl-[3rem] md:rounded-tl-[4rem] flex items-center gap-3"
+            >
+              <a
+                href="/"
+                class="font-aventa text-sm md:text-base text-gray-400 hover:text-black transition-colors"
+                >Home</a
+              >
+              <span class="text-gray-300">/</span>
+              <span
+                class="font-aventa text-sm md:text-base text-black font-semibold"
+                >Venues in India</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <header class="mb-24">
         <h1 class="sub-heading text-black">
-          Venues in <span class="text-gray-300">India</span>
+          Venues in <span class="text-brand-beige">India</span>
         </h1>
         <p class="textM max-w-240 mt-8">
           From the royal palaces of Rajasthan to the serene beaches of Goa,
           discover our handpicked collection of India's most prestigious wedding
           destinations.
         </p>
-        <!-- <p class="font-aventa text-[1.8rem] text-gray-600 mt-4 max-w-2xl">
-          From the royal palaces of Rajasthan to the serene beaches of Goa,
-          discover our handpicked collection of India's most prestigious wedding
-          destinations.
-        </p> -->
       </header>
 
       <div

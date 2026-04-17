@@ -26,24 +26,24 @@ const { title, location, description, image, gallery, nextProject } = project.da
                     class="w-[70vw] sm:w-[40%] h-full flex flex-col justify-center px-10 lg:px-30 space-y-[4rem]"
                 >
                     <div class="space-y-[1rem]">
-                        <p
+                        <!-- <p
                             class="font-orlean text-[1rem] uppercase tracking-[0.4rem] text-black"
                         >
                             {location}
-                        </p>
+                        </p> -->
                         <h1
                             class="sub-heading leading-[0.9] text-black tracking-tight"
                             set:html={title.replace(" & ", " &<br />")}
                         />
                     </div>
-                    <p
+                    <!-- <p
                         class="text-[1.2rem] max-w-[42rem] leading-relaxed text-[#555]"
                     >
                         {description}
-                    </p>
+                    </p> -->
                 </div>
 
-                <div class="w-screen sm:w-[60%] h-full pl-[4rem]">
+                <div class="w-screen sm:w-[60%] h-full pl-16">
                     <img
                         src={image}
                         alt={title}
@@ -55,14 +55,14 @@ const { title, location, description, image, gallery, nextProject } = project.da
             <!-- Gallery Section -->
             {gallery.length > 0 && (
                 <section
-                    class="flex-none w-fit h-full flex items-center px-[4rem] gap-[4rem]"
+                    class="flex-none w-fit h-full flex items-center px-16 gap-16"
                 >
                     {gallery.map((img) => (
                         <div class="h-[80vh] w-[80vw] sm:w-[40vw] overflow-hidden">
                             <img
                                 src={img}
                                 alt={title}
-                                class="w-full h-full object-cover shadow-sm transition-transform duration-1000 ease-out hover:scale-110"
+                                class="w-full h-full object-cover shadow-sm transition-all duration-1000 scale-110 hover:scale-100"
                             />
                         </div>
                     ))}
@@ -71,9 +71,9 @@ const { title, location, description, image, gallery, nextProject } = project.da
 
             <!-- Next Project Section -->
             {nextProject && (
-                <section class="flex-none sm:w-[100vw] h-full flex gap-[4rem] pr-[4rem]">
+                <section class="flex-none sm:w-screen h-full flex gap-16 pr-16">
                     <div
-                        class="w-screen sm:w-[50%] h-full grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out overflow-hidden"
+                        class="w-screen sm:w-[50%] h-full transition-all duration-1000 ease-in-out overflow-hidden"
                     >
                         <!-- For simplicity using same image or could add nextProject image to schema -->
                         <img
@@ -87,7 +87,7 @@ const { title, location, description, image, gallery, nextProject } = project.da
                     >
                         <a href={`/work/${nextProject.id}`} class="group cursor-pointer text-center">
                             <p
-                                class="font-orlean text-[1.8rem] uppercase tracking-[0.3rem] mb-[2rem] text-gray-500"
+                                class="font-orlean text-[1.8rem] uppercase tracking-[0.3rem] mb-8 text-gray-500"
                             >
                                 {nextProject.title}
                             </p>
@@ -98,11 +98,11 @@ const { title, location, description, image, gallery, nextProject } = project.da
                                     Next Project
                                 </h2>
                                 <div
-                                    class="absolute -bottom-4 left-0 w-full h-[1px] bg-black origin-left transform transition-transform duration-700 scale-x-100 group-hover:scale-x-0"
+                                    class="absolute -bottom-4 left-0 w-full h-px bg-black origin-left transform transition-transform duration-700 scale-x-100 group-hover:scale-x-0"
                                 >
                                 </div>
                                 <div
-                                    class="absolute -bottom-4 left-0 w-full h-[1px] bg-black origin-right transform scale-x-0 transition-transform duration-700 group-hover:scale-x-100"
+                                    class="absolute -bottom-4 left-0 w-full h-px bg-black origin-right transform scale-x-0 transition-transform duration-700 group-hover:scale-x-100"
                                 >
                                 </div>
                             </div>
