@@ -79,9 +79,9 @@ const expertise = [
         <section class="relative h-dvh w-full flex items-center justify-center">
             <div class="absolute inset-0 z-0">
                 <img
-                    src="/images/locations/jaisalmer.jpg"
+                    src="/wedding-planners/jaisalmer/mehrangarh.jpeg"
                     alt="Jaisalmer Golden City"
-                    class="w-full h-full object-cover brightness-[0.55]"
+                    class="w-full h-full object-cover"
                 />
                 <div
                     class="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black/70"
@@ -94,28 +94,15 @@ const expertise = [
                 id="hero-content"
             >
                 <div class="flex flex-col items-center space-y-4">
-                    <span
-                        class="font-aventa text-primary-100 uppercase tracking-[0.5rem] text-sm md:text-lg lg:text-xl font-bold"
-                    >
-                        The Golden City
-                    </span>
                     <h1
-                        class="font-orlean text-[4rem] md:text-[6rem] leading-none uppercase drop-shadow-2xl"
+                        class="sub-heading leading-none uppercase drop-shadow-2xl"
                     >
                         Wedding Planner <br class="hidden md:block" /> In Jaisalmer
                     </h1>
                 </div>
-                <p
-                    class="font-aventa text-lg md:text-2xl max-w-3xl mx-auto font-light leading-relaxed opacity-90"
-                >
-                    Crafting royal desert weddings and timeless celebrations in
-                    the majestic heart of Rajasthan’s Golden Sands.
-                </p>
+
                 <div class="pt-8">
-                    <a
-                        href="#venues"
-                        class="inline-block bg-white text-black px-12 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all duration-300 shadow-xl"
-                    >
+                    <a href="#venues" class="btn-primary">
                         Explore Desert Venues
                     </a>
                 </div>
@@ -127,16 +114,12 @@ const expertise = [
             class="py-24 px-6 md:px-24 bg-white grid grid-cols-1 lg:grid-cols-2 gap-20 items-center"
         >
             <div class="space-y-8 reveals-left">
-                <p
-                    class="font-aventa text-primary-100 uppercase tracking-widest text-lg font-bold"
-                >
-                    Premier Destination Planner
-                </p>
+                <p class="sec-tagline">Premier Destination Planner</p>
                 <h2 class="sub-heading">
                     Regal Desert Weddings <br />
-                    <span class="text-gray-300">in Jaisalmer</span>
+                    <span class="text-brand-beige">in Jaisalmer</span>
                 </h2>
-                <div class="space-y-6 textM">
+                <div class="space-y-6 textS">
                     <p>
                         Wedding planning is no easy feat, especially when you
                         envision a royal celebration in the heart of Rajasthan.
@@ -163,7 +146,7 @@ const expertise = [
                 class="relative group rounded-[3rem] overflow-hidden shadow-2xl reveals-right"
             >
                 <img
-                    src="/images/udaipur/hero.png"
+                    src="/wedding-planners/jaisalmer/desert.jpeg"
                     alt="Royal Jaisalmer Wedding"
                     class="w-full h-[65vh] object-cover transition-transform duration-1000 group-hover:scale-105 brightness-90"
                 />
@@ -179,9 +162,9 @@ const expertise = [
             <div class="max-w-4xl mx-auto space-y-12">
                 <h2 class="sub-heading">
                     Luxury Desert Weddings <br />
-                    <span class="text-gray-400">in the Golden Sands</span>
+                    <span class="text-brand-beige">in the Golden Sands</span>
                 </h2>
-                <p class="textM">
+                <p class="textS">
                     Imagine exchanging vows as the sun sets over the Thar
                     Desert, with golden dunes glowing in the background. Every
                     floral arrangement, shimmering light installation, and
@@ -210,7 +193,7 @@ const expertise = [
                             },
                         ].map((item) => (
                             <div class="p-8 bg-white rounded-3xl shadow-sm hover:shadow-xl transition-all reveal-up">
-                                <h4 class="font-aventa text-xl font-bold uppercase mb-3 text-primary-100 tracking-widest">
+                                <h4 class="font-aventa text-xl font-bold uppercase mb-3 text-brand-beige tracking-widest">
                                     {item.t}
                                 </h4>
                                 <p class="font-aventa text-sm text-gray-500">
@@ -226,13 +209,11 @@ const expertise = [
         <!-- Venues Section -->
         <section id="venues" class="py-24 px-6 md:px-24 bg-white">
             <div class="mb-20 space-y-6">
-                <p
-                    class="font-orlean text-primary-100 uppercase tracking-widest text-lg font-bold"
-                >
-                    Top Jaisalmer Venues
-                </p>
+                <p class="sec-tagline">Top Jaisalmer Venues</p>
                 <h2 class="sub-heading">
-                    Majestic <span class="text-gray-300">Golden Settings</span>
+                    Majestic <span class="text-brand-beige"
+                        >Golden Settings</span
+                    >
                 </h2>
             </div>
 
@@ -252,7 +233,7 @@ const expertise = [
                                 <h3 class="sec-heading font-aventa font-bold uppercase tracking-widest">
                                     {venue.name}
                                 </h3>
-                                <p class="font-orlean text-primary-100 italic text-xl">
+                                <p class="font-orlean text-brand-beige italic text-xl">
                                     {venue.tagline}
                                 </p>
                                 <p class="font-aventa text-gray-600 text-lg leading-relaxed">
@@ -261,7 +242,7 @@ const expertise = [
                                 <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-4 pt-4">
                                     {venue.highlights.map((h) => (
                                         <li class="flex items-center gap-3 text-sm text-gray-500 font-aventa">
-                                            <div class="w-1.5 h-1.5 rounded-full bg-primary-100" />
+                                            <div class="w-1.5 h-1.5 rounded-full bg-brand-beige" />
                                             {h}
                                         </li>
                                     ))}
@@ -278,7 +259,7 @@ const expertise = [
             <div class="max-w-4xl mx-auto space-y-10">
                 <h2 class="sub-heading text-white">
                     Budget-Friendly <br />
-                    <span class="text-gray-600">Wedding Planning</span>
+                    <span class="text-brand-beige">Wedding Planning</span>
                 </h2>
                 <p
                     class="font-aventa text-lg md:text-xl text-gray-400 leading-relaxed italic"
@@ -296,7 +277,7 @@ const expertise = [
                             "Transparent Costs",
                             "Creative Solutions",
                         ].map((tag) => (
-                            <span class="px-8 py-3 border border-white/20 rounded-full font-aventa font-bold uppercase tracking-widest text-sm hover:border-primary-100 hover:text-primary-100 transition-colors cursor-default">
+                            <span class="px-8 py-3 border border-white/20 rounded-full font-aventa font-bold uppercase tracking-widest text-sm hover:border-brand-beige hover:text-brand-beige transition-colors cursor-default">
                                 {tag}
                             </span>
                         ))
@@ -308,14 +289,10 @@ const expertise = [
         <!-- Expertise Grid -->
         <section class="py-24 px-6 md:px-24 bg-white">
             <div class="mb-20 space-y-6">
-                <p
-                    class="font-aventa text-primary-100 uppercase tracking-widest text-lg font-bold"
-                >
-                    Why Choose Mapsor?
-                </p>
+                <p class="sec-tagline">Why Choose Mapsor?</p>
                 <h2 class="sub-heading">
                     Global Expertise <br />
-                    <span class="text-gray-300">Local Precision</span>
+                    <span class="text-brand-beige">Local Precision</span>
                 </h2>
             </div>
 
@@ -323,12 +300,12 @@ const expertise = [
                 {
                     expertise.map((item) => (
                         <div class="reveal-up p-12 border border-gray-100 rounded-[3rem] hover:bg-black group transition-all duration-500 flex flex-col justify-center items-center text-center space-y-6">
-                            <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center group-hover:bg-primary-100 transition-all duration-500">
+                            <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center group-hover:bg-brand-beige transition-all duration-500">
                                 <i
-                                    class={`fas ${item.icon} text-3xl text-primary-100 group-hover:text-white`}
+                                    class={`fas ${item.icon} text-3xl text-brand-beige group-hover:text-white`}
                                 />
                             </div>
-                            <h4 class="font-aventa text-2xl font-bold uppercase tracking-widest group-hover:text-white transition-colors">
+                            <h4 class="font-aventa text-2xl font-semibold uppercase tracking-widest group-hover:text-white transition-colors">
                                 {item.title}
                             </h4>
                         </div>
@@ -344,7 +321,7 @@ const expertise = [
             >
                 <img
                     src="/images/locations/jaisalmer.jpg"
-                    class="absolute inset-0 w-full h-full object-cover brightness-[0.35]"
+                    class="absolute inset-0 w-full h-full object-cover"
                 />
                 <div class="absolute inset-0 bg-black/40"></div>
                 <div
@@ -354,23 +331,18 @@ const expertise = [
                         class="font-orlean text-4xl md:text-5xl leading-tight uppercase"
                     >
                         Plan Your Dream <br />
-                        <span class="text-primary-100"
-                            >Wedding in Jaisalmer</span
-                        >
+                        <span class="">Wedding in Jaisalmer</span>
                     </h2>
-                    <p
+                    <!-- <p
                         class="font-aventa text-xl md:text-2xl opacity-80 max-w-3xl mx-auto"
                     >
                         In the enchanting landscape of Rajasthan’s Golden City,
                         Mapsor transforms dreams into reality—crafting
                         celebrations that resonate with love, heritage, and
                         elegance.
-                    </p>
+                    </p> -->
                     <div class="pt-6">
-                        <a
-                            href="/contact"
-                            class="inline-block bg-white text-black px-14 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all text-lg shadow-2xl"
-                        >
+                        <a href="/contact" class="btn-primary">
                             Start Planning
                         </a>
                     </div>

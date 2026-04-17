@@ -107,9 +107,9 @@ const expertise = [
         <section class="relative h-dvh w-full flex items-center justify-center">
             <div class="absolute inset-0 z-0">
                 <img
-                    src="/wedding-planners/jaipur/jal-mahal2.jpeg"
+                    src="/wedding-planners/jaipur/jal-mahal.jpeg"
                     alt="Jaipur The Pink City"
-                    class="w-full h-full object-cover brightness-[0.55]"
+                    class="w-full h-full object-cover brightness-[0.90]"
                 />
                 <div
                     class="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black/70"
@@ -122,29 +122,18 @@ const expertise = [
                 id="hero-content"
             >
                 <div class="flex flex-col items-center space-y-4">
-                    <span
-                        class="font-orlean text-primary-100 uppercase tracking-[0.5rem] text-sm md:text-lg lg:text-xl font-bold"
-                    >
-                        The Pink City
-                    </span>
-                    <h1
-                        class="font-orlean text-[4rem] md:text-[6rem] leading-none uppercase drop-shadow-2xl"
-                    >
+                    <!-- <span class="sec-tagline"> The Pink City </span> -->
+                    <h1 class="sub-heading">
                         Wedding Planner <br class="hidden md:block" /> In Jaipur
                     </h1>
                 </div>
-                <p
-                    class="font-aventa text-lg md:text-2xl max-w-3xl mx-auto font-light leading-relaxed opacity-90"
-                >
+                <!-- <p class="textS">
                     Blending royal heritage with modern luxury to create
                     extraordinary celebrations in the heart of Rajasthan’s
                     legacy.
-                </p>
+                </p> -->
                 <div class="pt-8">
-                    <a
-                        href="#venues"
-                        class="inline-block bg-white text-black px-12 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all duration-300 shadow-xl"
-                    >
+                    <a href="#venues" class="btn-primary">
                         Explore Palace Venues
                     </a>
                 </div>
@@ -156,16 +145,12 @@ const expertise = [
             class="py-24 px-6 md:px-24 bg-white grid grid-cols-1 lg:grid-cols-2 gap-20 items-center"
         >
             <div class="space-y-8 reveals-left">
-                <p
-                    class="font-orlean text-primary-100 uppercase tracking-widest text-lg font-bold"
-                >
-                    Premier Destination Planner
-                </p>
+                <p class="sec-tagline">Premier Destination Planner</p>
                 <h2 class="sub-heading">
                     Royal Grandeur <br />
-                    <span class="text-gray-300">in the Pink City</span>
+                    <span class="text-brand-beige">in the Pink City</span>
                 </h2>
-                <div class="space-y-6 textM">
+                <div class="space-y-6 textS">
                     <p>
                         Planning a wedding in Jaipur is about blending royal
                         heritage with modern luxury. Known as the “Pink City,”
@@ -205,13 +190,9 @@ const expertise = [
         <!-- Dynamic Venues Section -->
         <section id="venues" class="py-24 px-6 md:px-24 bg-gray-50">
             <div class="mb-20 space-y-6 text-center max-w-3xl mx-auto">
-                <p
-                    class="font-orlean text-primary-100 uppercase tracking-widest text-lg font-bold"
-                >
-                    Top Luxury Venues
-                </p>
+                <p class="sec-tagline">Top Luxury Venues</p>
                 <h2 class="sub-heading">
-                    Prestige <span class="text-gray-300">& Opulence</span>
+                    Prestige <span class="text-brand-beige"> & Opulence</span>
                 </h2>
                 <p class="textM">
                     Jaipur is home to some of India’s most opulent wedding
@@ -235,7 +216,7 @@ const expertise = [
                                 <h3 class="font-aventa text-2xl font-bold uppercase tracking-widest">
                                     {venue.name}
                                 </h3>
-                                <p class="font-orlean text-primary-100 italic text-lg leading-tight">
+                                <p class="font-orlean text-brand-beige italic text-lg leading-tight">
                                     {venue.tagline}
                                 </p>
                                 <p class="font-aventa text-gray-500 text-sm leading-relaxed">
@@ -244,7 +225,7 @@ const expertise = [
                                 <ul class="space-y-2 pt-4">
                                     {venue.highlights.map((h) => (
                                         <li class="flex items-center gap-3 text-xs text-gray-400 font-aventa uppercase tracking-widest">
-                                            <div class="w-1.5 h-1.5 rounded-full bg-primary-100" />
+                                            <div class="w-1.5 h-1.5 rounded-full bg-brand-beige" />
                                             {h}
                                         </li>
                                     ))}
@@ -259,14 +240,14 @@ const expertise = [
         <!-- Budget Section -->
         <section class="py-24 px-6 md:px-24 bg-white">
             <div
-                class="bg-black text-white p-16 md:p-24 rounded-[4rem] text-center space-y-10 border border-white/10"
+                class="bg-brand-grey text-white p-16 md:p-24 rounded-[4rem] text-center space-y-10 border border-white/10"
             >
-                <h2 class="sub-heading text-white">
+                <h2 class="sub-heading text-brand-beige">
                     Budget-Conscious <br />
-                    <span class="text-gray-600">Yet Grand</span>
+                    <span class="text-gray-800">Yet Grand</span>
                 </h2>
                 <p
-                    class="font-aventa text-lg md:text-xl text-gray-400 leading-relaxed max-w-3xl mx-auto"
+                    class="font-aventa text-lg md:text-xl text-gray-800 leading-relaxed max-w-3xl mx-auto"
                 >
                     Luxury doesn’t always mean exceeding your budget. Our
                     experienced team ensures strategic cost planning without
@@ -282,7 +263,7 @@ const expertise = [
                             "Resource Allocation",
                             "Transparent Budgeting",
                         ].map((tag) => (
-                            <span class="px-8 py-3 border border-white/20 rounded-full font-orlean uppercase tracking-widest text-sm hover:border-primary-100 hover:text-primary-100 transition-colors cursor-default">
+                            <span class="px-8 py-3 border border-gray-800 text-gray-800 rounded-full font-orlean uppercase tracking-widest text-sm hover:border-brand-beige hover:text-brand-beige transition-colors cursor-default">
                                 {tag}
                             </span>
                         ))
@@ -294,23 +275,19 @@ const expertise = [
         <!-- Expertise Grid -->
         <section class="py-24 px-6 md:px-24 bg-white">
             <div class="mb-20 space-y-6">
-                <p
-                    class="font-orlean text-primary-100 uppercase tracking-widest text-lg font-bold"
-                >
-                    Why Choose Mapsor?
-                </p>
+                <p class="sec-tagline">Why Choose Mapsor?</p>
                 <h2 class="sub-heading">
-                    Timeless Royal <span class="text-gray-300">Legacy</span>
+                    Timeless Royal <span class="text-brand-beige">Legacy</span>
                 </h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {
                     expertise.map((item) => (
-                        <div class="reveal-up p-12 border border-blue-50/50 rounded-[3rem] hover:bg-black group transition-all duration-500 flex flex-col justify-center items-center text-center space-y-6 shadow-sm">
-                            <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center group-hover:bg-primary-100 transition-all duration-500">
+                        <div class="reveal-up p-12 border border-blue-50/50 rounded-[3rem] hover:bg-brand-beige group transition-all duration-500 flex flex-col justify-center items-center text-center space-y-6 shadow-sm">
+                            <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center group-hover:bg-brand-grey transition-all duration-500">
                                 <i
-                                    class={`fas ${item.icon} text-3xl text-primary-100 group-hover:text-white`}
+                                    class={`fas ${item.icon} text-3xl text-brand-beige group-hover:text-white`}
                                 />
                             </div>
                             <h4 class="font-aventa text-2xl font-bold uppercase tracking-widest group-hover:text-white transition-colors">
@@ -329,32 +306,25 @@ const expertise = [
             >
                 <img
                     src="/wedding-planners/jaipur/jal-mahal.jpeg"
-                    class="absolute inset-0 w-full h-full object-cover brightness-[0.35]"
+                    class="absolute inset-0 w-full h-full object-cover"
                 />
                 <div class="absolute inset-0 bg-black/40"></div>
                 <div
                     class="relative z-10 text-center text-white space-y-12 px-6 max-w-5xl"
                 >
-                    <h2
-                        class="font-orlean text-4xl md:text-5xl leading-tight uppercase"
-                    >
-                        Plan Your <span class="text-primary-100"
+                    <h2 class="sec-heading">
+                        Plan Your <span class="text-brand-grey"
                             >Dream Wedding</span
                         >
                         <br /> In Jaipur
                     </h2>
-                    <p
-                        class="font-aventa text-xl md:text-2xl opacity-80 max-w-3xl mx-auto"
-                    >
+                    <!-- <p class="textS">
                         Your destination wedding in Jaipur becomes a majestic
                         affair—where luxury, tradition, and love unite to create
                         memories that last forever.
-                    </p>
+                    </p> -->
                     <div class="pt-6">
-                        <a
-                            href="/contact"
-                            class="inline-block bg-white text-black px-16 py-6 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all text-lg shadow-2xl"
-                        >
+                        <a href="/contact" class="btn-primary">
                             Start Planning
                         </a>
                     </div>

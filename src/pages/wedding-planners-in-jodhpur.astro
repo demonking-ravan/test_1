@@ -71,9 +71,9 @@ const expertise = [
         <section class="relative h-dvh w-full flex items-center justify-center">
             <div class="absolute inset-0 z-0">
                 <img
-                    src="/images/locations/jodhpur.jpg"
+                    src="/wedding-planners/jodhpur/jodhpur2.jpg"
                     alt="Jodhpur The Blue City"
-                    class="w-full h-full object-cover brightness-[0.6]"
+                    class="w-full h-full object-cover"
                 />
                 <div
                     class="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black/70"
@@ -86,31 +86,21 @@ const expertise = [
                 id="hero-content"
             >
                 <div class="flex flex-col items-center space-y-4">
-                    <span
-                        class="font-aventa text-primary-100 uppercase tracking-[0.5rem] text-sm md:text-lg lg:text-xl font-bold"
-                    >
-                        The Blue City
-                    </span>
                     <h1
-                        class="font-orlean text-[4rem] md:text-[6rem] leading-none uppercase drop-shadow-2xl"
+                        class="sub-heading leading-none uppercase drop-shadow-2xl"
                     >
                         Wedding Planners <br class="hidden md:block" /> In Jodhpur
                     </h1>
                 </div>
-                <p
+                <!-- <p
                     class="font-aventa text-lg md:text-2xl max-w-3xl mx-auto font-light leading-relaxed opacity-90"
                 >
                     Your trusted partner for planning luxurious, customized, and
                     unforgettable destination weddings in the majestic heart of
                     Rajasthan.
-                </p>
+                </p> -->
                 <div class="pt-8">
-                    <a
-                        href="#venues"
-                        class="inline-block bg-white text-black px-12 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all duration-300 shadow-xl"
-                    >
-                        Explore Venues
-                    </a>
+                    <a href="#venues" class="btn-primary"> Explore Venues </a>
                 </div>
             </div>
         </section>
@@ -120,16 +110,12 @@ const expertise = [
             class="py-24 px-6 md:px-24 bg-white grid grid-cols-1 lg:grid-cols-2 gap-20 items-center"
         >
             <div class="space-y-8 reveals-left">
-                <p
-                    class="font-aventa text-primary-100 uppercase tracking-widest text-lg font-bold"
-                >
-                    Best Wedding Planners in Jodhpur
-                </p>
+                <p class="sec-tagline">Best Wedding Planners in Jodhpur</p>
                 <h2 class="sub-heading">
                     Turning Dreams into <br />
-                    <span class="text-gray-300">Grand Celebrations</span>
+                    <span class="text-brand-beige">Grand Celebrations</span>
                 </h2>
-                <div class="space-y-6 textM">
+                <div class="space-y-6 textS">
                     <p>
                         Are you searching for the best wedding planners in
                         Jodhpur to turn your dream wedding into a grand
@@ -155,7 +141,7 @@ const expertise = [
                 class="relative group rounded-[3rem] overflow-hidden shadow-2xl reveals-right"
             >
                 <img
-                    src="/images/udaipur/decor.png"
+                    src="/wedding-planners/jodhpur/jodhpur1.jpg"
                     alt="Luxury Wedding Decor Jodhpur"
                     class="w-full h-[65vh] object-cover transition-transform duration-1000 group-hover:scale-105"
                 />
@@ -171,7 +157,9 @@ const expertise = [
             <div class="text-center max-w-3xl mx-auto mb-20 space-y-6">
                 <h2 class="sub-heading">
                     Top Destination <br />
-                    <span class="text-gray-400">Wedding Venues in Jodhpur</span>
+                    <span class="text-brand-beige"
+                        >Wedding Venues in Jodhpur</span
+                    >
                 </h2>
                 <p class="textM">
                     Jodhpur offers the perfect backdrop for a regal wedding
@@ -202,24 +190,22 @@ const expertise = [
                             </div>
                             <div class="w-full lg:w-1/2 space-y-8 reveal-up">
                                 <div class="space-y-4">
-                                    <span class="text-primary-100 font-orlean uppercase tracking-widest font-bold">
+                                    <span class="text-brand-beige font-orlean uppercase tracking-widest font-bold">
                                         0{index + 1} Venue
                                     </span>
                                     <h3 class="sec-heading font-aventa font-bold uppercase tracking-widest">
                                         {venue.name}
                                     </h3>
-                                    <p class="font-orlean text-primary-100 italic text-xl">
+                                    <p class="font-orlean text-brand-beige italic text-xl">
                                         {venue.tagline}
                                     </p>
                                 </div>
-                                <p class="textM text-lg!">
-                                    {venue.description}
-                                </p>
+                                <p class="textS">{venue.description}</p>
 
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     {venue.highlights.map((h) => (
                                         <div class="flex items-center gap-3">
-                                            <i class="fas fa-check-circle text-primary-100" />
+                                            <i class="fas fa-check-circle text-brand-beige" />
                                             <span class="font-aventa text-gray-700">
                                                 {h}
                                             </span>
@@ -249,13 +235,9 @@ const expertise = [
         <!-- Expertise Section -->
         <section class="py-24 px-6 md:px-24 bg-white">
             <div class="mb-20 space-y-6">
-                <p
-                    class="font-aventa text-primary-100 uppercase tracking-widest text-lg font-bold"
-                >
-                    Why Choose Mapsor?
-                </p>
+                <p class="sec-tagline">Why Choose Mapsor?</p>
                 <h2 class="sub-heading">
-                    Complete <span class="text-gray-300"
+                    Complete <span class="text-brand-beige"
                         >Destination Planning</span
                     >
                 </h2>
@@ -265,12 +247,12 @@ const expertise = [
                 {
                     expertise.map((item, index) => (
                         <div class="reveal-up p-12 border border-gray-100 rounded-[3rem] hover:bg-black group transition-all duration-500 flex flex-col items-center text-center space-y-6">
-                            <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center group-hover:bg-primary-100 transition-all duration-500">
+                            <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center group-hover:bg-brand-grey transition-all duration-500">
                                 <i
-                                    class={`fas ${item.icon} text-3xl text-primary-100 group-hover:text-white`}
+                                    class={`fas ${item.icon} text-3xl text-brand-beige group-hover:text-white`}
                                 />
                             </div>
-                            <h4 class="font-aventa text-2xl font-bold uppercase tracking-widest group-hover:text-white transition-colors">
+                            <h4 class="font-aventa text-2xl font-semibold uppercase tracking-widest group-hover:text-white transition-colors">
                                 {item.title}
                             </h4>
                         </div>
@@ -285,8 +267,8 @@ const expertise = [
                 class="relative w-full py-24 h-min md:h-[65vh] rounded-[3rem] overflow-hidden flex items-center justify-center"
             >
                 <img
-                    src="/images/locations/jodhpur.jpg"
-                    class="absolute inset-0 w-full h-full object-cover brightness-[0.4]"
+                    src="/wedding-planners/jodhpur/blue-city.jpeg"
+                    class="absolute inset-0 w-full h-full object-cover"
                 />
                 <div class="absolute inset-0 bg-black/40"></div>
                 <div
@@ -296,21 +278,16 @@ const expertise = [
                         class="font-orlean text-4xl md:text-5xl leading-none uppercase"
                     >
                         Let Us Create Your Fairytale Wedding <br />
-                        <span class="text-primary-100"
-                            >In The Heart of Rajasthan</span
-                        >
+                        <span class="">In The Heart of Rajasthan</span>
                     </h2>
-                    <p
+                    <!-- <p
                         class="font-aventa text-xl md:text-2xl opacity-80 max-w-3xl mx-auto"
                     >
                         A seamless, stress-free, and truly royal experience
                         awaits with Mapsor Experiential Weddings.
-                    </p>
+                    </p> -->
                     <div class="pt-8">
-                        <a
-                            href="/contact"
-                            class="inline-block bg-white text-black px-14 py-5 rounded-full font-orlean tracking-widest uppercase hover:bg-primary-100 hover:text-white transition-all text-lg shadow-2xl"
-                        >
+                        <a href="/contact" class="btn-primary">
                             Start Planning
                         </a>
                     </div>
