@@ -32,6 +32,15 @@ const featuredVenues = await getCollection("locations");
                     Experiential Weddings
                 </p>
             </div>
+
+            <!-- Sound Toggle Button -->
+            <button
+                id="mute-toggle"
+                class="absolute z-20 bottom-20 right-6 md:right-24 w-12 h-12 rounded-full border border-white/50 bg-black/30 backdrop-blur-sm text-white flex items-center justify-center hover:bg-white/20 transition-all cursor-pointer"
+                aria-label="Toggle sound"
+            >
+                <i class="fas fa-volume-xmark text-sm" id="mute-icon"></i>
+            </button>
         </section>
 
         <!-- <section
@@ -145,7 +154,7 @@ const featuredVenues = await getCollection("locations");
                 <section
                     class="h-full flex flex-col justify-center px-10 md:px-24"
                 >
-                    <h2 class="sub-heading mb-24">
+                    <h2 class="sub-heading mb-12 md:mb-24">
                         Strategic <br />
                         <span class="text-brand-beige">Processes </span>
                     </h2>
@@ -173,7 +182,7 @@ const featuredVenues = await getCollection("locations");
                                     d: "In the realm of wedding production, collaboration is key. Once the planning and design are meticulously set in motion, we step into the role of hosts during your event weekend or week, orchestrating every aspect from setup to tear-down. Our dedicated team takes care of gift deliveries, manages rehearsal dinners, welcome parties, and other planned activities with utmost care and attention. We understand that your experience is paramount, and we’ll ensure your beverage of choice is always at hand. In the face of unexpected weather conditions, rest assured that we will flawlessly execute the entire show, treating you as our esteemed guest. With us by your side, you can truly immerse yourself in the joy of occasion, knowing that every detail is expertly handled.",
                                 },
                             ].map((item) => (
-                                <div class="bg-white p-16 border border-black/5 flex flex-col justify-between group hover:bg-brand-beige card-shadow">
+                                <div class="bg-white p-2 lg:p-16 border border-black/5 flex flex-col justify-between group hover:bg-brand-beige card-shadow">
                                     <span class="font-orlean text-[4rem] text-brand-beige group-hover:text-white">
                                         {item.id}
                                     </span>
@@ -181,7 +190,7 @@ const featuredVenues = await getCollection("locations");
                                         <h3 class="sec-heading uppercase group-hover:text-white leading-tight">
                                             {item.t}
                                         </h3>
-                                        <p class="font-aventa text-[.8rem] sm:text-[1rem] text-gray-500 group-hover:text-gray-300">
+                                        <p class="font-aventa text-[.8rem] sm:text-[1rem] text-gray-500 group-hover:text-gray-300 text-justify">
                                             {item.d}
                                         </p>
                                     </div>
@@ -250,13 +259,12 @@ const featuredVenues = await getCollection("locations");
 
                 <!-- Bottom Right Breadcrumb -->
                 <div class="absolute right-0 bottom-0">
-                    <div
-                        class="bg-white px-8 md:px-12 py-4 md:py-6 rounded-tl-[3rem] md:rounded-tl-[4rem] flex items-center gap-3"
+                    <a
+                        href="/contact"
+                        class="bg-black text-white hover:bg-brand-beige transition-all duration-700 hover:text-black px-8 md:px-12 py-4 md:py-6 rounded-tl-[3rem] md:rounded-tl-[4rem] flex items-center gap-3"
                     >
-                        <a href="/contact" class="btn-primary">
-                            Start Planning
-                        </a>
-                    </div>
+                        Start Planning
+                    </a>
                 </div>
             </div>
 
@@ -419,20 +427,42 @@ const featuredVenues = await getCollection("locations");
         });
     }
 
-    // Video Sound Control
+    // Video Autoplay Performance & Sound Control
     const video = document.querySelector("#hero-video") as HTMLVideoElement;
+    const muteToggle = document.querySelector(
+        "#mute-toggle",
+    ) as HTMLButtonElement;
+    const muteIcon = document.querySelector("#mute-icon") as HTMLElement;
+
     if (video) {
+        if (muteToggle && muteIcon) {
+            muteToggle.addEventListener("click", () => {
+                if (video.muted) {
+                    video.muted = false;
+                    muteIcon.classList.remove("fa-volume-xmark");
+                    muteIcon.classList.add("fa-volume-up");
+                } else {
+                    video.muted = true;
+                    muteIcon.classList.remove("fa-volume-up");
+                    muteIcon.classList.add("fa-volume-xmark");
+                }
+            });
+        }
+
+        // Only attempt to play when visible, pause when hidden to save CPU
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
-                        video.muted = false;
+                        video.play().catch(() => {
+                            // Suppress errors about autoplay blocking
+                        });
                     } else {
-                        video.muted = true;
+                        video.pause();
                     }
                 });
             },
-            { threshold: 0.5 }, // Unmute when 50% visible
+            { threshold: 0.1 },
         );
         observer.observe(video);
     }
