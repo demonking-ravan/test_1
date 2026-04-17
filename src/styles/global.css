@@ -5,7 +5,8 @@
     --color-primary-100: #f3829c;
     --color-primary: #f69b89;
 
-    --color-brand-bg: #E0D9D7;
+    --color-brand-grey: #E0D9D7;
+    --color-brand-beige: #8A826F;
 
     --font-aventa: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-orlean: 'Playfair Display Variable', Georgia, serif;
@@ -36,10 +37,29 @@ h6 {
 }
 
 .textM {
-    @apply font-aventa text-[1.6rem] md:text-[1.8rem] leading-relaxed text-[#555];
+    @apply font-aventa text-[1.4rem] leading-relaxed text-[#555];
 }
 
-*/
+.textS {
+    @apply font-aventa text-[1rem] leading-relaxed text-[#555];
+}
+
+.sec-tagline {
+    @apply font-orlean text-[1rem] uppercase tracking-[0.3rem] text-brand-beige;
+}
+
+.btn-primary {
+    @apply inline-block text-white bg-black px-8 md:px-12 py-3 md:py-4 rounded-full font-orlean tracking-widest uppercase hover:bg-brand-beige hover:text-black transition-all text-sm md:text-base;
+}
+
+.rounder-corners {
+    @apply rounded-4xl md:rounded-[3rem];
+}
+
+.card-shadow {
+    @apply hover:shadow-xl transition-all duration-700 hover:shadow-brand-beige/20;
+}
+
 /* html {
     font-size: .5208333333vw;
 }

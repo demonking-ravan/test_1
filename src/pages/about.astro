@@ -13,14 +13,14 @@ const groupCompanies = [
         image: "/about/logos/icwf_logo.jpeg",
         fullName: "International Convention for Wedding Fraternity",
         imageClass: "w-auto max-h-20",
-        desc: "A remarkable Intellectual Property dedicated to honoring our industry through awards, seminars, and fostering community.",
+        desc: "One of our esteemed group companies, ICWF (International Convention for Wedding Fraternity), stands as a remarkable Intellectual Property (IP) dedicated to honoring and celebrating our industry. Through this platform, we bestow well-deserved recognition upon industry professionals by presenting them with awards for their exemplary work. Additionally, ICWF serves as a gathering where like-minded individuals can engage in socialization, fostering a sense of community within the wedding industry. Furthermore, the convention conducts enlightening seminars that delve into the personal journeys of accomplished individuals, offering valuable opportunities for learning and growth.",
     },
     {
         name: "DY Wedding Design Studio",
         image: "/about/logos/dy.png",
         fullName: "In-house Decor & Production",
         imageClass: "w-auto max-h-30",
-        desc: "Our own production line focused on designing decor that exudes timeless beauty, precision, and visual enchantment.",
+        desc: "DY Wedding Design Studio, an esteemed member of our group of companies, boasts its own decor designing and production line. Their unwavering objective is to consistently curate stunning and innovative creations, ensuring a fresh and captivating experience with each project. With an unwavering focus on detail and precision, DY Production excels at designing decor that exudes timeless beauty and elegance. Their meticulous approach guarantees that every element is carefully crafted to create a visually enchanting ambiance",
     },
     {
         name: "GIWC",
@@ -36,11 +36,9 @@ const groupCompanies = [
     <section class="pt-32 pb-16 bg-white overflow-hidden">
         <div class="px-6 lg:px-24 mb-12">
             <h1 class="sub-heading mb-4 text-black">
-                About <span class="text-gray-300">Us</span>
+                About <span class="text-brand-beige">Us</span>
             </h1>
-            <p
-                class="font-aventa text-[2rem] leading-relaxed text-[#333] max-w-[42rem]"
-            >
+            <p class="textM max-w-2xl">
                 A distinguished wedding planning company where heritage meets
                 innovation to curate personalized experiences.
             </p>
@@ -89,18 +87,16 @@ const groupCompanies = [
         <div class="px-6 lg:px-24">
             <div class="text-center mb-28 space-y-6">
                 <p
-                    class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-primary-100"
+                    class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-brand-beige"
                 >
                     Our Vision & Mission
                 </p>
                 <h2 class="sub-heading text-black text-center mx-auto">
-                    Our <br class="md:hidden" /><span class="text-gray-300"
+                    Our <br class="md:hidden" /><span class="text-brand-beige"
                         >Vision</span
                     >
                 </h2>
-                <p
-                    class="font-aventa text-lg md:text-xl text-gray-500 max-w-3xl mx-auto leading-relaxed text-justify"
-                >
+                <p class="textM text-justify">
                     We are Mapsor Weddings, We are a specialist in turning
                     weddings that are a dream into beautiful and well-planned
                     celebrations. The company is located within Jaipur,
@@ -147,7 +143,7 @@ const groupCompanies = [
                     </p>
                     <div class="flex items-start justify-center">
                         <span
-                            class="font-orlean text-[6rem] md:text-[8rem] leading-none text-black group-hover:text-primary-100 transition-colors duration-700"
+                            class="font-orlean text-[6rem] md:text-[8rem] leading-none text-black group-hover:text-brand-beige transition-colors duration-700"
                         >
                             25
                         </span>
@@ -167,7 +163,7 @@ const groupCompanies = [
                     </p>
                     <div class="flex items-start justify-center">
                         <span
-                            class="font-orlean text-[6rem] md:text-[8rem] leading-none text-black group-hover:text-primary-100 transition-colors duration-700"
+                            class="font-orlean text-[6rem] md:text-[8rem] leading-none text-black group-hover:text-brand-beige transition-colors duration-700"
                         >
                             12
                         </span>
@@ -187,7 +183,7 @@ const groupCompanies = [
                     </p>
                     <div class="flex items-start justify-center">
                         <span
-                            class="font-orlean text-[6rem] md:text-[8rem] leading-none text-black group-hover:text-primary-100 transition-colors duration-700"
+                            class="font-orlean text-[6rem] md:text-[8rem] leading-none text-black group-hover:text-brand-beige transition-colors duration-700"
                         >
                             1000
                         </span>
@@ -202,16 +198,12 @@ const groupCompanies = [
         </div>
     </section>
 
-    <section class="py-24 md:py-32 bg-[#fafafa]">
+    <section class="py-24 md:py-32 bg-brand-grey">
         <div class="px-6 lg:px-24">
             <div class="mb-20 space-y-4">
-                <p
-                    class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-primary-100"
-                >
-                    The Leadership
-                </p>
+                <p class="sec-tagline">The Leadership</p>
                 <h2 class="sub-heading text-black">
-                    Meet Our <span class="text-gray-300">Directors</span>
+                    Meet Our <span class="text-brand-beige">Directors</span>
                 </h2>
             </div>
 
@@ -241,7 +233,7 @@ const groupCompanies = [
                             ],
                         },
                     ].map((member) => (
-                        <div class="bg-white rounded-4xl md:rounded-[3rem] p-6 md:p-10 flex flex-col md:flex-row gap-8 md:gap-16 items-center border border-black/5 hover:shadow-xl transition-all duration-700">
+                        <div class="bg-white rounder-corners p-6 md:p-10 flex flex-col md:flex-row gap-8 md:gap-16 items-center border border-black/5 hover:shadow-xl transition-all duration-700">
                             <div class="w-full md:w-1/3 aspect-4/3 md:aspect-square overflow-hidden rounded-2xl md:rounded-4xl">
                                 <img
                                     src={member.image}
@@ -255,7 +247,7 @@ const groupCompanies = [
                                         <h3 class="font-aventa text-2xl md:text-3xl font-bold text-black border-none">
                                             {member.name}
                                         </h3>
-                                        <span class="font-orlean text-sm uppercase tracking-widest text-[#d4af37]">
+                                        <span class="font-orlean text-sm uppercase tracking-widest text-brand-beige">
                                             {member.role}
                                         </span>
                                     </div>
@@ -268,7 +260,7 @@ const groupCompanies = [
                                         {member.socials.map((icon) => (
                                             <a
                                                 href="#"
-                                                class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-black hover:text-white hover:border-black transition-all"
+                                                class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-brand-beige hover:text-white hover:border-brand-beige transition-all"
                                             >
                                                 <i
                                                     class={`fab ${icon} text-sm`}
@@ -276,10 +268,7 @@ const groupCompanies = [
                                             </a>
                                         ))}
                                     </div>
-                                    <a
-                                        href="/contact"
-                                        class="bg-black text-white px-8 md:px-10 py-3 md:py-4 rounded-full font-aventa text-sm uppercase tracking-widest hover:bg-primary-100 transition-all"
-                                    >
+                                    <a href="/contact" class="btn-primary">
                                         Know More
                                     </a>
                                 </div>
@@ -294,13 +283,9 @@ const groupCompanies = [
     <section class="py-24 md:py-32 bg-white">
         <div class="px-6 lg:px-24">
             <div class="mb-20 space-y-4">
-                <p
-                    class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-primary-100"
-                >
-                    The Fraternity
-                </p>
+                <p class="sec-tagline">The Fraternity</p>
                 <h2 class="sub-heading text-black">
-                    Group of <span class="text-gray-300">Companies</span>
+                    Group of <span class="text-brand-beige">Companies</span>
                 </h2>
             </div>
 
@@ -308,8 +293,8 @@ const groupCompanies = [
                 <div class="swiper-wrapper">
                     {
                         groupCompanies.map((company, i) => (
-                            <div class="swiper-slide w-full md:w-md h-auto!">
-                                <div class="h-full bg-white border border-black/5 p-10 md:p-12 rounded-4xl md:rounded-[3.5rem] flex flex-col justify-between space-y-12 hover:border-black transition-all duration-700">
+                            <div class="swiper-slide w-full md:w-md h-auto! px-4">
+                                <div class="h-full bg-white border border-black/5 p-10 md:p-12 rounder-corners flex flex-col justify-between space-y-12 card-shadow">
                                     <div class="flex items-center justify-between">
                                         <span class="font-orlean text-[4rem] text-gray-300 leading-none">
                                             0{i + 1}
@@ -321,10 +306,10 @@ const groupCompanies = [
                                         />
                                     </div>
                                     <div class="space-y-6">
-                                        <h3 class="sec-heading font-medium uppercase leading-none text-black">
+                                        <h3 class="sec-heading font-medium leading-none text-black">
                                             {company.name}
                                         </h3>
-                                        <p class="font-aventa text-sm uppercase tracking-widest text-gray-500">
+                                        <p class="font-aventa text-sm tracking-widest text-gray-500">
                                             {company.fullName}
                                         </p>
                                         <p class="font-aventa text-base text-gray-500 leading-relaxed italic">
@@ -341,61 +326,6 @@ const groupCompanies = [
             </div>
         </div>
     </section>
-
-    <!-- <section
-        class="flex-none w-full h-full flex items-center px-6 lg:px-16 max-lg:py-20 bg-[#f9f9f9]"
-    >
-        <div
-            class="flex flex-col lg:flex-row gap-20 items-center min-h-screen w-full"
-        >
-            <div class="space-y-8 lg:w-2/5">
-                <h2 class="sub-heading uppercase leading-none text-black">
-                    Client<br /><span class="text-[#d4af37]">Stories</span>
-                </h2>
-                <p
-                    class="font-aventa text-[1.6rem] md:text-[1.8rem] leading-relaxed text-[#555]"
-                >
-                    Reflecting the trust couples place in us to execute their
-                    most special moments.
-                </p>
-            </div>
-
-            <div class="w-full lg:w-3/5">
-                <div
-                    class="swiper testimonial-swiper overflow-hidden relative border border-black/5 bg-white h-fit"
-                >
-                    <div class="swiper-wrapper">
-                        {
-                            [
-                                {
-                                    quote: "They successfully organised engaging activities and entertainment for our guests, resulting in an enjoyable experience for everyone involved.",
-                                    author: "Ayushree & Saharsh",
-                                },
-                                {
-                                    quote: "The team passionately incorporated all of these elements into the wedding without hesitation, even utilising environmentally friendly and NGO-based resources.",
-                                    author: "Illika & Brenden",
-                                },
-                                {
-                                    quote: "Mapsor took care of every detail, allowing us to fully immerse ourselves in the joy of wedding day. They are simply exceptional!",
-                                    author: "Girija",
-                                },
-                            ].map((t) => (
-                                <div class="swiper-slide p-6 lg:p-20">
-                                    <p class="font-aventa text-lg md:text-[1.8rem] leading-relaxed italic text-gray-700">
-                                        "{t.quote}"
-                                    </p>
-                                    <footer class="font-orlean text-[1rem] uppercase tracking-[0.2rem] text-[#d4af37] pt-8 border-t border-gray-100 mt-8">
-                                        — {t.author}
-                                    </footer>
-                                </div>
-                            ))
-                        }
-                    </div>
-                    <div class="swiper-pagination static! mt-12 mb-8"></div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <link
         rel="stylesheet"
@@ -414,34 +344,34 @@ const groupCompanies = [
         }
         .testimonial-swiper .swiper-pagination-bullet-active,
         .company-pagination .swiper-pagination-bullet-active {
-            background: #000 !important;
+            background: var(--color-brand-beige) !important;
             width: 40px !important;
         }
     </style>
 
     <script>
-        import { gsap } from "gsap";
-        import { ScrollTrigger } from "gsap/ScrollTrigger";
+        // import { gsap } from "gsap";
+        // import { ScrollTrigger } from "gsap/ScrollTrigger";
         import Swiper from "swiper";
         import { Autoplay, Pagination } from "swiper/modules";
 
-        gsap.registerPlugin(ScrollTrigger);
+        // gsap.registerPlugin(ScrollTrigger);
 
         // Initialize Testimonial Swiper
-        new Swiper(".testimonial-swiper", {
-            modules: [Autoplay, Pagination],
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
+        // new Swiper(".testimonial-swiper", {
+        //     modules: [Autoplay, Pagination],
+        //     slidesPerView: 1,
+        //     spaceBetween: 30,
+        //     loop: true,
+        //     autoplay: {
+        //         delay: 4000,
+        //         disableOnInteraction: false,
+        //     },
+        //     pagination: {
+        //         el: ".swiper-pagination",
+        //         clickable: true,
+        //     },
+        // });
 
         // Initialize About Slider
         new Swiper(".about-slider", {

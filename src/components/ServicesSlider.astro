@@ -77,19 +77,19 @@ const services = [
 ---
 
 <section
-    class="w-full flex flex-col justify-center px-6 lg:px-24 py-24 md:py-48 bg-[#101820] relative overflow-hidden"
+    class="w-full flex flex-col justify-center px-6 lg:px-24 py-16 md:py-24 relative overflow-hidden bg-brand-grey"
     id="services-slider-section"
 >
     <!-- Background accents -->
-    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-primary-100/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-[120px]"></div>
+    <!-- <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-primary-100/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-[120px]"></div> -->
     
-    <div class="max-w-[1440px] mx-auto w-full relative z-10">
+    <div class="max-w-360 mx-auto w-full relative z-10">
         <div class="mb-20 space-y-6">
-            <p class="font-orlean text-[1rem] uppercase tracking-[0.3rem] text-primary-100">
+            <p class="sec-tagline ">
                 Our Services
             </p>
-            <h2 class="sub-heading text-white">
-                Extraordinary <span class="text-white/20">Wedding Services</span>
+            <h2 class="sub-heading text-black">
+                Extraordinary <span class="text-brand-beige">Wedding Services</span>
             </h2>
         </div>
 
@@ -97,28 +97,29 @@ const services = [
             <div class="swiper-wrapper">
                 {
                     services.map((s) => (
-                        <div class="swiper-slide !h-[500px]">
-                            <div class="h-full rounded-[3rem] overflow-hidden relative group border border-white/10 bg-white/5 backdrop-blur-sm transition-all duration-700 hover:border-primary-100/50">
+                        <div class="swiper-slide h-125!">
+                            <div class="h-full rounded-[3rem] overflow-hidden relative group border border-white/10 bg-white/5 backdrop-blur-sm card-shadow hover:border-brand-beige">
                                 <!-- Background Image with Overlay -->
                                 <div class="absolute inset-0 overflow-hidden">
                                     <img
                                         src={s.image}
-                                        class="w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-60 transition-all duration-1000 scale-105 group-hover:scale-100"
+                                        class="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-80 transition-all duration-1000 scale-105 group-hover:scale-100"
                                         alt={s.title}
                                     />
                                     <div class="absolute inset-0 bg-linear-to-t from-[#101820] via-[#101820]/80 to-transparent" />
                                 </div>
 
                                 <div class="relative z-10 h-full p-12 flex flex-col justify-between">
-                                    <div class="space-y-4">
-                                        <div class="w-12 h-px bg-primary-100/50"></div>
-                                        <p class="font-aventa text-sm uppercase tracking-[0.2em] text-primary-100 font-semibold">
+                                    {/* <div class="space-y-4">
+                                        <div class="w-12 h-px bg-brand-beige"></div>
+                                        <p class="font-aventa text-sm uppercase tracking-[0.2em] text-brand-beige font-semibold">
                                             {s.extra}
                                         </p>
-                                    </div>
+                                    </div> */}
+                                    <div></div>
                                     
                                     <div class="space-y-6">
-                                        <h3 class="font-orlean text-3xl md:text-4xl text-white uppercase leading-tight group-hover:text-primary-100 transition-colors">
+                                        <h3 class="font-orlean text-3xl md:text-4xl text-white uppercase leading-tight group-hover:text-brand-beige transition-colors">
                                             {s.title}
                                         </h3>
                                         <p class="font-aventa text-base text-gray-400 leading-relaxed max-w-[90%]">
@@ -146,14 +147,14 @@ const services = [
     .swiper-pagination-bullet {
         width: 10px !important;
         height: 10px !important;
-        background: rgba(255, 255, 255, 0.2) !important;
+        background: rgba(131, 131, 131, 0.5) !important;
         opacity: 1 !important;
         transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
         border-radius: 99px !important;
         margin: 0 8px !important;
     }
     .swiper-pagination-bullet-active {
-        background: #f3829c !important; /* primary-100 from global.css */
+        background: #8A826F !important; /* primary-100 from global.css */
         width: 35px !important;
     }
 </style>
