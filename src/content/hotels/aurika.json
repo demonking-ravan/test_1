@@ -31,7 +31,9 @@
     {
       "roomType": "Deluxe Room",
       "description": "Deluxe Room (360 sq. ft.)",
-      "roomImages": ["/assets/hotels/aurika/rooms/1735278096-deluxe-room.webp"]
+      "roomImages": [
+        "/assets/hotels/aurika/rooms/1735278096-deluxe-room.webp"
+      ]
     },
     {
       "roomType": "Deluxe Vista Room",
@@ -43,7 +45,9 @@
     {
       "roomType": "Premium Room",
       "description": "Premium Room (360 sq. ft.)",
-      "roomImages": ["/assets/hotels/aurika/rooms/1735278146-premium.webp"]
+      "roomImages": [
+        "/assets/hotels/aurika/rooms/1735278146-premium.webp"
+      ]
     },
     {
       "roomType": "Premium Vista Room",
@@ -55,7 +59,9 @@
     {
       "roomType": "Aurika Suite",
       "description": "Aurika Suite (780 sq. ft.)",
-      "roomImages": ["/assets/hotels/aurika/rooms/1735278188-aurika-suite.webp"]
+      "roomImages": [
+        "/assets/hotels/aurika/rooms/1735278188-aurika-suite.webp"
+      ]
     },
     {
       "roomType": "Presidential Suite",
@@ -84,9 +90,9 @@
     }
   ],
   "contact": {
-    "address": "01, Kala Rohi, Rani Rd, Udaipur, Rajasthan 313001",
-    "phone": "+91-7838426565",
-    "email": "info@fiestroevents.com"
+    "address": "6th Floor, 601, Diamond Tower, Ajmer Road, Near Old Checkpost, Jaipur, Rajasthan - 302001",
+    "phone": "+91 9829098290",
+    "email": "weddings@mapsor.com"
   },
   "mainImage": "/assets/hotels/aurika/main/1676974779-aurikafullview.jpg",
   "gallery": [
