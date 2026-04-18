@@ -51,7 +51,7 @@ export const servicesData = [
         id: "05",
         title: "Hospitality &",
         subtitle: "Guest Management",
-        image: "/services/rsvp-guest-management.png",
+        image: "/services/hospitality-management.jpeg",
         description: [
             "Creating a seamless transition for guests, we assist them in acclimating to the new environment. We ensure clear comprehension of the wedding itinerary, enabling timely arrival at venues and the ability to fully immerse themselves in every moment. Moreover, we diligently attend to every detail and cater to their needs throughout their stay, leaving no room for any guest to experience discomfort.",
             "At Mapsor Experiential Weddings, we understand that a truly memorable wedding is defined not just by its aesthetics, but by the experience of every guest. Our hospitality and guest management services are designed to create a seamless, warm, and thoughtfully curated journey from the moment your guests arrive until their departure.",
