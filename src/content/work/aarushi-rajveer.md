@@ -1,7 +1,7 @@
 ---
 title: "Aarushi & Rajveer"
-location: "Udaipur, Rajasthan"
-description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+location: "Jodhpur, Rajasthan"
+description: "A royal wedding celebration at Alila Fort Bishangarh, Jaipur."
 image: "/images/works/aarushi-rajveer/main.jpeg"
 gallery:
   - "/images/works/aarushi-rajveer/ar-1.jpeg"

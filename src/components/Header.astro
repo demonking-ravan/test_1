@@ -191,4 +191,36 @@ import { servicesData } from "../data/servicesData";
     },
     { passive: true },
   );
+
+  // Dropdown Logic for Touch Devices (iPad, etc.)
+  const navDropdowns = document.querySelectorAll(".group");
+
+  navDropdowns.forEach((dropdown) => {
+    const trigger = dropdown.querySelector("button");
+    if (trigger) {
+      trigger.addEventListener("click", (e) => {
+        // Only apply click toggle logic on desktop-style nav for touch devices
+        if (window.innerWidth >= 1024) {
+          e.stopPropagation();
+          const isOpen = dropdown.classList.contains("is-open");
+
+          // Close other dropdowns
+          navDropdowns.forEach((d) => {
+            if (d !== dropdown) d.classList.remove("is-open");
+          });
+
+          dropdown.classList.toggle("is-open");
+        }
+      });
+    }
+  });
+
+  // Close dropdowns when clicking outside
+  document.addEventListener("click", (e) => {
+    navDropdowns.forEach((dropdown) => {
+      if (!dropdown.contains(e.target as Node)) {
+        dropdown.classList.remove("is-open");
+      }
+    });
+  });
 </script>

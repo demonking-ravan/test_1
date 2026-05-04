@@ -1,7 +1,7 @@
 ---
 title: "Amisha & Vikash"
-location: "Udaipur, Rajasthan"
-description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+location: "Alila Fort Bishangarh, Jaipur"
+description: "A royal wedding celebration at Alila Fort Bishangarh, Jaipur."
 image: "/images/works/amisha-vikash/av-5.jpg"
 gallery:
   - "/images/works/amisha-vikash/av-2.jpg"

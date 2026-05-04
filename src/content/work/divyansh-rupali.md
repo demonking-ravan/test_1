@@ -1,7 +1,7 @@
 ---
 title: "Divyansh & Rupali"
-location: "Udaipur, Rajasthan"
-description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+location: "Fairmont, Jaipur"
+description: "A royal wedding celebration at Fairmont, Jaipur."
 image: "/images/works/divyansh-rupali/dr-14.jpg"
 gallery:
   - "/images/works/divyansh-rupali/dr-2.jpg"
@@ -21,5 +21,3 @@ nextProject:
   id: "shivani-aakash"
   title: "Shivani & Aakash"
 ---
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.

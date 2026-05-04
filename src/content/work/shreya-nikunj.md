@@ -1,7 +1,7 @@
 ---
 title: "Shreya & Nikunj"
-location: "Udaipur, Rajasthan"
-description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+location: "Novotel, Jaipur"
+description: "A royal wedding celebration at Novotel, Jaipur."
 image: "/images/works/shreya-nikunj/sn-9.jpg"
 gallery:
   - "/images/works/shreya-nikunj/sn-2.JPG"
@@ -17,4 +17,3 @@ nextProject:
   title: "Divyansh & Rupali"
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.

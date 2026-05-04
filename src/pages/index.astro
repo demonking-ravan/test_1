@@ -156,7 +156,7 @@ const featuredVenues = await getCollection("locations");
                     class="h-full flex flex-col justify-center px-10 md:px-24"
                 >
                     <h2 class="sub-heading mb-12 md:mb-24">
-                        Strategic <br />
+                        Our <br />
                         <span class="text-brand-beige">Processes </span>
                     </h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -169,7 +169,7 @@ const featuredVenues = await getCollection("locations");
                                 },
                                 {
                                     id: "02",
-                                    t: "Logistics & Planning",
+                                    t: "Conceptual Planning",
                                     d: "Crafting a flawless event goes far beyond aesthetics alone. It requires a deep understanding of exceptional service, whether it's an intimate gathering of 20 or a grand affair for 200, to ensure each guest is served simultaneously. We take pride in creating food and beverage pairings that showcase the essence of your destination or reflect your cherished travel experiences. Our discerning eye evaluates photographers based on their unique style, ability to capture light, and compatibility with your vision. From navigating logistics like permits, tenting, and handling grade changes and generators to managing accommodations, transportation, and overcoming language barriers, we handle every detail seamlessly. As your trusted advocates, we curate choices that align with your event while crafting an unforgettable experience for you and your guests. Let us guide you through the entire process, creating memories that will last a lifetime.",
                                 },
                                 {
@@ -183,7 +183,7 @@ const featuredVenues = await getCollection("locations");
                                     d: "In the realm of wedding production, collaboration is key. Once the planning and design are meticulously set in motion, we step into the role of hosts during your event weekend or week, orchestrating every aspect from setup to tear-down. Our dedicated team takes care of gift deliveries, manages rehearsal dinners, welcome parties, and other planned activities with utmost care and attention. We understand that your experience is paramount, and we’ll ensure your beverage of choice is always at hand. In the face of unexpected weather conditions, rest assured that we will flawlessly execute the entire show, treating you as our esteemed guest. With us by your side, you can truly immerse yourself in the joy of occasion, knowing that every detail is expertly handled.",
                                 },
                             ].map((item) => (
-                                <div class="bg-white p-2 lg:p-16 border border-black/5 flex flex-col justify-between group hover:bg-brand-beige card-shadow">
+                                <div class="bg-white p-2 lg:p-8 xl:p-16 border border-black/5 flex flex-col gap-8 group hover:bg-brand-beige card-shadow">
                                     <span class="font-orlean text-[4rem] text-brand-beige group-hover:text-white">
                                         {item.id}
                                     </span>
@@ -433,7 +433,7 @@ const featuredVenues = await getCollection("locations");
 
     if (video) {
         let hasInteracted = false;
-        
+
         // Browsers strictly block autoplay audio until the user interacts with the page.
         // We listen for the first interaction ANYWHERE on the page (click, tap, keypress) to unmute the video.
         const enableAudio = () => {
@@ -442,17 +442,17 @@ const featuredVenues = await getCollection("locations");
                 video.muted = false;
                 video.volume = 1;
                 video.play().catch(() => {});
-                
+
                 // Cleanup listeners
-                document.removeEventListener('click', enableAudio);
-                document.removeEventListener('touchstart', enableAudio);
-                document.removeEventListener('keydown', enableAudio);
+                document.removeEventListener("click", enableAudio);
+                document.removeEventListener("touchstart", enableAudio);
+                document.removeEventListener("keydown", enableAudio);
             }
         };
 
-        document.addEventListener('click', enableAudio);
-        document.addEventListener('touchstart', enableAudio, {passive: true});
-        document.addEventListener('keydown', enableAudio);
+        document.addEventListener("click", enableAudio);
+        document.addEventListener("touchstart", enableAudio, { passive: true });
+        document.addEventListener("keydown", enableAudio);
 
         // Play sound when visible, mute when hidden
         const observer = new IntersectionObserver(

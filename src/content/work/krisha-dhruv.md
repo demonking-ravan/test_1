@@ -1,7 +1,7 @@
 ---
 title: "Krisha & Dhruv"
-location: "Udaipur, Rajasthan"
-description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+location: "Fairmont, Jaipur"
+description: "A royal wedding celebration at Fairmont, Jaipur."
 image: "/images/works/krisha-dhruv/kv-1.jpg"
 gallery:
   - "/images/works/krisha-dhruv/kv-2.jpg"
@@ -26,5 +26,3 @@ nextProject:
   id: "amisha-vikash"
   title: "Amisha & Vikash"
 ---
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.

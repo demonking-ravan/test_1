@@ -1,7 +1,7 @@
 ---
 title: "Nihar & Kate"
-location: "Udaipur, Rajasthan"
-description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+location: "Trident, Udaipur"
+description: "A royal wedding celebration at Trident, Udaipur."
 image: "/images/works/nihar-kate/nk-16.jpg"
 gallery:
   - "/images/works/nihar-kate/nk-2.png"
@@ -23,5 +23,3 @@ nextProject:
   id: "amisha-vikash"
   title: "Amisha & Vikash"
 ---
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.

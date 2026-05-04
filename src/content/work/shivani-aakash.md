@@ -1,7 +1,7 @@
 ---
 title: "Shivani & Aakash"
-location: "Udaipur, Rajasthan"
-description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+location: "Alila Fort Bishangarh, Jaipur"
+description: "A royal wedding celebration at Alila Fort Bishangarh, Jaipur."
 image: "/images/works/shivani-aakash/sa-11.JPG"
 gallery:
   - "/images/works/shivani-aakash/sa-1.JPG"
@@ -18,5 +18,3 @@ nextProject:
   id: "divyansh-rupali"
   title: "Divyansh & Rupali"
 ---
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
