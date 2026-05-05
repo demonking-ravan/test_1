@@ -1,55 +1,42 @@
 ---
-import { getCollection, render } from "astro:content";
+export const prerender = false;
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=31536000');
+
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BlogHero from "../../components/blog/BlogHero.astro";
+import { fetchPayload, getMediaUrl } from "../../lib/payload";
+import { lexicalToHtml } from "../../lib/lexicalToHtml";
 
-export async function getStaticPaths() {
-    const posts = await getCollection("blog");
-    return posts.map((post) => ({
-        params: { id: post.id }, // Use 'id' instead of 'slug'
-        props: { post },
-    }));
+const { slug } = Astro.params;
+
+// Fetch blog post by slug
+const response = await fetchPayload<any>("blog", {
+    "where[slug][equals]": slug,
+    limit: 1,
+});
+
+if (!response.docs || response.docs.length === 0) {
+    return Astro.redirect("/404");
 }
 
-const { post } = Astro.props;
-// 3. New way to render content
-const { Content } = await render(post);
+const post = response.docs[0];
 
-const formattedDate = new Date(post.data.pubDate).toLocaleDateString("en-US", {
+const formattedDate = new Date(post.pubDate).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
 });
+
+const contentHtml = lexicalToHtml(post.content);
+const tags = post.tags?.map((t: any) => t.tag) || [];
 ---
 
-<!-- ---
-import { getCollection } from "astro:content";
-// import BlogHero from "../../components/BlogHero.astro";
-// import BlogContent from "../../components/BlogContent.astro";
-import Layout from "../../layouts/Layout.astro";
-
-export async function getStaticPaths() {
-    const blogEntries = await getCollection("blog");
-    return blogEntries.map((entry) => ({
-        params: { slug: entry.slug },
-        props: { entry },
-    }));
-}
-
-const { entry } = Astro.props;
-const { Content } = await entry.render();
----
-<article>
-    <h1>{post.data.title}</h1>
-    <Content />
-</article>
--->
 <BaseLayout>
     <BlogHero
-        tags={post.data.tags}
-        title={post.data.title}
-        image={post.data.image}
-        topic={post.data.topic}
+        tags={tags}
+        title={post.title}
+        image={getMediaUrl(post.image?.url || post.image)}
+        topic={post.topic}
     />
 
     <section
@@ -61,7 +48,7 @@ const { Content } = await entry.render();
                     class="font-aventa text-[1rem] uppercase tracking-wider text-gray-700"
                 >
                     Topic: <span class="text-brand-beige"
-                        >{post.data.topic}</span
+                        >{post.topic}</span
                     >
                 </p>
                 <div class="space-y-1">
@@ -71,19 +58,9 @@ const { Content } = await entry.render();
                     <p
                         class="font-aventa font-bold text-[1rem] text-brand-beige uppercase"
                     >
-                        {post.data.tags.join(", ")}
+                        {tags.join(", ")}
                     </p>
                 </div>
-                <!-- <div class="space-y-1">
-                    <p class="font-aventa text-[1.4rem] text-[#666] uppercase">
-                        Topic
-                    </p>
-                    <p
-                        class="font-aventa font-bold text-[1.6rem] text-black uppercase leading-tight"
-                    >
-                        {entry.data.topic}
-                    </p>
-                </div> -->
             </div>
 
             <div class="border-t border-black pt-8 space-y-4">
@@ -100,8 +77,7 @@ const { Content } = await entry.render();
 
         <article
             class="md:w-[65%] font-aventa text-xl leading-relaxed text-[#333] prose-headings:font-orlean prose-h2:text-[1.8rem] prose-h2:md:text-[2.8rem] prose-h2:font-bold prose-h2:tracking-wide prose-h2:mb-6 prose-h3:text-[4rem] prose-h3:font-bold prose-h3:mb-4 prose-p:mb-[4rem] prose-a:underline prose-a:underline-offset-4"
-        >
-            <Content />
-        </article>
+            set:html={contentHtml}
+        />
     </section>
 </BaseLayout>

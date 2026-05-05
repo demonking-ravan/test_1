@@ -1,8 +1,12 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import { getCollection } from "astro:content";
+export const prerender = false;
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=31536000');
 
-const projects = await getCollection("work");
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { fetchPayload, getMediaUrl } from "../lib/payload";
+
+const response = await fetchPayload<any>("work");
+const projects = response.docs || [];
 ---
 
 <BaseLayout title="Our Work | Mapsor Experiential Weddings">
@@ -20,24 +24,24 @@ const projects = await getCollection("work");
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-32">
                 {
-                    projects.map((project) => (
+                    projects.map((project: any) => (
                         <a
-                            href={`/work/${project.id}`}
+                            href={`/work/${project.slug || project.id}`}
                             class="group cursor-pointer space-y-8"
                         >
                             <div class="aspect-5/4 overflow-hidden rounded-[3rem]">
                                 <img
-                                    src={project.data.image}
-                                    alt={project.data.title}
+                                    src={getMediaUrl(project.image?.url || project.image)}
+                                    alt={project.title}
                                     class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                                 />
                             </div>
                             <div class="space-y-2">
                                 <p class="font-aventa text-[1rem] uppercase tracking-widest text-gray-500">
-                                    {project.data.location}
+                                    {project.location}
                                 </p>
                                 <h2 class="sec-heading text-black group-hover:underline decoration-1 underline-offset-8">
-                                    {project.data.title}
+                                    {project.title}
                                 </h2>
                             </div>
                         </a>

@@ -1,9 +1,13 @@
 ---
+export const prerender = false;
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=31536000');
+
 import BlogCard from "../components/BlogCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { fetchPayload, getMediaUrl } from "../lib/payload";
 
-import { getCollection } from "astro:content";
-const blogPosts = await getCollection("blog");
+const response = await fetchPayload<any>("blog");
+const blogPosts = response.docs || [];
 ---
 
 <BaseLayout>
@@ -47,13 +51,13 @@ const blogPosts = await getCollection("blog");
                 class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-40"
             >
                 {
-                    blogPosts.map((post) => (
+                    blogPosts.map((post: any) => (
                         <BlogCard
-                            description={post.data.description}
-                            title={post.data.title}
-                            image={post.data.image}
-                            url={`/blog/${post.id}`}
-                            tags={post.data.tags}
+                            description={post.description}
+                            title={post.title}
+                            image={getMediaUrl(post.image?.url || post.image)}
+                            url={`/blog/${post.slug || post.id}`}
+                            tags={post.tags?.map((t: any) => t.tag) || []}
                         />
                     ))
                 }

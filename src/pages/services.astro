@@ -1,6 +1,15 @@
 ---
+export const prerender = false;
+Astro.response.headers.set("Cache-Control", "public, s-maxage=31536000");
+
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { servicesData } from "../data/servicesData";
+import { fetchPayload, getMediaUrl } from "../lib/payload";
+
+const response = await fetchPayload<any>("services", {
+    limit: 100,
+    sort: "identifier",
+});
+const servicesData = response.docs;
 ---
 
 <BaseLayout title="Services | Mapsor Experiential Weddings">
@@ -41,7 +50,7 @@ import { servicesData } from "../data/servicesData";
 
         <!-- Services Loop -->
         {
-            servicesData.map((service, index) => {
+            servicesData.map((service: any, index: number) => {
                 const isEven = index % 2 !== 0;
                 return (
                     <section
@@ -82,20 +91,26 @@ import { servicesData } from "../data/servicesData";
                                         </h2>
                                     </div>
                                     <div class="space-y-4 text-justify">
-                                        {service.description.map((p) => (
-                                            <p
-                                                class={`font-aventa textS leading-relaxed ${isEven ? "text-gray-400" : ""}`}
-                                            >
-                                                {p}
-                                            </p>
-                                        ))}
+                                        {service.description
+                                            ?.split("\n")
+                                            .map((p: string) =>
+                                                p.trim() ? (
+                                                    <p
+                                                        class={`font-aventa textS leading-relaxed ${isEven ? "text-gray-400" : ""}`}
+                                                    >
+                                                        {p}
+                                                    </p>
+                                                ) : null,
+                                            )}
                                     </div>
                                 </div>
                                 <div
                                     class={`w-full md:w-1/2 aspect-4/5 overflow-hidden rounded-[3rem] reveal-up ${isEven ? "border border-white/10" : "shadow-2xl"}`}
                                 >
                                     <img
-                                        src={service.image}
+                                        src={getMediaUrl(
+                                            service.image?.url || service.image,
+                                        )}
                                         alt={service.title}
                                         class="w-full h-full object-cover transition-all duration-1000 scale-110 hover:scale-100"
                                     />

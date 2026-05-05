@@ -1,36 +1,36 @@
 ---
+export const prerender = false;
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=31536000');
+
 import VenueHero from "../../components/venues/VenueHero.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection, getEntry } from "astro:content";
-
-export async function getStaticPaths() {
-  const locations = await getCollection("locations");
-  return locations.map((location) => ({
-    params: { locationId: location.id },
-  }));
-}
+import { fetchPayload, getMediaUrl } from "../../lib/payload";
 
 const { locationId } = Astro.params;
-const location = await getEntry("locations", locationId);
 
-if (!location) {
+let location: any;
+try {
+  location = await fetchPayload<any>(`locations/${locationId}`);
+} catch (e) {
   return Astro.redirect("/404");
 }
 
-const hotels = await getCollection("hotels", ({ data }) => {
-  return data.locationId.id === locationId;
+const hotelsResponse = await fetchPayload<any>("hotels", {
+  "where[locationId][equals]": locationId,
+  limit: 100,
 });
+const hotels = hotelsResponse.docs || [];
 
-const title = `Wedding Hotels in ${location.data.name} | Mapsor Experiential Weddings`;
+const title = `Wedding Hotels in ${location.name} | Mapsor Experiential Weddings`;
 ---
 
 <BaseLayout title={title}>
   <main class="min-h-screen bg-white">
     <VenueHero 
-      name={location.data.name}
-      featuredImage={location.data.featuredImage}
-      isIndia={location.data.isIndia}
-      hotelCount={location.data.hotelCount}
+      name={location.name}
+      featuredImage={getMediaUrl(location.featuredImage?.url || location.featuredImage)}
+      isIndia={location.isIndia}
+      hotelCount={location.hotelCount}
     />
 
     <!-- Hotels List Section -->
@@ -47,13 +47,13 @@ const title = `Wedding Hotels in ${location.data.name} | Mapsor Experiential Wed
       </div>
 
       <div class="grid grid-cols-1 gap-32">
-        {hotels.map((hotel) => (
+        {hotels.map((hotel: any) => (
           <div class="group relative flex flex-col lg:flex-row bg-[#fafafa] rounded-[2.5rem] overflow-hidden border border-gray-100 transition-all duration-700 hover:shadow-[0_40px_80px_-20px_rgba(0,0,0,0.05)]">
             <!-- Image Section -->
             <div class="lg:w-1/2 overflow-hidden  relative h-full">
               <img 
-                src={hotel.data.mainImage} 
-                alt={hotel.data.name} 
+                src={getMediaUrl(hotel.mainImage?.url || hotel.mainImage)} 
+                alt={hotel.name} 
                 class="w-full h-full object-cover transition-all duration-1000 scale-110 hover:scale-100"
               />
               <!-- Refined Badge -->
@@ -67,17 +67,17 @@ const title = `Wedding Hotels in ${location.data.name} | Mapsor Experiential Wed
             <!-- Content Section -->
             <div class="lg:w-1/2 p-10 lg:p-20 flex flex-col justify-center">
               <h3 class="sec-heading font-medium mb-8 text-black group-hover:underline decoration-1 underline-offset-8 transition-colors duration-500 leading-tight">
-                {hotel.data.name}
+                {hotel.name}
               </h3>
               
               <p class="font-aventa text-base sm:text-lg text-gray-600 mb-10 leading-relaxed font-light">
-                Located at {hotel.data.contact.address}. Experience a new standard of personalized luxury.
+                Located at {hotel.contact?.address}. Experience a new standard of personalized luxury.
               </p>
               
               <div class="flex flex-wrap gap-3 mb-12">
-                {hotel.data.amenities.slice(0, 4).map(amenity => (
+                {hotel.amenities?.slice(0, 4).map((amenityObj: any) => (
                   <span class="font-aventa text-[.8rem] px-5 py-2.5 bg-white border border-gray-200 rounded-full text-gray-500 uppercase tracking-widest font-medium transition-colors">
-                    {amenity}
+                    {amenityObj.amenity}
                   </span>
                 ))}
               </div>

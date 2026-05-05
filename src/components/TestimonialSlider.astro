@@ -1,3 +1,10 @@
+---
+export interface Props {
+    testimonials: { quote: string; author: string }[];
+}
+
+const { testimonials = [] } = Astro.props;
+---
 <section class="pt-16" id="testimonials-section">
     <div
         class="flex flex-col lg:flex-row gap-20 items-center min-h-screen w-full"
@@ -18,28 +25,7 @@
             >
                 <div class="swiper-wrapper">
                     {
-                        [
-                            {
-                                quote: "They were tasked with creating a captivating event for us that incorporated nine different functions while also considering our cultural background and ensuring each function had a unique vibe. They successfully organised engaging activities and entertainment for our guests, resulting in an enjoyable experience for everyone involved.",
-                                author: "Ayushree & Saharsh",
-                            },
-                            {
-                                quote: "As a large number of our guests were visiting India for the first time, we aimed to showcase our country through our perspective by organising a simple yet elegant eco-friendly wedding. We wished to highlight our personal journey and the things that held significant value to us. The team we hired passionately incorporated all of these elements into the wedding without hesitation, even utilising environmentally friendly and NGO-based resources to uplift the community.",
-                                author: "Illika & Brenden, (Bride's Mother)",
-                            },
-                            // {
-                            //     quote: "Mapsor took care of every detail, allowing us to fully immerse ourselves in the joy of wedding day. They are simply exceptional. ",
-                            //     author: "Girija, (Bride)",
-                            // },
-                            {
-                                quote: "As the father of the groom, I had full faith in Mapsor's team to deliver a flawless wedding experience. Their work ethics, dedication, and passion for their craft were truly impressive. They went above and beyond to ensure that every aspect of the event was executed to perfection, and their flexibility in accommodating last-minute changes was greatly appreciated. They curated an array of enjoyable games and activities for the guests, making the functions entertaining and engaging for all. The team also ensured that each guest received a warm and regal welcome, leaving them feeling valued and appreciated. Overall, I was thoroughly impressed with Mapsor's exceptional service and attention to detail, and I would highly recommend them to anyone looking for a seamless and unforgettable wedding experience.",
-                                author: "Nandita & Sugam",
-                            },
-                            {
-                                quote: "In my dream, I had a clear vision of what I wanted for my wedding, and fortunately, I found a wedding planner named Mapsor Weddings who was able to comprehend my wishes and flawlessly execute the perfect wedding that I had envisioned. They not only provided me with creative ideas but also guided me through the essential elements that I needed to include in my wedding. The result was truly a dream come true. Despite having many foreign guests, everyone felt comfortable and at home, and the overall atmosphere was exceptional, leaving a lasting impression on all attendees. The wedding was filled with joy and happiness, and everyone had a memorable time.",
-                                author: "Shivani & Aakash",
-                            },
-                        ].map((t) => (
+                        testimonials.map((t) => (
                             <div class="swiper-slide p-6 lg:p-20">
                                 <p class="textS">"{t.quote}"</p>
                                 <footer class="font-orlean text-[1.2rem] uppercase tracking-[0.2rem] text-brand-beige pt-8 border-t border-brand-beige mt-8">

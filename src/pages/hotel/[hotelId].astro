@@ -1,34 +1,33 @@
 ---
+export const prerender = false;
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=31536000');
+
 import HotelHero from "../../components/hotels/HotelHero.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection, getEntry, render } from "astro:content";
-
-export async function getStaticPaths() {
-  const hotels = await getCollection("hotels");
-  return hotels.map((hotel) => ({
-    params: { hotelId: hotel.id },
-  }));
-}
+import { fetchPayload, getMediaUrl } from "../../lib/payload";
 
 const { hotelId } = Astro.params;
-const hotel = await getEntry("hotels", hotelId);
 
-if (!hotel) {
+let hotel: any;
+try {
+  hotel = await fetchPayload<any>(`hotels/${hotelId}`);
+} catch (e) {
   return Astro.redirect("/404");
 }
 
-const location = await getEntry(hotel.data.locationId);
+const locationId = typeof hotel.locationId === 'object' ? hotel.locationId.id : hotel.locationId;
+const location = await fetchPayload<any>(`locations/${locationId}`);
 
-const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Mapsor`;
+const title = `${hotel.name} | Wedding Venue in ${location.name} | Mapsor`;
 ---
 
 <BaseLayout title={title}>
   <main class="bg-white text-black min-h-screen">
     <HotelHero
-      name={hotel.data.name}
-      mainImage={hotel.data.mainImage}
-      locationName={location.data.name}
-      isIndia={location.data.isIndia}
+      name={hotel.name}
+      mainImage={getMediaUrl(hotel.mainImage?.url || hotel.mainImage)}
+      locationName={location.name}
+      isIndia={location.isIndia}
     />
 
     <div class="px-6 lg:px-16 py-32">
@@ -44,13 +43,13 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
               {
-                hotel.data.gallery.map((img, i) => (
+                hotel.gallery?.map((item: any, i: number) => (
                   <div
                     class={`overflow-hidden rounded-3xl ${i === 0 ? "md:col-span-2 aspect-video" : "aspect-square shadow-sm"}`}
                   >
                     <img
-                      src={img}
-                      alt={`${hotel.data.name} gallery ${i + 1}`}
+                      src={getMediaUrl(item.image?.url || item.image)}
+                      alt={`${hotel.name} gallery ${i + 1}`}
                       class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                     />
                   </div>
@@ -68,11 +67,11 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
             </h2>
             <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
               {
-                hotel.data.amenities.map((amenity) => (
+                hotel.amenities?.map((amenityObj: any) => (
                   <div class="flex items-center space-x-3 bg-gray-50 p-6 rounded-2xl border border-gray-100">
                     <span class="w-2 h-2 bg-black rounded-full" />
                     <span class="font-aventa text-[1rem] text-gray-700 font-medium uppercase tracking-wider">
-                      {amenity}
+                      {amenityObj.amenity}
                     </span>
                   </div>
                 ))
@@ -89,12 +88,12 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
               {
-                hotel.data.eventSpace.map((space) => (
+                hotel.eventSpace?.map((space: any) => (
                   <div class="bg-[#fcfcfc] rounded-[2.5rem] overflow-hidden border border-gray-100 group shadow-xs hover:shadow-md transition-all duration-500">
                     {space.image && (
                       <div class="aspect-16/10 overflow-hidden">
                         <img
-                          src={space.image}
+                          src={getMediaUrl(space.image?.url || space.image)}
                           alt={space.name}
                           class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />
@@ -107,7 +106,7 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
                       <div class="flex items-center text-gray-500 font-aventa text-sm md:text-base tracking-widest uppercase font-medium">
                         <span class="w-8 h-px bg-brand-beige mr-4" />
                         <span>
-                          Capacity: {space.capacity || "Contact for details"}
+                           Capacity: {space.capacity || "Contact for details"}
                         </span>
                       </div>
                     </div>
@@ -126,11 +125,11 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
             </h2>
             <div class="space-y-12">
               {
-                hotel.data.roomDetails.map((room) => (
+                hotel.roomDetails?.map((room: any) => (
                   <div class="flex flex-col md:flex-row bg-white rounded-[3rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                     <div class="md:w-1/3 h-64 md:h-auto overflow-hidden">
                       <img
-                        src={room.roomImages[0]}
+                        src={getMediaUrl(room.roomImages?.[0]?.image?.url || room.roomImages?.[0]?.image)}
                         alt={room.roomType}
                         class="w-full h-full object-cover"
                       />
@@ -143,9 +142,9 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
                         {room.description}
                       </p>
                       <div class="flex gap-4">
-                        {room.roomImages.slice(1).map((rmImg) => (
+                        {room.roomImages?.slice(1).map((riObj: any) => (
                           <img
-                            src={rmImg}
+                            src={getMediaUrl(riObj.image?.url || riObj.image)}
                             class="w-20 h-20 rounded-xl object-cover border border-gray-100"
                           />
                         ))}
@@ -177,7 +176,7 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
                   Address
                 </p>
                 <p class="font-aventa footer-text leading-snug">
-                  {hotel.data.contact.address}
+                  {hotel.contact?.address}
                 </p>
               </div>
               <div>
@@ -189,8 +188,8 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
                 <p
                   class="font-aventa font-bold footer-text wrap-break-word tracking-wider"
                 >
-                  <a href={`tel:+${hotel.data.contact.phone}`}
-                    >{hotel.data.contact.phone}</a
+                  <a href={`tel:+${hotel.contact?.phone}`}
+                    >{hotel.contact?.phone}</a
                   >
                 </p>
               </div>
@@ -201,7 +200,7 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
                   Email
                 </p>
                 <p class="font-aventa footer-text wrap-break-word">
-                  {hotel.data.contact.email}
+                  {hotel.contact?.email}
                 </p>
               </div>
               <a href="/contact" class="btn-primary hover:bg-brand-grey!">
@@ -214,7 +213,7 @@ const title = `${hotel.data.name} | Wedding Venue in ${location.data.name} | Map
               <h4 class="sec-heading font-bold mb-8">Nearby Attractions</h4>
               <ul class="space-y-6">
                 {
-                  hotel.data.nearbyPlaces.map((place) => (
+                  hotel.nearbyPlaces?.map((place: any) => (
                     <li class="flex justify-between items-center footer-text">
                       <span class="font-aventa font-semibold tracking-wide text-gray-800">
                         {place.name}

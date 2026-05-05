@@ -1,11 +1,16 @@
 ---
+export const prerender = false;
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=31536000');
+
 import VenueCard from "../components/VenueCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { getCollection } from "astro:content";
+import { fetchPayload, getMediaUrl } from "../lib/payload";
 
-const internationalLocations = await getCollection("locations", ({ data }) => {
-  return data.isIndia === false;
+const response = await fetchPayload<any>("locations", {
+  "where[isIndia][equals]": "false",
+  limit: 100,
 });
+const internationalLocations = response.docs || [];
 
 const title =
   "Luxury International Wedding Destinations | Mapsor Experiential Weddings";
@@ -61,11 +66,11 @@ const description =
       >
         {
           internationalLocations.length > 0 ? (
-            internationalLocations.map((location) => (
+            internationalLocations.map((location: any) => (
               <VenueCard
-                name={location.data.name}
-                featuredImage={location.data.featuredImage}
-                hotelCount={location.data.hotelCount}
+                name={location.name}
+                featuredImage={getMediaUrl(location.featuredImage?.url || location.featuredImage)}
+                hotelCount={location.hotelCount}
                 url={`/venues/${location.id}`}
               />
             ))

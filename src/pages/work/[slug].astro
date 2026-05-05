@@ -1,17 +1,26 @@
 ---
-import { getCollection, render } from "astro:content";
-import BaseLayout from "../../layouts/BaseLayout.astro";
+export const prerender = false;
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=31536000');
 
-export async function getStaticPaths() {
-    const projects = await getCollection("work");
-    return projects.map((project) => ({
-        params: { id: project.id },
-        props: { project },
-    }));
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fetchPayload, getMediaUrl } from "../../lib/payload";
+
+const { slug } = Astro.params;
+
+const response = await fetchPayload<any>("work", {
+    "where[slug][equals]": slug,
+    limit: 1,
+    depth: 1,
+});
+
+if (!response.docs || response.docs.length === 0) {
+    return Astro.redirect("/404");
 }
 
-const { project } = Astro.props;
-const { title, image, gallery, nextProject } = project.data;
+const project = response.docs[0];
+const { title, image, gallery, nextProject } = project;
+const mainImage = getMediaUrl(image?.url || image);
+const nextProjectSlug = nextProject?.slug || nextProject?.id;
 ---
 
 <BaseLayout title={`${title} | Mapsor Experiential Weddings`}>
@@ -42,7 +51,7 @@ const { title, image, gallery, nextProject } = project.data;
 
                 <div class="w-screen sm:w-[60%] h-full pl-16">
                     <img
-                        src={image}
+                        src={mainImage}
                         alt={title}
                         class="w-full h-full object-cover"
                     />
@@ -50,19 +59,21 @@ const { title, image, gallery, nextProject } = project.data;
             </section>
 
             <!-- Gallery Section -->
-            {gallery.length > 0 && (
+            {gallery && gallery.length > 0 && (
                 <section
                     class="flex-none w-fit h-full flex items-center px-16 gap-16"
                 >
-                    {gallery.map((img) => (
+                    {gallery.map((imgObj: any) => {
+                        const imgUrl = getMediaUrl(imgObj.image?.url || imgObj.image);
+                        return (
                         <div class="h-[80vh] w-[80vw] sm:w-[40vw] overflow-hidden">
                             <img
-                                src={img}
+                                src={imgUrl}
                                 alt={title}
                                 class="w-full h-full object-cover shadow-sm transition-all duration-1000 scale-110 hover:scale-100"
                             />
                         </div>
-                    ))}
+                    )})}
                 </section>
             )}
 
@@ -72,9 +83,8 @@ const { title, image, gallery, nextProject } = project.data;
                     <div
                         class="w-screen sm:w-[50%] h-full transition-all duration-1000 ease-in-out overflow-hidden"
                     >
-                        <!-- For simplicity using same image or could add nextProject image to schema -->
                         <img
-                            src={image} 
+                            src={mainImage} 
                             class="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
                         />
                     </div>
@@ -82,11 +92,11 @@ const { title, image, gallery, nextProject } = project.data;
                     <div
                         class="w-[80vw] sm:w-[50%] h-full flex flex-col items-center justify-center"
                     >
-                        <a href={`/work/${nextProject.id}`} class="group cursor-pointer text-center">
+                        <a href={`/work/${nextProjectSlug}`} class="group cursor-pointer text-center">
                             <p
                                 class="font-orlean text-[1.8rem] uppercase tracking-[0.3rem] mb-8 text-gray-500"
                             >
-                                {nextProject.title}
+                                {nextProject.title || 'Next'}
                             </p>
                             <div class="relative inline-block">
                                 <h2

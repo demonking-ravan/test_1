@@ -1,5 +1,11 @@
 ---
-import { servicesData } from "../data/servicesData";
+import { fetchPayload, getMediaUrl } from "../lib/payload";
+
+const response = await fetchPayload<any>("services", {
+    limit: 100,
+    sort: "identifier",
+});
+const servicesData = response.docs || [];
 ---
 
 <section
@@ -25,13 +31,12 @@ import { servicesData } from "../data/servicesData";
                     servicesData.map((s, index) => (
                         <div class="swiper-slide h-125!">
                             <a href={`/services#service-${index}`} class="block h-full rounded-[3rem] overflow-hidden relative group border border-white/10 bg-white/5 backdrop-blur-sm card-shadow hover:border-brand-beige">
-                                <!-- Background Image with Overlay -->
-                                <div class="absolute inset-0 overflow-hidden">
-                                    <img
-                                        src={s.image}
-                                        class="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-80 transition-all duration-1000 scale-105 group-hover:scale-100"
-                                        alt={s.title}
-                                    />
+                                    <div class="absolute inset-0 overflow-hidden">
+                                        <img
+                                            src={getMediaUrl(s.image?.url || s.image)}
+                                            class="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-80 transition-all duration-1000 scale-105 group-hover:scale-100"
+                                            alt={s.title}
+                                        />
                                     <div class="absolute inset-0 bg-linear-to-t from-[#101820] via-[#101820]/80 to-transparent" />
                                 </div>
 
@@ -45,7 +50,7 @@ import { servicesData } from "../data/servicesData";
                                             {s.title} {s.subtitle}
                                         </h3>
                                         <p class="font-aventa text-base text-gray-400 leading-relaxed max-w-[90%] line-clamp-3">
-                                            {s.description[0]}
+                                            {s.description?.split('\n')[0]}
                                         </p>
                                     </div>
                                 </div>
