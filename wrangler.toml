@@ -1,0 +1,2 @@
+# Empty wrangler.toml to help Cloudflare Pages detect the Worker build
+pages_build_output_dir = "dist"
